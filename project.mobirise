@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "HK Units.html",
+    "currentPage": "FO_Unit_4.1.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -59,7 +59,7 @@
         "file": "@PROJECT_PATH@/fonts/FFF_Tusj/font.ttf"
       }
     ],
-    "uniqCompNum": 233,
+    "uniqCompNum": 255,
     "versionPublish": "5.1.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -206,7 +206,7 @@
     "3 Year Subject.html": {
       "settings": {
         "title": "3 Year Subject",
-        "order": 18
+        "order": 25
       },
       "components": [
         {
@@ -242,7 +242,7 @@
     "Syllabus.html": {
       "settings": {
         "title": "Syllabus",
-        "order": 52
+        "order": 59
       },
       "components": [
         {
@@ -280,7 +280,7 @@
     "1 Sem Syllabus.html": {
       "settings": {
         "title": "1 Sem Syllabus",
-        "order": 54
+        "order": 61
       },
       "components": [
         {
@@ -318,7 +318,7 @@
     "5 Sem Syllabus.html": {
       "settings": {
         "title": "5 Sem Syllabus",
-        "order": 59
+        "order": 66
       },
       "components": [
         {
@@ -356,7 +356,7 @@
     "3 Sem Syllabus.html": {
       "settings": {
         "title": "3 Sem Syllabus",
-        "order": 56
+        "order": 63
       },
       "components": [
         {
@@ -394,7 +394,7 @@
     "AC Syllabus.html": {
       "settings": {
         "title": "AC Syllabus",
-        "order": 55
+        "order": 62
       },
       "components": [
         {
@@ -458,7 +458,7 @@
     "HK Syllabus.html": {
       "settings": {
         "title": "HK Syllabus",
-        "order": 57
+        "order": 64
       },
       "components": [
         {
@@ -522,7 +522,7 @@
     "FO Syllabus.html": {
       "settings": {
         "title": "FO Syllabus",
-        "order": 58
+        "order": 65
       },
       "components": [
         {
@@ -586,7 +586,7 @@
     "H&S Syllabus.html": {
       "settings": {
         "title": "H&S Syllabus",
-        "order": 60
+        "order": 67
       },
       "components": [
         {
@@ -650,7 +650,7 @@
     "FM Syllabus.html": {
       "settings": {
         "title": "FM Syllabus",
-        "order": 61
+        "order": 68
       },
       "components": [
         {
@@ -714,7 +714,7 @@
     "Contact.html": {
       "settings": {
         "title": "Contact",
-        "order": 62
+        "order": 69
       },
       "components": [
         {
@@ -885,7 +885,7 @@
     "Ref.Books.html": {
       "settings": {
         "title": "Ref.Books",
-        "order": 53
+        "order": 60
       },
       "components": [
         {
@@ -1138,7 +1138,7 @@
             }
           },
           "_name": "header18",
-          "_customHTML": "<section class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"135\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Intro with gradient background</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>\n                        Housekeeping</b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Choose Your Unit</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"HK_Unit_1_Index.html\" data-app-placeholder=\"Type Text\">Unit - 1</a> <a class=\"btn btn-secondary\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 2</a> <a class=\"btn btn-warning\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 3</a> <a class=\"btn btn-success\" href=\"HK_Unit_4.html\" data-app-placeholder=\"Type Text\">Unit - 4</a> <a class=\"btn btn-black\" href=\"HK_Unit_5.html\" data-app-placeholder=\"Type Text\">Unit - 5</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"158\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Intro with gradient background</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>\n                        Housekeeping</b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Choose Your Unit</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"HK_Unit_1_Index.html\" data-app-placeholder=\"Type Text\">Unit - 1</a> <a class=\"btn btn-secondary\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 2</a> <a class=\"btn btn-warning\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 3</a> <a class=\"btn btn-success\" href=\"HK_Unit_4.html\" data-app-placeholder=\"Type Text\">Unit - 4</a> <a class=\"btn btn-black\" href=\"HK_Unit_5.html\" data-app-placeholder=\"Type Text\">Unit - 5</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sleacyTgp4",
           "_anchor": "header18-19",
           "_protectedParams": [],
@@ -1151,7 +1151,7 @@
     "H&S Units.html": {
       "settings": {
         "title": "H&S Units",
-        "order": 40
+        "order": 47
       },
       "components": [
         {
@@ -1187,7 +1187,7 @@
     "FM Units.html": {
       "settings": {
         "title": "FM Units",
-        "order": 19
+        "order": 26
       },
       "components": [
         {
@@ -1223,7 +1223,7 @@
     "Disclaimer.html": {
       "settings": {
         "title": "Disclaimer",
-        "order": 63
+        "order": 70
       },
       "components": [
         {
@@ -1254,7 +1254,7 @@
     "Privacy Policy.html": {
       "settings": {
         "title": "Privacy Policy",
-        "order": 64
+        "order": 71
       },
       "components": [
         {
@@ -1285,7 +1285,7 @@
     "Help.html": {
       "settings": {
         "title": "Help",
-        "order": 51
+        "order": 58
       },
       "components": [
         {
@@ -1309,7 +1309,7 @@
     "error.html": {
       "settings": {
         "title": "Error",
-        "order": 65
+        "order": 72
       },
       "components": [
         {
@@ -2319,7 +2319,7 @@
     "FO_Unit_5.html": {
       "settings": {
         "title": "FO_Unit_5",
-        "order": 17
+        "order": 24
       },
       "components": [
         {
@@ -2543,7 +2543,7 @@
     "HS_Unit_1.html": {
       "settings": {
         "title": "HS_Unit_1",
-        "order": 41
+        "order": 48
       },
       "components": [
         {
@@ -2596,7 +2596,7 @@
     "HS_Unit_2_index.html": {
       "settings": {
         "title": "HS_Unit_2_index",
-        "order": 42
+        "order": 49
       },
       "components": [
         {
@@ -2658,7 +2658,7 @@
     "HS_Unit_2.1.html": {
       "settings": {
         "title": "HS_Unit_2.1",
-        "order": 44
+        "order": 51
       },
       "components": [
         {
@@ -2768,7 +2768,7 @@
     "HS_Unit_2.2.html": {
       "settings": {
         "title": "HS_Unit_2.2",
-        "order": 45
+        "order": 52
       },
       "components": [
         {
@@ -2857,7 +2857,7 @@
     "HS_Unit_3.html": {
       "settings": {
         "title": "HS_Unit_3",
-        "order": 47
+        "order": 54
       },
       "components": [
         {
@@ -2910,7 +2910,7 @@
     "HS_Unit_3.1.html": {
       "settings": {
         "title": "HS_Unit_3.1",
-        "order": 48
+        "order": 55
       },
       "components": [
         {
@@ -3134,7 +3134,7 @@
     "HS_Unit_3.2.html": {
       "settings": {
         "title": "HS_Unit_3.2",
-        "order": 49
+        "order": 56
       },
       "components": [
         {
@@ -3187,7 +3187,7 @@
     "HS_Unit_3.3.html": {
       "settings": {
         "title": "HS_Unit_3.3",
-        "order": 50
+        "order": 57
       },
       "components": [
         {
@@ -3240,7 +3240,7 @@
     "HS_Unit_3_index.html": {
       "settings": {
         "title": "HS_Unit_3_index",
-        "order": 46
+        "order": 53
       },
       "components": [
         {
@@ -3302,7 +3302,7 @@
     "HS_Unit_2.html": {
       "settings": {
         "title": "HS_Unit_2",
-        "order": 43
+        "order": 50
       },
       "components": [
         {
@@ -3355,7 +3355,7 @@
     "FM_Unit_1.html": {
       "settings": {
         "title": "FM_Unit_1",
-        "order": 21
+        "order": 28
       },
       "components": [
         {
@@ -3408,7 +3408,7 @@
     "FM_Unit_1_index.html": {
       "settings": {
         "title": "FM_Unit_1_index",
-        "order": 20
+        "order": 27
       },
       "components": [
         {
@@ -3470,7 +3470,7 @@
     "FM_Unit_1.1.html": {
       "settings": {
         "title": "FM_Unit_1.1",
-        "order": 22
+        "order": 29
       },
       "components": [
         {
@@ -3559,7 +3559,7 @@
     "FM_Unit_1.2.html": {
       "settings": {
         "title": "FM_Unit_1.2",
-        "order": 23
+        "order": 30
       },
       "components": [
         {
@@ -4054,7 +4054,7 @@
     "FM_Unit_1.3.html": {
       "settings": {
         "title": "FM_Unit_1.3",
-        "order": 24
+        "order": 31
       },
       "components": [
         {
@@ -4164,7 +4164,7 @@
     "FM_Unit_1.5.html": {
       "settings": {
         "title": "FM_Unit_1.4",
-        "order": 25
+        "order": 32
       },
       "components": [
         {
@@ -4217,7 +4217,7 @@
     "FM_Unit_1.1_index.html": {
       "settings": {
         "title": "FM_Unit_1.1_index",
-        "order": 26
+        "order": 33
       },
       "components": [
         {
@@ -4279,7 +4279,7 @@
     "FM_Unit_1.1_1.html": {
       "settings": {
         "title": "FM_Unit_1.1_1",
-        "order": 27
+        "order": 34
       },
       "components": [
         {
@@ -4332,7 +4332,7 @@
     "FM_Unit_1.1_2.1.html": {
       "settings": {
         "title": "FM_Unit_1.1_2.1",
-        "order": 29
+        "order": 36
       },
       "components": [
         {
@@ -4478,7 +4478,7 @@
     "FM_Unit_1.1_2.html": {
       "settings": {
         "title": "FM_Unit_1.1_2",
-        "order": 28
+        "order": 35
       },
       "components": [
         {
@@ -4552,7 +4552,7 @@
     "FM_Unit_1.1_3.html": {
       "settings": {
         "title": "FM_Unit_1.1_3",
-        "order": 30
+        "order": 37
       },
       "components": [
         {
@@ -4605,7 +4605,7 @@
     "FM_Unit_2_index.html": {
       "settings": {
         "title": "FM_Unit_2_index",
-        "order": 31
+        "order": 38
       },
       "components": [
         {
@@ -4667,7 +4667,7 @@
     "FM_Unit_2.html": {
       "settings": {
         "title": "FM_Unit_2",
-        "order": 32
+        "order": 39
       },
       "components": [
         {
@@ -4777,7 +4777,7 @@
     "FM_Unit_2.1.html": {
       "settings": {
         "title": "FM_Unit_2.1",
-        "order": 33
+        "order": 40
       },
       "components": [
         {
@@ -4887,7 +4887,7 @@
     "FM_Unit_2.2.html": {
       "settings": {
         "title": "FM_Unit_2.2",
-        "order": 34
+        "order": 41
       },
       "components": [
         {
@@ -4940,7 +4940,7 @@
     "FM_Unit_2.3.html": {
       "settings": {
         "title": "FM_Unit_2.3",
-        "order": 35
+        "order": 42
       },
       "components": [
         {
@@ -4993,7 +4993,7 @@
     "FM_Unit_3_index.html": {
       "settings": {
         "title": "FM_Unit_3_index",
-        "order": 36
+        "order": 43
       },
       "components": [
         {
@@ -5055,7 +5055,7 @@
     "FM_Unit_3.html": {
       "settings": {
         "title": "FM_Unit_3",
-        "order": 37
+        "order": 44
       },
       "components": [
         {
@@ -5108,7 +5108,7 @@
     "FM_Unit_3.1.html": {
       "settings": {
         "title": "FM_Unit_3.1",
-        "order": 38
+        "order": 45
       },
       "components": [
         {
@@ -5161,7 +5161,7 @@
     "FM_Unit_3.2.html": {
       "settings": {
         "title": "FM_Unit_3.2",
-        "order": 39
+        "order": 46
       },
       "components": [
         {
@@ -5204,6 +5204,509 @@
           "_sourceTheme": "mobirise5",
           "_cid": "sp0f8y2Mpg",
           "_anchor": "content5-6g",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "FO_Unit_3_Index.html": {
+      "settings": {
+        "title": "FO_Unit_3_Index",
+        "order": 17
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffb18a\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div>CHECK OUT PROCEDURES</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sp5zGBGlNS",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-6h"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-section-title, .mbr-section-subtitle, .mbr-section-btn, .mbr-text": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"FO_Unit_3.html\" data-app-placeholder=\"Type Text\">Check Out Procedures</a> <a class=\"btn btn-white\" href=\"FO_Unit_3.1.html\" data-app-placeholder=\"Type Text\">Mode of Settlements</a> <a class=\"btn btn-secondary\" href=\"FO_Unit_3.2.html\" data-app-placeholder=\"Type Text\">Checkout Problems</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp5zGFJcz6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header2-6i"
+        }
+      ]
+    },
+    "FO_Unit_3.html": {
+      "settings": {
+        "title": "FO_Unit_3",
+        "order": 18
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div>CHECK OUT PROCEDURES</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sp5Ar9HU73",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-6j"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>DEPARTURE PROCEDURE</b>\n<br>\n<br>The last interaction of the guest with the hotel staff takes place during the final phase of the guest cycle—check-out. During check-out, guests formally Vacate their rooms, settle their bills, and leave the hotel. This phase is very crucial as guests settle their financial transactions with the hotel, and any dispute at this stage can ruin their entire experience. On the other hand, a smooth settlement of bills and check-out would enhance the guests' experience. As every hotel endeavors to achieve high levels of guest satisfaction, the activities of the various department should be coordinated to ensure a smooth check-out. The speed and accuracy in the preparation and presentation of bills will lead to the maximization of guest satisfaction. Error-free billing and speedy processing of check-out requests reflects the professionalism of the hotel and imparts a lasting good impression to the guest.\n<br>\n<br>The departure procedure may vary slightly from hotel to hotel according to the degree of automation of the organization. The following steps are involved in the departure procedure in manual or semi-automated systems:\n<br>\n<br>● The check-out request is received at the front desk or bell desk.\n<br>● The front desk sends a bell boy to transfer the guest's luggage from the room to the lobby.\n<br>●The bell boy fills the departure errand card.\n<br>● The front desk sends departure notification slips (DNS) to all concerned departments\n<br>● The front desk alerts all points of sale to rush last-minute credit transactions to the front desk.\n<br>● The front desk cashier updates the guest folio based on recent bills received from the points of sales.\n<br>● The guest arrives at the front desk for check-out and hands over the room keys.\n<br>● The cashier prepares the master bill and presents it to the guest, along With supporting vouchers and bills, for review.\n<br>● The payment is received from the guest as per the pre-determined mode of payment.\n<br>● The front desk makes the 'luggage out' pass \n<br>● Marketing activities are carried out—the front desk communicates special offers, gives out brochures, takes future bookings, etc.\n<br>● The front desk communicates the check-out information to housekeeping and all the other concerned departments.\n<br>● The front office assistant updates the following front office records:\n<br>\n<br>\n<br>1. Current room status—by removing the name slip from the room rack at the information desk.\n<br>2. Guest history card.\n<br>3. Arrival/Departure register.\n<br>\n<br><b>Check-out Request</b> A request for check-out is received from the guest either at the front desk or at the bell desk. This information is communicated to all the concerned departments and points of sales. While processing the check-out request, the front desk agent should confirm the guest's details like name, room number, etc., and check the departure date. In case of early departure (i.e., the guest would like to leave before the departure date mentioned at the time of registration), other departments should be informed.\n<br>\n<br>Luggage Handling The front desk requests the bell captain to send a bell boy to transfer the guest’s luggage to the lobby. The bell boy fills the departure errand card and the bell captain makes an entry in the bell captain control sheet. The bell boy goes to the guest room, knocks on the door, and announces himself. After getting due permission from the guest, he enters the room and carries the guest’s luggage to the lobby.\n<br>Apart from carrying the luggage of the guest, the bell boy is also expected to do the following:\n<br>\n<br>● Look around the room for signs of any damage to the hotel property.\n<br>● Draw the curtains and lock the balcony and windows.\n<br>● Check for any guest belongings left behind by mistake.\n<br>● Collect the room keys from the guest.\n<br>● Check the mini-bar consumption or politely enquire from the guest about the same.\n<br>● Lock the room and hang the 'clean my room' tag on the doorknob, so that the housekeeping department can quickly clean the room for the next occupant.\n<br>\n<br><b>Accounting All Transactions</b> The front desk informs housekeeping and all points of sale to rush the latest credit transactions to the front desk so that the cashier can add them to the guest account. It is very difficult to get payment for unpaid bills after the guest has checked out unless she has gone to another hotel in the same chain or is going to return to the hotel later. As the guest might refuse to pay any charges after she has checked out, the hotel should ensure that all transactions have been billed to the guest at the time of account settlement.\n<br>\n<br><b>Updating Guest Folio </b>The front desk cashier updates the guest folio by Adding the latest credit transactions received from the points of sale.\n<br>● Checking if any late checkout charges are applicable; i.e., if the check-out time is 12 noon and the guest checks out at 6 p.m., he will be charged for late check-out.\n<br>● Checking for any late charges, i.e., if there are any latest bills that have not been added to the guest account.\n<br>● Examining the current entries in the guest account.\n<br>\n<br><b>Bill </b>Guest bills are prepared based on guest folios. While preparing the bill, the front desk staff should check if late check-out charges are applicable. If so, they should be added to the master bill. The check-out time is the time fixed by the hotel to mark the end of the day. A departing guest should vacate the room by the check-out time, which is generally 12 noon, else he would incur late check-out charges. Late check-out charges are normally a point of contention between the hotel and the guest. To avoid such a situation, guests are often asked about their expected departure time at the reservation stage itself. At the time of registration, they are again informed about the extra charges in case of late check-out.\n<br>\n<br>The front desk cashier should also pay special care to late charges while preparing the bills for settlement. A late charge is an outstanding payment from the guest, the bill for which reaches the front desk cashier after the master bill has been prepared. Some common examples of late charges are:\n<br>● Laundry bills\n<br>● Telephone bills\n<br>● Breakfast bills\n<br>● Mini-bar consumption\n<br>\n<br>If the late charges reach the front desk after the guest has settled his bill and checked out, the hotel will have to bear the loss. To reduce the losses due to the late arrival of charges, the cashier should confirm from all the points of sale about any outstanding charges for the departing guest and also enquire about the mini-bar consumption from the guest before<br>● Preparing the master bill.\n<br>● In manual hotel operation, the front office follows the given procedure to prepare a guest’s bill:\n<br>● Prepare bills in duplicate.\n<br>● Check the room number.\n<br>● Take out the guest folio.\n<br>● Calculate the correct number of room nights and establish whether a late check-out charge is to be added.\n<br>● Enter the guest’s credit transactions in the master bill in the order of their occurrence.\n<br>● Enter the method of payment (cash, credit card, the bill to a company, etc.).\n<br>● Present the bills, along with supporting vouchers, to the guest for review.\n<br>● Once the guest has verified the charges and made the payment, give the top copy of the bill to the guest.\n<br>● File the second copy in the night auditor’s file.\n<br>\n<br><b>Determination of Mode of Payment</b> The method of settlement of bills is generally established during registration or even before, at the reservation stage. The methods of payment of bills may be cash—in local and foreign currency; cash equivalents like demand draft, traveler’s cheque, and a debit card; or through credit modes like a charge card, credit card, travel agent vouchers, and corporate billings. The front desk is generally aware about the mode of settlement of bills. This information\n<br>helps the front desk cashier to do necessary verification in case of credit payments or take authorization from superiors in case the bill is to be settled by personal cheque, which is normally not entertained by most of the hotels.\n<br>\n<br><b>Receiving Payment</b> The guest reviews the bill and makes the payment in the pre-decided mode. The payment may be made through currency notes, traveler’s cheque, personal cheque, demand draft, debit card, credit card, charge card, travel agent voucher, and a bill to the company. The front desk cashier follows the house policy in collecting the payment from the guest.\n<br>\n<br><b>Marketing Activity</b> As the guest and the hotel staff come face-to-face for the last time at the check-out stage, the front office should use this opportunity for marketing efforts in the following ways:\n<br>● The front desk should ask guests about their experience at the hotel and ask them to fill a feedback form.\n<br>● If guests have any complaints, the front desk should note the same and assure the guests of a quick resolution.\n<br>● The front desk agent should inform the guest about upcoming special offers.\n<br>● The front desk agent may suggest making a future reservation for the guest’s return trip or a hotel in the same chain at the guest’s next destination.\n<br>\n<br><b>Communicating Departure to All Departments</b> The front desk informs all. departments about the departure of a guest to ensure the smooth operation of the hotel. The points of sale will not offer credit facility to guests who have already settled their bills and politely ask them to make a direct payment. The housekeeping department will do the following:\n<br>\n<br>● Prepare the room for the next guest.\n<br>● Block the room for special cleaning processes, like spring cleaning.\n<br>● Look for maintenance requirements in the room.\n<br>● Re-furnish the room for future sales.\n<br>\n<br>To ensure proper room management, both the front office and housekeeping must inform each other of the change in room status. As soon as a guest checks out, the front office must inform the housekeeping so that the latter cleans the room and makes it available for sale. A flow of information in the reverse direction is equally necessary. The housekeeping prepares the ‘housekeeping report’ at the end of a shift, which indicates the housekeeping status of each room—whether rooms are\n<br>ready for occupation, under repair, or out of order. The housekeeping department uses room status codes to indicate the status of rooms. This report is sent to the front office, where it is compared to the front office occupancy report and discrepancies are sorted out. The close coordination between the front office and housekeeping keeps the room status information up-to-date, leading to maximum benefit to the hotel.\n<br>\n<br><b>Updating Front Office Records</b> When some guests depart from a hotel, the rooms they had been occupying become vacant. The front desk agent should update the hotel records related to room status at the earliest so that the rooms can be sold again. The front office should also update guest history cards for marketing and research purposes.\n<br>\n<br><b><i>Room status records</i></b> As soon as a guest checks out, the front desk agent updates the following records related to the status of the room:\n<br>● The front office removes the name of the guest from the room rack at the information desk, so that the room shows as vacant and can be given to another guest.\n<br>●&nbsp; The front desk changes the status of the room in the front office occupancy report from occupied to vacant/dirty, so that the room can be cleaned and made ready for another guest.\n<br>\n<br><b><i>Guest history</i></b> card Generally, most hotels maintain a record of their guests, with details like previous arrival and departure dates, type of room and rate charged, likes and dislikes of guests, the amount spent by them, any special requests. This record is known as the guest history card or GHC. Hotels prepare the GHCs of corporate clients also. A GHC serves the following purposes:\n<br>● It provides current marketing data.\n<br>● The demo-graphical data of the guest—age, sex, income, occupation, marital status, etc_—helps to develop new marketing strategies.\n<br>● The knowledge of the guest’s likes and dislikes helps in serving the guest better.\n<br>● The information in GHC reveals the frequency of a guest’s visits. If the guest is a frequent user of the hotel, her name may be entered in the frequent user, list and promotional offers and special rates may be offered to her.\n<br>\n<br><b>Departure Procedure in Fully Automated System\n</b><br>The departure procedure in a hotel running on a fully automated system is smoother and more efficient. It involves the following steps:\n<br>● The check-out request is received at the front desk or bell desk.\n<br>● The front desk sends a bell boy to transfer luggage from the guest room to the lobby.\n<br>● The front desk informs all points of sale and other departments of the hotel about the departing guest through the interlinked computer network.\n<br>● Since all the points of sale terminals are interlinked, any credit transaction of the guest will instantaneously get added to the guest folio.\n<br>● The front desk prepares the master bill by selecting the bill option of the cashier module.\n<br>● The front office presents the master bill, along with supporting vouchers, to the guest for review.\n<br>● The payment is received from the guest as per the predetermined mode of payment.\n<br>● The front office makes the luggage out pass.\n<br>● The front desk communicates the departure of the guest to housekeeping and all the other concerned departments.\n<br>● The front office records are updated automatically. These include:\n<br>1. The auto removal of the name of the departed guest from the in-house guest name list.\n<br>2.The automatic updating of the current room status—from occupied to vacant/dirty.\n<br>3. The automatic updating of the guest history card.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp5Arahzww",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-6k"
+        }
+      ]
+    },
+    "FO_Unit_3.2.html": {
+      "settings": {
+        "title": "FO_Unit_3.2",
+        "order": 20
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div>CHECK OUT PROCEDURES</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sp5KejOr10",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-6p"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>POTENTIAL CHECK-OUT PROBLEMS AND SOLUTIONS\n</b><br><b><br></b><br>As we have discussed, check-out is a very critical step of the guest cycle. The departure procedure should be simple and short. The guests who are checking out of the hotel are often in a hurry to catch a flight or a train. Hotels should take measures to avoid the formation of long queues at the front desk during peak check-out periods. A speedy check-out procedure and an error-free billing\n<br>leave a lasting good impression on the guest. A guest who leaves the hotel with a good impression will return to the hotel/chain and will also recommend the hotel chain to her friends and relatives. Despite measures taken by hotels to avoid problems during the check-out process, the following problems may occur during the departure of a guest:\n<br>● Late check out\n<br>● Long queues at the cashier counter\n<br>● Improper posting of charges in the guest folio\n<br>\n<br>These problems can be rectified by informing the guests about check-in and check-out times at the time of registration, installing self check-out terminals, and implementing an accurate guest accounting system.\n<br>\n<br><b>Late Check-outs\n</b><br>Most hotels have a fixed check-out time—generally 12 noon—at which the departing guests must vacate their rooms and settle their bills. If a guest vacates his room after the check-out time, it is considered late check-out. This may create a problem. especially during high occupancy periods, as the guests with confirmed reservations will be required to wait for the room to be vacated and cleaned. A hotel may take the following preventive measures to minimize late check-outs:\n<br>● Inform the guest about the check-out time and late check-out charges at the time of reservation and also at registration.\n<br>● Have the information regarding the check-out timings printed on the key card and displayed at the back of the room doors.\n<br>● Add the late check-out charges to the guest bill.\n<br>● Request the guests to vacate the room as per the check-out time and offer to keep their luggage in the left luggage room at no extra cost.\n<br>● In case of groups, provide hospitality rooms without any extra charges.\n<br>\n<br><b>Long Queues at the Cashier\n</b><br>The standard check-out procedure, involving a number of steps dealing with the presentation and settlement of bills, takes some time. As more and more guests now want a speedy and queue-free check-out, hotels are coming up with alternatives to the standard check-out. These alternative methods are express check-out and self check-out terminals.\n<br><br><b>Express Check-out (ECO)</b> The front desk is flooded with check-out requests at the hotel check-out time. As the preparation and settlement of bills is a time-consuming process, it leads to the formation of a long queue at the front office cashier's desk. To avoid this situation, some hotels have developed a speedier check-out procedure known as express check-out.\n<br>The express check-out procedure requires the guest to fill the express check-out (ECO) form and a pre-departure folio. The ECO form is an authorization by the guest to the hotel authorities to charge the outstanding balance to his credit card. By signing the ECO form, the guest agrees to pay the amount finalized by the front desk cashier after his departure. These forms are available at the front desk or are sent to the guest on the morning of the date of departure. The ECO form is accompanied by a copy of the guest's folio, indicating the approximate total bill.\n<br>By signing the ECO, the guest transfers his outstanding folio balance to the credit card voucher (created at the time of registration). Some hotels have the policy to take the imprint of the credit cards of the guest to avoid any problems or disputes in the future. In case the final amount varies considerably from the approximate total amount—due to the use of any chargeable facility by the guest after signing the ECO form—the guest may be informed about the same. The variance may also be there in case of any late charges received by the front desk cashier. After signing the ECO form, the guest can leave the hotel at his convenience without having to go to the front desk or cashier’s desk for the standard check-out procedure.\n<br>Once the guest has departed from the hotel, the front desk cashier finalizes his account, including any late charges, and completes the imprinted credit card voucher. The guest’s signature on the ECO form replaces the signature on the credit card voucher as the guest’s agreement to make the payment. The hotel sends the signed ECO and the filled imprint to the credit card company for the settlement of the final bill and mails a copy of the bill to the guest’s mailing address.\n<br>The express check-out service reduces the pressure at the cashier’s desk. It also enables guests to avoid long queues and wailing time at the cashier’s desk during peak check-out times and leave at their convenience.\n<br>\n<br><b>Self Check-out</b> Only fully automated hotels are equipped with self-service terminals, which allow guests to check-in/check-out promptly by operating these interactive machines. They are available with options like check-out only, check-in/check-out, and also cash acceptor. Generally located in the hotel lobby, the self check-out terminals are interfaced with the property management system (PMs) of the hotel. They are also designed to be compatible with a system that allows air travelers to print boarding passes while checking out of the hotel.\n<br>Self-check-in and check-out kiosks identify guests by their rooms’ card keys or their credit cards, as in some cases the guests’ credit cards may be coded like their room keys. At self check-out terminals, guests can access and review their folios and settle their accounts using credit cards. The check-out is completed when the guest's outstanding balance is posted to his credit card account. The terminal dispenses a printed statement of the account settlement. Simultaneously, the system communicates the room status to the front desk computer. The front office module of the PMS automatically updates the room status and other records like guest history cards. The self check-out terminals have the following benefits:\n<br>\n<br>● They minimize the guests’ waiting time as the guests can check-out themselves by operating the check-out kiosk and can settle their outstanding bills through credit card without having to go to the front desk cashier.\n<br>● They simplify the check-in and check-out procedure as the guests can easily follow the interactive instructions on the screen.\n<br>● They eliminate the scope of human error as they are integrated with the hotel PMS and thus track all the financial transactions between a guest and the hotel’s points of sale and other sections.\n<br>\n<br>\n<br><b>Improper Posting of Charges\n</b><br>There are occasions when a guest’s financial transactions are not properly posted in the guest folio and the final bill is inaccurate. This might be due to human error or system error. The front desk is flooded with check-out requests at peak check- out times and the cashier might make some mistake in the posting of charges or the calculation of bills. This could lead to a dispute with the guest and delay other guests in the queue. The whole experience can be quite damaging for the hotel.  To avoid this, hotels should install guest accounting systems, which are more accurate and faster, leading to higher guest satisfaction.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp5KelMq5w",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-6q"
+        }
+      ]
+    },
+    "FO_Unit_3.1.html": {
+      "settings": {
+        "title": "FO_Unit_3.1",
+        "order": 19
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div>CHECK OUT PROCEDURES</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sp5KP0oQO5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-6r"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>MODE OF SETTLEMENT OF BILLS\n</b><br>Generally, hotels determine the mode of settling the guest accounts at the time of registration or sometimes even at the time of receiving the reservation request This makes it very convenient for the front desk employee to prepare the guest bill at the time of check-out. There are several acceptable modes of payment—foreign currency, traveler’s cheque, demand draft, debit card, credit card, and so on.\n<br>\n<br><b>Foreign Exchange\n</b><br>The tourism and hospitality industry is among the major foreign exchange earners for any nation, All the foreign visitors in a hotel can settle their accounts in the currency of their country dollar, Euro, Pound, etc. except guests who are employed with the UN and its agencies, embassies, consulates, and high commissions. Even if the guests have already converted their currency into Indian currency, they still have to pay the room rent in foreign currency.\n<br>Hotels have to take a valid license from the Reserve Bank of India (RBI) to deal with foreign exchange. RBI issues two types of licenses to deal with foreign exchange-—-one for the purchase and one for the sale of the foreign currency. A hotel with the purchase license can only purchase foreign currency, which means that the hotel can accept foreign currency from the guest, but the refund amount exceeding the billing amount will only be made in Indian currency. Hotels generally\n<br>obtain the purchase license; but if a hotel has obtained the license for buying and selling foreign currency, it can buy and sell foreign currency, i-e., accept foreign currency and give the balance amount also in foreign currency.\n<br><br><b>Currency Exchange Procedure</b> To deal in foreign exchange, a hotel has to take a valid license from RBI. The front office cashier is the hotel’s authorized representative for foreign exchange dealing. When guests wish to exchange the currency of their country into Indian currency, the following procedure is followed:\n<br>\n<br>1. The guest contacts the front desk cashier for foreign exchange.\n<br>2. The cashier requests the guest to produce his passport to verify his identity.\n<br>3. The cashier asks the guest for the amount of foreign currency to be exchanged and determines whether the amount is exchangeable as per the RBI guidelines.\n<br>4. The cashier checks the exchange rate from RBI or a leading nationalized bank of the town.\n<br>5. The cashier prepares the currency exchange certificate.\n<br>6. The cashier requests the guest to sign the currency exchange certificate.\n<br>7. The guest gives the foreign currency to the cashier in cash or as a traveler’s cheque.\n<br>8. The cashier calculates the total amount to be paid in local currency as per the exchange rate.\n<br>9. The cashier dispenses the amount to the guest along with the original currency encashment certificate. He attaches the second copy with the foreign currency or traveler’s cheques and leaves the stationary copy in the booklet.\n<br>10. The cashier fills the details of the daily currency exchange transactions in the foreign currency control sheet.\n<br>11. If the cashier receives the foreign currency at the time of settlement of bis the same procedure is applied, and the balance, if any, is returned to the guest in local currency.\n<br>\n<br>The above-mentioned procedure is followed by hotels with the license for purchasing foreign currency. In case the hotel also has the license to sell foreign currency, then in step 11, the cashier returns the balance amount in the foreign currency.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp5KP0U5di",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-6s"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/1-976x976.jpg\" alt=\"Hi\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Image Description</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp5KP1pWOp",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image3-6t"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><br><b>Cash Settlement</b> \n<br>The cash payment option is one of the most preferred modes of settlement of guest accounts. At the time of settlement, the cashier zeroes the balance in the guest account. If there is a credit balance in the guest folio, the hotel will pay back the balance amount to the guest to make the balance zero. Whereas, if there is a debit balance in the guest’s folio, the hotel will collect the balance amount from the guest to make the folio balance zero. The various modes of account settlement by cash: \n<br>● Currency Notes \n<br>1. Foreign Currency \n<br>2. Local Currency \n<br>● Traveler’s Cheque \n<br>● Personal Cheque \n<br>● Demand Draft \n<br>● Debit Card \n<br>\n<br><b>Currency Notes</b> Guests can settle their accounts by paying through currency notes. This is one of the most widely accepted modes of account settlement. While accepting currency notes, the cashier should check if the currency notes are genuine. \n<br>The following procedure is generally adopted for accepting cash payments: \n<br>● If accepting foreign currency from the guest, the cashier checks the daily currency conversion rate. \n<br>● To avoid any disputes, the cashier should retain the cash amount outside the cash drawer till the transaction is completed. \n<br>● The cashier should count the value of the currency in front of the guest. \n<br>● If accepting foreign currency from the guest, the cashier makes the currency encashment certificate. \n<br>● The cashier issues a receipt for the transaction. \n<br>● As per Government regulations, the cashier should accept foreign currency only from foreigners and return the balance amount, if any, in local currency. \n<br>\n<br><b>Traveller's Cheque</b> A traveler’s cheque or TC is an internationally accepted cheque for a sum in a specific currency that can be exchanged elsewhere for local currency or goods. It is also among the most widely accepted modes of account settlement. Issued by a financial institution, it functions as cash but is protected against loss or theft. The value of the traveler’s cheque is written on it. Traveler’s cheques are useful when traveling, especially in the case of overseas travel when all the credit and debit cards are not accepted. When a person exchanges traveler’s cheques for cash, she usually incurs a charge or commission, though some banks wave off this charge. \n<br>\n<br>The purchaser of the traveler’s cheque puts two signatures—one in front of the issuing authority and the second in front of the encashing authority. To prevent misuse, the loss of a traveler’s cheque should be immediately reported to the issuing bank and local police authority. \n<br>\n<br>While accepting a traveler’s cheque from a guest for the settlement of bills, the front desk cashier should proceed as follows: \n<br>● Ensure that the second signature is put in front of him. \n<br>● Check the guest’s passport to establish identity. \n<br>● Note down the passport number at the back of the traveler’s cheque. \n<br>● If the traveler’s cheque is in foreign currency, calculate the correct exchange value as per the daily rate. \n<br>● Return the balance to the guest in local currency. \n<br>\n<br><b>Personal Cheque</b> Personal cheques are cheques drawn against funds deposited in an individual’s bank account. It takes some time before the payment for the cheque is received from the issuing bank. There is also a chance of the bank refusing a payment—if there is an insufficient amount in the account or if the guest has ‘stopped’ the cheque. Hence, it is normally not an accepted mode of account settlement. However, hotels may accept personal cheques from frequent guests or guests from companies that give a high volume of business to the hotel. \n<br>In case a guest insists on settling his bill by personal cheque, the front desk agent may politely request him to get authorization from the lobby manager. On receiving authorization from the lobby manager, the guest has to submit an application for making payment by personal cheque. The front office agent needs to check the following details: \n<br>\n<br>● The signatures in the application form and the cheque match. \n<br>● The cheque is crossed as ‘A/c Payee only. \n<br>● The amount in figures and words is the same. \n<br>● The date on the cheque is valid. \n<br>● Accept only MICR (Magnetic Ink Character Reader) cheques. \n<br>● Do not accept second or third party cheques. \n<br>\n<br><b>Demand Draft </b>A demand draft is a written order from the bank for the payment of money upon presentation of the same. A person may obtain a demand draft from a bank by filling the required form and paying the draft amount and the bank's commission. It is a secure and widely accepted mode of payment. <br>\n<br><b>Debit Card</b> A debit card is a card (usually plastic) that allows customers to access their funds immediately, electronically. It enables the holder to withdraw money or to have the cost of purchases charged directly to her bank account without paying by cash or writing a cheque. In many countries, it also acts as an ATM card, which is used to withdraw money from ATMs (automated teller machines). It is a safe mode of account settlement as the amount is instantly transferred to the hotel’s account. When the card is swiped, the electronic fund transfer point of sale (EFTPOS) terminal contacts the computer network of the bank to verify and authorize the transaction. Once the authorization is received from the bank, the amount is debited from the guest’s bank account and instantly credited to the hotel’s bank account. In case of insufficient funds, the bank does not authorize the transaction and the guest has requested an alternative mode of payment. \n<br>\n<br><b>Credit Settlement \n</b><br>A credit settlement is an arrangement for the deferred payment of goods and services, i.e., a settlement in which the hotel does not receive any payment on the day of departure of the guest but would receive it later. The various credit modes <br>\n<br>1. Credit Card/Charge \n<br>2. Travel Agent Voucher \n<br>3. Corporate Billing/Bill to Company (BTC) Letter \n<br>\n<br><b>Credit Card/Charge Card Payments</b> A credit card is a payment card (usually plastic) that allows the owner to obtain goods and services on credit terms, without paying cash. It may be used repeatedly to borrow money or buy goods and services on credit. In addition to obtaining goods, credit cards can also be used to obtain cash. The issuer (bank) assures the seller (hotel) that the owner (guest) has a satisfactory credit rating and that the bank will see to it that the hotel receives payment for the merchandise delivered. Transactions during a month are totaled and presented to the cardholder for settlement on a monthly basis. Alternatively, a percentage of the outstanding amount can be paid and the balance extended to the next month and so on. This will normally incur a much higher annual rate of interest than usual; for example, a 2 percent monthly interest rate is equivalent to the annual percentage rate of 26.82 percent. \n<br>It is among the most favored modes of account settlement. It is much more convenient for the traveler to carry credit card(s) than carrying cash. Most of the hotels accept major credit cards. \n<br>\n<br>A <i>charge card</i> is a plastic payment card that enables the holder to obtain goods and services without the requirement to pay cash. The account statement is sent to the cardholder every month and must be settled in full. Unlike a credit card, the balance in the charge card account cannot be rolled over from one billing to the next. In addition to obtaining goods, the charge card can be used to obtain cash. Some examples of charge cards are American Express, Diners Club, and a number \n<br>of gold cards. While processing payment through credit cards, the front desk cashier follows \n<br>the following procedure: \n<br>● Checks the card holder's name on the card. \n<br>● Checks the expiry date of the card. \n<br>● Checks if the card is a stolen card. \n<br>● Checks the credit limit of the card; if the amount of the bill exceeds the limit of the credit card, the cashier requests the guest to pay the balance amount by cash. \n<br>● Swipes the card through the EFTPOS terminal for verification and authorization from the issuer of the credit card. \n<br>● Asks the guest to sign on the transaction slip. \n<br>● Verifies the guest’s signature on the transaction slip with the signature on the signature panel at the reverse of the card. \n<br>● Returns the credit card and the carbon copy of the transaction slip to the guest. \n<br>● Follows the standard operation procedure to process the payment of the guest folio as per the house customs. \n<br>\n<br><b>Travel Agent Vouchers</b> Tour operators and travel agencies selling packages or customized tours make bookings for a guest’s accommodation, food and beverage, and other services. Mostly, they receive the advance payment from travelers at the time of selling the tour package itself. The travel agency (TA) sends a voucher to the service provider (hotel) with the details of the billing procedure \n<br>(direct payment by the guest or bill to TA) and the services (room and meal plan) to be provided to the traveler. Apart from travel agencies and tour operators, airlines (that have contracts with hotels) also send meals and accommodation orders (MAO) or passenger service orders (PSO) to layover passengers in case of flight delays and cancellations. In such cases, the hotel obtains payments from the TA or the airline. \n<br>While processing the TA voucher/MAO/PSO, the front desk cashier should proceed as follows: \n<br>● Read the vouchers carefully. \n<br>● Refer to the list of approved TAs to whom the hotel offers credit. \n<br>● Check the billing instructions carefully. \n<br>● In the case of a foreign travel agency’s voucher, get authorization from the lobby manager. \n<br>● Check the expenses covered by the voucher. \n<br>● Collect payment from the guest for the services not covered or included in the voucher; for example, bills for spa treatments. \n<br>● Attach all the vouchers signed by the guest with the master bill, and ask the guest to verify and sign the bill. \n<br>● Do not give the copies of signed bills to the guest (as these have to be presented to the travel agent, who will make the payment to the hotel in this case). \n<br>● Send the guest bill and vouchers to the accounts department for the collection of the amount from the travel agent. \n<br>\n<br><b>Corporate Billing or Bill to Company lette</b>r Some companies, whose executives travel at the expense of the company, make a deal with hotels, whereby they determine the rates for different types of rooms and meal plans to be offered to their executives. The terms and conditions of the payment are also pre-determined. \n<br>The reservations are made by the company on behalf of the traveling executives. The executives carry a letter from their company, which is called a bill to company (BTC) letter, as proof of their identity. \n<br>The front desk cashier proceeds as follows while processing BTC letters: \n<br>● Establishes the identity of the guest by asking him to show his identity card or/and the BTC letter, which is prepared on the company letterhead. \n<br>● Checks and verifies that the company is listed in the company volume guarantee rate (CVGR) list of the hotel. \n<br>● Checks the services that are included in the agreement with the company any service or facility utilized by the guest that is not covered by the company should be charged separately from the guest. \n<br>● Prepares the guest bill, along with all the supporting vouchers, and asks the guest to verify and sign the bill. \n<br>● Do not give the bill to the guest (as these have to be given to the company, which will make the payment to the hotel). \n<br>● Sends the duly signed bill to the accounts department for collection from the company. \n<br>● Sometimes guests utilize facilities and services, like telephone, laundry, and drinks, that are not covered by the TA voucher or company agreement. In such cases, the guests should settle these sundry transactions by making direct payment to the hotel.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp5KP2aSK4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-6u"
+        }
+      ]
+    },
+    "FO_Unit_4_Index.html": {
+      "settings": {
+        "title": "FO_Unit_4_Index",
+        "order": 21
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffb18a\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -4</b><div>CONTROL OF CASH AND CREDIT &amp; NIGHT AUDIT</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sp5MGsDEU7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-6v"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-section-title, .mbr-section-subtitle, .mbr-section-btn, .mbr-text": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"FO_Unit_3.html\" data-app-placeholder=\"Type Text\">Credit Control</a> <a class=\"btn btn-white\" href=\"FO_Unit_3.1.html\" data-app-placeholder=\"Type Text\">Night Audit</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp5MGtUOjV",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header2-6w"
+        }
+      ]
+    },
+    "FO_Unit_4.html": {
+      "settings": {
+        "title": "FO_Unit_4",
+        "order": 22
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -4</b><div>CONTROL OF CASH AND CREDIT &amp; NIGHT AUDIT</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sp5NXF2b8Z",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-6x"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>The Meaning of Credit Control\n</b><br>Credit control refers to the various measures taken by a hotel to ensure that guests settle their accounts in full at an agreed time.\n<br>Controlling credit is the responsibility of the credit manager or clerk, who is a member of the accounts department. However, the process also necessitates that specific measures be taken by various departments of a hotel at different phases of the guest cycle. A credit manager cannot fulfill his or her role unless all hotel staff cooperates and perform their own credit control duties.\n<br>\n<br><b>Why is Credit Control Necessary?\n</b><br>Hotels, like any other businesses, need to have a healthy cash flow to survive and succeed and try to achieve this by exercising control over the credit given to guests. The cash flow of a hotel is the money that moves in and out of the business.\n<br>\n<br><b>Objectives of Credit Control Measures:</b>\n<br>\n<br>The main objectives of credit control measures are:\n<br><b>To prevent walkout (skips):</b> Walkouts are guests who leave a hotel without settling their accounts. They include guests who deliberately intend to leave the hotel without paying their accounts as well as those who do not realize that they have to check out with the cashier. This is because they know that their companies have agreed to settle their accounts.\n<br><b>To reduce the problems caused by walk-out</b> guests as well as the lost revenue, they cause a great deal of inconvenience to a variety of people, such as the cashier, who will not have verification of bills, the housekeeper, who will not know the room status, the management, who may decide to instigate legal proceedings, and the police, who would have to alert other properties in their search for the guest.\n<br><b>To prevent late settlement</b> <b>of accounts</b> Since most accounts are settled by the guests on departure, there are few problems of late settlement for these accounts. But corporate or travel agent accounts are sent to the companies or travel agents after the guests have departed. While hotels usually expect that a cheque for settlement should be received within 30 days, in some cases they may have to wait a long time before a cheque is actually received. In some instances, the agent or company may go out of business before settling the invoice, in which case the hotel does not receive any payment.\n<br>\n<br>Delay in payments can cause cash flow problems for a hotel. When companies or travel agents take time to settle their accounts, the threat of bad debt should be considered. Bad debts are incurred when a debtor (a person who owes the hotel money) does not settle the account. Therefore, the account has to be written off, resulting in lost revenue to the hotel. It is, therefore, important that the accountant carefully checks the debtor’s collection period, and any accounts which have not been paid within a certain time period must be followed up.\n<br>\n<br><b>To avoid guests’ dissatisfaction</b> Guests feel embarrassed and annoyed if, on checking out, they discover that they cannot satisfactorily settle their accounts for reasons such as a credit card not being accepted by the hotel, possession of insufficient cash to pay at the account, refusal by the hotel to accept certain foreign currency, or their account balance is over the hotel’s house limit. The credit card organization refuses to approve a charge if the guest has crossed the floor limit.\n<br>\n<br>Many of the possible causes for skippers, late payments, and guests’ dissatisfaction when settling their accounts are the responsibility of the front office cashier and accounts department. Common causes for these problems may include:\n<br>● unclear instructions to the guest at check-in (e.g. not informing the guest which credit card or foreign currency is or is not acceptable.)\n<br>● lack of communication between departments (e.g. the credit manager not notifying the cashier when a guests’ account is over the hotel’s credit limit.)\n<br>● Breakdown in front office procedures (e.g. the front desk or reservations clerk not checking the blacklist for previous walkouts)\n<br>\n<br>Various procedures are necessary to ensure that these problems are minimized, and can include the following;\n<br>● Give the guest clear instructions at check-in regarding account settlement.\n<br>● Notify the guest when their account has reached the hotel’s credit limit.\n<br>● Provide a list of previous skips to all relevant departments.\n<br>● Ensure good coordination and communication between all departments on matters relating to guests’ charges.\n<br>● Ensure that guests with company accounts have been notified that the account has to be verified and signed before check out.\n<br>Non settlement and delayed payment of accounts seriously hampers the cash flow of a hotel. However, most of these problems can be avoided or minimized if credit control policies are set up by a hotel, and if all the staff concerned takes great care in following credit control procedures.\n<br>\n<br><b>Hotel Credit Control Policy:\n</b><br>\n<br>The hotel will normally allow guests to charge their hotel expenses to their room account. To ensure that the final settlement is paid, hotels must be certain that the guests can pay their bills in full before they are given credit. The credit limit (sometimes called the house limit) refers to the maximum level to which a guest’s bill can amount before some form of settlement is required. Credit limits may vary, and often depend on the guest’s reservation status and the method of payment.\n<br>In general, hotels tend to allow credit to three types of the guest (although this depends very much on a hotels’ policy):\n<br>● those who have guaranteed bookings with the hotel\n<br>● those whose accounts will be settled by their companies\n<br>● those who will settle their accounts by credit cards.\n<br>\n<br><b>Guests with guaranteed bookings:\n</b><br>Most hotels give credit to guests who have guaranteed their bookings (either by a credit card or a deposit). These guests are allowed to enjoy the hotel facilities and services on credit and to settle their accounts personally at check out.\n<br>On the other hand, walk-in guests and guests with non-guaranteed bookings or late bookings are usually not given any credit if they settle their bills by cash. They are usually required to prepay their room rate, together with a deposit for incidental expenses, at check-in. If a walk-in guest pays an advance deposit or gives a credit card for the imprint to cover accommodation and incidental expenses, then credit status may be allowed.\n<br>\n<br><b>Settlement by corporate accounts:</b>\n<br>When a company wishes to have credit facilities at a particular hotel, the hotel will have to check to ensure that the company is solvent, ie., that it is capable of paying its accounts. The hotel will need a reference from the company’s bank; if the reference is favorable, the company is approved to receive services on credit. The company will then be listed on the list of credit approved companies prepared by the accounts department. This list will be distributed to the reservations department, reception, and sales office so that other sections or departments can know clearly which companies are entitled to credits at the hotel. However, a hotel often approves different credit limits for different companies. For example:\n<br>A large local firm that regularly reserves a large number of rooms at the hotel and which has a good record of settling bills promptly will have a high credit rating. It may be allowed to have a large balance outstanding on individual accounts and the company’s total account before payment is asked for.\n<br>A new company, a small company, or a company that has been late in settling its account may be given a low credit rating. The company will be required to settle the bill once the account has reached a certain limit.\n<br>\n<br><b>Accounts Settled by Credit Card:\n</b><br>In most hotels, credit is also given to guests who settle their accounts by credit cards that are accepted by the hotel.\n<br>To ensure that guests and hotel personnel are aware of which credit cards can be used, signs are displayed at the front desk and relevant payment areas, showing which credit cards are accepted. This policy can be emphasized to hotel personnel during training sessions and their induction programs, to ensure that guests are not embarrassed at check out. It is important that they and all hotel personnel are fully aware of which cards are accepted. Credit cards may have different floor limits agreed by the card-issuing company.\n<br>\n<br><b>Credit Control Measures During Occupancy:\n</b><br>Most transactions between a guest and a hotel take place during a guest’s occupancy. Therefore, during this phase of a guest’s stay, the hotel needs to monitor the credit given to guests very closely. This is achieved by monitoring bills with high balances.\n<br>The cashier will monitor all the bill totals against the hotel’s set credit limit. Each day, a high-balance report will be produced which lists all the accounts whose totals are near to or in excess of the limit.\n<br>The reception, night auditor, or credit manager is usually responsible for handling accounts with high balances. The guests will be asked to settle their account to date, and a new account will be started for the rest of their stay. The credit manager will send the bill, together with an accompanying letter, to the guest’s room, asking the guest to settle the account with the reception. If the guest has any queries about their account or the credit policy, the reception or the Assistant Manager should explain them to the guest.\n<br>Sometimes, guests may fail to call at the reception desk as requested. In this case, the Assistant Manager has to contact the guest personally. They may telephone the guest in their room, or contact them when they next collect their keys from the front desk. In serious cases, where the guest cannot be reached and has not attempted to see management or the front desk staff, their room will be double-locked. This means that the guest has to contact the assistant manager before they can be let into their room.\n<br>\n<br><b>Credit Control Measures By Other Sales Departments:\n</b><br>Whenever a guest wants to charge service from a sales outlet to their account, the staff in that outlet must check the credit status of the guest carefully. They must check that:\n<br>● the guest is a resident and/or has an account at the hotel\n<br>● the guest is allowed to charge services to their account.\n<br>\n<br><b><i>Remember:\n</i></b><br>● A walk-in may not be allowed to charge services to their account and consequently will have to settle the incidentals by cash or credit card at the sales outlet.\n<br>● If the guest is part of a tour, their package may allow a meal in the hotel but only up to a certain value (e.g.$10.00). Any excess on the bill must be settled at the sales outlet. Often the front desk will issue these guests with vouchers, which the guest will hand to the restaurant captain or head waiter upon entering the hotel restaurant.\n<br>\n<br><b>Credit Control Measures After Guest Departure:\n</b><br>\n<br>Corporate accounts or travel agents’ accounts are not settled at check out. Therefore, after a guests’ departure, these forms of account will be transferred to the city ledger held by the accounts department, which holds an individual account for each company. At the end of each month, the accounts department will send statements of these accounts to the companies for a settlement. It is expected that payment will be made within 30 days.\n<br>However, some companies may be late in setting their accounts. In such cases, follow up measures need to be taken by the accounts department to speed up the payment. An example of the procedure is as follows, however, the time frame may be reduced in many hotels.\n<br>\n<br>1. After having failed to receive a payment within 30 days, telephone the company as a reminder.\n<br>2. After 45 days, write officially to the company, requesting immediate payment.\n<br>3. After 60 days send a strongly worded letter. Possibly threaten legal action.\n<br>4. If nothing has been received after 90 days, proceed with legal action through the hotel’s solicitor. At this point, the hotel accountant may have to consider writing off the bill as a bad debt.\n<br>\n<br><b>Preventing Walk Outs (Skips)</b>\n<br>Because a walkout cost the hotel not only in lost revenue but also in actual food and drink costs, much is done to prevent this type of occurrence. Front office staff should take great care when dealing with newly arrived guests. It may be possible for staff to identify potential walkouts by paying closer attention to the behavior of the guest and to thus take measures to guard against them.\n<br>\n<br><b>On Arrival:\n</b><br>When guests arrive, the bell staff should check the number of bags, and assess their weight. People who intend to walk out sometimes have very little luggage or carry empty suitcases which they will leave behind in the room when they walk out.\n<br>\n<br><b>During the stay\n</b><br>Extravagant purchasing patterns can be a feature of walkouts, so the cashier should monitor the guests’ accounts carefully. A person who intends to walkout is more likely to order expensive meals, and eat and drink from room service. The hotel credit limit can be reached quickly.\n<br>\n<br><b>On the day of departure:\n</b><br>The hall porter may contact a departing guest to request the time to collect the luggage. By doing this, the porter will keep the bags in store until the guest has paid their account. Some hotels have a system of luggage passes. When the guest has checked out with the cashier they are issued a receipt or luggage pass. The guest will then show the receipt to the porter who, knowing that the account has been settled, will release the luggage.\n<br>\n<br><b>CASH CONTROL\n</b><br>\n<br>Internal Control:\n<br>In the hotel industry, the main purpose of internal control is to:\n<br>\n<br>● track transaction documentation,\n<br>● verify account entries and account balances, and\n<br>● to identify vulnerabilities in the accounting system.\n<br>\n<br>The keyword to internal control is auditing, which is the process of verifying front office accounting records for accuracy and completeness.\n<br>\n<br>The front office is responsible for a variety of cash transactions that may affect both guest and non-guest accounts. Proper cash handling procedures and controls must be established, implemented, and enforced. Below are some forms that are of extreme importance to internally control, one of the most vital assets in the hotel i.e. cash:\n<br>\n<br><b>1- Front office cash sheet:\n</b><br>The front office cash sheet lists each cash receipt or disbursement of cash. The information contained on a front office cash sheet is used to reconcile cash on hand at the end of a cashier's shift with the documented transaction that occurred during the same shift. The most common entry on a front office cash sheet is the money collected from departing guests during check-out.\n<br>The front office cash sheet also provides space for itemizing cash disbursements. This may include paid-outs or server’s tips included in the total transaction charge by the guest.\n<br>\n<br><b>2- Cash Bank, House Banks, Float, Impress&nbsp;or Petty Cash:</b>\n<br>Cash Bank is the amount of cash assigned to a cashier so that he/she can handle the various transactions that occur in a particular work shift.\n<br>At the beginning of each shift, all cashiers must sign their cash banks and at the end of the shift, shall deposit all cash, checks, and other negotiable instruments in the general cashier's safe deposit box. Good control procedures require that only the person who signed for the bank have access to it during the shift. Moreover, at the end of each shift, cashiers should watch out for cash discrepancies (i.e. any difference between the front office cash sheet and the actual amounts in their cash drawers). Cash discrepancies might have the form of cash overages or shortages. Lastly, cashiers might come up with the net cash receipt, which is:\n<br>Amount of all cash, cheques, and other negotiable instruments in cashier’s drawer – the amount of the initial cash bank\n<br>\n<br>\n<br>Net Cash Receipts are the amount of cash, cheques, and other negotiable items in the cashier’s drawer, minus the amount of the initial cash bank, plus the paid outs.\n<br>An overage occurs when, after the initial bank is removed, the total of the cash, cheques, negotiable, and paid-outs in the cash drawer is greater than the net cash receipts.\n<br>A shortage occurs when the total of the contents of the drawer is less than the net cash receipts.\n<br>Neither an overage nor a shortage is typically considered “good” by front office management when evaluating the job performance of a front office cashier.\n<br>A due back occurs when a cashier pays out more than what he or she receives, in other words, there is not enough cash in the drawer to restore the initial bank. Due backs do not reflect positively or negatively on the cashier’s job performance and may occur when net cash receipts are in or out of balance.\n<br>Each cashier begins the shift of each day with an exact amount of bank and everything in excess of the bank is turned into the accounting office at the close of the day.\n<br>\n<br><b>3- Audit control:\n</b><br>Along with the fact that hotels might employ internal control auditors, at least once a year, (especially for hotels traded in the stock market), they use the services of external certified public accountants responsible for approving hotel's accounts.\n<br>\n<br><b>4- Settlement of Accounts:\n</b><br>One of the responsibilities of front office agents is to settle guest accounts, which means the eventual collection of payment for outstanding account balances (i.e.: bringing account balances to zero). This is usually ensured either by full cash payment, transfer to an approved credit card, special program, or direct billing account.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp5NXFy0MG",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-6y"
+        }
+      ]
+    },
+    "FO_Unit_4.1.html": {
+      "settings": {
+        "title": "FO_Unit_4.1",
+        "order": 23
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -4</b><div>CONTROL OF CASH AND CREDIT &amp; NIGHT AUDIT</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sp5PQWDM19",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-6z"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>NIGHT AUDIT\n</b><br>\n<br>The hotel remains operational round the clock, 365 days a year, The guests Staying in a hotel include regular guests as well as occasional guests, and their duration of Slay may vary from a few hours to several weeks. A transaction, especially a financial one, should be reviewed on a daily basis, as\n<br>guests might depart from the hotel anytime and it may be too late to recover an unpaid bill or a loss due to any mistake in the posting of changes in the guest account. In order to safeguard the interests of the hotel, a systematic examination of the financial transactions Of guests is carried out by competent people at the end of every day. \n<br>\n<br><b>NIGHT AUDIT\n</b><br>According to Oxford Advanced Learner’s Dictionary, audit is ‘an_ official examination of a business and financial records to see that they are true and correct’.\n<br>The main purpose of night auditing is to keep a track of the total revenue generated during the day and to keep the guest accounts correct and up-to-date. This leads to customer satisfaction as the guests are given accurate and up-to-date bills at the time of check-out. The night auditor also verifies the entries posted in non-guest accounts, monitors guest credit limits, balances all accounts, and sorts out any discrepancies in room status.\n<br>\n<br><b>NIGHT AUDITOR\n</b><br>A night auditor is a person who audits the hotel accounts daily at night or at a time when the business is relatively slow. The audit team generally comprises members of the accounts department. The number of people in the audit team depends upon the size, location, and products of the hotel. Since most of the activities of the night auditor are concentrated in the front office, the front office manager (FOM) may provide the necessary inputs for the night audit process. So the members of the\n<br>night audit team generally report to the accounts department as well as the FOM. As a night auditor has to work in the night, the position doesn’t find many takers, so most of the hotels do not have a permanent team of night auditors.\n<br>\n<br><b>Duties and Responsibilities of a Night Auditor\n</b><br>A night auditor performs the following duties and responsibilities:\n<br>● Establishes the end of the day.\n<br>● Ensures the accuracy of front office accounting records and balances them.\n<br>● Reconciles all the financial transactions between a hotel and its guests.\n<br>● Calculates the total revenue generated during the day.\n<br>● Verifies and validates the cashier's posting of charges in the guest accounts.\n<br>● Posts the room charges in the guest folio.\n<br>● Transfers the unpaid guest accounts—i.e., accounts of guests who have left the hotel without settling their bills—to city ledger.\n<br>● Monitors the house limit of guests.\n<br>● Prepares a high balance report of guest accounts that are nearing or have crossed the house limit.\n<br>● Monitors the current status of discounts, meal coupons, and other promotional\nactivities that are carried out by the front desk employees.\n<br>● Prepares reports for the management.\n<br>● Tracks the room occupancy percentage.\n<br>\n<br><b>NIGHT AUDIT PROCESS\n</b><br>The night audit is conducted in every hotel to maintain an accurate and efficient accounting system that keeps proper records of all the transactions. This prevents the loss of revenue as well as leads to higher levels of guest satisfaction (as guests are presented error-free and up-to-date bills). The night audit is conducted on a daily basis as the creditors (hotel guests to whom the hotel extends credit facility) are mostly unknown and if their accounts remain unsettled due to some error in\n<br>bookkeeping, the hotel will lose that revenue. The daily authentication of accounts, by verifying support documents and the posting of charges in the guest accounts, is necessary to prevent any possible loss of revenue. The steps that are commonly involved in night audit process are as under:\n<br>● Establishing the end of the day.\n<br>● Completing outstanding postings and verifying transactions.\n<br>● Reconciling transactions in guest accounts, city accounts, and points of sale.\n<br>● Verifying no-shows.\n<br>● Preparing high balance reports and occupancy reports.\n<br>● Updating the system.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp5PQXmwIh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-70"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/1-1-976x976.jpg\" alt=\"Hi\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Image Description</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "image3-71",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp5SuOopTv",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Establishing the End of the Day</b> \n<br>The end of the day is the arbitrary time that is supposed to be the end of the financial transactions for a particular day. As hotels remain operational round the clock, it is very necessary to ascertain the time that will be treated as the end of the day and the beginning of a new day in a hotel. This time is generally established by the night auditor. The time when the process of night auditing begins is usually taken to be the end of the day, which means that all transactions that take place after the commencement of the night audit are taken in the next day's business. For example, if a guest checks-in at 11:15 p.m. at a hotel where the night audit begins at 11 p.m. the guest’s account is included in the next day's business. \n<br>\n<br><b>Completing Outstanding Postings and Verifying Transactions \n</b><br>Once the end of the day is established, the first step is to complete the posting of all pending charges (room and tax) in proper account folios. An efficient front office accounting system ensures the prompt posting of the financial transactions as they occur and reach the front desk cash and bills section. The transactions should appear in the guest folio in the order of their occurrence. Let's suppose the charges for a meal that was consumed on Monday are mistakenly posted by a front office cashier in the folio on Tuesday. This can confuse and lead to a problem during the settlement of the account as the guest may have visited some other food outlet on Tuesday. The night auditor posts all outstanding charges properly at the commencement of the night audit process. \n<br>\n<br>The night auditor physically verifies all the financial transactions by cross-examining the account with supporting vouchers like credit vouchers, debit vouchers, visitors paid-out vouchers, allowance vouchers, etc. There might be errors in the posted charges, which should be caught by the night auditor. For example, the front office cashier might have incorrectly posted the room rent as $4,000 instead of Rs 4,000. This would have led to an inaccurate calculation of revenue that day. The night auditor should catch this mistake and correct it, saving the hotel from a lot of embarrassment and from the trouble of amending many records. The night auditors verify the postings in all accounts by going through all the documents carefully. They also validate the discounts given to guests. They \n<br>examine and authenticate all the transactions that involve monetary elements. \n<br>\n<br><b>Reconciling Transactions \n</b><br>The next step is the reconciliation of each financial transaction with the original source documents (generally vouchers). The reconciliation of accounts may be carried out in the following sections: \n<br>● Guest accounts \n<br>● City accounts \n<br>● Points of sale \n<br>\n<br><b>Guest Accounts</b> All the financial transactions that occur between a hotel and its guests are examined by the night audit team. The folio of each guest is matched with the original documents of transactions for the verification of the account. The night auditor also checks for any discrepancy in room status reports of the front office and housekeeping departments. For example, the housekeeping occupancy report may show 104 occupied rooms while the front office occupancy report shows 105 occupied rooms. There is a discrepancy of one room, which means that one room is shown as occupied, though it is ready and could have been sold. \n<br>The reconciliation of charges in guest accounts is done in the following order: \n<br>● Room charges \n<br>● Food and beverage charges \n<br>● Other charges \n<br>\n<br><b><i>Room charges</i></b> The night auditor posts the room rent in the guest folio at the beginning of the night audit process. The basis of posting of the room charges may be as under, depending upon the house customs: \n<br>● Check-in/Check-out basis: It is generally followed in commercial hotels. The tariff cards of such hotels mention the check-in and check-out times (generally 12 noon). \n<br>● Twenty-four-hour basis: It is generally followed by transient hotels where the duration of guest slay is very short. At times it may range from two to four hours for guests who have to catch connecting flights. \n<br>\n<br><b><i>Food and beverage charge</i></b> The food and beverage charges posted in the guest folio by the front desk cashier are verified by the night auditor against the restaurant checks, which bear the guest’s signature as a token of the guest’s acceptance that the services were availed by her and that the amount is correct. Every such entry in the guest folio is reconciled by the night auditor. Complimentary kitchen order tickets (KOTs) are also verified and reconciled by the night auditor. \n<br>\n<br><b><i>Other charges</i></b> The night auditor also reconciles other financial transactions that take place between the hotel and its guests. Transactions like visitors paid-out, miscellaneous expenses, discounts, etc. are verified by night auditors. \n<br>\n<br><b>City Accounts </b>Night auditors also examine the entries in non-resident guest accounts or city accounts. They check these accounts for completeness and accuracy. If any instance of the high outstanding balance is found during the night audit process, the night auditors prepare the report of high balance, which is presented to the management, and the responsibility of collecting payment (part/full) shifts to the accounts department. \n<br>\n<br><b>Points of Sale</b> The cashiers of all the points of sale (POS) prepare a summary sheet of financial transactions that occur at their POS and keep the same in an envelope, along with the second copy of bills. The same envelope, along with the cash and credit transactions, is generally deposited with the cashier at the front desk cash and bills section. The night auditor pulls out all the checks/vouchers( including void checks, paid-outs, allowances, foreign exchange transactions, miscellaneous charge vouchers, etc) of individual POS and reconciles them with the POS cashiers’ sales summary sheets. \n<br>\n<br><b>Verifying No-shows \n</b><br>The night auditor also verifies no shows. Ano show is siltation when a guest with a confirmed reservation does not arrive at the hotel on the date of arrival without any prior intimation about the cancellation. The night auditor verifies all such no shows, and in the case of guaranteed reservations, posts the no show in the guest folios. Usually, hotels charge one nights retention for no shows. The night auditor should verify carefully that the reservation was guaranteed, that guest has not \n<br>registered, and that it was not a duplicate reservation, For example, if there is a no show in the name of John Adam, and a guest called Adam Johns has registered at the hotel, it should be checked if the two are the same. \n<br>\n<br><b>Preparing Reports \n</b><br>The next step in the night audit process is to prepare daily reports for managerial use, which help the management to review the profitability of the hotel operations and plan future goals. In manual systems, this is one of the typical tasks carried out by the night auditor. In fully automated hotels, these reports are automatically prepared by the system. The night auditor generally prepares the following reports for the management: \n<br>\n<br>● High balance report \n<br>● Occupancy reports \n<br>\n<br>High Balance Report A night auditor monitors the credit limit of individual resident guest accounts as well as city accounts. The formula to calculate the outstanding balance is: \n<br>\n<br><b><i>Outstanding balance = Previous balance + Debit entries (purchases) — Credit entries (payments) \n</i></b><br>\n<br>The credit limit of a guest account depends upon the credibility of the guest and the floor limit of the guest’s credit card. The night auditor checks every account against the relevant credit limit of that account. A high balance report is made in case the account balance reaches or crosses the house limit. For example, the house limit might be Rs 10,000 and the guest might have paid Rs 7,000 earlier, but the total bill after room rent and meals for four days is coming to Rs 18,500, ie., the outstanding is Rs 9,500, The night auditor generates a high balance report that indicates the guest account has crossed the house limit. On receiving this report, the management may seek a partial or full settlement of the outstanding balance before the guest can avail of further credit facility from the hotel. This protects the hotel from the loss of revenue in case the guest leaves without settling her bills. \n<br>\n<br>Occupancy Reports The night auditor also generates the following occupancy-related reports: \n<br>\n<br>● Occupancy percentage \n<br>● House count \n<br>● Bed occupancy percentage \n<br>● Domestic occupancy percentage \n<br>● Foreigner’s occupancy percentage \n<br>\n<br><b>Occupancy percentage </b>The occupancy percentage is the ratio of the number of rooms sold to the total number of saleable rooms. It determines the level of revenue that will be generated by the hotel and is an indicator of the performance of the hotel. \n<br>The formula to calculate occupancy percentage is as under: \n<br>\n<br><b><i>Occupancy percentage</i></b> = Number of rooms sold / Total number of saleable rooms X 100\n<br>\n<br><b>House count</b> The house count is the total number of resident guests present in the hotel. i.e.. the total number of rooms sold. It is used to determine the average room rate per person. The formula to calculate the house count is as under: \n<br>\n<br><b><i>House count</i></b> = House count of previous day brought forward - Today's departures + Today’s arrivals \n<br>\n<br><b>Bed occupancy percentage</b> It is the ratio of the number of beds occupied to the total number of available beds in the property. The formula to calculate bed occupancy percentage is as under: \n<br>\n<br><b><i>Bed occupancy percentage</i></b> = Number of beds occupied / Total no. of beds available for guest  X 100\n<br>\n<br><b>Domestic occupancy percentage</b> It is the ratio of the total number of domestic guests to the house count. This is the indicator of the type of clients visiting the hotel. The formula to calculate domestic occupancy percentage is as under: \n<br>\n<br><b><i>Domestic occupancy percentage </i></b>= Total number of domestic guests / House count X 100\n<br>\n<br><b>Foreigner’s occupancy percentage</b> It is the ratio of the total number of foreign nationals to the house count. This is an indicator of the type of clients visiting the property. The formula to calculate foreigners’ occupancy percentage is as under: \n<br>\n<br><b><i>Foreigner’s occupancy percentage </i></b>= Total number of foreign guests / House count X 100\n<br>\n<br><br><b>Updating the System </b><br>Once the outstanding charges have been posted and reconciled, no-shows have been verified, and reports and summaries for the management have been prepared, the night auditor updates the system and ends the night audit process. In fully automated hotels, the computerized system automatically carries out system updates. \n<br>Thus, a night auditor establishes the end of the day, takes stock, checks if charges have been posted properly, and reconciles all the financial transactions of the day between a hotel and its guests. The night auditor is also known as the in-house auditor who is responsible for conducting audits and generating reports for the management, which include the high balance report and occupancy percentage reports like house count, bed occupancy percentage, domestic occupancy percentage, and foreigners’ occupancy percentage. The job of a night auditor is a very responsible position and requires basic accounting skills, and computer and hotel management knowledge and background.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content5-72",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp5Svdv91T",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
