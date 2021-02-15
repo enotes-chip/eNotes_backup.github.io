@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "FM Units.html",
+    "currentPage": "HK_Unit_3_Index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -59,7 +59,7 @@
         "file": "@PROJECT_PATH@/fonts/FFF_Tusj/font.ttf"
       }
     ],
-    "uniqCompNum": 258,
+    "uniqCompNum": 274,
     "versionPublish": "5.1.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -206,7 +206,7 @@
     "3 Year Subject.html": {
       "settings": {
         "title": "3 Year Subject",
-        "order": 25
+        "order": 33
       },
       "components": [
         {
@@ -245,7 +245,7 @@
     "Syllabus.html": {
       "settings": {
         "title": "Syllabus",
-        "order": 59
+        "order": 67
       },
       "components": [
         {
@@ -283,7 +283,7 @@
     "1 Sem Syllabus.html": {
       "settings": {
         "title": "1 Sem Syllabus",
-        "order": 61
+        "order": 69
       },
       "components": [
         {
@@ -321,7 +321,7 @@
     "5 Sem Syllabus.html": {
       "settings": {
         "title": "5 Sem Syllabus",
-        "order": 66
+        "order": 74
       },
       "components": [
         {
@@ -359,7 +359,7 @@
     "3 Sem Syllabus.html": {
       "settings": {
         "title": "3 Sem Syllabus",
-        "order": 63
+        "order": 71
       },
       "components": [
         {
@@ -397,7 +397,7 @@
     "AC Syllabus.html": {
       "settings": {
         "title": "AC Syllabus",
-        "order": 62
+        "order": 70
       },
       "components": [
         {
@@ -461,7 +461,7 @@
     "HK Syllabus.html": {
       "settings": {
         "title": "HK Syllabus",
-        "order": 64
+        "order": 72
       },
       "components": [
         {
@@ -525,7 +525,7 @@
     "FO Syllabus.html": {
       "settings": {
         "title": "FO Syllabus",
-        "order": 65
+        "order": 73
       },
       "components": [
         {
@@ -589,7 +589,7 @@
     "H&S Syllabus.html": {
       "settings": {
         "title": "H&S Syllabus",
-        "order": 67
+        "order": 75
       },
       "components": [
         {
@@ -653,7 +653,7 @@
     "FM Syllabus.html": {
       "settings": {
         "title": "FM Syllabus",
-        "order": 68
+        "order": 76
       },
       "components": [
         {
@@ -717,7 +717,7 @@
     "Contact.html": {
       "settings": {
         "title": "Contact",
-        "order": 69
+        "order": 77
       },
       "components": [
         {
@@ -888,7 +888,7 @@
     "Ref.Books.html": {
       "settings": {
         "title": "Ref.Books",
-        "order": 60
+        "order": 68
       },
       "components": [
         {
@@ -1082,7 +1082,7 @@
     "FO Units.html": {
       "settings": {
         "title": "FO Units",
-        "order": 11
+        "order": 19
       },
       "components": [
         {
@@ -1154,7 +1154,7 @@
     "H&S Units.html": {
       "settings": {
         "title": "H&S Units",
-        "order": 47
+        "order": 55
       },
       "components": [
         {
@@ -1190,7 +1190,7 @@
     "FM Units.html": {
       "settings": {
         "title": "FM Units",
-        "order": 26
+        "order": 34
       },
       "components": [
         {
@@ -1226,7 +1226,7 @@
     "Disclaimer.html": {
       "settings": {
         "title": "Disclaimer",
-        "order": 70
+        "order": 78
       },
       "components": [
         {
@@ -1257,7 +1257,7 @@
     "Privacy Policy.html": {
       "settings": {
         "title": "Privacy Policy",
-        "order": 71
+        "order": 79
       },
       "components": [
         {
@@ -1288,7 +1288,7 @@
     "Help.html": {
       "settings": {
         "title": "Help",
-        "order": 58
+        "order": 66
       },
       "components": [
         {
@@ -1299,7 +1299,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-5\">&nbsp;📖&nbsp;<b><a href=\"Syllabus.html\" class=\"text-primary\"><b>Syllabus</b></a><a href=\"Syllabus.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;📚&nbsp;<b><a href=\"Ref.Books.html\" class=\"text-primary\"><b>Reference Books</b></a>\n</b><br><br>&nbsp;📋&nbsp;<b><a href=\"https://drive.google.com/drive/folders/0B8Xw18UCKJ7tQXZuZl9fODBzUFk?usp=sharing\" class=\"text-primary\" target=\"_blank\"><b>Previous Q. Papers</b>\n</a></b><br><br>&nbsp;📧&nbsp;<b><a href=\"Contact.html\" class=\"text-primary\"><b>Contact us</b></a><a href=\"Contact.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;🔒&nbsp;<b><a href=\"Privacy Policy.html\" class=\"text-primary\"><b>Privacy Policy</b></a><a href=\"Privacy Policy.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;📝&nbsp;<a href=\"Disclaimer.html\" class=\"text-primary\"><b>Disclaimer</b></a></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-5\">&nbsp;📖&nbsp;<b><a href=\"Syllabus.html\" class=\"text-primary\"><b>Syllabus</b></a><a href=\"Syllabus.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;📚&nbsp;<b><a href=\"Ref.Books.html\" class=\"text-primary\"><b>Reference Books</b></a>\n</b><br><br>&nbsp;📋&nbsp;<b><a href=\"https://drive.google.com/drive/folders/0B8Xw18UCKJ7tQXZuZl9fODBzUFk?usp=sharing\" class=\"text-primary\" target=\"_blank\"><b>Previous Q. Papers</b>\n</a></b><br><br>&nbsp;📧&nbsp;<b><a href=\"Contact.html\" class=\"text-primary\"><b>Contact us</b></a><a href=\"Contact.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;🔒&nbsp;<b><a href=\"Privacy Policy.html\" class=\"text-primary\"><b>Privacy Policy</b></a><a href=\"Privacy Policy.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;📝&nbsp;<a href=\"Disclaimer.html\" class=\"text-primary\"><b>Disclaimer</b></a></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "soUFgrv8YY",
           "_anchor": "content5-4n",
           "_protectedParams": [],
@@ -1312,7 +1312,7 @@
     "error.html": {
       "settings": {
         "title": "Error",
-        "order": 72
+        "order": 80
       },
       "components": [
         {
@@ -1887,7 +1887,7 @@
     "HK_Unit_4.html": {
       "settings": {
         "title": "HK_Unit_4",
-        "order": 9
+        "order": 17
       },
       "components": [
         {
@@ -1940,7 +1940,7 @@
     "FO_Unit_1.html": {
       "settings": {
         "title": "FO_Unit_1",
-        "order": 12
+        "order": 20
       },
       "components": [
         {
@@ -1993,7 +1993,7 @@
     "HK_Unit_5.html": {
       "settings": {
         "title": "HK_Unit_5",
-        "order": 10
+        "order": 18
       },
       "components": [
         {
@@ -2101,7 +2101,7 @@
     "FO_Unit_2_index.html": {
       "settings": {
         "title": "FO_Unit_2_index",
-        "order": 13
+        "order": 21
       },
       "components": [
         {
@@ -2163,7 +2163,7 @@
     "FO_Unit_2.html": {
       "settings": {
         "title": "FO_Unit_2",
-        "order": 14
+        "order": 22
       },
       "components": [
         {
@@ -2216,7 +2216,7 @@
     "FO_Unit_2.1.html": {
       "settings": {
         "title": "FO_Unit_2.1",
-        "order": 15
+        "order": 23
       },
       "components": [
         {
@@ -2269,7 +2269,7 @@
     "FO_Unit_2.2.html": {
       "settings": {
         "title": "FO_Unit_2.2",
-        "order": 16
+        "order": 24
       },
       "components": [
         {
@@ -2322,7 +2322,7 @@
     "FO_Unit_5.html": {
       "settings": {
         "title": "FO_Unit_5",
-        "order": 24
+        "order": 32
       },
       "components": [
         {
@@ -2546,7 +2546,7 @@
     "HS_Unit_1.html": {
       "settings": {
         "title": "HS_Unit_1",
-        "order": 48
+        "order": 56
       },
       "components": [
         {
@@ -2599,7 +2599,7 @@
     "HS_Unit_2_index.html": {
       "settings": {
         "title": "HS_Unit_2_index",
-        "order": 49
+        "order": 57
       },
       "components": [
         {
@@ -2661,7 +2661,7 @@
     "HS_Unit_2.1.html": {
       "settings": {
         "title": "HS_Unit_2.1",
-        "order": 51
+        "order": 59
       },
       "components": [
         {
@@ -2771,7 +2771,7 @@
     "HS_Unit_2.2.html": {
       "settings": {
         "title": "HS_Unit_2.2",
-        "order": 52
+        "order": 60
       },
       "components": [
         {
@@ -2860,7 +2860,7 @@
     "HS_Unit_3.html": {
       "settings": {
         "title": "HS_Unit_3",
-        "order": 54
+        "order": 62
       },
       "components": [
         {
@@ -2913,7 +2913,7 @@
     "HS_Unit_3.1.html": {
       "settings": {
         "title": "HS_Unit_3.1",
-        "order": 55
+        "order": 63
       },
       "components": [
         {
@@ -3137,7 +3137,7 @@
     "HS_Unit_3.2.html": {
       "settings": {
         "title": "HS_Unit_3.2",
-        "order": 56
+        "order": 64
       },
       "components": [
         {
@@ -3190,7 +3190,7 @@
     "HS_Unit_3.3.html": {
       "settings": {
         "title": "HS_Unit_3.3",
-        "order": 57
+        "order": 65
       },
       "components": [
         {
@@ -3243,7 +3243,7 @@
     "HS_Unit_3_index.html": {
       "settings": {
         "title": "HS_Unit_3_index",
-        "order": 53
+        "order": 61
       },
       "components": [
         {
@@ -3305,7 +3305,7 @@
     "HS_Unit_2.html": {
       "settings": {
         "title": "HS_Unit_2",
-        "order": 50
+        "order": 58
       },
       "components": [
         {
@@ -3358,7 +3358,7 @@
     "FM_Unit_1.html": {
       "settings": {
         "title": "FM_Unit_1",
-        "order": 28
+        "order": 36
       },
       "components": [
         {
@@ -3411,7 +3411,7 @@
     "FM_Unit_1_index.html": {
       "settings": {
         "title": "FM_Unit_1_index",
-        "order": 27
+        "order": 35
       },
       "components": [
         {
@@ -3473,7 +3473,7 @@
     "FM_Unit_1.1.html": {
       "settings": {
         "title": "FM_Unit_1.1",
-        "order": 29
+        "order": 37
       },
       "components": [
         {
@@ -3562,7 +3562,7 @@
     "FM_Unit_1.2.html": {
       "settings": {
         "title": "FM_Unit_1.2",
-        "order": 30
+        "order": 38
       },
       "components": [
         {
@@ -4057,7 +4057,7 @@
     "FM_Unit_1.3.html": {
       "settings": {
         "title": "FM_Unit_1.3",
-        "order": 31
+        "order": 39
       },
       "components": [
         {
@@ -4167,7 +4167,7 @@
     "FM_Unit_1.5.html": {
       "settings": {
         "title": "FM_Unit_1.4",
-        "order": 32
+        "order": 40
       },
       "components": [
         {
@@ -4220,7 +4220,7 @@
     "FM_Unit_1.1_index.html": {
       "settings": {
         "title": "FM_Unit_1.1_index",
-        "order": 33
+        "order": 41
       },
       "components": [
         {
@@ -4282,7 +4282,7 @@
     "FM_Unit_1.1_1.html": {
       "settings": {
         "title": "FM_Unit_1.1_1",
-        "order": 34
+        "order": 42
       },
       "components": [
         {
@@ -4335,7 +4335,7 @@
     "FM_Unit_1.1_2.1.html": {
       "settings": {
         "title": "FM_Unit_1.1_2.1",
-        "order": 36
+        "order": 44
       },
       "components": [
         {
@@ -4481,7 +4481,7 @@
     "FM_Unit_1.1_2.html": {
       "settings": {
         "title": "FM_Unit_1.1_2",
-        "order": 35
+        "order": 43
       },
       "components": [
         {
@@ -4555,7 +4555,7 @@
     "FM_Unit_1.1_3.html": {
       "settings": {
         "title": "FM_Unit_1.1_3",
-        "order": 37
+        "order": 45
       },
       "components": [
         {
@@ -4608,7 +4608,7 @@
     "FM_Unit_2_index.html": {
       "settings": {
         "title": "FM_Unit_2_index",
-        "order": 38
+        "order": 46
       },
       "components": [
         {
@@ -4670,7 +4670,7 @@
     "FM_Unit_2.html": {
       "settings": {
         "title": "FM_Unit_2",
-        "order": 39
+        "order": 47
       },
       "components": [
         {
@@ -4780,7 +4780,7 @@
     "FM_Unit_2.1.html": {
       "settings": {
         "title": "FM_Unit_2.1",
-        "order": 40
+        "order": 48
       },
       "components": [
         {
@@ -4890,7 +4890,7 @@
     "FM_Unit_2.2.html": {
       "settings": {
         "title": "FM_Unit_2.2",
-        "order": 41
+        "order": 49
       },
       "components": [
         {
@@ -4943,7 +4943,7 @@
     "FM_Unit_2.3.html": {
       "settings": {
         "title": "FM_Unit_2.3",
-        "order": 42
+        "order": 50
       },
       "components": [
         {
@@ -4996,7 +4996,7 @@
     "FM_Unit_3_index.html": {
       "settings": {
         "title": "FM_Unit_3_index",
-        "order": 43
+        "order": 51
       },
       "components": [
         {
@@ -5058,7 +5058,7 @@
     "FM_Unit_3.html": {
       "settings": {
         "title": "FM_Unit_3",
-        "order": 44
+        "order": 52
       },
       "components": [
         {
@@ -5111,7 +5111,7 @@
     "FM_Unit_3.1.html": {
       "settings": {
         "title": "FM_Unit_3.1",
-        "order": 45
+        "order": 53
       },
       "components": [
         {
@@ -5164,7 +5164,7 @@
     "FM_Unit_3.2.html": {
       "settings": {
         "title": "FM_Unit_3.2",
-        "order": 46
+        "order": 54
       },
       "components": [
         {
@@ -5217,7 +5217,7 @@
     "FO_Unit_3_Index.html": {
       "settings": {
         "title": "FO_Unit_3_Index",
-        "order": 17
+        "order": 25
       },
       "components": [
         {
@@ -5279,7 +5279,7 @@
     "FO_Unit_3.html": {
       "settings": {
         "title": "FO_Unit_3",
-        "order": 18
+        "order": 26
       },
       "components": [
         {
@@ -5332,7 +5332,7 @@
     "FO_Unit_3.2.html": {
       "settings": {
         "title": "FO_Unit_3.2",
-        "order": 20
+        "order": 28
       },
       "components": [
         {
@@ -5385,7 +5385,7 @@
     "FO_Unit_3.1.html": {
       "settings": {
         "title": "FO_Unit_3.1",
-        "order": 19
+        "order": 27
       },
       "components": [
         {
@@ -5495,7 +5495,7 @@
     "FO_Unit_4_Index.html": {
       "settings": {
         "title": "FO_Unit_4_Index",
-        "order": 21
+        "order": 29
       },
       "components": [
         {
@@ -5557,7 +5557,7 @@
     "FO_Unit_4.html": {
       "settings": {
         "title": "FO_Unit_4",
-        "order": 22
+        "order": 30
       },
       "components": [
         {
@@ -5610,7 +5610,7 @@
     "FO_Unit_4.1.html": {
       "settings": {
         "title": "FO_Unit_4.1",
-        "order": 23
+        "order": 31
       },
       "components": [
         {
@@ -5714,6 +5714,439 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "HK_Unit_3_Index.html": {
+      "settings": {
+        "title": "HK_Unit_3_Index",
+        "order": 9
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffb18a\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div>COMPOSITION, CARE, AND CLEANING OF DIFFERENT SURFACES\n</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sp6eBJi03I",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-76"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-section-title, .mbr-section-subtitle, .mbr-section-btn, .mbr-text": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"HK_Unit_3.html\" data-app-placeholder=\"Type Text\">Metal</a> <a class=\"btn btn-white\" href=\"HK_Unit_3.1.html\" data-app-placeholder=\"Type Text\">Glass</a> <a class=\"btn btn-info\" href=\"HK_Unit_3.2.html\" data-app-placeholder=\"Type Text\">Wall Finishes</a> <a class=\"btn btn-black\" href=\"HK_Unit_3.3.html\" data-app-placeholder=\"Type Text\">Wood</a> <a class=\"btn btn-secondary\" href=\"HK_Unit_3.4.html\" data-app-placeholder=\"Type Text\">Leather</a> <a class=\"btn btn-primary\" href=\"HK_Unit_3.5.html\" data-app-placeholder=\"Type Text\">Plastics</a> <a class=\"btn btn-danger\" href=\"HK_Unit_3.6.html\" data-app-placeholder=\"Type Text\">Floor finishes</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp6eBJMgxB",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header2-77"
+        }
+      ]
+    },
+    "HK_Unit_3.html": {
+      "settings": {
+        "title": "HK_Unit_3",
+        "order": 10
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div>COMPOSITION, CARE, AND CLEANING OF DIFFERENT SURFACES</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sp6g9KqBaO",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-78"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Composition, Care, &amp; Cleaning Of Metal\n</b><br>The most commonly used metals are:\n<br>● Silver\n<br>● Steel\n<br>● Copper\n<br>● Brass\n<br>● Bronze,\n<br>● Aluminium\n<br>● Iron\n<br>These metals may be used while making doors and window fittings, wall panels, light fittings, sanitaryware, restaurant cutlery, cooking utensils, guestroom accessories (such as ashtrays, vases, and picture frames), and furniture (such as beds, chairs, and tables).Most metal surfaces get tarnished, scratched, or rusted unless treated or protected.\n<br>\n<br><b>Silver</b>\n<br>This soft, malleable, ductile metal has a brilliant sheen when well polished. Small amounts of the metal in elemental form occur naturally in the earth, but most of the silver we use is extracted from silver ores. Silver is chemically unaffected by pure water, pure air, and a majority of foodstuffs, but gets scratched easily if pure. Silver is used as the plating in electroplated nickel silver, for making cutlery, utensils, vases, and decorative artifacts.\n<br>\n<br><b>Types of Silver\n</b><br>● Sterling Silver\n<br>● Silver-Plated (EPNS)\n<br><br><b>Sterling Silver\n</b><br>Sterling silver is an alloy containing 92.5 percent silver, and the rest is mainly copper.\n<br>Sterling silver is more expensive than silver-plated alloy and for this reason, is seldom used in hotels.\n<br><b>Silver-Plated (EPNS)\n</b><br>Table silver or ‘silverware’ is usually made of silver-plated alloy by plating ‘blanks’ of nickel silver alloy. ‘Nickel silver’ does not contain any silver at all;It(Nickel Silver) is a term for alloys that look like silver (being white metal) and made of nickel, copper, and often(but not always) brass, along with a few other metals for added strength and shine.\n<br>\n<br><b>Cleaning Procedures\n</b><br>Silver needs to be cleaned and polished on a regular basis. When it gets tarnished, more complex cleaning methods have to be employed.\n<br>\n<br>Following are the cleaning &amp; polishing methods for silver:\n<br>● Regular Cleaning\n<br>● Silver Dip\n<br>● Polivit or Aluminium-Soda method\n<br>● Burnishing Machine\n<br>● Plate-Powder Method\n<br>\n<br><b>I. Regular Cleaning\n</b><br>● Wash the article in a hot solution of synthetic detergent, scrubbing with a piece of cotton cloth.\n<br>● Then rinse in clean boiling water in an enameled tray.\n<br>● A sheet of aluminum and some soda can be placed in the tray.\n<br>● Once the articles are clean, drain the water away and wipe dry while it is still warm, rubbing hard with a lint-free linen cloth or chamois leather.\n<br>\n<br><b>II. Silver-Dip Method\n</b><br>● A silver dip solution is used when tarnished silver is to be cleaned.\n<br>● It is usually a pink colored liquid based on an acid solution of a compound into which the articles are immersed completely for removal of tarnish.\n<br>● The silver should remain in the liquid for a very short time, the articles should be lifted out, washed with warm water and dried.\n<br>● While working with silver dip, stainless steel containers should not be used since the dip attacks steel.\n<br>● Enamel or plastic containers must be used instead.\n<br>● The silver dip should not be used too frequently on the silver, either, since it is harder on silver because of a chemical reaction between the silver and the liquid that can corrode the metal.\n<br>● However, many establishments use silver dip frequently since it is faster than other methods.\n<br>\n<br><b>III. Polivit Method\n</b><br>● Polivit is an aluminium metal sheet containing holes, which is best used in an enamel bowl or galvanized iron bowl.\n<br>● The polivit is placed in the bowl together with some soda.\n<br>● The silver to be cleaned is then put into the bowl, ensuring that at least one piece of silver has contact with the polivit.\n<br>● Sufficient boiling water is poured into the bowl to cover the silver being cleaned has to contact with the polivit.\n<br>● A chemical reaction takes place between the polivit, soda, boiling water, and silver which causes the tarnish to be lifted.\n<br>● After 2-4 minutes, silver should be removed from the bowl and placed into the 2nd bowl of boiling and then rinsed.\n<br>● On removal from the second bowl, the silver is allowed to drain and then polished with a clean cloth and then dried with a tea cloth.\n<br>\n<br><b>IV. Burnishing Machine\n</b><br>● This is a revolving drum with a safety shield. In this revolving drum, highly polished steel balls are immersed in a detergent solution with silver articles.\n<br>● The machine rotates and the friction from the steel balls polishes the silver.\n<br>● These articles are then rinsed into hot water and dried.\n<br>● The burnishing machine is used for polishing large quantities of silver articles.\n<br>● Care should be taken to keep the ball bearings covered with water when not in use since they rust rapidly otherwise.\n<br>\n<br><b>V. Plate-Powder Method\n</b><br>● This pink powder should be mixed with just enough methylated spirits to make a smooth paste.\n<br>● Alternatively, water may be used, but the methylated spirit is preferred since it evaporates faster and the silverware is then available for polishing much more quickly.\n<br>● The smooth paste is rubbed thoroughly onto the silver article with a clean rag and left to dry. It is then rubbed off with rags.\n<br>● The article should now be rinsed well in boiling water and buffed with a clean cloth.\n<br>● Though this method is time-consuming it gives a good result.\n<br>\n<br><b>Steel\n</b><br>Steel is an alloy of iron. The alloy contains mainly iron and carbon; other materials are found in small quantities. It is used in the form of pressed chrome steel for the manufacture of baths, sinks, and so on. Stainless steel is used in making cutlery, protective paneling, sanitary-ware, furniture, trays, and cooking utensils. Steel is sometimes galvanized or enameled to prevent corrosion. If an enameled steel surface gets stained, it can be washed with a mild liquid abrasive.\n<br>\n<br><b><i>Types of steel commonly used\n</i></b><br>● Chrome Steel\n<br>● Stainless Steel\n<br>● Galvanized Steel\n<br><br><b>I. Chrome Steel\n</b><br>Steel is coated with chromium for manufacturing taps, bath handles, shower fittings, and so on.\n<br>These can become spotted with watermarks or get greased, but they do not tarnish.\n<br><b>II. Stainless Steel\n</b><br>This is steel to which 8-25 percent of chromium has been added, making it corrosion-resistant.\n<br>Stainless steel is tough, durable, and can take a mirror-polished finish. It is used in making cutlery, sinks, WCs, and so on. For spoons and forks, steel containing 18 percent chromium and 8 percent nickel is generally used.\n<br>However, even stainless steel can be harmed by silver-dip solutions, acidic solutions, salt-vinegar mixtures, and excessive heat.\n<br><b>III. Galvanized Steel\n</b><br>Steel may be coated with zinc (galvanized) to prevent tarnishing. This kind of steel is used for making buckets.\n<br><br><b>Cleaning Procedures\n</b><br><b>Stainless steel </b>is washed in a hot solution of synthetic detergent using a soft nylon scrubber, rinsed with clean water and immediately dried thoroughly with a linen cloth. The use of harsh abrasives should be avoided as they may scratch the surface.\n<br><b>Chrome steel and galvanized steel</b> are wiped or washed with synthetic detergent solution, stains removed with soft steel-wool, the articles rinsed with clean water, and buffed with a linen cloth. For cleaning greasy stains, sodium bicarbonate can be used on all types of steel.\n<br>\n<br><b>Copper\n</b><br>This metal with an orange-brown shade has a light sheen of its own. It is used for wall paneling and countertops in bars and restaurants; bowls, vases, and urns in lobbies and guestrooms; and utensils in the kitchen. Copper is even used in cutlery and serving dishes in some ethnic Indian restaurants. Copper cookware should be lined with tin or nickel for protection, as the copper may react adversely with some foods.\n<br><b>Cleaning Procedure\n</b><br>● Copper is washed in warm water and then rubbed with a mixture of salt, fine sand, and vinegar, using rags, to clean.\n<br>● It is then rinsed in warm water and dried with a smooth cloth.\n<br>● A thin coat of vegetable oil is applied to the surface to retard further tarnish.\n<br>● In the case of heavily tarnished copper, a weak ammonia solution will remove the greenish deposits on the surface.\n<br>\n<br><b>Brass</b>\n<br>This is a golden-brown alloy of copper and zinc. It is used in making door and window fittings, stair rods and railings, foot rails in bars, taps, ashtrays, and ornaments. Brass tarnishes and scratches easily. To avoid this, brass fixtures are usually lacquered.\n<br><b>Cleaning Procedure\n</b><br>● To clean brass articles, remove surface dirt with a duster and rub the article with a paste made of white flour, salt, and vinegar in equal parts. \n<br>● This will remove mild tarnish. Make sure to rub away all the mixture.\n<br>● Corroded brass should be treated with the spirit of salt (hydrochloric acid) and then rinsed thoroughly.\n<br>● Polish with Brasso, using damp rags or cotton\n<br>● A long-term hard-metal polish can also be used on brass.\n<br>\n<br><b>Bronze\n</b><br>This is a brown alloy of copper and tin. It is used primarily in making works of art and medals. It does not tarnish easily.\n<br><b>Cleaning Procedure\n</b><br>● To clean a bronze article, wash well with water and then apply a mixture of one part muriatic acid and two parts water with a piece of flannel.\n<br>● Allow the solution to dry and then polish the bronze well with vegetable oil.\n<br>\n<br><b>Aluminium</b>\n<br>This silvery, lightweight metal is highly malleable and ductile. It is used to make light fittings and other utensils. Aluminium is not tarnished by air. It is, however, damaged by soda and other alkalis as well as stained by acids. It also scratches and bends easily.\n<br><b>Cleaning Procedure\n</b><br>● To clean aluminium, wash in a hot solution of synthetic detergents, using soft steel-wool to scrub.\n<br>● Use mild abrasives only in the case of difficult stains.\n<br>● Discoloration in saucepans can be removed by boiling a solution of water and lemon juice in them, rinsing and then drying.\n<br>● In the case of aluminium showpieces, some liquid wax polish may be applied to maintain the gloss.\n<br>\n<br><b>Iron\n</b><br>This silver-white metal of great strength is used in making furniture, buckets, dustbins, and cookware. Iron can be forged or cast. Wrought iron is iron that has been forged, that is, it has been shaped by heating in fire and then hammering while hot. Cast iron is a hard alloy of iron, carbon, and silicon that has been cast in a mold. Non-enameled cast iron is flame and oven-proof.\n<br><b>Maintenance</b>\n<br>● Utensils made of cast iron need to be seasoned before first use to prevent rusting.\n<br>● Before seasoning, the article has to be washed in mild soap and water, then thoroughly dried.\n<br>● Seasoning is done by rubbing the inside surface with vegetable oil and heating in a slow oven for about two hours.\n<br>● Enameled cast-iron utensils do not need seasoning and are easier to clean.\n<br>● If handled carelessly, however, the enamel may chip away.\n<br>● If the utensils are put under cold water immediately after use, while still hot, the enamel may gain flake off.\n<br>● Therefore, before cleaning, allow the utensil to cool gradually.\n<br><b>Cleaning Procedure</b>\n<br>● Unprotected iron should be washed only when necessary and then thoroughly dried.\n<br>● Galvanized iron needs regular washing and thorough drying.\n<br>● Rust can be removed from galvanized items with fine steel-wool dampened with oxalic acid.\n<br>● Do not store iron in damp areas.\n<br>● Before long-term storage, coat with oil or black lead (graphite)&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp6g9KUk4B",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-79"
+        }
+      ]
+    },
+    "HK_Unit_3.1.html": {
+      "settings": {
+        "title": "HK_Unit_3.1",
+        "order": 11
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div>COMPOSITION, CARE, AND CLEANING OF DIFFERENT SURFACES</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sp6gpnomDg",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-7a"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Composition, Care, &amp; Cleaning Of Glass\n</b><br>\n<br>Glass is transparent, lustrous, and brittle material made of a mixture of silica or pure fine sand, soda or potash, and some other ingredients. The mixture is heated in a furnace above 1300 degrees where it forms molten glass. It is then shaped and cooled slowly in the oven as it passes on a conveyor belt. This process is called annealing. It finds diverse applications in hotels.\n<br>\n<br><b>Types of Glass\n</b><br>●&nbsp;<b>Lead Crystal Glass:</b> this contains lead oxide which produces a lustrous glass, soft enough to enable the outer surface to be cut away into an attractive design. It is expensive and used in bowls, drinking glasses, vases, etc.\n<br>●&nbsp;<b>Soda Lime Glass</b>: this contains soda ash &amp; limestone and is much cheaper to produce than lead crystal. It is used for general purpose—bottles, windows, pictures, mirrors, etc.\n<br>● <b>Borosilicate Glass</b>: this contains borax which enables the glass to withstand heat. Used for cookware and is referred to as flameproof glass.\n<br>Silvered glass (for mirror) is made by coating one side of a glass panel with silver, followed by a coat of paint and a layer of stove enamel.\n<br>\n<br>It can be classified according to usage:\n<br>\n<br><b>1. Flat Glass:</b> is a soda-lime glass and used in making large flat panels.\n<br>\n<br><b><i>a) Sheet Glass: </i></b>This needs polishing after annealing. Sheet glass used for windows is made from the soda-lime base. It may be textured so that light passes through but it is not transparent (Obscured glass) It may have incorporated wire in between (Obscured glass with wire).\n<br><b><i>b) Float Glass:</i></b> This type of glass does not require polishing after annealing. It is of better quality and finishes then sheet glass.\n<br>\n<br><b>2.Obscured Glass:</b> It is basically a sheet glass that has a texture on one side so that visibility is restricted but the light passes through. Generally used in bathrooms.\n<br>\n<br><b>3.Fiberglass:</b> It is manufactured in the shape of textile fiber or as sheets of plastic. These can be moulded and are used for sanitary ware, furniture, and wall panels. It is fireproof, impermeable, and resistant to damage by pests, sunlight, and air.\n<br>\n<br><b>4.Hollow Glassware</b>: Made by moulding or blowing hot glass into iron or wood casts. The moulds may have patterns that give the final object various effects.\n<br>\n<br><b>5.Safety Glass:</b> This kind of glass is used in places that require good safety and protection from easy and frequent damage or for security-related applications.\n<br>\n<br>● <b>Obscured glass with wire:</b> Wire is rolled into the obscured glass that holds the pieces as it gets broken.\n<br>● <b>Toughened Glass:</b> It is made by heating the glass to high temperature and then cooling it rapidly. As a result skin forms which if the glass breaks will cause the pieces to shatter into tiny harmless fragments.\n<br>●&nbsp;<b>Laminated Glass:</b> It consists of a thin sheet of plastic sandwiched between two sheets of glass.\n<br>● <b>Toughened Glass with lamination:</b> Combination of the two glasses above.\n<br>\n<br><b>6. Cut Glass: </b>This is made by hand cutting glass articles using abrasive copper wheels that rotate at high speed. Cut glass is polished by treating the glass by acid. The grooves created emit rainbow-colored reflections. This glass is expensive and used for chandeliers, decanters, vases, and quality table glassware.\n<br>\n<br><b>Cleaning\n</b><br><b><i>Flat Glass:</i></b> Dusting should be done daily by a lint-free cloth. Light soiling and greasy marks should be removed using a solution of vinegar and water (1:1). Window squeegee may be used for larger areas and quick cleaning after dipping it in mild detergent solution or glass cleaners. A newspaper ink contains an effective solvent that can be used at last to buff the glass dry.\n<br><b><i><br></i></b><br><b><i>Hollow glassware: </i></b>Textured or engraved glass is cleaned with a nylon brush. Stained vases can be cleaned using a mixture of crushed shells (as an abrasive for textured glassware like wine decanters), synthetic detergent (less alkaline), and warm water. For jars and bottles, a mixture of construction sand and water can also be used to remove discoloration. To remove lime deposits caused due to hard water, soak the article in distilled water for an hour, scrub with a nylon scrubber and synthetic detergent solution and rinse with water.\n<br><b><br></b><br><b><i>Chandeliers:</i></b> Chandeliers are delicate, expensive, and therefore difficult to maintain. Cleaning them is a laborious and time-consuming process. For cleaning, they are brought down and dismantled piece by piece dipped in a warm solution of mild detergent. Each piece is gently scrubbed by a nylon scrubber and rinsed in warm water. The second rinsing is done in a mixture of one teaspoon liquid ammonia in 2.5 liters of water. This results in a brilliant sparkle. An alternate method is to use an upholstery shampooing machine. The machine sprays a detergent solution that cleans glass pieces by pressure and the water is collected in a basin. SOLVENT BASED CLEANER.\n<br>\n<br><b>Maintaining glass surfaces:\n</b><br>● Glass surfaces are easily marked &amp; easily damaged\n<br>● Require frequent attention &amp; should be treated accordingly\n<br>● Damp or dry dusting with a lint-free duster or scrim\n<br>● Light soiling &amp; grease marks can be removed by wiping with a solution of equal quantities of vinegar and water\n<br>● More stubborn marks can be removed using methylated spirit\n<br>● Newspaper prints contain solvent &amp; can be used to remove soiling from windows\n<br>● Textured or engraved glass can be cleaned with a soft brush\n<br>● Glass polish can also be used, care should be taken polish is removed while buffing\n<br>● Stained decanters &amp; vases can be cleaned with vinegar, water &amp; potato pieces\n<br>● Use of abrasives should be avoided\n<br>● The mirror should be cleaned with a damp duster, care should be taken not to dampen the backing.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp6gpnOweB",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-7b"
+        }
+      ]
+    },
+    "HK_Unit_3.2.html": {
+      "settings": {
+        "title": "HK_Unit_3.2",
+        "order": 12
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div>COMPOSITION, CARE, AND CLEANING OF DIFFERENT SURFACES</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sp6guo1pAr",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-7c"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Composition, Care, &amp; Cleaning Of Wall Finishes\n<br>\n<br></b>Wall-coverings may be decorative as well as functional. The primary consideration for wall covering, though, should be their functional quality. Decorative wall coverings should complement the theme. Decorative wall coverings are chosen when the ability to bring color, texture, light, or shade to the room is of great importance. The functional qualities of wall-coverings are durability, ease of maintenance. Functional wall coverings provide a hygienic surface.\n<br>\n<b><br>Practical considerations</b>\n<br>The following should be kept in mind before applying a wall covering.\n<br>\n<br>● <b><i>Moisture and condensation: –</i></b> A slight dampness may be countered by the usage of anti-condensation paint or by fixing boarding to battens treated with a preservative.\n<br>● <b><i>Noise: –</i></b> sound carried through ceiling or walls may be reduced by insulation boards fixed in the same way as for countering condensation. The denser the material is, the less the sound that gets through. Though loud sounds with vibration are difficult to deal with.\n<br>\n<br><b>Types of walls: –\n</b><br>The selection of wall covering has a great deal to do with the type of wall being covered.\n<br>\n<br><b><i>1. Brick: –</i></b> Make sure that there is no dampness on the wall if brick walls have been left unpainted they can be covered with a clear sealant to prevent them from crumbling or becoming dust traps.\n<br><b><i>2. Old plaster: –</i></b> Plaster is suitable for most wall coverings and paints. However damp plastering will need stripping and renewing after the moisture problem has been treated at the source. If the plaster is uneven or cracked, use wallpaper or other covering materials (rather than a finish) or line the wall lining or ingrain paper before painting or finishing.\n<br><b><i>3. New Plaster: –</i></b> It must be absolutely dry before decorating can begin if it is to be painted before it is absolutely dry (for decorating effects), emulsion paint is better as it is least likely to blister and allows the wall to breathe. Wallpaper is not to be used until the surface is bone dry.\n<br>\n<br><b>Types of wall coverings\n</b><br>● Paints\n<br>a) Water-based paints\n<br>b) Solvent-based paints\n<br>● Wallpaper\n<br>● Fabric\n<br>● Plastic\n<br>● Wood\n<br>● Cork\n<br>● Glass\n<br>● Tiles\n<br>● Leather\n<br>● Inorganic wall coverings\n<br>● Metallic wall coverings\n<br>● Fibreglass/Spun glass\n<br>● Acrylic (Corian)\n<br><br><b>Paints: – </b>Paints are a mixture of four important ingredients: pigments, additives, binders and solvents.\n<br>● Pigments render colour and opacity.\n<br>● Additives give special properties such as resistance to rust and fungus.\n<br>● Binders hold the paints together and bind it to the surface for durability.\n<br>● Solvents enable brushing and rolling across a surface.\n<br>\n<br>Paints offer a wide choice of colour, effects and degree of gloss. Paints used on walls are usually for decoration rather than protection. Paints can be easily applied and cleaned too. Depending on the binders or vehicles used, paints can be broadly classified into two classes: water-based paints and solvents based points.\n<br>\n<br><b>Water-based paints:</b> In these types, the contents are mixed with clean water only. The various types are:\n<br><b><i>a. Limewash: –</i></b> These are colour washes based on lime (that is, calcium hydroxide, Ca(OH)2), inorganic alkalis, fast pigments, and few other additives. Whitewash is a lime wash without pigments. The ingredients of a lime wash are suspended in water prior to application.\n<br><b><i>b. Distemper: –</i></b> This is superior to lime wash and is available in a wide range of colours. It may be defined as water-based paint consisting of whiting (white chalk), some colouring pigment (in case of coloured distemper), and glue mixed in water. It is available in the form of dry powder or a paste.\n<br><b><i>c. Emulsion paint: –</i></b> This type of paint is used as a decorative finish. There are three major types of emulsion paints­:\n<br>\n<br>● Polyvinyl acetate\n<br>● Styrene and\n<br>● Acrylic resin\n<br>\n<br>Acrylic emulsions have good adhesive properties, are washable, and are easy to maintain.\nPremium emulsions are based on pure acrylic latex and latex and high-opacity pigments. Emulsion paints are thinned with water, easy to apply, and dries rapidly (within 2 hours). It is durable and washable. Two coats of emulsion paints are necessary for longevity.\n<br>\n<br><b>Silicate paint: –</b> this consists of a thin suspension of alkali-resistant inorganic pigments and extenders. It is not damaged by the alkali in cement. It is also porous, hence allowing moisture to escape. It may be directly applied on brick, plaster and concrete surfaces after wetting; no primer coat is necessary.\n<br>\n<br><b>Cement paints: – </b>This type of paint consists of white cement, alkali-fast pigments, accelerators and other additives. It is available as a dry powder and can be found in several shades. This is most widely used as an external paint for building exteriors.\n<br>\n<br><b>Solvent-based paints:-</b> These are made up of six main constituents:\n<br>Base, filler or extender, colouring pigments, vehicles or binders, solvent or thinner,  dryer.\n<br>\n<br><b><i>Base </i></b>is a metallic oxide in powder form, serving essentially as a pigment and forming the chief ingredients of the paint. The most important purpose of adding this base to the paint is to make an opaque coating to hide the surface to be painted. White lead, red lead, zinc oxide, iron oxide are the bases commonly used.\n<br>\n<br><b><i>Filler or extenders </i></b>are cheap pigments added to the paints to reduce its cost. In addition, this substance modifies the weight of the paint and makes it more durable. Commonly used fillers are barium sulphate, lithopone, silica, silicate of magnesia or alumina, gypsum, and charcoal.\n<br>\n<br><b><i>Colouring</i></b> <b><i>pigments</i></b> are mixed to the paints to get the desired colour.\n<br>\n<br><b><i>Vehicles or binders</i></b> are liquid that acts as a binder for various pigments-bases, extenders and colouring pigments. Refined linseed oil is a commonly used vehicle in oil paints. Oils from soya bean, fish, sunflower seeds and tobacco are also being used as vehicles, in various combinations with or without linseed oil.\n<br>\n<br><b><i>Solvent or thinner</i></b>, a liquid that thins the consistency of the paint film in the container and evaporates after the paint after the paint film has been applied so that it may solidify. Turpentine, pure oils, petroleum and spirit are commonly used solvents.\n<br>\n<br><b><i>Dryers </i></b>are a group of materials containing metallic compounds that are used in small amounts for accelerating the drying of the paint film. Lead acetate, manganese dioxide and cobalt are commonly used dryers.\n<br>\n<br><b>The different types of solvent based paints are:\n</b><br>● Alkyd paints: – These paints are based on synthetic resins combined with vegetable oil such as linseed oil. These are generally easier to apply and have better durability and wearing properties than older types of paint. They have good opacity and excellent fastness to light as well. They are available in a wide range of colours.\n<br>● Aluminium Paints: –These are used for painting wood and metal surfaces. Aluminium forms the base in this type of paint.  This paint is well established for its good waterproofing and weather-resistant qualities. It is not used for painting large areas of walls. It is commonly used for painting metal roofs, machinery, oil or gas storage tanks etc.\n<br>● Anti-corrosive paints: – these generally used as metal protection paints. Linseed oil is generally used as a vehicle. Sometimes dryers and inert fillers are added to modify the paint to the requirements.\n<br>● Asbestos paints: – this type of paint is especially suitable for patching up or stopping leakage in metal roofs. Asbestos or fibrous coatings are sometimes used as moisture-proof covering coats for the outer face of the basement walls as well.\n<br>● Bituminous paints: – These are alkali resistant and are chiefly used for painting exterior brickwork and plastered surfaces. They are also used for waterproofing and protecting iron and steel, and are commonly applied on structural steelwork that is underwater.\n<br>● Bronze paints: – this type of paint is often used for painting the interior of exterior metallic surfaces. Aluminium bronze, copper bronze and copper powder are the pigments commonly used in this type of paint.\n<br>● Cellulose paints: – This type of paint is made from celluloid sheets and amyl acetate substitutes. For making a superior type of paint, nitro cotton is used. It dries very quickly and possesses the additional advantages of hardness, flexibility and smoothness.\n<br>● Enamel paints: – This type of paint is made by adding white lead or zinc white to a vehicle comprising a varnish. On drying, it forms a smooth, glossy, relatively hard and permanent film. It is commonly used for painting porches, decks, stairs, concrete surfaces and so on.\n<br>● Oil paints: – this type of paint can be used for almost all surfaces, from woodwork to fabrics. Oil paints basically consist of two main components- a base and a vehicle. Oil paints are manufactured in different shades and grades and are very commonly used.\n<br>\n<br><b><i>Characteristics of good paint: –\n</i></b><br>the characteristics of good paints are listed below\n<br>\n<br>● It should stick to the surface well and should be able to seal the pores.\n<br>● Its consistency should provide easy work-ability.\n<br>● The paint film should dry rapidly.\n<br>● The thickness of the paint film should be adequate for good protection and decoration of the surface.\n<br>● The dried paint film should be able to withstand the effect of adverse weather for a long time.\n<br>● It should offer resistance to cracking and flaking.\n<br>● It should possess good moisture maintenance.\n<br>● Its colour should not fade with the passage of time.\n<br>\n<br><b>Care and cleaning of paints:-\n</b><br>● Remove light dust with a duster, wall broom or vacuum cleaner attachments.\n<br>● Wash when necessary (washable paints), with warm water and suitable detergent to remove heavily ingrained or tenacious dust or dirt. This is important on low sheen surfaces as dry cleaning tends to force dust into the surface.\n<br>● When washing, start from the bottom and work upward using a sponge or worn distemper brush. Change the solution frequently. Rinse from the top downwards, using frequent changes of water. Sponge dry.\n<br>● Low sheen finishes, especially emulsion paints, may tend to ‘polish up’ if isolated areas of bad soiling are rubbed vigorously with a damp cloth. Clean such areas by very light scrubbing with a damp nail brush.\n<br>● Never apply wax polishes or oil to gloss painted surfaces to revive them. The residue may cause subsequent paint coating to peel, or fail to dry.\n<br>● Do not use harsh abrasives, strong solvents or strong soda solutions to clean paintwork. The film may be damaged or softened.\n<br>\n<br><b>Wallpaper\n</b><br>This type of wall covering evolved as an inexpensive substitute for tapestries of the wealthy. The choice of wallpaper depends upon the dimensions and uses of the room. Wallpapers have a warmer appearance than paint. They can be stuck back even if they are torn. Smooth finishes do not catch dust, but easily show up marks.\n<br>\n<br>The various kinds of wallpaper available are:\n<br>\n<br><b><i>Lining Paper: –</i></b> A preliminary covering of plain paper that gives the wall an even porosity, which helps when painting. On surfaces such as painted walls, this can be essential. There are various grades. It is best to avoid thin papers and use a heavy grade to conceal uneven walls.\n<br>\n<br><b><i>Surface-printed papers: –</i></b> The cheaper papers are called the pulp. Higher-quality papers, known as grounded papers, are given a coating of colour before the design is printed on these. Such wallpapers vary in weight and thickness. Thin papers are cheap but tear easily when wet.\n<br>\n<br><b><i>Washable papers: –</i></b> A transparent waterproof film stops moisture from damaging design. These are especially suitable for bathrooms and kitchens. They can be easily cleaned with a damp sponge.\n<br>\n<br><b><i>Embossed papers: –</i></b> The design is pressed into paper to make it stand out in relief. This process produces wood-like grain, imitation leather, and textile effects. Duplex-embossed papers have designs with more depth since two layers of papers are bound together before the design is impressed.\n<br>\n<br><b><i>Metallic papers: –</i></b> these are made from patterned foil glued to a paper backing. Their reflective surface accentuates any unevenness in the walls, however, so they should be used only on a perfectly flat surface.\n<br>\n<br><b><i>Hand-printed papers: -</i></b> each roll is prepared separately and therefore costs more than machine-printed paper. The designs are outlined more sharply.\n<br>\n<br>Other variations in wallpaper include Anaglypta, supaglypta, ingrained paper, lincrusta, flock, wood-chip papers, paper-backed hessian, Japanese grasscloth, paper-backed wools, woven grass, felts cork, silk and other textile materials.\n<br>\n<br><b>Care and cleaning of wallpapers: –\n</b><br>● Remove surface dust with a wall broom or vacuum cleaner attachments (low suction fro flocking papers).\n<br>● Remove marks by rubbing with soft rubber or a piece of soft bread. If the paper is sponge able, wipe with a damp cloth or sponge.\n<br>● Attempt to remove grease with a proprietary grease absorber.\n<br>\n<br><b>Fabric wall coverings\n</b><br>These days, wall fabrics fall into two main categories: fabric that actually surfaces a wall like wallpaper and those that are draped loosely across a wall.\n<br>\n<br>Tapestry, canvas, and silk fabrics are most commonly used. Almost any fabric can be used as a wall covering. It should be remembered that wool materials may be attacked by moth and if adequate precautions are not taken.\n<br>\n<br>Wild silk and other beautiful fabrics are often padded for heat and sound insulation, and for effect, they may be stretched taut, gathered, or pleated into a frame. Silk tapestries are expensive wall coverings and thus are more usually found in luxury establishments.\n<br>\n<br><b>Care and cleaning of fabric wall coverings: –\n</b><br>Remove surface dust by brushing or vacuum cleaner attachments.\n<br>For the more beautiful hangings, when necessary, send to a firm of dry cleaners who are specialized in this type of work.\n<br>Where canvas is stuck to the walls, scrub very lightly using warm water and synthetic detergent where necessary.\n<br>\n<br>\n<br><b>Plastic\n</b><br>Many types of plastic wall coverings are available now and they are becoming increasingly popular; some are more decorative than others and some afford sound insulation, but all, owing to their abrasion resistance, are more hard wearing and easily cleaned than other wall coverings. As they are nonporous, there is a greater tendency for the growth of moulds so the adhesives should contain fungicides. The main types are as follows: –\n<br>\n<br><b><i>1. Polyvinyl chloride (PVC)</i></b> or other synthetic materials bonded to either a paper or fabric backing, e.g. Baladore, Fablon etc.\n<br><b><i>2. Laminated plastic</i></b> produced as surface boards or as a veneer that requires sticking to plywood. Melamine is the resin frequently used during the manufacturing of these plastic laminated which often simulate wood paneling\n<br><b><i>3. Plastic wall</i></b> tiles imitate ceramic tiles\n<br><b><i>4. Vinyl flocked papers</i></b> are velvety piles of the flock, mostly synthetic, stuck in patterns over the background vinyl wallpaper.\n<br>\n<br>Some other types of plastic wall coverings are paper or fabric-backed vinyl, expanded polystyrene, clear acrylic-plastic sheeting etc.\n<br>\n<br><b>Care and cleaning of plastic wall covering: –\n</b><br>● Remove surface dust with duster, wall broom or vacuum cleaner attachments,\n<br>● Wash, when necessary, with warm water and synthetic detergents.\n<br>\n<br><b>Wood\n</b><br>The wood used for paneling is usually hard, well seasoned, and of a decorative appearance, and they may cover the wall completely or from a dado. Wood paneling may be solid or veneered: it lasts for years providing precautions are taken in respect of dry rot and woodworm but the initial cost is rather high.\n<br>\n<br><b>Care and cleaning of wood: –\n</b><br>● Dust and occasionally polish.\n<br>● Remove old polish periodically using white spirit or vinegar and water and then polish.\n<br>\n<br><b>Cork\n</b><br>This offers dramatic and luxurious effects and is easily installed. Its chief virtue is sound control. Its main disadvantage is its perishability.\n<br><b>Care and cleaning of cork: –\n</b><br>● Brush or vacuum\n<br>● Sponge away any marks gently with lukewarm water and mild detergent.\n<br>● Do not over wet.\n<br>\n<br><b>Glass wall covering\n</b><br>Glass can be used in the form of decorative tiles in the same way as ceramic tiles and these should not be confused with glass bricks which allow the passage and form the wall itself.\n<br>\n<br>Glass as a wall covering is frequently used in the form of mirrors which are plate glass backed with a coating of colored metallic paint, usually silver, and this reflects the light. Mirrors may be above the dado or may cover the whole wall.\n<br>\n<br><b>Care and cleaning of glass: –</b>\n<br>● Dust or wipe with a damp duster or scrim while proprietary cleansers or methylated spirits can be used.\n<br>● When cleaning mirrors, care should be taken to prevent the backs from becoming damp.\n<br>\n<br><b>Fiberglass/spun glass\n</b><br>These wall coverings can be almost indistinguishable from old woodwork or weathered plaster if properly painted. This material can be poured into molds to duplicate just about any shape or surface.\n<br>\n<br><b><i>Care and cleaning of fiberglass: –\n</i></b><br>Fiberglass is easy to clean. It requires only dusting or a bit of wiping with a damp cloth.\n<br>\n<br><b>Metallic wall coverings\n</b><br>Metals may be used on walls for their decorative and hygienic qualities. Metal such as copper and anodized Aluminium are decorative and may be used for effect in such areas as bars, where the metal – in combination with rows of bottles and interesting lighting – is most impressive. Other metals, usually stainless steel in the form of tiles, may be used in kitchens, where they present a durable, easily cleaned hygienic surface area. Metal skirting boards provide coved edges between walls and floor surfaces. The metal foils are durable and washable.\n<br>\n<br><b><i>Care and cleaning of metallic wall coverings: –\n</i></b><br>● A soft brush is required to clean the indented portions.\n<br>● Daily dusting is required.\n<br>● Wipe with a sponge wrung out in mild detergent, dry with a duster.\n<br>\n<br><b>Tiles</b>\n<br>Long related to an outdoor area or limited to kitchen and bathroom walls, tiles have finally come into their own again, with ceramic and mosaic patterns that brighten and create a cool, airy feeling in the room being most popular. Generally easy to clean, the main drawback of tiles is that the grouting may become discoloured or chipped till tiles loosen.\n<br>\n<br><b><i>Care and cleaning of tiles: –\n</i></b><br>● Clean grouting with a soft brush dipped in a bleach solution and rinse.\n<br>● Wipe down with a sponge wrung out in mild detergent solution and rinse well.\n<br>● Dry with a duster\n<br>\n<br><b>Leather\n</b><br>Animal hides are extremely expensive and very decorative. They may be padded and studded with brass studs, and they do not usually cover a complete wall surface. They may be found in luxury establishments in parts of restaurants or bars, but are too expensive to be found in most places. They are also prone to attack by mildew. Nowadays, the effects of leather may be simulated by plastic where required.\n<br>\n<br><b><i>Care and cleaning of leather: –\n</i></b><br>● Daily dusting or suction cleaning is required.\n<br>● If soiled, wipe the leather with a soft cloth wrung out of warm water and mild detergents. Then damp dust with clean water.\n<br>● Dry thoroughly.\n<br>● Occasionally leather may be polished with a good furniture polish cream to keep it supple.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp6guomaup",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-7d"
+        }
+      ]
+    },
+    "HK_Unit_3.3.html": {
+      "settings": {
+        "title": "HK_Unit_3.3",
+        "order": 13
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div>COMPOSITION, CARE, AND CLEANING OF DIFFERENT SURFACES</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sp6gyr3XV0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-7e"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Wood\n</b><br>\n<br>They are found in all types of establishment and are used for a variety of reasons:-\n<br>● Appearance\n<br>● Resilience\n<br>● Cost\n<br>● Insulation\n<br>\n<br><b>Characteristics of wood:-\n</b><br>● Hard, compact, fibrous and porous\n<br>● Good wood gives a rich, warm, and beautiful surface.\n<br>\n<br><b>Wood is used for the construction of:-\n</b><br>● Floor\n<br>● Furniture\n<br>● Walls\n<br>● Incidental furnishing (lampshades, picture frames)\n<br>● Kitchen &amp; restaurant ware\n<br>\n<br>\n<br><b>Classification of wood:\n</b><br><b><i>Solid Wood\n</i></b><br><i>a. Softwood</i> – obtained from coniferous trees like Pine, Fir, Cedar, and Rubber. They are lighter in weight, cheaper, less durable ( more prone to – indentations, grooves, splintering, wear and tear)\n<br><i>b. Hard Wood</i> – obtained from deciduous trees like Teak, Oak, Beech, Birch, Walnut, and Rosewood. They are strong, heavy, and durable. They have a more refined grain and shorter fibers so they do not form splinters or indentations.\n<br>\n<br><b><i>Wood Boards </i></b>– cheaper than solid wood, lighter and treated ( e.g. Termite proof, Water Proof)\n<br><i>1. Hardboard—</i>thin flexible board made from compressed and processed wood pulp fiber (manufactured from chips of wood, synthetic resin adhesives, and vinyl fiber). It is smooth on one side &amp; mesh texture on the other. Hard boards are used for backing of pictures, door panels, cupboards, the base of floor tiles, etc.\n<br><i>2. Plywood—</i>is made by bonding together a number of thin sheets of hardwood termed as “plies”. They are strong and therefore used for tables, shelves, cupboards, chairs, etc.\n<br><i>3. Chipboard—</i>is used in wardrobes, drawers, tabletops, etc. it is made by mixing wood chips with a synthetic resin adhesive and then compressed between veneers of hardwood.\n<br><i>4. Block board—</i>consists of strips of wood between plywood veneers. The inner strips can be up to 3mm in thickness making the board strong and durable. It is used for making tabletops and shelves.\n<br>\n<br><b>Protecting wood surface:\n</b><br>This is necessary since wood is porous and absorbs moisture. It tends to get scratched and stained. The different types of protective treatments are –\n<br>\n<br>● Cellulose lacquer: cream or spray polish applied to gloss finish. It should be dusted &amp; wiped with a damp cloth, later dry with a soft cloth. Damaged by heat, water, and solvents. Re-polishing required periodically( once in 1 or 2 years)\n<br>● French-Polish: French polish is produced by rubbing the solution of shellac &amp; methylated spirits. Makes wood more durable. Damaged by heat, water, and solvents. Re-polishing required periodically( once in 1 or 2 years)\n<br>● Oil: Double-boiled linseed oil can be rubbed on the surface. It will help to reduce water absorption. Daily dusting is essential. Occasionally the surface should be rubbed with a mixture of turpentine &amp; linseed oil.\n<br>● Paint: widely used on the wood surface. Gloss paints are tougher and can withstand frequent washing.\n<br>● Resin: resin is extremely tough. It will resist heat, water, solvent &amp; abrasives. Dust should be removed daily.\n<br>● Wax (beeswax): applied to solid wood furniture or floors. The waxed surface should be dusted daily, cleaned each week with cream or liquid polish and when considered should be rubbed with a thin coat of wax &amp; buffed.\n<br><br><b>Cork\n</b><br>Cork surface is extremely porous and can easily crumble, dent, burn, or stain. Cork is used as wall tiles and flooring. Clean with a vacuum cleaner to remove dust from the pores\n<br>\n<br><b>Cane, Wicker, and Bamboo\n</b><br>These are names given to furniture items Bamboo (thick grass), Cane (palm), and wicker (willow shoots). If not stored carefully the surfaces get easily damaged. They are regularly polished/varnished. Daily cleaning of these surfaces can be by simply brushing or using vacuum cleaners. Periodically clean using a solution of washing soda and water ( 1:10) or simply a solution of borax and water in the same ratio.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp6gyroRcF",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-7f"
+        }
+      ]
+    },
+    "HK_Unit_3.4.html": {
+      "settings": {
+        "title": "HK_Unit_3.4",
+        "order": 14
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div>COMPOSITION, CARE, AND CLEANING OF DIFFERENT SURFACES</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sp6gCvn6JT",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-7g"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Care &amp; Cleaning Of Leather\n</b><br>\n<br>Leather, as used for furniture, desktops, decorative panels, and other features in a building, is almost invariably what the tanner calls ‘light leather’. All leather comes from the hides of animals. The easily rotted keratin and globular proteins from the outside of the skin are removed by the treatment with alkalis and enzymes (liming) to leave a string net of collagen, the main structural material of the skin. This collagen would itself rot if left to the action of bacteria, but it is tanned. This is a chemical modification which links the collagen molecules together and makes them less easily decomposed by bacteria and less easily penetrated by water.\n<br>\n<br>Leather is this network of fibers and more like a textile than say a plastic sheet. It tends to absorb liquids in the same way as textiles do, and may give trouble with staining. The greatest danger to leather is dry heat and water. Temperature over moderately warm will tend to convert the collagen to much softer proteins resembling gelatin, and irreversible damage takes place. The leather becomes shiny, brittle, and usually darkens and begins to flake away.\n<br>\n<br>Old leather such as found in antique furniture and book bindings may deteriorate in this way with alarming speed, so if the leather gets wet it should not in any circumstances be dried by artificial heating. The best way to avoid penetration by water is to dress the leather with a good wax polish or with saddle soap. Light leathers are usually lubricated with an emulsion of oil (fat liquoring) during manufacturing. But it tends to lose its effectiveness after some time, and waxy material will give the leather new suppleness and also make it less easily wetted.\n<br>\n<br>Liquid waxes are quite suitable but a saddle soap containing 10% soap and 30% wax (carnauba, beeswax or other hard waxes mixed with neatsfoot oil) will give a better result for furniture or automobile upholstery.\n<br>\n<br><b>Stains</b> on leather are difficult to remove without damage to the material itself.\n<br>\n<br><b>Ink and rust</b> may be lightened with a jelly made from sodium citrate (2 and a half ounces to a pint of water) and enough cellulose wallpaper paste to give a suitable consistency to stop the solution from running.\n<br><br><b>Ballpoint pen ink</b> can be removed with alcohol though it may be necessary to go over the area with wax polish (feathered out) to conceal the defaulting effect of spirit.\n<br><br><b>Tar, rubber, fresh paint</b> and similar materials can be removed with white spirit but again the patch needs to be re-polished to restore it to its pristine( perfect) state.\n<br>\n<br><b>Leather, Leatherites, Rexines\n</b><br>For daily &amp; weekly cleaning: dust thoroughly to remove surface dust, paying attention to folds around buttons (of the furniture like a sofa)\n<br>\n<br>● For spring or periodic cleaning:\n<br>● Remove surface dust by using dusters, or an electric vacuum cleaner.\n<br>● If very slightly soiled, wipe the surface with a cloth wrung out of warm soapy water.\n<br>● If dirty, rub with a mixture of oil &amp; vinegar (oil: vinegar: 2:1).\n<br>● If very dirty, wash with warm water. Use a flannelette. Rinse thoroughly &amp; dry. Polish, using a little furniture polish or cream&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp6gCvLF3z",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-7h"
+        }
+      ]
+    },
+    "HK_Unit_3.5.html": {
+      "settings": {
+        "title": "HK_Unit_3.5",
+        "order": 15
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div>COMPOSITION, CARE, AND CLEANING OF DIFFERENT SURFACES</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sp6gFAXy6s",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-7i"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Plastics\n</b><b><br></b><br><b><i>Types of plastic</i></b>\n<br>1. Thermosetting Plastic\n<br>2. Thermoplastic.\n<br> \n<br><b>Thermosetting Plastic\n</b><br>These are strong, hard plastics and not softened by heat. These are used to produce plastic laminates. Plastic laminates are made by subjecting layers of paper impregnated with plastic resin to high pressure and temperature.  These are of two types Melamines and Phenolics.\n<br>● Melamines: these are used for tableware, tray, and laminate worktops. Brand names can be: Formica, Laminex\n<br>● Phenolics: these are used for buckets, mugs, telephone, toilet seat, etc. These can be boiled so suited in kitchen or hospitals\n<br><br><b>Thermoplastic\n</b><br>Majority of items in hotels &amp; other institutions fall into this category:\n<br><b><i>● Acetal Resins:</i></b> these resist boiling, chipping &amp; scratching, and are used for knife handles in particular\n<br><b><i>● Acrylics: </i></b>although extremely lightweight &amp; strong they will scratch easily and are damaged by contact with very hot liquids. They are used for furniture &amp; protective panels.\n<br>●&nbsp;<b><i>Cellulose Acetate &amp; Nitrate:</i></b> this is pliable plastic used for brush handles, light fittings, lampshades, etc.\n<br>●<b><i> Polyamide:</i></b> this is used for kitchenware, knife handles, brushes (bristles), curtain fitting, abrasive pads, etc. It will withstand sterilization.\n<br><b><i>● Polyester</i></b>: this may be used on its own trays, lampshades, etc. or it may be reinforced with glass fibers and molded into laundry skips, it is also used in the construction of resin seamless floorings.\n<br>●&nbsp;<b><i>Polyethylene/ Polythene:</i></b> used for plastic bags, squeeze bottles, etc.\n<br>●&nbsp;<b><i>Polypropylene: </i></b>used for dustbins, buckets, etc. can withstand sterilization.\n<br>●&nbsp;<b><i>Polystyrene: </i></b>This is found in three forms. The crystal type—is clear, glossy &amp; brittle and used for domestic kitchen utensils &amp; equipment. Toughened varieties—used for refrigerator linings, fan blades, etc. Expanded polystyrene—used as tiles.\n<br>●&nbsp;<b><i>Polyurethane Foam:</i></b> the rigid fabric used for insulation but it is more frequently found in the manufacture of mattresses, carpet underlays, sponges, mops, as a clear seal for wooden furniture, etc. It gives heat and sound insulation but there is a considerable fire risk. Foam can be treated for fire resistance but it becomes too expensive\n<br>●&nbsp;<b><i>Polytetrafluoroethylene (PTFE):</i></b> used in kitchenware and on the base of irons.\n<br>●&nbsp;<b><i>Polyvinyl chloride (PVC):</i></b> It is used in the form of tiles or sheets. It is used to coat wallpaper, wood products, or as a floor covering to render them washable. In its rigid form, it is used in the curtain tracks, soil, and waste pipes, electrical conduits etc.\n<br>●&nbsp;<b><i>Acrylonitrile:</i></b> this plastic is used for tableware &amp; for outer casings of vacuum cleaners, etc.\n<br><br><b><i>Note:-</i></b> Synthetic fibers:- Polyamide, Polyester, and acrylic can be formed into fibers/ long filaments which have great strength, poor absorbency, durable, are easy to clean, and quick to dry. They are used to make carpets, curtains, beddings, uniforms, etc.\n<br> \n<br><b>Maintaining and Care Plastics\n</b><br>● Dusting\n<br>● Light soiling can be removed by wiping with warm synthetic detergent, followed by rinsing, drying &amp; buffing\n<br>● The textured surface may need scrubbing with a soft brush\n<br>● Stains can be removed by rubbing with a clean cloth soaked in methylated spirit\n<br>● Small items may be soaked in hypochlorite bleach\n<br><br><b>Points to be kept in mind:\n</b><br>● Keep away from direct heat or flames\n<br>● Do not use harsh abrasives\n<br>● Do not drag a heavy object over plastic surfaces or chop or cut on them\n<br>● Keep away from strong acid or alkalis\n<br>● Some plastics are damaged if heavy objects are dropped on to them&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp6gFBlT3J",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-7j"
+        }
+      ]
+    },
+    "HK_Unit_3.6.html": {
+      "settings": {
+        "title": "HK_Unit_3.6",
+        "order": 16
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div>COMPOSITION, CARE, AND CLEANING OF DIFFERENT SURFACES</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sp6gJ30ek9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-7k"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Floor finishes\n</b><b><br></b><br><b>Considerations before choosing a floor:-\n</b><br>1. Will there be heavy wear?\n<br>2. Is the area subject to moisture?\n<br>3. Does the floor need to be a sound barrier?\n<br>4. How easy is it to clean &amp; maintain?\n<br>5. To what degree does the floor need to be slip-resistant?\n<br>6. Can it cause allergies or asthma?\n<br>7. How durable is the product?\n<br>8. Is it suitable for the subfloor?\n<br> \n<br><b>Subfloor:-\n</b><br>A subfloor is what’s below your flooring material.\n<br> \n<br><b><i>Advantages of subfloor:\n</i></b><br>● Provides drainage abilities.\n<br>● Warms flooring material upto 30%.\n<br>● Protects against moisture seepage.\n<br>● Lengthens the life of new flooring.\n<br>● Increase its feel &amp; quality.\n<br> \n<br>Examples of subfloors:-Plywood, Plank, Oriented Strand Board, Concrete.\n<br><b>1. Plywood: </b> Made from thin sheets of usual pinewood those are glued together, forming 4ft x 8ft sheets.\n<br><b>2. Plank:</b> There are ¾ inch thick x 4 – 8-inch wide southern pine boards which are nailed together.\n<br><b>3. Oriented Strand Board:</b>  It is a bunch of wood chips glued together.\n<br><b>4. Concrete: </b>Consists of slabs of 4 – 6-inch thick concrete pour. It may tend to absorb moisture which might take longer to dry.\n<br><br><b>Classification of Floor Finishes:-</b>\n<br><b>1. HARD</b>\n<br>Cementitious (Terrazzo &amp; Granolithic) \n<br>Stone (Marble. Slate etc) \n<br>Resin \n<br>Bitumastic \n<br>Magnesite \n<br>Wood&nbsp;<br><b>2. SEMI – HARD\n</b><br>Thermoplastic tiles \n<br>Vinyl \n<br>Rubber \n<br>Linoleum \n<br>Cork&nbsp;<br><b>3. SOFT</b>\n<br>Carpets&nbsp;<br><br><br><b>Hard Floors\n</b><br><b><i>Stone\n</i></b><br>Long life and natural in appearance. All stones are heavy and must be put on a concrete subfloor. For e.g.\n<br>●<b> Marble:</b> Composition: Calcite &amp; Calcium Carbonate. Available in a wide range of colors. More porous, soft &amp; chemically sensitive than granite. Harmed by acid including soft drinks. ● Absorbs Oil. Should be sealed with penetrating sealers. Use neutral cleaners. Do not clean at high pressure.\n<br>●<b> Granite</b>: Composition: Quartz &amp; Feldspar. Hardest in nature. Resistant to most chemicals except oil. Sealed with oil-repellent sealers. Do not use hydrofluoric acid. Can be cleaned at high pressure.\n<br>●<b> Slate:</b> Composition: Grains of Mica &amp; Quartz &amp; Chlorite, Hematite &amp; other Minerals. Dense, but soft &amp; easily scratched. Low porosity to oil &amp; other liquids.Has an uneven surface. Sealed with oil repellent sealers. Never cleaned at high pressure.\n<br> \n<br><b>Cementitious\n</b><br>Good for areas that take hard wear &amp; tear as they are resistant to chipping and cracking, scratching, indentations, heat insects, and rot. Used in areas like the basement, garage, utility areas, etc. They are easy to clean but should be polished carefully as polishing can make them too slippery. The cement in these floorings is absorbent hence avoid the use of strong alkali.<br><b>Granolithic Floor\n</b><br>Composed of cement &amp; fine aggregate mortar (being granite clippings). Hard wearing. Suitable in high traffic areas. May absorb water.\n<br><b>Terrazzo\n</b><br>Composition: Marble, Quartz, Granite, Glass, in cementitious mixtures. Does not need protection from wear &amp; tear but from absorption &amp; stains. Water base impregnates are applied. Use only neutral Ph cleaners.\n<br><br><b>Wood Flooring's&nbsp;</b><br><b><i>Advantages\n</i></b><br>● Long-lasting,\n<br>● Easy cleaning,\n<br>● Doesn’t retain dust\n<br>● Warm\n<br>● Goes with all interiors\n<br>● Simple clean up\n<br> \n<br><b><i>Disadvantages/ care to be taken\n</i></b><br>● Easily scratched.\n<br>● Easily dented\n<br>● Cannot take excessive wear &amp; water.\n<br>● Needs occasional polishing &amp; sealing.\n<br> \n<br><b>Ceramic Tiles\n</b><br>● Clayware is available in a great variety of qualities, colors &amp; sizes.\n<br>● Not affected by water, grease, acid, or alkalis.\n<br>● May crack or break due to heavyweights.\n<br>● Maybe glazed or unglazed.\n<br> \n<br><b>Terra Kotta\n</b><br>● Hard baked, brownish-red earthen waves often glazed &amp; colored.\n<br>● Not installed in a high traffic area.\n<br>● May crumble &amp; show wear easily.\n<br><br><b>Porcelain</b>\n<br>● Unglazed\n<br>● Dense\n<br>● Imperious\n<br>● Fine-grained &amp; smooth.\n<br>● Fire hardened – very hard\n<br>● Can be cleaned at high pressure.\n<br> \n<br><b>Quarry\n</b><br>● The most common colors are dark red, brown &amp; grey.\n<br>● Fire hardened – very hard\n<br>● Can be cleaned at high pressure.\n<br> \n<br><b>Resin Flooring\n</b><br>● Consists of synthetic resins, usually an epoxy, polyester, or polyurethane with hardness by using hardness.\n<br>● Sometimes vinyl &amp; marble chips are included.\n<br>● Unaffected by spillage of water, food, alcohol &amp; chemicals.\n<br>● In spite of being shiny, they are non-skid.\n<br> \n<br><b>Bitumastic\n</b><br>● Jointless flooring consists of asphalt rolled in a hot plastic state.\n<br>● Soft in texture.\n<br>● Impermeable to water.\n<br>● Softens with heat &amp; dents easily.\n<br>● Harmed by spirits, oil &amp; acids.\n<br>● Cost is low.\n<br> \n<br><b>Magnesite\n</b><br>● Consists of wood flour &amp; other fillers mixed with burnt magnesite.\n<br>● Hardwearing &amp; great compressive strength.\n<br>● Thermally insulating, non-skid, frame retardant &amp; spark proof.\n<br>● Extremely porous so no washing.\n<br>● Harmed by water, chemicals &amp; abrasives.\n<br><br><b><i>Cleaning of Hard floorings\n</i></b><br>● Daily cleaning – Sweep and damp mop/ Vacuum cleaning\n<br>● Periodically – wash/ scrub with detergent suds. Rinse Dry and Polish.\n<br>● Sealed to make the floor non-slip and resistant to dirt.\n<br>● For tiles care to be taken to clean the grouting regularly with detergent and toothbrush.\n<br> \n<br><b>Semi-Hard Finishes\n</b><br>● Resistant (except thermoplastic tiles).\n<br>● Good appearance.\n<br>● Unaffected by insects, pests &amp; fungi.\n<br>● Easy to clean\n<br>● Less permanent than hard floorings\n<br> \n<br><b>Thermoplastic Tiles\n</b><br>● Made from asphaltic binds with inert fillers &amp; pigments.\n<br>● Applied with water-based polish &amp; may get slippery.\n<br>● Hard &amp; noisy\n<br>● Get dents easily\n<br>● Softens with heat.\n<br>● Non-porous but harmed by strong alkalis, grease, spirits.\n<br>● Durable &amp; cheap.\n<br> \n<br><b>Vinyl Floor finishes</b>\n<br>● Manufactured from P.V.C synthetic resins, inert fillers &amp; pigments.\n<br>● Resistant to damage but very sensitive to heat.\n<br> \n<br><b><i>They are of 4 types:-\n</i></b><br>● Vinyl asbestos\n<br>● Flexible Vinyl flooring.\n<br>● Cushioned Vinyl floor.\n<br>● Slip-resistant flooring.\n<br><br><b>Rubber Floorings\n</b><br>● Available in tiles or sheets.\n<br>● During manufacturing, rubber &amp; fillings material pigments are vulcanized.\n<br>● It is soft, quiet, resistant &amp; comfortable.\n<br>● Non-absorbent &amp; resist water.\n<br>● Harmed by spirit, grease, alkali’s &amp; coarse abrasives.\n<br> \n<br><b>Linoleum</b>\n<br>● Composition: Mixture of powdered cork, resin, linseed oil, &amp; pigments of it on jute canvas. Made to heat &amp; pressure.\n<br>● Polished very often.\n<br>● Dents easily &amp; damaged by alkali’s\n<br>● Damp mopping is done using mild detergents.\n<br>● Further preservation adds baby oil in a small amount to the mop water.\n<br> \n<br><b>Cork tiles\n</b><br>● Composition: made from the outer back of cork of oak tree with natural resins.\n<br>● Warm and restful appearance.\n<br>● Absorbent &amp; very sensitive to heat.\n<br>● Avoid indentations, excessive water, abrasives, and high alkaline cleaners.\n<br> \n<br><b><i>Cleaning of Semi-Hard Floors\n</i></b><br>● Daily cleaning – Sweep and Damp Mop / Vacuum cleaning\n<br>● Periodic cleaning – Soft scrubbing with Neutral detergent lather. Rinse with a damp mop. Polish. If it is a sealed flooring use a self shine polish occasionally\n<br>● For rubber, floorings wash only when dirty and don’t over-wet\n<br> \n<br><b>Soft Floor Finishes\n</b><br>These are resilient floorings and include all types of carpets, rugs, and mats. They are quiet and slip-resistant.\n<br><b><br></b><br><b>Carpets\n</b><br>● Consist of a backing and a surface pile.\n<br>● The backing may be jute, nylon or polyester.\n<br>● The pile may be of wool, cotton, nylon or polyester.\n<br>● Used for their appearance, warmth, safety factor and sound insulation.\n<br> \n<br><b>Care and Maintenance\n</b><br>● Regular maintenance program since they are easily damaged\n<br>● Do not drag anything on a carpet\n<br>● New carpets should be lightly cleaned with a hand brush or a carpet sweeper. Trim off loose tufts\n<br>● Vacuum clean daily.\n<br>● Periodic cleaning includes shampooing , hot water extraction or dry powdering\n<br><b><i>1. Shampooing –</i></b> Shampoos can be of two types Liquid and dry foam. Liquid shampoos produce very little foam but tend to leave a residue that traps dirt making it necessary to clean carpets frequently. Dry foam shampoos are also liquid but leave a dry foam on the surface of the carpet after application – hence the name dry foam. The foam loosens and lifts out the dirt, holding it on the surface of the carpet pile until it can be removed by dry suction. Dry foam shampoos contain some solvent in addition to the detergent to assist in the removal of greasy soil. They also take less time to dry\n<br><b><i>2.Hot water extraction:</i></b> done by a hot water extraction machine that injects a non foaming shampoo solution at high pressure through the carpet. Simultaneously it extracts the solution and soil.\n<br><b><i>3. Dry powdering:</i></b> A powder containing absorbents (sawdust), solvents &amp; drying agents is sprinkled on the carpet &amp; left for 15 to 20 minutes. The powder absorbs the grease &amp; dirt &amp; latter vacuum cleaned.\n<br> \n<br><b>Floor care life cycle\n</b><br><b><i>Stripping:</i></b> Removal of all existing finishes &amp; seals. Clean thoroughly &amp; allow to dry.\n<br><b><i>Scrub &amp; Re-coating:</i></b> Consist of top scrubbing &amp; removing any dirt/foreign material &amp; re-applying finish to renew &amp; extend the life of the coating.\n<br><b><i>Restoration: </i></b> Performed when routine maintenance no longer gives the desired level of appearance.\n<br><b><i>Routine Maintenance:</i></b>  Remove dirt, foreign material. Includes daily cleaning. Improved appearance &amp; life is increased may include dry mopping &amp; wet methods.\n<br><b><i>Coating: </i></b>Apply fix, thin uniform coats &amp; give adequate drying time.\n<br> \n<br>\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sp6gJ3oBsU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-7l"
         }
       ]
     }
