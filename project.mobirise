@@ -59,7 +59,7 @@
         "file": "@PROJECT_PATH@/fonts/FFF_Tusj/font.ttf"
       }
     ],
-    "uniqCompNum": 274,
+    "uniqCompNum": 286,
     "versionPublish": "5.1.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -121,7 +121,7 @@
             }
           },
           "_name": "header13",
-          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#232323\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background15.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>e Notes</b><br><b><br></b><br><b><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .social-row\">Version 2.0.1</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Create\n                        Your Website!</a>\n                </div>\n                <div class=\"social-row display-7 mt-5\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#232323\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background15.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>e Notes</b><br><b><br></b><br><b><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .social-row\">Version 2.0.1.01</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Create\n                        Your Website!</a>\n                </div>\n                <div class=\"social-row display-7 mt-5\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sofl8OkJzK",
           "_anchor": "header13-27",
           "_protectedParams": [],
@@ -206,7 +206,7 @@
     "3 Year Subject.html": {
       "settings": {
         "title": "3 Year Subject",
-        "order": 33
+        "order": 39
       },
       "components": [
         {
@@ -245,7 +245,7 @@
     "Syllabus.html": {
       "settings": {
         "title": "Syllabus",
-        "order": 67
+        "order": 73
       },
       "components": [
         {
@@ -283,7 +283,7 @@
     "1 Sem Syllabus.html": {
       "settings": {
         "title": "1 Sem Syllabus",
-        "order": 69
+        "order": 75
       },
       "components": [
         {
@@ -321,7 +321,7 @@
     "5 Sem Syllabus.html": {
       "settings": {
         "title": "5 Sem Syllabus",
-        "order": 74
+        "order": 80
       },
       "components": [
         {
@@ -359,7 +359,7 @@
     "3 Sem Syllabus.html": {
       "settings": {
         "title": "3 Sem Syllabus",
-        "order": 71
+        "order": 77
       },
       "components": [
         {
@@ -397,7 +397,7 @@
     "AC Syllabus.html": {
       "settings": {
         "title": "AC Syllabus",
-        "order": 70
+        "order": 76
       },
       "components": [
         {
@@ -461,7 +461,7 @@
     "HK Syllabus.html": {
       "settings": {
         "title": "HK Syllabus",
-        "order": 72
+        "order": 78
       },
       "components": [
         {
@@ -525,7 +525,7 @@
     "FO Syllabus.html": {
       "settings": {
         "title": "FO Syllabus",
-        "order": 73
+        "order": 79
       },
       "components": [
         {
@@ -589,7 +589,7 @@
     "H&S Syllabus.html": {
       "settings": {
         "title": "H&S Syllabus",
-        "order": 75
+        "order": 81
       },
       "components": [
         {
@@ -653,7 +653,7 @@
     "FM Syllabus.html": {
       "settings": {
         "title": "FM Syllabus",
-        "order": 76
+        "order": 82
       },
       "components": [
         {
@@ -717,7 +717,7 @@
     "Contact.html": {
       "settings": {
         "title": "Contact",
-        "order": 77
+        "order": 83
       },
       "components": [
         {
@@ -888,7 +888,7 @@
     "Ref.Books.html": {
       "settings": {
         "title": "Ref.Books",
-        "order": 68
+        "order": 74
       },
       "components": [
         {
@@ -1082,7 +1082,7 @@
     "FO Units.html": {
       "settings": {
         "title": "FO Units",
-        "order": 19
+        "order": 25
       },
       "components": [
         {
@@ -1141,7 +1141,7 @@
             }
           },
           "_name": "header18",
-          "_customHTML": "<section class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"158\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Intro with gradient background</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>\n                        Housekeeping</b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Choose Your Unit</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"HK_Unit_1_Index.html\" data-app-placeholder=\"Type Text\">Unit - 1</a> <a class=\"btn btn-secondary\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 2</a> <a class=\"btn btn-warning\" href=\"HK_Unit_3_Index.html\" data-app-placeholder=\"Type Text\">Unit - 3</a> <a class=\"btn btn-success\" href=\"HK_Unit_4.html\" data-app-placeholder=\"Type Text\">Unit - 4</a> <a class=\"btn btn-black\" href=\"HK_Unit_5.html\" data-app-placeholder=\"Type Text\">Unit - 5</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"158\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Intro with gradient background</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>\n                        Housekeeping</b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Choose Your Unit</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"HK_Unit_1_Index.html\" data-app-placeholder=\"Type Text\">Unit - 1</a> <a class=\"btn btn-secondary\" href=\"HK_Unit_2_Index.html\" data-app-placeholder=\"Type Text\">Unit - 2</a> <a class=\"btn btn-warning\" href=\"HK_Unit_3_Index.html\" data-app-placeholder=\"Type Text\">Unit - 3</a> <a class=\"btn btn-success\" href=\"HK_Unit_4.html\" data-app-placeholder=\"Type Text\">Unit - 4</a> <a class=\"btn btn-black\" href=\"HK_Unit_5.html\" data-app-placeholder=\"Type Text\">Unit - 5</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sleacyTgp4",
           "_anchor": "header18-19",
           "_protectedParams": [],
@@ -1154,7 +1154,7 @@
     "H&S Units.html": {
       "settings": {
         "title": "H&S Units",
-        "order": 55
+        "order": 61
       },
       "components": [
         {
@@ -1190,7 +1190,7 @@
     "FM Units.html": {
       "settings": {
         "title": "FM Units",
-        "order": 34
+        "order": 40
       },
       "components": [
         {
@@ -1226,7 +1226,7 @@
     "Disclaimer.html": {
       "settings": {
         "title": "Disclaimer",
-        "order": 78
+        "order": 84
       },
       "components": [
         {
@@ -1257,7 +1257,7 @@
     "Privacy Policy.html": {
       "settings": {
         "title": "Privacy Policy",
-        "order": 79
+        "order": 85
       },
       "components": [
         {
@@ -1288,7 +1288,7 @@
     "Help.html": {
       "settings": {
         "title": "Help",
-        "order": 66
+        "order": 72
       },
       "components": [
         {
@@ -1299,7 +1299,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-5\">&nbsp;📖&nbsp;<b><a href=\"Syllabus.html\" class=\"text-primary\"><b>Syllabus</b></a><a href=\"Syllabus.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;📚&nbsp;<b><a href=\"Ref.Books.html\" class=\"text-primary\"><b>Reference Books</b></a>\n</b><br><br>&nbsp;📋&nbsp;<b><a href=\"https://drive.google.com/drive/folders/0B8Xw18UCKJ7tQXZuZl9fODBzUFk?usp=sharing\" class=\"text-primary\" target=\"_blank\"><b>Previous Q. Papers</b>\n</a></b><br><br>&nbsp;📧&nbsp;<b><a href=\"Contact.html\" class=\"text-primary\"><b>Contact us</b></a><a href=\"Contact.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;🔒&nbsp;<b><a href=\"Privacy Policy.html\" class=\"text-primary\"><b>Privacy Policy</b></a><a href=\"Privacy Policy.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;📝&nbsp;<a href=\"Disclaimer.html\" class=\"text-primary\"><b>Disclaimer</b></a></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-5\">&nbsp;📖&nbsp;<b><a href=\"Syllabus.html\" class=\"text-primary\"><b>Syllabus</b></a><a href=\"Syllabus.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;📚&nbsp;<b><a href=\"Ref.Books.html\" class=\"text-primary\"><b>Reference Books</b></a>\n</b><br><br>&nbsp;📋&nbsp;<b><a href=\"https://drive.google.com/drive/folders/0B8Xw18UCKJ7tQXZuZl9fODBzUFk?usp=sharing\" class=\"text-primary\" target=\"_blank\"><b>Previous Q. Papers</b>\n</a></b><br><br>&nbsp;📧&nbsp;<b><a href=\"Contact.html\" class=\"text-primary\"><b>Contact us</b></a><a href=\"Contact.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;🔒&nbsp;<b><a href=\"Privacy Policy.html\" class=\"text-primary\"><b>Privacy Policy</b></a><a href=\"Privacy Policy.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;📝&nbsp;<a href=\"Disclaimer.html\" class=\"text-primary\"><b>Disclaimer</b></a></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "soUFgrv8YY",
           "_anchor": "content5-4n",
           "_protectedParams": [],
@@ -1312,7 +1312,7 @@
     "error.html": {
       "settings": {
         "title": "Error",
-        "order": 80
+        "order": 86
       },
       "components": [
         {
@@ -1887,7 +1887,7 @@
     "HK_Unit_4.html": {
       "settings": {
         "title": "HK_Unit_4",
-        "order": 17
+        "order": 23
       },
       "components": [
         {
@@ -1940,7 +1940,7 @@
     "FO_Unit_1.html": {
       "settings": {
         "title": "FO_Unit_1",
-        "order": 20
+        "order": 26
       },
       "components": [
         {
@@ -1993,7 +1993,7 @@
     "HK_Unit_5.html": {
       "settings": {
         "title": "HK_Unit_5",
-        "order": 18
+        "order": 24
       },
       "components": [
         {
@@ -2101,7 +2101,7 @@
     "FO_Unit_2_index.html": {
       "settings": {
         "title": "FO_Unit_2_index",
-        "order": 21
+        "order": 27
       },
       "components": [
         {
@@ -2163,7 +2163,7 @@
     "FO_Unit_2.html": {
       "settings": {
         "title": "FO_Unit_2",
-        "order": 22
+        "order": 28
       },
       "components": [
         {
@@ -2216,7 +2216,7 @@
     "FO_Unit_2.1.html": {
       "settings": {
         "title": "FO_Unit_2.1",
-        "order": 23
+        "order": 29
       },
       "components": [
         {
@@ -2269,7 +2269,7 @@
     "FO_Unit_2.2.html": {
       "settings": {
         "title": "FO_Unit_2.2",
-        "order": 24
+        "order": 30
       },
       "components": [
         {
@@ -2322,7 +2322,7 @@
     "FO_Unit_5.html": {
       "settings": {
         "title": "FO_Unit_5",
-        "order": 32
+        "order": 38
       },
       "components": [
         {
@@ -2546,7 +2546,7 @@
     "HS_Unit_1.html": {
       "settings": {
         "title": "HS_Unit_1",
-        "order": 56
+        "order": 62
       },
       "components": [
         {
@@ -2599,7 +2599,7 @@
     "HS_Unit_2_index.html": {
       "settings": {
         "title": "HS_Unit_2_index",
-        "order": 57
+        "order": 63
       },
       "components": [
         {
@@ -2661,7 +2661,7 @@
     "HS_Unit_2.1.html": {
       "settings": {
         "title": "HS_Unit_2.1",
-        "order": 59
+        "order": 65
       },
       "components": [
         {
@@ -2771,7 +2771,7 @@
     "HS_Unit_2.2.html": {
       "settings": {
         "title": "HS_Unit_2.2",
-        "order": 60
+        "order": 66
       },
       "components": [
         {
@@ -2860,7 +2860,7 @@
     "HS_Unit_3.html": {
       "settings": {
         "title": "HS_Unit_3",
-        "order": 62
+        "order": 68
       },
       "components": [
         {
@@ -2913,7 +2913,7 @@
     "HS_Unit_3.1.html": {
       "settings": {
         "title": "HS_Unit_3.1",
-        "order": 63
+        "order": 69
       },
       "components": [
         {
@@ -3137,7 +3137,7 @@
     "HS_Unit_3.2.html": {
       "settings": {
         "title": "HS_Unit_3.2",
-        "order": 64
+        "order": 70
       },
       "components": [
         {
@@ -3190,7 +3190,7 @@
     "HS_Unit_3.3.html": {
       "settings": {
         "title": "HS_Unit_3.3",
-        "order": 65
+        "order": 71
       },
       "components": [
         {
@@ -3243,7 +3243,7 @@
     "HS_Unit_3_index.html": {
       "settings": {
         "title": "HS_Unit_3_index",
-        "order": 61
+        "order": 67
       },
       "components": [
         {
@@ -3305,7 +3305,7 @@
     "HS_Unit_2.html": {
       "settings": {
         "title": "HS_Unit_2",
-        "order": 58
+        "order": 64
       },
       "components": [
         {
@@ -3358,7 +3358,7 @@
     "FM_Unit_1.html": {
       "settings": {
         "title": "FM_Unit_1",
-        "order": 36
+        "order": 42
       },
       "components": [
         {
@@ -3411,7 +3411,7 @@
     "FM_Unit_1_index.html": {
       "settings": {
         "title": "FM_Unit_1_index",
-        "order": 35
+        "order": 41
       },
       "components": [
         {
@@ -3473,7 +3473,7 @@
     "FM_Unit_1.1.html": {
       "settings": {
         "title": "FM_Unit_1.1",
-        "order": 37
+        "order": 43
       },
       "components": [
         {
@@ -3562,7 +3562,7 @@
     "FM_Unit_1.2.html": {
       "settings": {
         "title": "FM_Unit_1.2",
-        "order": 38
+        "order": 44
       },
       "components": [
         {
@@ -4057,7 +4057,7 @@
     "FM_Unit_1.3.html": {
       "settings": {
         "title": "FM_Unit_1.3",
-        "order": 39
+        "order": 45
       },
       "components": [
         {
@@ -4167,7 +4167,7 @@
     "FM_Unit_1.5.html": {
       "settings": {
         "title": "FM_Unit_1.4",
-        "order": 40
+        "order": 46
       },
       "components": [
         {
@@ -4220,7 +4220,7 @@
     "FM_Unit_1.1_index.html": {
       "settings": {
         "title": "FM_Unit_1.1_index",
-        "order": 41
+        "order": 47
       },
       "components": [
         {
@@ -4282,7 +4282,7 @@
     "FM_Unit_1.1_1.html": {
       "settings": {
         "title": "FM_Unit_1.1_1",
-        "order": 42
+        "order": 48
       },
       "components": [
         {
@@ -4335,7 +4335,7 @@
     "FM_Unit_1.1_2.1.html": {
       "settings": {
         "title": "FM_Unit_1.1_2.1",
-        "order": 44
+        "order": 50
       },
       "components": [
         {
@@ -4481,7 +4481,7 @@
     "FM_Unit_1.1_2.html": {
       "settings": {
         "title": "FM_Unit_1.1_2",
-        "order": 43
+        "order": 49
       },
       "components": [
         {
@@ -4555,7 +4555,7 @@
     "FM_Unit_1.1_3.html": {
       "settings": {
         "title": "FM_Unit_1.1_3",
-        "order": 45
+        "order": 51
       },
       "components": [
         {
@@ -4608,7 +4608,7 @@
     "FM_Unit_2_index.html": {
       "settings": {
         "title": "FM_Unit_2_index",
-        "order": 46
+        "order": 52
       },
       "components": [
         {
@@ -4670,7 +4670,7 @@
     "FM_Unit_2.html": {
       "settings": {
         "title": "FM_Unit_2",
-        "order": 47
+        "order": 53
       },
       "components": [
         {
@@ -4780,7 +4780,7 @@
     "FM_Unit_2.1.html": {
       "settings": {
         "title": "FM_Unit_2.1",
-        "order": 48
+        "order": 54
       },
       "components": [
         {
@@ -4890,7 +4890,7 @@
     "FM_Unit_2.2.html": {
       "settings": {
         "title": "FM_Unit_2.2",
-        "order": 49
+        "order": 55
       },
       "components": [
         {
@@ -4943,7 +4943,7 @@
     "FM_Unit_2.3.html": {
       "settings": {
         "title": "FM_Unit_2.3",
-        "order": 50
+        "order": 56
       },
       "components": [
         {
@@ -4996,7 +4996,7 @@
     "FM_Unit_3_index.html": {
       "settings": {
         "title": "FM_Unit_3_index",
-        "order": 51
+        "order": 57
       },
       "components": [
         {
@@ -5058,7 +5058,7 @@
     "FM_Unit_3.html": {
       "settings": {
         "title": "FM_Unit_3",
-        "order": 52
+        "order": 58
       },
       "components": [
         {
@@ -5111,7 +5111,7 @@
     "FM_Unit_3.1.html": {
       "settings": {
         "title": "FM_Unit_3.1",
-        "order": 53
+        "order": 59
       },
       "components": [
         {
@@ -5164,7 +5164,7 @@
     "FM_Unit_3.2.html": {
       "settings": {
         "title": "FM_Unit_3.2",
-        "order": 54
+        "order": 60
       },
       "components": [
         {
@@ -5217,7 +5217,7 @@
     "FO_Unit_3_Index.html": {
       "settings": {
         "title": "FO_Unit_3_Index",
-        "order": 25
+        "order": 31
       },
       "components": [
         {
@@ -5279,7 +5279,7 @@
     "FO_Unit_3.html": {
       "settings": {
         "title": "FO_Unit_3",
-        "order": 26
+        "order": 32
       },
       "components": [
         {
@@ -5332,7 +5332,7 @@
     "FO_Unit_3.2.html": {
       "settings": {
         "title": "FO_Unit_3.2",
-        "order": 28
+        "order": 34
       },
       "components": [
         {
@@ -5385,7 +5385,7 @@
     "FO_Unit_3.1.html": {
       "settings": {
         "title": "FO_Unit_3.1",
-        "order": 27
+        "order": 33
       },
       "components": [
         {
@@ -5495,7 +5495,7 @@
     "FO_Unit_4_Index.html": {
       "settings": {
         "title": "FO_Unit_4_Index",
-        "order": 29
+        "order": 35
       },
       "components": [
         {
@@ -5557,7 +5557,7 @@
     "FO_Unit_4.html": {
       "settings": {
         "title": "FO_Unit_4",
-        "order": 30
+        "order": 36
       },
       "components": [
         {
@@ -5610,7 +5610,7 @@
     "FO_Unit_4.1.html": {
       "settings": {
         "title": "FO_Unit_4.1",
-        "order": 31
+        "order": 37
       },
       "components": [
         {
@@ -5720,7 +5720,7 @@
     "HK_Unit_3_Index.html": {
       "settings": {
         "title": "HK_Unit_3_Index",
-        "order": 9
+        "order": 15
       },
       "components": [
         {
@@ -5782,7 +5782,7 @@
     "HK_Unit_3.html": {
       "settings": {
         "title": "HK_Unit_3",
-        "order": 10
+        "order": 16
       },
       "components": [
         {
@@ -5835,7 +5835,7 @@
     "HK_Unit_3.1.html": {
       "settings": {
         "title": "HK_Unit_3.1",
-        "order": 11
+        "order": 17
       },
       "components": [
         {
@@ -5888,7 +5888,7 @@
     "HK_Unit_3.2.html": {
       "settings": {
         "title": "HK_Unit_3.2",
-        "order": 12
+        "order": 18
       },
       "components": [
         {
@@ -5941,7 +5941,7 @@
     "HK_Unit_3.3.html": {
       "settings": {
         "title": "HK_Unit_3.3",
-        "order": 13
+        "order": 19
       },
       "components": [
         {
@@ -5994,7 +5994,7 @@
     "HK_Unit_3.4.html": {
       "settings": {
         "title": "HK_Unit_3.4",
-        "order": 14
+        "order": 20
       },
       "components": [
         {
@@ -6047,7 +6047,7 @@
     "HK_Unit_3.5.html": {
       "settings": {
         "title": "HK_Unit_3.5",
-        "order": 15
+        "order": 21
       },
       "components": [
         {
@@ -6100,7 +6100,7 @@
     "HK_Unit_3.6.html": {
       "settings": {
         "title": "HK_Unit_3.6",
-        "order": 16
+        "order": 22
       },
       "components": [
         {
@@ -6147,6 +6147,333 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "HK_Unit_2_Index.html": {
+      "settings": {
+        "title": "HK_Unit_2_Index",
+        "order": 9
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffb18a\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -2</b><div>CLEANING ORGANISATION AND CLEANING AGENTS</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "spbrxIa5Qc",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-7m"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-section-title, .mbr-section-subtitle, .mbr-section-btn, .mbr-text": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"HK_Unit_2.html\" data-app-placeholder=\"Type Text\">Cleaning</a> <a class=\"btn btn-white\" href=\"HK_Unit_2.1.html\" data-app-placeholder=\"Type Text\">Frequency of Cleaning</a> <a class=\"btn btn-info\" href=\"HK_Unit_2.2.html\" data-app-placeholder=\"Type Text\">Cleaning Agents</a> <a class=\"btn btn-black\" href=\"HK_Unit_2.3.html\" data-app-placeholder=\"Type Text\">Equipment's</a> <a class=\"btn btn-secondary\" href=\"HK_Unit_2.4.html\" data-app-placeholder=\"Type Text\">Eco Friendly Products</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "spbrxJtMlk",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header2-7n"
+        }
+      ]
+    },
+    "HK_Unit_2.html": {
+      "settings": {
+        "title": "HK_Unit_2",
+        "order": 10
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -2</b><div>CLEANING ORGANISATION AND CLEANING AGENTS</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "spbtf7mcD1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-7o"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>CONCEPT OF CLEANING\n</b><br>Cleaning is the removal of dust, dirt, foreign matter, tarnish, stains from various surfaces with the aid of certain cleaning agents. And equipment. Dust, dirt and foreign matter deposited on a surface are referred to as soil. This may include substances such as sand, mud, pollutants, smoke and fumes brought into the building from outside. Some types of soil, such as sewage, hair, dead skin cells and fibers shed from the clothing are generated by the occupants of a building.\n<br>Cleaning is carried out for the following reasons:\n<br>\n<br><b>Aesthetic Appeal: </b>the environment is made visually attractive and appealing\n<br><b>Hygiene: </b>effective, frequent cleaning controls the growth and reproduction of pathogenic bacteria and other germs\n<br><b>Maintenance: </b>Surfaces and articles, however good in quality, will have a long, functional life only when they are cleaned on a regular basis.\n<br><b>Safety:</b> Cleaning is done for safety against health hazards, and slip hazards.\n<br>\n<br><b>Types of soils\n</b><br>soil is the collective term for deposits of dust, dirt, foreign matter, tarnish and stains.\n<br>●<i> Dust:</i> this is composed of loose particles deposited from the air. It contains both organic (human and animal hair, dead skin cells, particles of excreta, pollen from plants and so on) and inorganic (sand, dry earth) matter. Although dust is light, it is heavier that air thus settles readily on any surface.\n<br>●<i> Dirt:</i> this implies dust held together firmly by moisture or grease on rough surfaces.\n<br>●<i> Tarnish:</i> this is a discoloration or deposition on a metal or alloy surface caused by chemical reaction with certain substances found in air, water and foodstuffs. Each metal gets a different type of tarnish when exposed for too long to these substances. For instance, iron gets a reddish-brown rust, copper gets a greenish deposit of verdigris, and silver gets blackened. There are different methods for the removal of tarnish from different metals.\n<br>● Stain: this is a discoloration caused on a hard or soft surface by a substance containing dyes, proteins, acids, or alkalis. Stains are difficult to remove by routine cleaning processes. Any stain must be removed as soon as possible by using powders to absorb it, solvents to dissolve it , or an acidic or alkaline cleaner to neutralize it\n<br>● <i>Foreign Matters:</i> These may be dead flowers, contents of wastepaper baskets and ashtrays, as well as stains from the deposition of foreign substances.\n<br>\n<br><b>Housekeeping Basic Principles of Cleaning:\n</b><br>● All soils should be removed without harming the surface being cleaned or the surrounding surfaces.\n<br>● The surface should be restored to its original state after the cleaning processes.\n<br>● The cleaning process should be efficient, using a minimum of equipment, cleaning agents, labor &amp; time.\n<br>● The simplest cleaning method should be tried first, along with using the mildest cleaning agent.\n<br>● Always use the cleaning methods least harmful to the surface.\n<br>● The cleaning should proceed from high area to low wherever possible.\n<br>● Always start with the cleaner surfaces &amp; then go on to clean the more heavily soiled ones, so as to prevent the spread of soil from dirty to cleaner surfaces.\n<br>● While wet cleaning an area or polishing the floor, the cleaner should walk backward while cleaning in front of him.\n<br>● Use of the suction/vacuum cleaning should be preferred over sweeping wherever possible.\n<br>● Sweeping should be done before dusting, and dusting before suction cleaning.\n<br>● The noise levels while cleaning should be kept as low as possible.\n<br>● Try to remove stains as soon as they occur using the correct methods.\n<br>● The cleaner should take all safety precautions while cleaning.\n<br>● The cleaning agents &amp; equipment should be stacked neatly to one side after each use.\n<br>● The cleaner should start cleaning from the farthest end of an area, working towards the exit.\n<br>● After the cleaning process is over, all equipment should be washed or wiped as applicable, dried, &amp; stored properly.\n<br>● Cleaning agents should be replenished &amp; stored properly.\n<br>● All waste needs to be discarded &amp; the working area should be always left neat &amp; tidy.\n<br>\n<br><b>Hygiene and Safety Factors in cleaning\n</b><br><b><i><br></i></b><br><b><i>Hygiene Factors\n</i></b><br>● Grooming &amp; Personal Hygiene to be maintained\n<br>● Equipment hygiene to be maintained – all types of equipment to be washed, rinsed &amp; dried after use\n<br>● Workplace hygiene – pantry to be kept clean at all times\n<br>● Colour coded dusters to be used\n<br>● WC duster to be kept separately in the chamber maid’s trolley\n<br>● Cleaning solution to be changed frequently while cleaning\n<br>● Use of wringer\n<br>● Brooms should not be used especially in hospitals\n<br>● Cleaning agents to be prepared freshly. Never top up a disinfectant solution. Bacteria will survive a disinfectant, may multiply in solution which has deteriorated. If a solution is stored and used later, it may spread germs rather than kill them\n<br>● Use of sanibins in public area toilets\n<br>● Garbage not be touched a bare hand\n<br>● Telephones need to disinfected\n<br>\n<br><b><i>Safety Factors\n</i></b><br>● Use of protective gears\n<br>● Ladder to be checked off its stability &amp; durability before using\n<br>● Caution board to be used in public areas\n<br>● Appropriate types of equipment to be used while cleaning\n<br>● While lifting heavy items, weight should not fall on the backbone ( bend from the knees and not back)\n<br>● Avoid lifting the heavyweight; help should be taken wherever possible\n<br>● Cleaning agents to be stored in the labeled bottles; instructions should be written on the bottles\n<br>● Proper training to given to cleaners in terms of use of equipment &amp; cleaning agents\n<br>● First aid kit to be maintained and kept available\n<br>● Fire exit should never be blocked by keeping equipment/ furniture in front of it\n<br>● At the time of the fire, elevators should not be used\n<br>● Ensure that the cigarette butts are fully extinguished before they are trashed\n<br>● Dispose off rags after using any solvent as they can increase the risk of fire&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "spbtf7OSjW",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-7p"
+        }
+      ]
+    },
+    "HK_Unit_2.1.html": {
+      "settings": {
+        "title": "HK_Unit_2.1",
+        "order": 11
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -2</b><div>CLEANING ORGANISATION AND CLEANING AGENTS</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "spbuPi1vxY",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-7q"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Frequency of Cleaning\n</b><br>Cleaning tasks may be divided according to the frequency of their scheduling, which depends upon :\n<br>● The level of soiling,\n<br>● The type of surface,\n<br>● The amount of traffic,\n<br>● The type of hotel, and\n<br>● The cleaning standards are set.\n<br>● The greater the amount of soiling, the greater will be\n<br>● Frequency of cleaning carried out.\n<br>\n<br><b><i>Cleaning tasks are carried out as per one of the following frequency:-\n</i></b><br>● Daily Tasks\n<br>● Weekly Tasks\n<br>● Periodic Tasks\n<br>\n<br><b>Daily Tasks:\n</b><br>These are routine operations carried out on a day-to-day basis by the staff of the housekeeping department. These include the regular servicing of guestrooms, cleaning of bathrooms and toilets, suction-cleaning of floors and floor coverings, and so on.\n<br>\n<br><b>Weekly Tasks:\n</b><br>These, as the term implies, are routine tasks carried out on a weekly basis. These may include the polishing of metal surfaces, dusting of hard-to-reach areas, and so on.\n<br><br><b>Periodic Tasks:\n</b><br>These are carried out on a monthly, quarterly (every three months), half yearly or annual basis.\n<br>Spring-cleaning is a special type of periodic cleaning.\n<br>Some of the usual periodic tasks in a hotel include the shampooing of carpets, washing of walls, cleaning of chandeliers, and stripping and polishing of floors. The higher the standards required, the greater is the task carried out daily and greater the amount of soiling, the greater will be frequency which is carried out.\n<br>\n<br><b>Organization of Cleaning\n</b><br>For cleaning to be efficient, it must be well organized. Different ways of organizing the cleaning of various areas are outlined below:-\n<br>● Orthodox/conventional/traditional cleaning\n<br>● Block Cleaning\n<br>● Team Cleaning\n<br>● Deep Cleaning and special projects\n<br>● Spring Cleaning\n<br>\n<br><b>Orthodox/Conventional/Traditional Cleaning\n</b><br>In this way of cleaning, a GRA completes all the tasks in one guestroom before going on to the next room in the section allotted to him/her.\n<br>On an average, a GRA may be required to clean 12-20 rooms in an 8-hour workday.\n<br><b>Block Cleaning\n</b><br>In this way of cleaning, the GRA moves from room to room and completes the same task in every room, before returning to begin the cycle again for the next task on the list. This involves ‘blocking’ several rooms at a time to form a ‘room section’ and usually more than one GRA will be at work in the section.\n<br>For instance, one GRA might take all the beds in that particular room section, while another GRA cleans the toilets, and the third GRA dusts and cleans the area, replenishing supplies that are low.\n<br><b>Team Cleaning\n</b><br>In this method, two or more people work together in the same area, either on the same task or on different tasks. To organize the team cleaning of guestrooms, two GRAs may be scheduled to clean 30-35 guestrooms a day.\n<br><b>Deep Cleaning &amp; Special Projects</b>\n<br>Deep cleaning refers to the intensive cleaning schedule in which periodic cleaning tasks are scheduled for monthly, quarterly, half yearly or annual frequencies. Deep cleaning involves some tasks that require the housekeeping department to work in coordination with the maintenance department.\n<br>Many tasks involved in deep cleaning are complicated and time consuming ones, requiring special equipment, techniques, expertise, and group effort. These tasks are usually scheduled as special projects.\n<br>Deep cleaning tasks include the following:\n<br>● Shampooing carpets\n<br>● Vacuum-cleaning upholstery, mattresses, and bed bases.\n<br>● Rotating and turning mattresses\n<br>● Thoroughly cleaning of furniture and polishing of wooden furniture.\n<br>● Stripping, re-sealing, re-polishing, and buffing of floors.\n<br>● Cleaning hard-to-reach areas such as ceilings, top edges of doors, fans, air-conditioning vents, and so on\n<br>● Cleaning ornate lighting fixtures such as chandeliers.\n<br>● Thorough cleaning of walls, windows, and curtain tracks.\n<br>● Cleaning signage boards.\n<br>● Thorough washing of bathroom floors, walls, fixtures, fittings, and shower curtains.\n<br>● Laundering of washable soft furnishings.\n<br>\n<br><b>Spring Cleaning (Special Cleaning)\n</b><br>It involves periodic annual cleaning of hotel guestrooms or other areas, carried out in off-season periods. The term is often used synonymously with deep cleaning. Spring cleaning may involve a complete overhaul of the rooms and is, therefore, scheduled for the off-season or very low-occupancy periods. Spring-cleaning involves many tasks on which the housekeeping department works in close coordination with the maintenance department.\n<br>\n<br>Intensive cleaning tasks may have to be carried out, for which an entire floor of rooms will have to be taken off sale at a time.\n<br>\n<br>● Spring-cleaning tasks may include the following:\n<br>● Removal of all guest supplies, soft furnishing, and carpets from the rooms.\n<br>● Sending launderable articles to the laundry.\n<br>● Polishing wooden furniture, shampooing upholstery, and covering them with dust sheets.\n<br>● Shampooing carpets.\n<br>● Stripping and polishing floors.\n<br>● Cleaning accessories such as lamps, lamp shades, and picture frames.\n<br>● Stripping any wall covering such as paint or wallpaper and repainting the walls.\n<br>● Washing ceilings and walls.\n<br>● Thoroughly cleaning lighting fixtures, air-conditioning vents, and windows.\n<br>● Thoroughly cleaning bathrooms, including walls, floor tiles, fixtures and fittings, and shower curtains.\n<br>● Vacuum-cleaning the mattresses.\n<br>● Airing the room.\n<br>● Restocking guest supplies.\n<br>● Restoring soft furnishing and carpets.\n<br>● Clearing the rooms to the front desk for sale at the end of a thorough clean.\n<br>\n<br><b>Cleaning Procedures/Cleaning Processes\n</b><br>Cleaning processes may be either mechanical or manual. They may involve washing, friction (as in using an abrasive), suction (as in using a vacuum cleaner), or force (as in using pressurized water).\n<br>\n<br>The various types of cleaning processes are summarized below:\n<br>1. Manual Methods &amp; Mechanical Methods\n<br>2. Manual Methods\n<br>\n<br>These do not call for mechanized or electronic equipment. These include:\n<br>● Sweeping\n<br>● Dusting\n<br>● Damp-dusting\n<br>● Dust-Mopping/Dry-Mopping/Mop-Sweeping\n<br>● Spot Mopping\n<br>● Wet-Mopping/Damp-Mopping\n<br>● Spot Cleaning\n<br>\n<br><b>Mechanized Methods\n</b><br>These utilize equipment powered by electricity as well as mechanical gadgets. These include:\n<br>● Suction Cleaning\n<br>● Spray Buffing\n<br>● Polishing\n<br>● Burnishing\n<br>● Scrubbing\n<br>\n<br><b>Design Features that simplify Cleaning\n</b><br>● Smooth textures; straight, neat, and smooth lines; and medium toned colours are some of the design features in a surface that make for easier cleaning.\n<br>● Surfaces with these features collect less dust compared to surfaces with rough textures, intricate raised patterns, and grooves.\n<br>● Medium-toned colours show less dirt than surfaces of darker or lighter shades.\n<br>● Furniture should be so designed that cleaning under and behind them is easy.\n<br>● Furniture on castor wheels and glides are easily movable, making cleaning under and behind them easier.\n<br>● Bed frames should not have a raised edge. Though raised edges help to keep the mattress sunk in place, they may graze the hands of GRAs badly during bed-making.\n<br>● With regard to carpets, the shorter the carpet pile, the easier the cleaning.\n<br>● Upholstery too should have the minimum of decorative features such as buttons, gathers, etc.\n<br>● Surfaces such as solid wood are now being substituted by laminates wherever possible.\n<br>● While solid wood requires regular buffing and polishing, laminates are low-maintenance surfaces.\n<br>● A regular damp-dusting is usually sufficient for laminates. The drawback of laminates is that they lack the richness and elegance of solid wood.\n<br>● Wood-polishes are stain-resistant and long-lasting, and are a boon to housekeepers as wooden surfaces become fairly easy to maintain with the use of these polishes.\n<br>● Another high-maintenance surface that requires constant polishing is brass.\n<br>● Brass becomes easily tarnished, and more so in coastal climates.\n<br>● Laminated brass surfaces are easier to maintain as they do not require regular polishing, and should be preferred in hotels.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "spbuPiMhUy",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-7r"
+        }
+      ]
+    },
+    "HK_Unit_2.2.html": {
+      "settings": {
+        "title": "HK_Unit_2.2",
+        "order": 12
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -2</b><div>CLEANING ORGANISATION AND CLEANING AGENTS</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "spbwph4eQE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-7s"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>CLEANING AGENTS\n</b><br>\n<br>A cleaning agent removes or assists in removing or removes physically or chemically any soil from the surface. Dust being composed of loose particles, is removed comparatively easily by the use of various piece of equipment; dirt, however, owing to it’s adherence to surfaces by means of grease or moisture requires the use of cleaning agents as well as equipment if it is to be removed efficiently; and a knowledge of different types is important so that deterioration of surfaces is prevented.\n<br>\n<br><b>Choice of cleaning agent</b>\n<br>With a variety of cleaning agents in the market, the housekeeper should remember that a great deal of time, effort and money can be wasted by wrong choice as well as possible deterioration of articles and surfaces. Cleaning agents are chemicals and the housekeeper should have some knowledge of cleaning science if they are to be chosen and used correctly. The following points maybe taken into consideration when choosing cleaning agents; -\n<br>● Type of soiling\n<br>● Composition\n<br>● Ease of use\n<br>● Saving of time and labour\n<br>● Possible damage to surface\n<br>● Toxic or irritation to skin\n<br>● Smell\n<br>● Versatility\n<br>● Packaging\n<br>● Storage and deterioration\n<br>● Cost\n<br><i>From the great variety of cleaning agents available, most commonly ones used are: -\n</i><br>● Detergent\n<br>● Scouring liquid / powder\n<br>● WC cleanser\n<br>● Mirror cleanser\n<br>● Furniture polish\n<br>● Air freshener\n<br>\n<br><b>CLASSIFICATION OF CLEANING AGENTS\n</b><br>Cleaning agents are classified according to the principle method by which soil or stains are removed from the surface. This will be determined by their composition. The principle classes are:\n<br>● Water\n<br>● Detergents\n<br>● Abrasives\n<br>● Degreasers\n<br>● Acid cleaners\n<br>● Organic solvents\n<br>● Other cleaning agents\n<br>\n<br><b>1. WATER:\n</b><br>Water is the simplest cleaning agent and some form of dirt will be dissolved by it; but normally it is a poor cleaning agent if used alone. It becomes effective only if used in conjunction with some other agent, e.g. a detergent. Water serves to:\n<br>● Carry the cleaning materials to the soil\n<br>● Suspend the soil\n<br>● Remove the suspended soil from the cleaning site\n<br>● Rinse the detergent solution from the surface\n<br>● Water has poor power of detergency because:\n<br>● It has high surface tension and forms droplets\n<br>● It has little wetting power\n<br>● It is repelled by oil and grease\n<br>● If shaken within oil the emulsion does not prevent formation of large droplets\n<br>● It has low surfactant effect (surface active agent)\n<br><b>Hardness: </b>Hard water contains calcium and magnesium salts which will inhibit cleaning of material in the following ways –\n<br>a. In combination with soap the salts form insoluble scum which reduces the efficiency of the soap and makes rinsing difficult\n<br>b. Calcium combines with fat in the soil to form a soapy substance which adheres strongly to the surface\n<br>c. The calcium and magnesium salts tend to cause flocculation (tendency to cause soil that is suspended in water, to redeposit on the surface being cleaned)\n<br>d. Hardness of water also causes premature aging of fabrics, causes scale and fur to be deposited in machines and pipes.\n<br><b><i>Hard water can be softened by –\n</i></b><br>● Addition of soda\n<br>● Addition of water softener based on Sodium sesquicarbonate\n<br>● Water softening units, e.g. permutit.\n<br>\n<br><b>2. DETERGENT:\n</b><br>Detergents are those cleaning agents, which contain significant quantities of a group of chemicals known as ‘Surfactants’ (chemicals which have water and soil attracting properties). A number of other chemicals are frequently included to produce detergents suitable for a specific use.\n<br>A good detergent should –\n<br>● Reduce the surface tension of water so that the cleaning solution can penetrate the soil\n<br>● Emulsify soil and lift it from the surface\n<br>● Be soluble in cold water\n<br>● Be effective in hard water and a wide range of temperature.\n<br>● Be hard on a surface that has to be cleaned. Clean quickly and with little agitation.\n<br>● Suspend soil in a cleaning solution, and once the soil is removed, to hold it in suspension and not let it redeposit.\n<br>● Rinse easily and leave no streaks or scum\n<br>● Be economical to user\n<br>● Be harmless to the skin and article.\n<br>● Be biodegradable\n<br>\n<br><b>Chemical composition of detergent: -</b>\n<br><b><i>1. Surfactants</i></b> are chemicals, whose molecules when dissolved in water possess, water seeking end (hydrophilic) and a water-repelling end (hydrophobic). They may or may not carry the positive and negative electrical charge. The molecules disperse through water and reduce the surface tension of water by overcoming the forces of attraction between the water molecules, thus allowing the water and surfactant molecules to penetrate the soil and surface.\n<br><b><i>2. Builders</i></b> are alkaline chemicals that influence the effectiveness of a cleaning agent in one or both of the following ways -\n<br>a. They sequester (combine with) calcium ions in hard water to form water-soluble salts, thus preventing the adverse effects of calcium.\n<br>b. They enhance the emulsifying by increasing the pH value of the solution and dispersing properties of the detergent\n<br>Builders in general can cause damaging effects on many surfaces, e.g. chrome, aluminum, wool, silk, paint, wood, linoleum. It may constitute up to 30% of heavily built powdered detergents and helps in softening water too.\n<br><b><i>3. Foaming agents</i></b> increase or stabilize the foam formed by a detergent. Foaming can be used to surfactant activity, the level of foam depending on the amount of surfactant active in a cleaning solution, e.g. ethanol amides. Alkaloids derived from coconut oil are frequently used for this purpose. The foam will stick to all non-horizontal surfaces, increasing the contact between the surface and the cleaning chemical.\n<br><b><i>4. Chelating agents</i></b> are relatively complex chemicals, which are included in many liquid detergents to sequester calcium ions. They are also frequently used as a desealer, being a more acceptable alternative to strong acids.\n<br><b><i>5. Suspending agents</i></b> increase the amount of soil that can be held in suspension in the cleaning solution, e.g. sodium carboxymethyl cellulose.\n<br><b><i>7. Bleaches</i></b> will break down with oxidation, those stains that have not been removed from the surface by surfactants or builders. Sodium perborate, oxidizing weak bleach is frequently included in detergents intended for washing textiles.\n<br><b><i>8. Bulking agents</i></b> contribute to the volume of detergent powders, e.g. sodium sulphate.\n<br>Conditioning agents ensure that the granules in the detergent powder are crisp, firm and dry.\n<br>Whiteners cause absolute ultraviolet light to transmit as visible white light.\n<br><b><i>9. Enzymes</i></b> are complex proteins that break down organic substances, e.g. blood stains, food stains, etc. they are effective at 30 to 50 degrees C and are inactivated at temperatures above 60 degrees C.\n<br><b><i>10. Anti Corrosive agents</i></b> inhibit the formation of water films on the surface. Chemical reactions resulting in corrosion are generally dependent on the presence of water, e.g. sodium silicate.\n<br><b><i>11. Perfumes</i> </b>and dyes are included to increase consumer acceptability, but increase the risk of allergic reactions.\n<br><b><i>12. Germicides</i></b> are also added sometimes to prevent growth of bacteria and fungus.\n<br>\n<br><b>3. ABRASIVES\n</b><br>The cleaning action of abrasives depends on the presence of fine particles which when rubbed over a soiled hard surface, dislodges the soil, removes tarnishing and surface scratches from meat surfaces. Abrasives can be divided into –\n<br>● Hard surface cleaners\n<br>● Metal polishes.\n<br>Abrasives depend on their rubbing or scratching action to clean dirt from hard surfaces. The extent to which they will rub or scratch a surface depends on the nature of the abrasive material and on the size and shape of the particles. The use of abrasive will depend on the surface to be cleaned and the type of dirt to be removed. Whenever possible fine abrasives should be preferred to coarser ones. E.g. glass, sand, emery paper, steel wool, nylon pads, powdered pumice, feldspar, calcite, fine ash, precipitated whiting, filtered chalk, jeweler’s rouge (fine abrasive), etc. they are available in natural, liquid, paste or powdered form.\n<br>\n<br><b>TYPES OF ABRASIVES\n</b><br>Based on the scale of hardness for various substances abrasives are classified as;\n<br>1 2 3 4 5 6 7 8 9 10\n<br>Talc, Calcite, Feldspar and Diamond\n<br>\n<br><b><i>Fine Abrasives:\n</i></b><br>These include precipitated whiting (filtered chalk) and jeweler’s rouge (a pink oxide of iron) used for shining silver. They are also constituents of commercial silver polishes.\n<br><b><i>Medium abrasives:</i></b> these include rottenstone, salt, scouring powder and scouring paste. Scouring powders are made up of fine particles of pumice mixed with soap/ detergent, and alkali and a little bleach.\n<br><b><i>Hard / coarse abrasives:</i></b> these include bath bricks, sandpaper, pumice, steel wool, and emery paper.Glass paper, calcite, sandpaper, fine ash, emery powder and paper, jeweler’s rouge, powdered pumice, precipitated whiting (filtered chalk). Ground limestone, sand, steel wool and nylon scourers are some commonly used abrasives.\n<br>Abrasives are usually not used alone in cleaning agents. For example, a cream or paste meant for cleaning utensils contain about 80 % of finely ground limestone, along with other substances such as bleaches, anionic surfactants, alkaline builders, and perfumes.\n<br>\n<br><b>DEGREASING AGENTS\n</b><br>They usually consist of strong alkalis, which can dissolve proteins and emulsify and disperse grease and similar substances. They are based on caustic soda or sodium metasilicate. Sodium carbonate (washing soda) can also be used. They are basically used as stain removers and for clearing blocked drains, cleaning ovens and other industrial equipment. Extreme care should be taken in their use as they have high pH.\n<br>\n<br><b>ACIDS AND TOILET CLEANSERS</b>\n<br>Cleaning agents with acidic properties react with water-soluble chemical deposits to produce water-soluble salts. Acids dissolve metals and are hence used to remove metal stains such as water stains in baths, hard water deposits around taps, tarnish on silver, copper and brass, etc.\n<br>Weak acids include citric acid (lemon juice), acetic acid (vinegar). They are used for removing tarnish from copper and brass and mild water stains in baths. Strong acids are oxalic acid, phosphoric acid, hydrochloric acid, and sulphuric acid.\n<br>\n<br><b>STORAGE OF CLEANING AGENTS\n</b><br>Cleaning agents with a longer shelf life are usually bought in bulk because of the reduced costs that accrue from the economics of scale. other agents are bought and replenished periodically .storage of cleaning agents is crucial and the various points to be kept in mind .the points are listed below:\n<br>Ensure that the storage racks are strong and with selves. Heavier containers must be kept on the bottom shelf.\n<br>The store should be kept clean and well-ventilated at all times.\n<br>● Ensure that the lids are tightly fitted.\n<br>● When issuing cleaning agents use appropriate dispensers and measuring apparatus.\n<br>● Ensure that no residual deposits of cleaning agents are left around the rims of the containers.\n<br>● Avoid spillage, if a spill occurs, clean it up immediately.\n<br>● Follow a systematic procedure for rotating stocks.\n<br>● Organic solvents, strong reagents, polishes should be kept away from heat sources.\n<br>● Check stock regularly the store should be locked when not in use.\n<br>\n<br><b>Distribution and Controls ; Cleaning Agents\n</b><br>\n<br><b><i>Issuing of the cleaning agents can be done in the following ways:\n</i></b><br><b>Requisition\n</b><br>Each peripheral storage area will have a requisition book with forms in triplicate. Every time good are required, the person responsible for the storage area will complete the form and sign it. The top copy of this form will then be taken or sent to the central store prior to the collection time, where it will be checked by the supervisor and the items put together for collection by the cleaner. The second copy will go to the housekeeper responsible for cleaning expenditure. The third copy will remain in the book which is returned with fresh supplies.\n<br>\n<br><b>Full for empty/ new for old\n</b><br>This system is used extensively in smaller establishments. Individual cleaners will take empty containers or old dusters, etc. to the central store and will be given a replacement in return.\n<br>\n<br><b>Topping up\n</b><br>At a fixed time each day or week, the cleaners will take their containers to the main store to be topped up. This avoids the danger of running out of supplies. In some establishments, cleaners will deposit their bucket of cleaning agents in the main store at the end of each day or regular intervals. These will be replenished ready for collection at the start of the next shift.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "spbwpi4ixZ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-7t"
+        }
+      ]
+    },
+    "HK_Unit_2.3.html": {
+      "settings": {
+        "title": "HK_Unit_2.3",
+        "order": 13
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -2</b><div>CLEANING ORGANISATION AND CLEANING AGENTS</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "spbyYlNPRP",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-7u"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>CLEANING EQUIPMENT'S</b>\n<br>These are manual or mechanical devices which help in the cleaning process.\n<br>\n<br><b>Selection Criteria for cleaning equipment's:-\n</b><br>Efficient cleaning and maintenance and maximum work productivity are dependent on high quality cleaning equipment and selecting the ideal equipment plays a major role in the cleaning process.\n<br>● The selection criteria for equipment's are:-\n<br>● Safety in operation\n<br>● Suitability to type of area, surface, work, amount of obstruction and cleaning frequency.\n<br>● Versatility to do various types of cleaning.\n<br>● Work performance in terms of capacity of machine.\n<br>● Ease of handling in terms of size, weight, height of machine and ease of operation.\n<br>● Portability in terms of ease of transfer between floors and provision of wheels and detachable parts.\n<br>● Durability of the equipment, sturdiness, life of the equipment etc.\n<br>● Noise level of the equipment\n<br>● Availability of spare parts, easy servicing conditions.\n<br>● Protective design of the equipment without sharp edges.\n<br>● easy to store in terms of dismantling parts and storage space required.\n<br>● Cost as initial costs, operating costs, maintenance\n<br>\n<br><b>MANUAL EQUIPMENT'S:-\n</b><br>\n<br>Equipments which help in the cleaning process by directly using manual energy of the employees.\n<br>The common manual equipments are :-\n<br>1)Brooms 2)Brushes 3)Mops 4)Cloths 5)Containers 6) Box Sweepers\n<br>\n<br><b>BROOMS:-\n</b><br>Brooms consist of long bristles gathered together and inserted into a handle. Bristles may be made of grass, corn, coconut fibers etc.\n<br>\n<b><i><br>Types of brooms:-\n</i></b><br> -Soft Bristled brooms- Brooms made of corn fiber, grass brooms, and used on smooth floors.\n<br>-Hard bristled Brooms- Coconut fiber brooms or yard brooms are used on rough surfaces especially outdoors.\n<br>-Wall brooms/ Tall Turks- These are used to remove cobwebs from ceilings. They have a soft head and a long handle.\n<br>\n<br><b>BRUSHES:-\n</b><br>These are designed to remove dust and dirt from surfaces. Parts of brush:-\n<br>1. Stock in which bristles are inserted made of wood, metal or plastic.\n<br>2. Bristles made of horsehair, nylon, jute or coir have chisel like action which dislodges the soil\n<br>3. Handles may also be made of wood or plastic and can be detachable or non detachable.\n<br>\n<br><b><i>Types of Brushes:-\n</i></b><br>-Hard Brush- Stiff bristles and well spaced out. Removes heavy soil from rough surfaces.\n<br>-Soft brush- Softer bristles and set close together. Removes loose soil from smooth surfaces like carpets, furniture etc.\n<br>-Scrubbing Brushes- These have short, hard bristles designed for cleaning stains and heavy soil. Also known as T brushes.\n<br>Other brushes are Toilet Brushes/Johnny Mops, Bottle Brushes, Cloth scrubbing Brush, Carpet brushes, Feather Brush etc.\n<br>\n<br><b>3) MOPS:-\n</b><br>Types of mops are dry mops and wet mops.\n<br><b><i>Dry mops:-\n</i></b><br>Also called dust control mops. These are used to remove dust from floors, walls, and ceilings. Mops have handles, to which a metal frame is attached. The mop head made of dense cotton fringes are inserted into the frame and stretched over it.\n<br><b><i>Wet/damp mops:-\n</i></b><br>These mops are used along with buckets to remove dirt from the floor surfaces. The mop consists of a handle and cotton fringes or sponge which are capable of absorbing water.\n<br><i><br></i><br><i>Types of damp mop-\n</i><br>a) Do-all-mops- Consists strands of twisted cotton fixed to a circular metal plate which is fixed to a stock.\n<br>b) Kentucky mop-Cotton strands fixed to a length of cotton fabrics which is inserted into a metal stock\n<br>c) Foss mop-Dense cotton fringes inserted into a metal stock\n<br>d) Squeeze- Consists of a rubber blade attached to a metal handle to remove excess water from the floor.\n<br>e) Sponge mops- Consists of sponge fixed to a replaceable lever controlled head, hinged for removing the water and attached to a long handle.\n<br>\n<br><b>4) CLOTHS:-\n</b><br>Various clothes are used in dry and wet cleaning. For efficient usage cloth can be color coded and used by staff for different usages.\n<br><b><i>Types of cloths-\n</i></b><br>● Dusters/ cloths- Soft absorbent plain or checked cotton material or yellow flannelette used for dusting and buffing.\n<br>● Swabs and Wipes- These are made of loosely woven cotton cloths which are soft, absorbent material used for wet cleaning of surface above floor level. Mainly used for cleaning bathtubs and washbasins.\n<br>● Floor cloths – These are coarse knitted cotton cloths which are bigger, thicker and used to clean floors.\n<br>● Glass Cloths/ Scrim- These are lint free loosely woven linen material and are used for cleaning glass and mirrors.\n<br>● Cotton Rags or cloths-Disposable cotton or cloths used for applying polishes and cleaning agents.\n<br>● Chamois leather- Obtained from chamois goat and used for cleaning windows and mirror, polishing silver.\n<br>● Dust sheets- Made of thin cotton material which are discarded from linen rooms like bed sheets or curtains used to cover floor furniture during renovation work.\n<br>● Drug gets- Linen, canvas or plastic material placed on the floor in doorways to absorb excessive dirt caused during bad weather or renovation work.\n<br>● Bucket cloths/Splash mats-Thick fabric placed under buckets to prevent water marks formation on surfaces.\n<br>\n<br><b>5) CONTAINERS:-\n</b><br> \n<br>The staff require containers to carry, transport, and store items of use and collect waste products.\n<br>Types of containers-\n<br>● Buckets- Made of plastic or galvanized iron. Used to collect water and used with mops for cleaning.\n<br>● Dustpans- Used along with brushes to collect dust and made of plastic or metal. The edge in contact with the floor must be thin and sharp.\n<br>● Dustbins- Made of plastics, wood, metals, leather , jute and placed in rooms, public areas and all back areas and lined with plastic bags.\n<br>● Sani-bins-Metal or plastic bins with lids.\n<br>● Spray bottles- Lightweight containers which deliver a fine mist of water or cleaning solution on the surface to be cleaned.\n<br>● Hand caddies- Made of metal, wood or plastic consists of a tray with slots for storing chemical bottles and a handle to carry it.\n<br>● <i>Carts and trolleys-\n</i><br>i) Chambermaids trolley/Room Attendants cart/ Maids Trolley- Used to carry linen, cleaning agents, supplies, cleaning equipment required for guestroom cleaning and stored in the guest corridors and should be movable and strong.\n<br>ii) Janitorial trolley- Used for cleaning and storing cleaning supplies for public area cleaning.\n<br>iii) Mop wringer trolley- This piece of equipment consists of mop and buckets to carry cleaning solutions and clean water mainly used for public areas.\n<br>iv) Linen trolley- Used for transfer of linen from guest rooms to laundry for washing and are made of cloth or metal with castor wheels.\n<br>\n<br><b>6) BOXSWEEPER:-\n</b><br>These are manually operated carpet sweepers used for removing crumbs from the surfaces. It consists of a brush that revolves when equipment is pushed over the carpet and crumbs get collected in the dust-collector pan which are emptied when filled.\n<br>\n<br>\n<br><b>MECHANICAL EQUIPMENT\n</b><br>The equipment which works by motors powered by electricity.\n<br>\n<br><b><i>Different mechanical equipments are:-</i></b>\n<br> \n<br><b>(I) VACUUM CLEANERS/SUCTION CLEANERS- </b>Dust and crumbs are removed from the surface by suction.\n<br>Vacuum cleaners can be classified on the basis of:-\n<br>● Shape of the machine- Cylindrical, upright, backpack, dustette\n<br>● Function- Dry pick up, wet pick up, dry and wet pick up, pile lifter\n<br>● Centralized vacuuming system\n<br>\n<br><b>DIFFERENT VACUUM CLEANERS:-</b>\n<br><b><i>a) CYLINDRICAL VACUUM CLEANER(DRY PICK UP):-\n</i></b><br>These machines work by suction. Electricity makes the motor work and dust is collected by high suction created by the motor and sucked in through the hose and collected in the dust bag inside the machine. Various attachments are used like floor cleaning head, crevice cleaning head, upholstery cleaning head etc for cleaning different areas. Most commonly used vacuum cleaners used for guest rooms.\n<br><br><b><i>b) UPRIGHT VACUUM CLEANER( DRY PICK UP)\n</i></b><br>The main body of the machine lies horizontally on the surface and does not have attachments but has built in hose for cleaning corners and upholstery. Mainly used for large carpeted areas\n<br><br><b><i>c) BACKPACK VACUUM CLEANER/PIGGYBACK VACUUMS/PAPOOSE(DRY PICK UP):-\n</i></b><br>Small lightweight vacuum cleaners which can be strapped at the back and used to clean upholstery, curtains\n<br>\n<b><i><br>e) DUSTTETTES(DRY PICK UP) :-\n</i></b><br>Small lightweight battery operated vacuum cleaners used to vacuum clean upholstery, carpet edges, mattresses, curtain and staircases etc. Can be carried in hand.\n<br>\n<b><i><br>WET PICKUP VACUUM CLEANER :-\n</i></b><br>Picks up wet waste, excess waste water and used to pick up water from the floor after scrubbing. This can also be used to remove excess moisture after shampooing the carpet. The machine has a squeeze head which is used to remove excess water and collected in a tank which is emptied after use.\n<br> \n<b><i><br>LARGE TANK TYPE VACUUM CLEANER( DRY AND WET PICK UP)\n</i></b><br>Also called canister type vacuum cleaners or industrial vacuum cleaners and are used for dry and wet pick up both. Used for cleaning large areas like lobbies, banquet halls etc.\n<br>\n<br><b><i>PILE LIFTER\n</i></b><br>It’s a vacuum cleaner with two motors to make it extremely strong. The pile of the carpet usually flattens in use. Pile lifters groom the pile of the carpet and restore their vertical orientation. It is not used daily. Mainly used before shampooing the carpet.\n<br>\n<br><b><i>h) CENTRALIZED VACUUMING\n</i></b><br>Centralized vacuum cleaning system suction is generated at one point in a building. Soil is removed by suitable nozzles linked by flexible stretchable hoses to vacuum point. It is then conveyed by a network of pipes to a central container. This system is expensive to install and is generally done at the construction stage\n<br>\n<br><b>CARE AND STORAGE OF VACUUM CLEANERS:-\n</b><br>1. Wheels should be oiled regularly\n<br>2. After use, dust bags or tanks should be emptied and cleaned. \n<br>3. Clean attachment heads after cleaning work is done.\n<br>4. If the machine is dry, never try to pick wet waste. v)Attachments should be stored in proper boxes.\n<br>\n<br><b>(II) FLOOR MAINTENANCE MACHINE\n</b><br>This is a multi functional machine which can scrub, polish and buff the floors. The machines have driving discs (single disc or three small discs rotated in opposite directions) colored nylon pads, water tank, shampoo tank, sprayer which are used for different functions. Lighter the color of the pads, the less strong it is. For scrubbing and stripping: Scrubbing is done with scrubbing brush or with scrubbing pad(black) attached to the disc which cuts the soil.\n<br>\n<br>For polishing: Red colored pads to apply polish on the floor\n<br>For buffing: beige or white pads are used to create high gloss finish.\n<br>\n<br><b>(III) WET EXTRACTION MACHINES:-\n</b><br> \n<br>Wet extraction machines are used to restore the surface appearance of carpet, upholstery and curtains. They remove deeply embedded soil not removed by suction cleaning.\n<br>Types of wet Extraction systems:-\n<br>● Hot water extraction machine-They carry a hot water tank and detergent used for deep cleaning carpet with high pressure spray nozzles and a suction unit to remove soiled solution from the surface.\n<br>● Solvent extraction machines- Used for cleaning upholstery and curtains.\n<br>\n<br><b>(IV)\tSHAMPOOING MACHINES:-\n</b><br>Brushes are made of nylon as it needs to be strong to get through the carpet pile. They are fixed to the discs of the floor maintenance machine. There are special pressure tank along with a foam generator which produces the foam in dry form which cleans the carpet and suspends the soil. This way carpet does not get too wet.\n<br>\n<br><b>(V) POWER SWEEPER:-</b>\n<br>These are self or manually operated machines designed to remove debris and loose soil from floor, pavement, car park, and large areas.\n<br>\n<br><b>(VI) SCARIFYING MACHINES:-</b><b><br></b>Scarifying is a process of removing heavy grease, mud, thick deposits of dirt from the floor by chisel like action with a wire brush cutting tool.\n<br>\n<br><b>STORAGE AND CARE OF CLEANING EQUIPMENT:-\n</b><br>● Equipment should be stored in areas which are locked properly.\n<br>● Proper records of issuing equipments should be maintained(Area, attachments given, time issued, whom issued to, time of return)\n<br>● Attachments and parts should be cleaned properly and stored after use.\n<br>● Brushes should never be faced downwards in the floor as it would damage the bristles.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "spbyYmQsQ3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-7v"
+        }
+      ]
+    },
+    "HK_Unit_2.4.html": {
+      "settings": {
+        "title": "HK_Unit_2.4",
+        "order": 14
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -2</b><div>CLEANING ORGANISATION AND CLEANING AGENTS</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "spbBHDivz8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-7w"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Use of Eco Friendly Products in Housekeeping : Cleaning Agents\n</b><br>\n<br><b>Toiletries\n</b><br>More and more hotels are opting for toiletry ranges evolved after research and experimentation on the potent healing, curative, and therapeutic properties of herbs, their extracts, and essential oils on the skin and hair, especially as laid down in Ayurveda. These products are also not tested on animals and tend to be biodegradable. Some of the herbs and natural substances frequently used in toiletries such as shampoos, conditioners, creams, lotions, and so on are aloe vera, liquorice, citrus fruit, Indian gooseberry, neem, sunflower, basil, pumpkin, cucumber, turmeric, sandalwood, apricot, mace, clove, nutmeg, coriander, rose, henna, clay (especially China clay), alum, and honey.\n<br><br><b>Textiles\n</b><br>Some international chains and ecotels are experimenting with textiles made of bamboo fibres as an environmentally sustainable material for bed and bath linen and uniforms. Bamboo is one of the world’s most prolific, regenerative crops and is grown without the use of any pesticides or fertilizers. Fabrics made of bamboo are naturally antibacterial and hypoallergenic. Bamboo fibres are usually blended with cotton (65%: 35% or 40%: 60%) to yield more absorbent, softer, and smell resistant luxury bath linen than normal ones. Bamboo fabrics have a unique silky texture and are superior to cotton in terms of softness, durability, and comfort and are therefore ideal for the manufacture of bed linen. The fabrics do not pill. The bamboo fibre under the microscope shows various gaps and holes and hence the fabrics made out of it can rapidly absorb and evaporate moisture, making them exceptionally comfortable. Moreover, bamboo is cool in summer and warm in winter.\n<br> \n<br><b>Energy-conserving Products\n</b><br>Housekeepers are now looking for products and equipment that help conserve energy. One such product is the jet hand-dryer that produces bi-directional jets of cold air jets that come to a head at 68 m/s to leave wet hands bone dry in seconds, in an alternative to the conventional hot-air drying process. The dryer is activated by placing the hands in the dryer bin, whereby the jet starts up automatically. The product’s primary advantage is the enormous power saving due to its low energy consumption compared to the conventional hot-air model: this machine runs at 700W, whereas the conventional hot-air dryers run at 2000W. This leads to huge savings in power bills-often as much as 67 per cent.\n<br>Housekeepers and interior designers today also have at their disposal energy-efficient lamps that consume a mere 9W of power and give the same light output as a 60W bulb. This can reduce power tariffs by as much as 80 per cent without taking away the aesthetic appeal of the property. Some trends in lighting that have been gaining momentum in Indian hotels are the use of luminaries and LEDs with sensor technology, compact luminaries and compact halogen lamps.\n<br><br>Acids can cause further staining on metals if it is not washed off quickly, and may spoil the glaze on sanitary fitments. Toilet cleansers rely on their acid content to clean and keep the W/C pan hygienic and remove metal stains. They can be crystalline, powdered or liquid.\n<br>Powdered toilet cleanser consists of a soluble acidic powder, chlorinated bleach, finely ground abrasive (to help when a brush is used) and an effervescing substance, which helps to spread the active ingredient throughout the water.\n<br>Liquid toilet cleaners are a dilute solution of hydrochloric acid, and should be used with great care, because the concentration may cause damage to the surface of the pan, it’s surrounding areas, and to the person using it (if the liquid is split).\n<br>\n<br><b>ALKALIS:\n</b><br>These are used as cleaning agents in the form of liquids and powders. They are particularly useful in the laundry. Very strong alkalis should be used with utmost caution as they are corrosive and toxic. These are called caustic alkalis. Many alkalis act as bleaches.\n<br>Caustic soda- based cleaning agents are used to clear blocked drains and to clean ovens and other industrial equipment.\n<br>\n<br><b>ORGANIC SOLVENTS\n</b><br>These are chemicals that dissolve fat, oil, grease, wax or similar compounds from different surface, e.g. methylated spirit, white spirit (turpentine substitute), carbon tetrachloride. The former two are highly inflammable while carbon tetrachloride is harmful if inhaled, and hence should never be used in a closed area. Many are used for routine stain removal. They are harmful to skin and some surfaces and are fire hazardous.\n<br>\n<br><b>POLISHES\n</b><br>They do not necessarily clean but produce a shine by providing a smooth surface from which light is reflected evenly. They do this by smoothing out any unevenness on the surface of the article, in many cases by forming a thin layer of wax on the surface, thus giving some protection.\n<br><b><i>Metal polishes –</i></b> these remove the tarnish resulting from the attack on the metal by certain compounds and some foodstuffs. They are of two basic types, one for hard metal and other for soft. Either type may be liquid or paste. Liquid polish is a fine abrasive waxed with grease solvent, and sometimes with an acid, e.g. plate powder, precipitated whiting, jeweler’s rouge, methylated spirit, and ammonia. Abrasive when rubbed on the surface of the metal provides friction to remove the tarnish and produce a shine.\n<br><br><b><i>Floor polishes –</i></b>They are of two basic types – Spirit based&nbsp; and Water based.\n<br><br><b><i>Spirit based polishes</i></b> contain a blend of mainly natural waxes, dispersed in a spirit solvent. They may be in paste or liquid form and contain silicon, but too high a silicon content makes the floor slippery. The build up of polish can be removed by losing the wax finish with spirit and slight abrasion, and then picking up the loosened wax with a damp cloth mop. It is suitable for flooring those that are harmed by water like wood, cork, linoleum, and magnesite.\n<br>\n<br><b><i>Water-based polishes </i></b>are emulsions in which fine particles of natural and synthetic waxes are dispersed in water. They are suitable for use on thermoplastic, rubber, PVC, asphalt and combination floors as spirits can affect them. They can also be used on sealed flooring of wood, cork, magnesite and linoleum. Water-based polishes are always liquid but maybe fully buff able, semi-buff able or dry bright. The build-up polish can be removed by loosening the wax synthetic resin with hot water and alkali – no detergent.\n<br>Floor polishes are floor waxes and have to be subjected to rough traffic. A more lasting surface can be obtained by use of a floor seal, with or without water based polish applied on it. Seals are semi-permanent materials, which renders the floor impermeable and protects it from dirt, stains and other foreign matter. They are not polishes.\n<br>Furniture polishes are intended for wooden furniture and fittings. They are protective finishes, which provide the surface of the furniture with a thin layer of wax or resin. This layer gives protection against abrasion, absorption of spillages and a smooth surface from which light may be reflected to give a shine or sheen. It consists of waxes dissolved in a varying amount of spirits. They are of four types –\n<br>● Paste wax polish – high proportion of wax plus silicon\n<br>● Cream polish – greater amounts of spirit to give a cleaning action.\n<br>● Liquid polish – has a great proportion of spirit requiring no buffing.\n<br>● Spray polish – also has a high proportion of spirit.\n<br>\n<br><b>FLOOR SEALERS\n</b><br>These are applied to flooring surfaces as a semi- permanent finish that acts as a protective barrier by preventing the entry of dirt, gems and liquid, grease, stains and bacteria. They prevent scratching and provide an easily maintainable surface. The right type of seal should be applied to each type of floor for effective protection and an attractive appearance. According to their functions, floor sealers can be finishing protective or combination of both.\n<br>\n<br><b><i>Types of floor sealers\n</i></b><br>● Oleo-resinous sealers: they are used for imparting an attractive surface gloss penetrating the floor darkening the colour and highlighting the grain of wood floors.\n<br>● One-pot plastic sealers: they are used on wood, wood- composition, cork and magnesite floors.\n<br>● Two-pot plastic sealers: they are also used on wood, wood- composition, cork and magnesite floors.\n<br>● Pigmented sealers: these may be used on concrete, wood, wood-composition, magnesite, asphalt, and stone floors.\n<br>● water-based seals: these may be used on marble , terrazzo, magnesite, linoleum, rubber, thermoplastic tiles, PVCs, asphalt, concrete, stone-, and quarry tiles.\n<br>\n<br><b>BLEACHES\n</b><br>Bleaches used for cleaning purposes are generally alkaline stabilized solutions of sodium hypochlorite and are useful for stained sinks, W/C pans, etc, but they must never be mixed with other types of toilet cleansers. They whiten and have germicidal properties. Great care should be taken to prevent spotting on other surfaces.\n<br>\n<br><b>DIS-INFECTANTS AND DEODORANTS\n</b><br>Disinfectants, antiseptics and deodorants are not strictly cleaning agents, but are often used during the cleaning operations. Disinfectants kill bacteria; antiseptics prevent bacterial growth and are frequently diluted disinfectants. Use of disinfectants should not be necessary if the cleaning methods are correct.\n<br>\n<br><b><i>Types of disinfectants:</i></b>\n<br>Disinfectants can be categorized in terms of their chemical action and compositions\n<br>●&nbsp;<b><i>Phenols:</i></b> these are hydroxyl derivatives of the aromatic hydrocarbon benzene. They are used in dilute or high concentrations to disinfect surfaces in hospitals especially in hotels, diluted phenols are used with their sharp smell masked by other additives.\n<br><b><i>● Halogens: </i></b>the elements chlorine and iodine may be used as disinfectants .Chlorine is used both as bleach and as a disinfectant on many surfaces .Iodine is not often used to disinfectant surfaces because it tends to leave brown stains.\n<br>●&nbsp;<b><i>Quaternary ammonium compounds:</i></b> these are cationic surfactants useful as bactericides.\n<br>Natural pine oils: pine oils are obtained from pine trees. They are germicidal to some extent, but are mainly added changing formulation for their pleasant smell.\n<br>●&nbsp;<b><i>Deodorants</i></b> mask unpleasant smells by either combining chemically with the particle causing smell, or by their smell being predominant. This is not required where there is good ventilation and thorough cleaning.\n<br>They are used in restrooms, guestrooms, guest bathrooms, cloakrooms and public areas such as lobbies. Some deodorizers leave no trace of a perfume cover- up. They are usually available as aerosol sprays, Liquids, powders and crystalline blocks.\n<br>\n<br><b>WINDOW OR GLASS CLEANSERS\n</b><br>Window cleansers consist of water-miscible solvents, often isopropyl alcohol, to which small quantities of surfactants and possibly an alkali are added to improve the polishing effect of the cleanser. Some also contain fine abrasives. Most glass cleaners are available as sprays or liquid. They are sprayed directly onto windows, mirrors and other glass surfaces or applied on with a soft cloth and rubbed off using a soft, lint- free glass cloth. An inexpensive glass cleaner that can be readily made in the housekeeping department is soft water to which some vinegar is added can be used with old newspapers.\n<br>\n<br><b>ABSORBENTS\n</b><br>They carry out the action by absorbing the stain or grease. They are used only when the quantity of stain is too much. E.g. starch powder, fuller’s earth, bran, French chalk powder, etc.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "spbBHEiMo9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-7x"
         }
       ]
     }
