@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "HK Units.html",
+    "currentPage": "1 Year Subject.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -59,7 +59,7 @@
         "file": "@PROJECT_PATH@/fonts/FFF_Tusj/font.ttf"
       }
     ],
-    "uniqCompNum": 286,
+    "uniqCompNum": 298,
     "versionPublish": "5.1.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -170,7 +170,7 @@
     "2 Year Subject.html": {
       "settings": {
         "title": "2 Year Subject",
-        "order": 3
+        "order": 8
       },
       "components": [
         {
@@ -206,7 +206,7 @@
     "3 Year Subject.html": {
       "settings": {
         "title": "3 Year Subject",
-        "order": 39
+        "order": 44
       },
       "components": [
         {
@@ -245,7 +245,7 @@
     "Syllabus.html": {
       "settings": {
         "title": "Syllabus",
-        "order": 73
+        "order": 78
       },
       "components": [
         {
@@ -283,7 +283,7 @@
     "1 Sem Syllabus.html": {
       "settings": {
         "title": "1 Sem Syllabus",
-        "order": 75
+        "order": 80
       },
       "components": [
         {
@@ -321,7 +321,7 @@
     "5 Sem Syllabus.html": {
       "settings": {
         "title": "5 Sem Syllabus",
-        "order": 80
+        "order": 85
       },
       "components": [
         {
@@ -359,7 +359,7 @@
     "3 Sem Syllabus.html": {
       "settings": {
         "title": "3 Sem Syllabus",
-        "order": 77
+        "order": 82
       },
       "components": [
         {
@@ -397,7 +397,7 @@
     "AC Syllabus.html": {
       "settings": {
         "title": "AC Syllabus",
-        "order": 76
+        "order": 81
       },
       "components": [
         {
@@ -461,7 +461,7 @@
     "HK Syllabus.html": {
       "settings": {
         "title": "HK Syllabus",
-        "order": 78
+        "order": 83
       },
       "components": [
         {
@@ -525,7 +525,7 @@
     "FO Syllabus.html": {
       "settings": {
         "title": "FO Syllabus",
-        "order": 79
+        "order": 84
       },
       "components": [
         {
@@ -589,7 +589,7 @@
     "H&S Syllabus.html": {
       "settings": {
         "title": "H&S Syllabus",
-        "order": 81
+        "order": 86
       },
       "components": [
         {
@@ -653,7 +653,7 @@
     "FM Syllabus.html": {
       "settings": {
         "title": "FM Syllabus",
-        "order": 82
+        "order": 87
       },
       "components": [
         {
@@ -717,7 +717,7 @@
     "Contact.html": {
       "settings": {
         "title": "Contact",
-        "order": 83
+        "order": 88
       },
       "components": [
         {
@@ -888,7 +888,7 @@
     "Ref.Books.html": {
       "settings": {
         "title": "Ref.Books",
-        "order": 74
+        "order": 79
       },
       "components": [
         {
@@ -1069,7 +1069,7 @@
             }
           },
           "_name": "header18",
-          "_customHTML": "<section class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"135\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Intro with gradient background</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>\n                        Applied Cookery</b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Choose Your Unit</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 1</a> <a class=\"btn btn-secondary\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 2</a> <a class=\"btn btn-warning\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 3</a> <a class=\"btn btn-success\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 4</a> <a class=\"btn btn-black\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 5</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"135\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Intro with gradient background</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>\n                        Applied Cookery</b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Choose Your Unit</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"AC_Unit_1_index.html\" data-app-placeholder=\"Type Text\">Unit - 1</a> <a class=\"btn btn-secondary\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 2</a> <a class=\"btn btn-warning\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 3</a> <a class=\"btn btn-success\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 4</a> <a class=\"btn btn-black\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 5</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sle9faRUq6",
           "_anchor": "header18-17",
           "_protectedParams": [],
@@ -1082,7 +1082,7 @@
     "FO Units.html": {
       "settings": {
         "title": "FO Units",
-        "order": 25
+        "order": 30
       },
       "components": [
         {
@@ -1118,7 +1118,7 @@
     "HK Units.html": {
       "settings": {
         "title": "HK Units",
-        "order": 4
+        "order": 9
       },
       "components": [
         {
@@ -1154,7 +1154,7 @@
     "H&S Units.html": {
       "settings": {
         "title": "H&S Units",
-        "order": 61
+        "order": 66
       },
       "components": [
         {
@@ -1190,7 +1190,7 @@
     "FM Units.html": {
       "settings": {
         "title": "FM Units",
-        "order": 40
+        "order": 45
       },
       "components": [
         {
@@ -1226,7 +1226,7 @@
     "Disclaimer.html": {
       "settings": {
         "title": "Disclaimer",
-        "order": 84
+        "order": 89
       },
       "components": [
         {
@@ -1257,7 +1257,7 @@
     "Privacy Policy.html": {
       "settings": {
         "title": "Privacy Policy",
-        "order": 85
+        "order": 90
       },
       "components": [
         {
@@ -1288,7 +1288,7 @@
     "Help.html": {
       "settings": {
         "title": "Help",
-        "order": 72
+        "order": 77
       },
       "components": [
         {
@@ -1312,7 +1312,7 @@
     "error.html": {
       "settings": {
         "title": "Error",
-        "order": 86
+        "order": 91
       },
       "components": [
         {
@@ -1366,7 +1366,7 @@
     "HK_Unit_1_Index.html": {
       "settings": {
         "title": "HK_Unit_1_Index",
-        "order": 5
+        "order": 10
       },
       "components": [
         {
@@ -1428,7 +1428,7 @@
     "HK_Unit_1.html": {
       "settings": {
         "title": "HK_Unit_1",
-        "order": 6
+        "order": 11
       },
       "components": [
         {
@@ -1479,7 +1479,7 @@
     "HK_Unit_1.1.html": {
       "settings": {
         "title": "HK_Unit_1.1",
-        "order": 7
+        "order": 12
       },
       "components": [
         {
@@ -1683,7 +1683,7 @@
     "HK_Unit_1.2.html": {
       "settings": {
         "title": "HK_Unit_1.2",
-        "order": 8
+        "order": 13
       },
       "components": [
         {
@@ -1887,7 +1887,7 @@
     "HK_Unit_4.html": {
       "settings": {
         "title": "HK_Unit_4",
-        "order": 23
+        "order": 28
       },
       "components": [
         {
@@ -1940,7 +1940,7 @@
     "FO_Unit_1.html": {
       "settings": {
         "title": "FO_Unit_1",
-        "order": 26
+        "order": 31
       },
       "components": [
         {
@@ -1993,7 +1993,7 @@
     "HK_Unit_5.html": {
       "settings": {
         "title": "HK_Unit_5",
-        "order": 24
+        "order": 29
       },
       "components": [
         {
@@ -2101,7 +2101,7 @@
     "FO_Unit_2_index.html": {
       "settings": {
         "title": "FO_Unit_2_index",
-        "order": 27
+        "order": 32
       },
       "components": [
         {
@@ -2163,7 +2163,7 @@
     "FO_Unit_2.html": {
       "settings": {
         "title": "FO_Unit_2",
-        "order": 28
+        "order": 33
       },
       "components": [
         {
@@ -2216,7 +2216,7 @@
     "FO_Unit_2.1.html": {
       "settings": {
         "title": "FO_Unit_2.1",
-        "order": 29
+        "order": 34
       },
       "components": [
         {
@@ -2269,7 +2269,7 @@
     "FO_Unit_2.2.html": {
       "settings": {
         "title": "FO_Unit_2.2",
-        "order": 30
+        "order": 35
       },
       "components": [
         {
@@ -2322,7 +2322,7 @@
     "FO_Unit_5.html": {
       "settings": {
         "title": "FO_Unit_5",
-        "order": 38
+        "order": 43
       },
       "components": [
         {
@@ -2546,7 +2546,7 @@
     "HS_Unit_1.html": {
       "settings": {
         "title": "HS_Unit_1",
-        "order": 62
+        "order": 67
       },
       "components": [
         {
@@ -2599,7 +2599,7 @@
     "HS_Unit_2_index.html": {
       "settings": {
         "title": "HS_Unit_2_index",
-        "order": 63
+        "order": 68
       },
       "components": [
         {
@@ -2661,7 +2661,7 @@
     "HS_Unit_2.1.html": {
       "settings": {
         "title": "HS_Unit_2.1",
-        "order": 65
+        "order": 70
       },
       "components": [
         {
@@ -2771,7 +2771,7 @@
     "HS_Unit_2.2.html": {
       "settings": {
         "title": "HS_Unit_2.2",
-        "order": 66
+        "order": 71
       },
       "components": [
         {
@@ -2860,7 +2860,7 @@
     "HS_Unit_3.html": {
       "settings": {
         "title": "HS_Unit_3",
-        "order": 68
+        "order": 73
       },
       "components": [
         {
@@ -2913,7 +2913,7 @@
     "HS_Unit_3.1.html": {
       "settings": {
         "title": "HS_Unit_3.1",
-        "order": 69
+        "order": 74
       },
       "components": [
         {
@@ -3137,7 +3137,7 @@
     "HS_Unit_3.2.html": {
       "settings": {
         "title": "HS_Unit_3.2",
-        "order": 70
+        "order": 75
       },
       "components": [
         {
@@ -3190,7 +3190,7 @@
     "HS_Unit_3.3.html": {
       "settings": {
         "title": "HS_Unit_3.3",
-        "order": 71
+        "order": 76
       },
       "components": [
         {
@@ -3243,7 +3243,7 @@
     "HS_Unit_3_index.html": {
       "settings": {
         "title": "HS_Unit_3_index",
-        "order": 67
+        "order": 72
       },
       "components": [
         {
@@ -3305,7 +3305,7 @@
     "HS_Unit_2.html": {
       "settings": {
         "title": "HS_Unit_2",
-        "order": 64
+        "order": 69
       },
       "components": [
         {
@@ -3358,7 +3358,7 @@
     "FM_Unit_1.html": {
       "settings": {
         "title": "FM_Unit_1",
-        "order": 42
+        "order": 47
       },
       "components": [
         {
@@ -3411,7 +3411,7 @@
     "FM_Unit_1_index.html": {
       "settings": {
         "title": "FM_Unit_1_index",
-        "order": 41
+        "order": 46
       },
       "components": [
         {
@@ -3473,7 +3473,7 @@
     "FM_Unit_1.1.html": {
       "settings": {
         "title": "FM_Unit_1.1",
-        "order": 43
+        "order": 48
       },
       "components": [
         {
@@ -3562,7 +3562,7 @@
     "FM_Unit_1.2.html": {
       "settings": {
         "title": "FM_Unit_1.2",
-        "order": 44
+        "order": 49
       },
       "components": [
         {
@@ -4057,7 +4057,7 @@
     "FM_Unit_1.3.html": {
       "settings": {
         "title": "FM_Unit_1.3",
-        "order": 45
+        "order": 50
       },
       "components": [
         {
@@ -4167,7 +4167,7 @@
     "FM_Unit_1.5.html": {
       "settings": {
         "title": "FM_Unit_1.4",
-        "order": 46
+        "order": 51
       },
       "components": [
         {
@@ -4220,7 +4220,7 @@
     "FM_Unit_1.1_index.html": {
       "settings": {
         "title": "FM_Unit_1.1_index",
-        "order": 47
+        "order": 52
       },
       "components": [
         {
@@ -4282,7 +4282,7 @@
     "FM_Unit_1.1_1.html": {
       "settings": {
         "title": "FM_Unit_1.1_1",
-        "order": 48
+        "order": 53
       },
       "components": [
         {
@@ -4335,7 +4335,7 @@
     "FM_Unit_1.1_2.1.html": {
       "settings": {
         "title": "FM_Unit_1.1_2.1",
-        "order": 50
+        "order": 55
       },
       "components": [
         {
@@ -4481,7 +4481,7 @@
     "FM_Unit_1.1_2.html": {
       "settings": {
         "title": "FM_Unit_1.1_2",
-        "order": 49
+        "order": 54
       },
       "components": [
         {
@@ -4555,7 +4555,7 @@
     "FM_Unit_1.1_3.html": {
       "settings": {
         "title": "FM_Unit_1.1_3",
-        "order": 51
+        "order": 56
       },
       "components": [
         {
@@ -4608,7 +4608,7 @@
     "FM_Unit_2_index.html": {
       "settings": {
         "title": "FM_Unit_2_index",
-        "order": 52
+        "order": 57
       },
       "components": [
         {
@@ -4670,7 +4670,7 @@
     "FM_Unit_2.html": {
       "settings": {
         "title": "FM_Unit_2",
-        "order": 53
+        "order": 58
       },
       "components": [
         {
@@ -4780,7 +4780,7 @@
     "FM_Unit_2.1.html": {
       "settings": {
         "title": "FM_Unit_2.1",
-        "order": 54
+        "order": 59
       },
       "components": [
         {
@@ -4890,7 +4890,7 @@
     "FM_Unit_2.2.html": {
       "settings": {
         "title": "FM_Unit_2.2",
-        "order": 55
+        "order": 60
       },
       "components": [
         {
@@ -4943,7 +4943,7 @@
     "FM_Unit_2.3.html": {
       "settings": {
         "title": "FM_Unit_2.3",
-        "order": 56
+        "order": 61
       },
       "components": [
         {
@@ -4996,7 +4996,7 @@
     "FM_Unit_3_index.html": {
       "settings": {
         "title": "FM_Unit_3_index",
-        "order": 57
+        "order": 62
       },
       "components": [
         {
@@ -5058,7 +5058,7 @@
     "FM_Unit_3.html": {
       "settings": {
         "title": "FM_Unit_3",
-        "order": 58
+        "order": 63
       },
       "components": [
         {
@@ -5111,7 +5111,7 @@
     "FM_Unit_3.1.html": {
       "settings": {
         "title": "FM_Unit_3.1",
-        "order": 59
+        "order": 64
       },
       "components": [
         {
@@ -5164,7 +5164,7 @@
     "FM_Unit_3.2.html": {
       "settings": {
         "title": "FM_Unit_3.2",
-        "order": 60
+        "order": 65
       },
       "components": [
         {
@@ -5217,7 +5217,7 @@
     "FO_Unit_3_Index.html": {
       "settings": {
         "title": "FO_Unit_3_Index",
-        "order": 31
+        "order": 36
       },
       "components": [
         {
@@ -5279,7 +5279,7 @@
     "FO_Unit_3.html": {
       "settings": {
         "title": "FO_Unit_3",
-        "order": 32
+        "order": 37
       },
       "components": [
         {
@@ -5332,7 +5332,7 @@
     "FO_Unit_3.2.html": {
       "settings": {
         "title": "FO_Unit_3.2",
-        "order": 34
+        "order": 39
       },
       "components": [
         {
@@ -5385,7 +5385,7 @@
     "FO_Unit_3.1.html": {
       "settings": {
         "title": "FO_Unit_3.1",
-        "order": 33
+        "order": 38
       },
       "components": [
         {
@@ -5495,7 +5495,7 @@
     "FO_Unit_4_Index.html": {
       "settings": {
         "title": "FO_Unit_4_Index",
-        "order": 35
+        "order": 40
       },
       "components": [
         {
@@ -5557,7 +5557,7 @@
     "FO_Unit_4.html": {
       "settings": {
         "title": "FO_Unit_4",
-        "order": 36
+        "order": 41
       },
       "components": [
         {
@@ -5610,7 +5610,7 @@
     "FO_Unit_4.1.html": {
       "settings": {
         "title": "FO_Unit_4.1",
-        "order": 37
+        "order": 42
       },
       "components": [
         {
@@ -5720,7 +5720,7 @@
     "HK_Unit_3_Index.html": {
       "settings": {
         "title": "HK_Unit_3_Index",
-        "order": 15
+        "order": 20
       },
       "components": [
         {
@@ -5782,7 +5782,7 @@
     "HK_Unit_3.html": {
       "settings": {
         "title": "HK_Unit_3",
-        "order": 16
+        "order": 21
       },
       "components": [
         {
@@ -5835,7 +5835,7 @@
     "HK_Unit_3.1.html": {
       "settings": {
         "title": "HK_Unit_3.1",
-        "order": 17
+        "order": 22
       },
       "components": [
         {
@@ -5888,7 +5888,7 @@
     "HK_Unit_3.2.html": {
       "settings": {
         "title": "HK_Unit_3.2",
-        "order": 18
+        "order": 23
       },
       "components": [
         {
@@ -5941,7 +5941,7 @@
     "HK_Unit_3.3.html": {
       "settings": {
         "title": "HK_Unit_3.3",
-        "order": 19
+        "order": 24
       },
       "components": [
         {
@@ -5994,7 +5994,7 @@
     "HK_Unit_3.4.html": {
       "settings": {
         "title": "HK_Unit_3.4",
-        "order": 20
+        "order": 25
       },
       "components": [
         {
@@ -6047,7 +6047,7 @@
     "HK_Unit_3.5.html": {
       "settings": {
         "title": "HK_Unit_3.5",
-        "order": 21
+        "order": 26
       },
       "components": [
         {
@@ -6100,7 +6100,7 @@
     "HK_Unit_3.6.html": {
       "settings": {
         "title": "HK_Unit_3.6",
-        "order": 22
+        "order": 27
       },
       "components": [
         {
@@ -6153,7 +6153,7 @@
     "HK_Unit_2_Index.html": {
       "settings": {
         "title": "HK_Unit_2_Index",
-        "order": 9
+        "order": 14
       },
       "components": [
         {
@@ -6215,7 +6215,7 @@
     "HK_Unit_2.html": {
       "settings": {
         "title": "HK_Unit_2",
-        "order": 10
+        "order": 15
       },
       "components": [
         {
@@ -6268,7 +6268,7 @@
     "HK_Unit_2.1.html": {
       "settings": {
         "title": "HK_Unit_2.1",
-        "order": 11
+        "order": 16
       },
       "components": [
         {
@@ -6321,7 +6321,7 @@
     "HK_Unit_2.2.html": {
       "settings": {
         "title": "HK_Unit_2.2",
-        "order": 12
+        "order": 17
       },
       "components": [
         {
@@ -6374,7 +6374,7 @@
     "HK_Unit_2.3.html": {
       "settings": {
         "title": "HK_Unit_2.3",
-        "order": 13
+        "order": 18
       },
       "components": [
         {
@@ -6427,7 +6427,7 @@
     "HK_Unit_2.4.html": {
       "settings": {
         "title": "HK_Unit_2.4",
-        "order": 14
+        "order": 19
       },
       "components": [
         {
@@ -6474,6 +6474,329 @@
           "_once": false,
           "_params": {},
           "_anchor": "content5-7x"
+        }
+      ]
+    },
+    "AC_Unit_1_index.html": {
+      "settings": {
+        "title": "AC_Unit_1_index",
+        "order": 3
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffb18a\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -1\n</b><div>INTRODUCTION TO COOKERY</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "spbGuLBxPa",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-7y"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-section-title, .mbr-section-subtitle, .mbr-section-btn, .mbr-text": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"AC_Unit_1.html\" data-app-placeholder=\"Type Text\">Introduction</a> <a class=\"btn btn-black\" href=\"AC_Unit_1.1.html\" data-app-placeholder=\"Type Text\">Skills &amp; Behaviors</a> <a class=\"btn btn-secondary\" href=\"AC_Unit_1.2.html\" data-app-placeholder=\"Type Text\">Personal Hygiene &amp; Safety</a> <a class=\"btn btn-success\" href=\"AC_Unit_1.3.html\" data-app-placeholder=\"Type Text\">Culinary History</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "spbGuQ9miU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header2-7z"
+        }
+      ]
+    },
+    "AC_Unit_1.html": {
+      "settings": {
+        "title": "AC_Unit_1",
+        "order": 4
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -1\n</b><div>INTRODUCTION TO COOKERY</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "spbIUKIeXC",
+          "_anchor": "content4-80",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Cookery is defined as a “chemical process”, the mixing of ingredients; the application and withdrawal of heat; decision making, technical knowledge, and manipulative skills. In the more advanced stages, a&nbsp; further element occurs- that of creativity. Cookery is considered to be both an art and technology. Food preparation is a modern term in professional cookery. It denotes preparation and cooking. It follows a flow pattern that commences with the purchasing and selection materials, their handling, processing, and the ultimate presentation of dishes to customers, where “food service” takes over. In French, the word cuisine denotes –the art of cooking-preparing dishes and the place kitchen in which they are prepared.&nbsp;<br><br>Today’s “food-savvy” customers are a widely traveled group. They have increased exposure to other country’s food and restaurants and this has spurred them to have an interest in having these cuisines&nbsp;available at home. The result is growth in food outlets specializing in previously ‘unknown’ foods’. The public's’ growing interest in grain, legumes, fish, vegetables, and fruits along with a desire to reduce over consumption of animal fat, protein and sodium have helped popularize nutritional cooking. Furthermore, they have spurred fundamental changes in the preparation and presentation of\ntraditional foods. An evening out for dinner to a restaurant has become a form of entertainment – a restaurant is a destination where one can savor a quality experience. To provide this experience a\nnumber of things go hand in hand. At the front of the house, it’s the manager and his team who provide impeccable service in a beautiful and apt restaurant setup, but the most important figure is the chef who with his brigade of staff churns out exquisite food to satisfy every\nPalate.\n<br><br>Although cooking may have once been considered a less desirable job, today chefs are a new breed- respected, even admired, for their skill, craftsmanship, and even artistry. Some chefs have received so&nbsp; much press coverage that their names are household words. The elevation of the status of the chef helps attract bright and talented people to the industry.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "spbIULJ1b1",
+          "_anchor": "content5-81",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "AC_Unit_1.1.html": {
+      "settings": {
+        "title": "AC_Unit_1.1",
+        "order": 5
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -1\n</b><div>INTRODUCTION TO COOKERY</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "spbXouP0WH",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-82"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>LEVELS OF SKILLS AND EXPERIENCES\n</b><b><br></b><br>Skills may be grouped into 3 general categories.\n<br><b>1) Supervisory level:</b> The head of the food service, whether called executive chef or kitchen director, must have management and supervisory skills as well as a thorough knowledge of food production. He should be able to:\n<br>● Organize and motivate people under him.\n<br>● Planning menus and production procedures.\n<br>● Controlling costs and managing budgets.\n<br>● Purchasing food supplies &amp; equipment.\n<br>● Must be an experienced chef in order to schedule food production.\n<br>● Train and instruct workers.\n<br>● Control quality.\n<br>\n<br><b>2) Technical level:</b> The cooks are the backbone of the kitchen. These workers carry out the actual food production. They must have knowledge of and experience in cooking techniques. They must be able to function well with their fellow workers and coordinate with other departments. Cooking food in hotels is a team activity.\n<br>\n<br><b>3) Entry-level:</b> this level of workers usually requires no particular skills &amp; experience. The jobs assigned to them are stewarding or basic pre-preparation of vegetables. As their knowledge, skill &amp; experience increases, they may be given a more complex task which will eventually make them skilled chefs. Many Ex-chefs begin their career as pot washers. Beginning in an entry-level position and working one’s way up has been the traditional way of advancing in a food service career. Today, however, who is a graduate from hotel management start at entry-level already possessing knowledge of food production practices, which would give them a head start over other beginners who have no knowledge.\n<br>\n<br><b>B. ATTITUDES AND BEHAVIOR IN THE KITCHEN\n</b><br>\n<br>A CUISINE means the kitchen. Also ‘Art of cooking’\n<br>\n<br><b>C</b>are of equipment\n<br><b>U</b>nderstanding the basic method (to achieve quality)\n<br><b>I</b>ntegrity in handling &amp; serving food \n<br><b>S</b>afety in handling equipment \n<br><b>I</b>nitiatives you will have to take\n<br><b>N</b>eatness during work &amp; presentation. \n<br><b>E</b>fficiency of yourself.\n<br>\n<br><b><i>“Be positive and think positive’’\n</i></b><br>\n<br>The emphasis of a food service education is on learning a set of skills. But attitudes are more important because a good attitude will help you not only to learn skills but also to preserve and overcome many difficulties you will face in your career. The successful food service workers follow an unwritten code of behavior and set of attitudes, which may we call “professionalism”.\n<br>\n<br>Set of qualities are:-\n<br>\n<br><b><i>1. positive attitude</i></b> towards the job: in order to be a good professional chef you must like cooking and want to do it well. The satisfaction of doing your job well and making everything run smoothly will give you enjoyment, which you will always cherish. A chef with a positive attitude works quickly, efficiently, neatly, and safely. Professional chefs take pride in their work and want to make sure that the work is something to be proud of.\n<br>\n<br><b><i>2. Staying power:</i></b> A food service personnel requires good health, physical and mental stamina, and a willingness to work for longer hours.\n<br>\n<br><b><i>3. Ability to work</i></b> with people: works as a team &amp; it is essential to be able to work well as a team and to co-operate with your colleagues.\n<br>\n<br><b><i>4. Communication:\n</i></b><br>● With your supervisors: let them know your difficulties.\n<br>● With your colleagues: share knowledge and also learn from them. Nobody knows everything.\n<br>● With your subordinates: respect them &amp; be courteous.\n<br>● With the food &amp; beverage staff: control your temper.\n<br>\n<br><b><i>5. Eagerness to learn:</i></b> there is more to learn about cooking than you will learn in a lifetime. The food service industry is changing so rapidly that it is vital to be open to new ideas. No matter how good your techniques are, you might learn an even better way to do the same thing, which you must have been doing for a long time.\n<br>\n<br><b><i>6. Must develop a full range of skills:</i></b> A chef must not only be a good cook but is also important to develop and maintain other skills that are necessary for the profession. <br>● Must be able to understand and manage food cost and other financial matters\n<br>● Manage and maintain proper inventories.\n<br>● Deal with suppliers.\n<br>● Understand personnel management.<br>\n<br><b><i>7. Experience: </i></b>there is no substitute for years of experience. Practice more &amp; more to gain more experience.\n<br><br><b><i>8. Aiming for quality: </i></b>whatever you do must have a distinctive sign of quality.\n<br><br><b><i>9. Creativity:</i></b> the sky is a limit, as in “nouvelle cuisine’’.\n<br><br><b><i>10. Return to basics: </i></b>experiments and innovation need a good understanding of basics first.\n<br><br><b><i>11. Care of equipment:</i></b> equipment has been put at your disposal to help you. TAKE CARE OF IT. Treat it as your own, even if it does not belong to you, for others will also be using it.\n<br><br><b><i>12. Safety: </i></b>kitchens can be dangerous places injuries can occur by cuts, burns, handling of machines and equipment, falling, etc. Think about yours as well as others’ safety first.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "spbXoxgEqY",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-83"
+        }
+      ]
+    },
+    "AC_Unit_1.2.html": {
+      "settings": {
+        "title": "AC_Unit_1.2",
+        "order": 6
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -1\n</b><div>INTRODUCTION TO COOKERY</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "spbZ9HPkGe",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-84"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>PERSONAL / KITCHEN HYGIENE\n</b><br>Most of the food-borne disease is caused by bacteria, spread by food workers or handlers. Hence the first step in preventing food-borne disease is good personal –hygiene. Food handler play an important role in ensuring food safety throughout the chain of production, processing, storage, and preparation. Mishandling and disregard of hygienic measures on their part may enable pathogens to come into contact with food and in some cases, to survive and multiply in sufficient numbers to cause illness in the customer on the consumer.\n<br>As a food handler, one must ensure that the food provided to the consumer is free from all types of contamination.\n<br><br>The ability of the food handler to ensure the wholesomeness of the food prepared and served will depend upon following a few basic rules of personal hygiene and good food handling. <b><i>These rules can be divided into 3 groups.\n</i></b><br>\n<br><b>1. General personal hygiene:</b> A hygienic appearance of professionals is indicated by high standards of personal cleanliness and is shown by the cleanliness of hair, hands, face, clothing, and shoes. Good personal hygiene helps prevent food-borne disease; therefore these points must be put into practice.\n<br>● Shower or bath daily.\n<br>● Wear clean clothes and a uniform.\n<br>● Do not work if suffering from a communicable disease.\n<br>● Handle food as little as possible.\n<br>● Wash hands before and during work and every time after using the toilet.\n<br>● Keep hair clean and do not handle them in the kitchen.\n<br>● Do not touch nose &amp; mouth with hands.\n<br>● Do not cough or sneeze over food, use a tissue.\n<br>● Do not wear rings, earrings, jewelry &amp; watches.\n<br>● Do not smoke in food preparation areas.\n<br>● Taste food with a clean spoon.\n<br>● Do not sit on a work surface.\n<br>● Footwear should be clean, safe, and topped with steel toe.\n<br>● Chef cap should always be worn when handling food.\n<br>● Open cuts, burns, etc. Must be covered with a waterproof dressing.\n<br>● Persons suffering from diarrhea, sore throat, vomiting, cold, etc. Must not handle food.\n<br><br>If a person becomes aware that they are suffering from or are carriers of typhoid, paratyphoid, salmonella, or staphylococcal infection, the person responsible for the operation must be informed, who then must inform the medical officer of health.\n<br>\n<br><b>2. Clean hands:</b>&nbsp;The following actions require immediate hand washing before continuing work.\n<br>● Contact with infected or otherwise unsanitary areas of the body.\n<br>● Use of handkerchief or tissue.\n<br>● Hand contact with unclean equipment and work, surfaces, soiled clothing, or cleaning towels.\n<br>● Handling raw food, particularly meat, poultry, and fish items.\n<br>● Cleaning away soiled dishes and utensils.\n<br>\n<br><b><i>Procedure for Washing Hands \n</i></b><br>• Wet your hands with hot running water. Use water as hot as you can comfortably stand, but at least 100°F (38°C). \n<br>• Apply enough soap to make a good lather. \n<br>• Rub hands together thoroughly for 20 seconds or longer, washing not only the hands but the wrists and the lower part of the forearms. \n<br>• Using a nail brush, clean beneath the fingernails and between the fingers. \n<br>• Rinse hands well under hot running water. If possible, use a clean paper towel to turn off the water to avoid contaminating the hands by contact with soiled faucets. \n<br>• Dry hands with clean single-use paper towels or a warm-air hand dryer\n<br>\n<br><b>3. Food handling\n</b><br>\n<br><b><i>Hygiene In Handling Food\n</i></b><br>\n<br><b>1. DRY FOOD STORAGE:</b> Avoid moisture, use an air-tight container, and avoid insect &amp; rodents.\n<br>\n<br><b>2. FREEZER STORAGE:</b> Well-packed food with label store at -18*c, follow FIFO &amp; thaw properly before use.\n<br>\n<br><b>3. COLD ROOM STORAGE:</b> cooked items away from the raw items. Store everything in a container. Chill food before refrigeration. Keep the temperature under 5*c.\n<br>\n<br><b>4. HOT FOOD STORAGE:</b> Do not reheat in a bain-marie. Cover all the food, keep food above 65*c.\n<br>\n<br><b>5. FOOD HANDLING:\n</b><br>● Work with fresh &amp; safe food.\n<br>● Use clean equipment &amp; work table.\n<br>● Wash &amp; wipe tools( knives, chopping board, etc.) after every use.\n<br>● Wash ingredients.\n<br>● Reboil stocks, sauces, soups, milk before reuse.\n<br>● Do not mix batches of cooked food.\n<br>● Use separate tools for vegetables &amp; meats.\n<br>● Use separate tools for raw &amp; cooked food.\n<br>● Quickly chill all high-risk food for cold storage.\n<br>● Keep work area clean.\n<br>● FIFO( first in first out)\n<br>\n<br><b>UNIFORMS AND PROTECTIVE CLOTHING\n</b><br>“More of protective clothing than uniform.” The chef’s uniform consists of the following:\n<br>\n<br><b>Toque/Head-wear\n</b><br>• Keeps the head cool and prevents the hair from falling into the food.\n<br>• Cotton/cloth caps are difficult to maintain whereas, paper caps are disposable hence they are neat.\n<br>\n<br><b>Scarf/Neckerchief\n</b><br>• Absorbs sweat.\n<br>• Identification/designation.\n<br>\n<br><b>Double-breasted jacket\n</b><br>• Protects the chest and front.\n<br>• Easy to remove overhead or sideways.\n<br>• Cotton cloth buttons – heat resistant.\n<br>\n<br><b>Apron\n</b><br>• Below-knee level.\n<br>• Double protection prevents the jacket &amp; trousers from becoming dirty.\n<br>\n<br><b>Cotton checked trousers\n</b><br>• Double shade hides the dirt.\n<br>• Identifies designation.\n<br>\n<br><b>Shoes and Socks\n</b><br>• Clogs can be used but it is expensive\n<br>• Metal frame in front protects the toes.\n<br>• Easy to remove legs.\n<br>• Socks\n<br>• Absorbs sweat.\n<br>• Provides good grip.\n<br>• Steady steps while walking\n<br><br><b>KNIVES\n</b><br>\n<br><b>KNIFE MATERIALS\n</b><br>The metal that a knife blade is made of is an important consideration, as the metal must be able to take and hold a very fine edge.\n<br>\n<br>1. Carbon steel was for many years the traditional favorite because it can be honed to an extremely sharp edge. Its disadvantages are that it corrodes and discolors easily, especially when used with acid foods and onions. Also, it discolors some foods(such as hard-cooked eggs) and may leave a metallic taste. Because of these disadvantages, it has given way to high-carbon stainless steel (described in item 3 below),which is now the preferred material for the best knives.\n<br>\n<br>2. Traditional stainless-steel alloys will not rust or corrode, but they are much harder to sharpen than carbon steel. Stainless steel is used mostly for low-cost, lightweight knives.\n<br>\n<br>3. High-carbon stainless steel is a relatively new alloy that combines the best aspects of carbon steel and stainless steel. It takes an edge almost as well as carbon steel, and it will not rust, corrode, or discolor. Knives made of this material are highly prized and relatively expensive.\n<br>\n<br>\n<br><b>KNIFE AND ITS PARTS\n</b><br>The importance of knives to a chef cannot be overstated. It is the most important piece of equipment in the kitchen. Knives come in various shapes and sizes and each is meant for a specific use though some knives can be used as multi-purpose knives. Let us now familiarize ourselves with different parts of a knife.\n<br>\n<br>\n<br>\n<br><b>Blade:</b> The blade is usually made up of a metal compound called high carbon stainless steel. It combines the property of carbon being sharpened easily and non-corrosive properties of steel. \n<br>\n<br><b><i>The different parts of a blade are:\n</i></b><br>●&nbsp;<b>Tip:</b> The tip of the knife is the pointed edge where the knife blade ends. The tip generally is used for scoring patterns and working with meats or carving.\n<br>●&nbsp;<b>Spine:</b> The spine of the knife is the topmost, thick edge of the knife, which gives strength to the knife.\n<br>●&nbsp;<b>Bolsters:</b> In some knives there is a collar known as a bolster, at the point where the blade meets the handle. It reinforces the structure of a knife.\n<br>●&nbsp;<b>Cutting edge:</b> The cutting edge is the most important part of the knife. It should always be kept honed and sharpened.\n<br>●&nbsp;<b>Handle: </b>The handle of a knife should be easy to grip, non-reactive to most cleaning agents. The different materials used to make handles are wood, plastic, plastic fibre or even metal.\n<br>·         <i>1. Tang: </i>The tang is the continuation of the blade and extends into a knife’s handle.\n<br>·         <i>2. Rivets: </i>These are metal fasteners that hold the handle and the tang together.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "spbZ9InXnp",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-85"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/1-640x237.jpg\" alt=\"Hi\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Image Description</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "image3-88",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "spc5j5dv0n",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>SAFETY PROCEDURE IN HANDLING EQUIPMENT \n</b><br>Kitchen work usually considered safe in comparison with industrial jobs. Minor injuries from cuts and burns are very common. Serious injuries too are possible. \n<br>\n<br>\n<br><b>Safe Work Place \n</b><br>It is much easier to develop and practice habits that prevent accidents if safety is built into the workplace. \n<br>• Structure, equipment, and electric wiring in good repair. \n<br>• Non-slip floors. \n<br>• Adequate lighting on work surfaces and in corridors. \n<br>• Clearly marked exits. \n<br>• Equipment supplied with necessary safety devices. \n<br>• Heat-activated fire extinguishers over cooking equipment, especially deep fryers. \n<br>• Conveniently posted emergency equipment, such as fire extinguishers. \n<br>• Clearly posted emergency telephone numbers \n<br>• Smooth traffic patterns to avoid collisions \n<br>\n<br><b>Preventing Cuts \n</b><br><b><i>Do’s \n</i></b><br>• Keep knives sharp \n<br>• Use a cutting board \n<br>• Pay attention to your work \n<br>• Cutaway from yourself and other workers \n<br>• Use knives only for cutting \n<br>• Clean knives carefully \n<br>• Store knives in a safe place \n<br>• Carry knives properly \n<br>• Keep breakable items out of the food production area \n<br>• Sweep up, don’t pick up, broken glass \n<br>• Discard chipped or cracked dishes and glasses \n<br>• Use a special container for broken dishes and glasses \n<br>• If there is broken glass in the sink, drain the sink \n<br>• Remove all nails and staples when opening crates and cartons \n<br>\n<br><b><i>Don’ts \n</i></b><br>• Don’t try to catch a falling knife \n<br>• Don’t put knives in a sink, underwater \n<br>• Don’t put breakable items in a pot sink. \n<br>\n<br><b>Preventing Burns \n</b><br>• Always assume a pot handle is hot \n<br>• Use dry pads or towels to handle hot pans \n<br>• Keep pan handles out of the aisle \n<br>• Don’t fill pans so full that they are likely to spill hot food \n<br>• Open lids away from you \n<br>• Get help when moving heavy containers of hot food \n<br>• Use care when opening compartment steamers \n<br>• Make sure gas is well vented \n<br>• Wear long sleeves and a double-breasted jacket \n<br>• Dry foods before putting them in frying fat \n<br>• When placing foods in hot fat, let them fall away from you \n<br>• Keep liquids away from the deep fryer \n<br>• Warn service people about hot plates \n<br>• Always warn people when you are walking behind them with hot pans. \n<br>\n<br><b>Preventing fire</b> \n<br><b><i>Do’s \n</i></b><br>• Know where fire extinguishers are located \n<br>• Use the right kind of extinguisher. \n<br>• There are three classes of fires and fire extinguishers: \n<br>• Class A fires wood, paper, cloth, ordinary combustibles. \n<br>• Class B fires: burning liquids, such as grease, oil, gasoline \n<br>• Class C fires: switches, motors, electrical equipment \n<br>• Keep a supply of salt or baking soda handy to put out fires on a range top. \n<br>• Keep hoods and other equipment free from grease build-ups \n<br>• Smoke only in designated areas \n<br>• If a fire alarm sounds and if you have time, turn off all gas and electrical appliances before leaving. \n<br>• Keep fire doors closed \n<br>• Keep exits free from obstacles. \n<br>• Preventing Injuries from Machines and equipment. \n<br>• Use all guards and safety devices \n<br>• Unplug electrical equipment before cleaning \n<br>• Wear properly fitting clothing and tuck in apron strings \n<br>• Use equipment only for the purpose intended \n<br>• Preventing Falls \n<br>• Clean up spills immediately \n<br>• Throw salt on a slippery spot to make it less slippery \n<br>• Keep aisles and stairs clear and unobstructed \n<br>• Walk, don’t run \n<br>• Preventing Strains and Injuries \n<br>• Lift with the leg muscles, not the back. \n<br>• Always stand giving equal weight on both legs. \n<br>• Use a trolley/cart to move heavy objects or get help. \n<br>\n<br><b><i>Don’ts \n</i></b><br>• Don’t leave hot fat unattended on the range \n<br>• Do not use any equipment unless you know its operation \n<br>• Don’t touch or remove food from any kind of equipment while it is running. \n<br>• Do not touch or handle electrical equipment with wet hands \n<br>• Do not spill water/oil, etc. \n<br>• Do not carry objects too big to see over \n<br>• Do not lean or bent unnecessarily while working or do work in that way. \n<br>• Don’t turn or twist the back while lifting and make sure your footing is secure.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content5-89",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "spc5jCbN8Q",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "AC_Unit_1.3.html": {
+      "settings": {
+        "title": "AC_Unit_1.3",
+        "order": 7
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -1\n</b><div>INTRODUCTION TO COOKERY</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "spc0HVr8Qp",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-86"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>CULINARY HISTORY\n</b><br>\n<br><b>THE ORIGINS OF MODERN CUISINE\n</b><br>Quantity cookery has existed for thousands of years, as long as there have been large groups to feed, such as huge convoy of armies. Modern cuisine began in the middle of the eighteenth century. At this&nbsp; time, food production in France was controlled by special “GUILDS”. Caterers, pastry makers, roasters, and pork butchers held licenses to prepare specific items. An innkeeper, in order to serve a meal to guests, had to buy the various menu items from those operations that&nbsp;were licensed to provide them. Guests had little or no choice and simply ate what was available for that meal. In 1765, a Parisian chef named Boulanger began advertising on his shop sign that “we serve soups”, which he called restaurants or restoratives (literally, the word means “fortifying”). <br><br>According to the story, one of the dishes he served was sheep’s feet in cream sauce. The guild of stew makers challenged him in court for violation of the guilds act... but Boulanger won by claiming he didn’t stew the feet in the sauce but served them with the sauce. In challenging the rules of the guilds, Boulanger unwillingly changed the face for the course of food service history. The new developments in food service received a great stimulus as in the result of the French Revolution, beginning in 1789. Before this time; the great chefs were employed in the houses of the French&nbsp; Authorities. With the revolution and the end of the monarchy, many chefs suddenly got out of work and opened restaurants and inns where they could serve dinners reflecting the talent and creativity of their own chefs, rather than being forced to rely on licensed caterers to supply their food. At the start of the French revolution, there were about 50 restaurants in Paris, ten years later there were about 500. Another important invention that changed the organization of kitchens in the eighteenth century was the stove.\n<br>\n<br><b>CHEF CAREˆME\n</b><br>Marie-Antoine Careme (1784-1833). As a young man, Careme learned all the branches of cooking quickly, and he dedicated his career to refining and organizing culinary techniques. His many books contain the first systematic account of cooking principles, recipes, and menu making.\n<br>\n<br><b>Chef Escoffier</b>\n<br>Georges Auguste Escoffier (1847-1935), the greatest chef of his time, is still today revered by chefs and the gourmet industry as the father of twentieth-century cookery.&nbsp;His two main contributions were:\n<br><br><b><i>1) the simplification of classical cuisine and the classical menu</i></b><br><b><i>2) the reorganization of the kitchen.\n</i></b><br><br>Escoffier rejected what he called the “general confusion” of the old menus, in which sheer quantity seemed to be the most important factor. Instead, he called for order and diversity and emphasized the careful selection of one or two dishes per course, dishes that followed one another harmoniously and delighted the taste with their delicacy and simplicity. Escoffier’s books and recipes are still important references works for professional chefs. The basic cooking methods and preparations we study today are based on Escoffier’s work. His book “Le guide Culinary”, which is still widely used, arranges recipes in a simple system based on the main ingredient a cooking method, according to Escoffier, begin with learning a relatively few basic procedures and understand basic ingredients.\n<br>Escoffier’s second major achievement, the reorganization of the kitchen, resulted in a streamlined workplace that was better suited to turning out the simplified dishes and menus he instituted. The system of the organization he established is still in use today, especially in large hotels and full-service restaurants.\n<br>\n<br><b>Modern technology\n</b><br>Today’s kitchen looks much different from those of Escoffier’s day, though our basic cooking principles are the same. Also, the dishes we eat have gradually changed due to the innovations and creativity of modern chefs. The process of simplification and refinement, to which chef Careme and Escoffier made monumental contributions, is still ongoing, adapting classical cooking to modern conditions and tastes.\n<br>\n<br><b>Development of new equipment</b>\n<br>Modern refrigeration and rapid transportation caused revolutionary changes in eating habits. For the first time, fresh foods of all kinds of meats, fish, vegetables, and fruits- became available throughout the year. Exotic delicacies can now be shipped from anywhere in the world and arrive fresh in peak condition. The development of preservation techniques-not just refrigeration but also freezing,\ncanning, freeze-drying, vacuum packing, and irradiation increased the availability of most foods and made affordable some that were once rare and expensive.\n<br><b><br></b><br><b>Cooking in the Twentieth and Twenty-First Centuries\n</b><br>A generation after Escoffier, the most influential chef in the middle of the twentieth century was Fernand Point (1897-1955). Working quietly and steadily in his restaurant, La Pyramide, in Vienne, France, point simplified and lightened classical cuisine. “point insisted that every meal should be a little marvel” Many of his apprentices, such as Paul Bocuse, Jean, and Pierre Troisgros, and Alain Chapel, went on to become some of the greatest stars of modern cooking. They, along with other chefs in their generation, became best known in the 1960's and early 1970's for a style of cooking called nouvelle cuisine. Reacting to what they saw as a heavy, stodgy, overly complicated classical cuisine, these chefs took point’s lighter approach even further. <br><br>They rejected many traditional principles, such as a dependence on flour to thicken sauces, and instead urged simpler, more natural flavors and preparations, with lighter sauces and seasonings and shorter cooking times. In traditional classical cuisine, many dishes were plated in the dining room by\nwaiters. Nouvelle cuisine, however, placed a great deal of emphasis on artful plating presentations done by the chef in the kitchen. Very quickly, however, this “simpler” style became extravagant and\ncomplicated, famous for strange combinations of foods and fussy, ornate arrangements and designs. By the 1980s, nouvelle cuisine was the subject of jokes.\n<br>\n<br><b>CULINARY HISTORY SUMMARY\n</b><br>❖ Modern cuisine began in the middle of the 18th century.\n<br>❖ At that time it was controlled by the guilds used for licensing of butchery, baker, pastry maker, or for specific items.\n<br>❖ In 1765, a Paris citizen named Boulanger begun to advertise his shop sign (which used to serve soup) named called restaurants or restorative which stands for fortifying.\n<br>❖ According to the story, the dish that he uses to serve was sheep feet in cream sauce &amp; the guild got offended by this thing &amp; challenged him in court but Boulanger won the case by saying he didn’t cook the feet in the sauce but served the sauce with feet.\n<br>❖ In a challenge, the Boulanger unwillingly changed the course of the food history.\n<br>❖ Before the French revolution in 1789, the food industry in France saw so many ups &amp; downs &amp; before this time great chefs were employed in royal palaces or high French nobilities.\n<br>❖ With the revolution, it ended up and chefs were free from this foundation due to these chefs were out of work &amp; started opening their restaurants.\n<br>❖ Revolutionist government abolished the monarchy of guilds, at the\n<br>start of the revolution there were 50 restaurants in Paris, but ten years later they grew up to 500.\n<br>❖ The stove was again invented at the end of the 18th century and the use of fuel started.\n<br>\n<br><b>Modern Technology\n</b><br>These days kitchen looks more difficult than the days of Escoffier or chef Careme, also the dishes have gradually changed due to the creativity of modern chefs whereas basics remain the same and it is still going on.\n<br><b><i>Development of new equipment\n</i></b><br>• Electric range\n<br>• Infrared cooking\n<br>• Microwaves\n<br>• Thermal power heated cooking trap\n<br>• Motorized food processor.\n<br><b><i>Cooling, freezing, heating, &amp; processing is more simplified.\n</i></b><br>• Development and availability of new food products.\n<br>Modern refrigeration &amp; quick transportation has caused revolutionary changes in eating habits. For the first time, fresh foods of all kinds meats, fish, vegetables &amp; fruits have become available throughout the year. Freezing, canning, irradiation.\n<br> \n<br><b>NOUVEELLE CUISINE\n</b><br>A generation after Escoffier was the most influential chefs like Fernand Point (1897-1955) working quietly in his restaurant “Le Pyramide” in Vienne- France. Chef point re simplified and lightened\nthe classical cuisine he insisted that every food must be handled as “a little marvel”. Many of his apprentices like Chef Paul Bocuse, Jean Pierre &amp; Chef Troisgros with Alain chapel went on to become the greatest stars of modern cuisine. These chefs started the foundation of nouvelle cuisine which was more sophisticated and delightful, whereas they rejected many of the traditional methods &amp; principles of cooking and introduced new ones.\n<br>\n<br>Nouvelle cuisine emphasized neat &amp; artful plating techniques it got so fussed about &amp; complicated and became the subject of jokes (later on asked for a return to basics).\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "spc0HVZGmq",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-87"
         }
       ]
     }
