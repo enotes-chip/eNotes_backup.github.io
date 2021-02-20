@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "H&S Units.html",
+    "currentPage": "AC_Unit_2.2.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -59,7 +59,7 @@
         "file": "@PROJECT_PATH@/fonts/FFF_Tusj/font.ttf"
       }
     ],
-    "uniqCompNum": 304,
+    "uniqCompNum": 325,
     "versionPublish": "5.1.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -121,7 +121,7 @@
             }
           },
           "_name": "header13",
-          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#232323\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background15.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>e Notes</b><br><b><br></b><br><b><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .social-row\">Version 2.0.1.02</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Exam Codes (<em>Autonomous</em>)</a></div>\n                <div class=\"social-row display-7 mt-5\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#232323\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background15.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>e Notes</b><br><b><br></b><br><b><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .social-row\">Version 2.0.1.03</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Exam Codes (<em>Autonomous</em>)</a></div>\n                <div class=\"social-row display-7 mt-5\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sofl8OkJzK",
           "_anchor": "header13-27",
           "_protectedParams": [],
@@ -170,7 +170,7 @@
     "2 Year Subject.html": {
       "settings": {
         "title": "2 Year Subject",
-        "order": 9
+        "order": 13
       },
       "components": [
         {
@@ -206,7 +206,7 @@
     "3 Year Subject.html": {
       "settings": {
         "title": "3 Year Subject",
-        "order": 45
+        "order": 49
       },
       "components": [
         {
@@ -245,7 +245,7 @@
     "Syllabus.html": {
       "settings": {
         "title": "Syllabus",
-        "order": 79
+        "order": 83
       },
       "components": [
         {
@@ -283,7 +283,7 @@
     "1 Sem Syllabus.html": {
       "settings": {
         "title": "1 Sem Syllabus",
-        "order": 81
+        "order": 85
       },
       "components": [
         {
@@ -321,7 +321,7 @@
     "5 Sem Syllabus.html": {
       "settings": {
         "title": "5 Sem Syllabus",
-        "order": 86
+        "order": 90
       },
       "components": [
         {
@@ -359,7 +359,7 @@
     "3 Sem Syllabus.html": {
       "settings": {
         "title": "3 Sem Syllabus",
-        "order": 83
+        "order": 87
       },
       "components": [
         {
@@ -397,7 +397,7 @@
     "AC Syllabus.html": {
       "settings": {
         "title": "AC Syllabus",
-        "order": 82
+        "order": 86
       },
       "components": [
         {
@@ -461,7 +461,7 @@
     "HK Syllabus.html": {
       "settings": {
         "title": "HK Syllabus",
-        "order": 84
+        "order": 88
       },
       "components": [
         {
@@ -525,7 +525,7 @@
     "FO Syllabus.html": {
       "settings": {
         "title": "FO Syllabus",
-        "order": 85
+        "order": 89
       },
       "components": [
         {
@@ -589,7 +589,7 @@
     "H&S Syllabus.html": {
       "settings": {
         "title": "H&S Syllabus",
-        "order": 87
+        "order": 91
       },
       "components": [
         {
@@ -653,7 +653,7 @@
     "FM Syllabus.html": {
       "settings": {
         "title": "FM Syllabus",
-        "order": 88
+        "order": 92
       },
       "components": [
         {
@@ -717,7 +717,7 @@
     "Contact.html": {
       "settings": {
         "title": "Contact",
-        "order": 89
+        "order": 93
       },
       "components": [
         {
@@ -888,7 +888,7 @@
     "Ref.Books.html": {
       "settings": {
         "title": "Ref.Books",
-        "order": 80
+        "order": 84
       },
       "components": [
         {
@@ -1082,7 +1082,7 @@
     "FO Units.html": {
       "settings": {
         "title": "FO Units",
-        "order": 31
+        "order": 35
       },
       "components": [
         {
@@ -1118,7 +1118,7 @@
     "HK Units.html": {
       "settings": {
         "title": "HK Units",
-        "order": 10
+        "order": 14
       },
       "components": [
         {
@@ -1154,7 +1154,7 @@
     "H&S Units.html": {
       "settings": {
         "title": "H&S Units",
-        "order": 67
+        "order": 71
       },
       "components": [
         {
@@ -1190,7 +1190,7 @@
     "FM Units.html": {
       "settings": {
         "title": "FM Units",
-        "order": 46
+        "order": 50
       },
       "components": [
         {
@@ -1226,7 +1226,7 @@
     "Disclaimer.html": {
       "settings": {
         "title": "Disclaimer",
-        "order": 90
+        "order": 94
       },
       "components": [
         {
@@ -1257,7 +1257,7 @@
     "Privacy Policy.html": {
       "settings": {
         "title": "Privacy Policy",
-        "order": 91
+        "order": 95
       },
       "components": [
         {
@@ -1288,7 +1288,7 @@
     "Help.html": {
       "settings": {
         "title": "Help",
-        "order": 78
+        "order": 82
       },
       "components": [
         {
@@ -1312,7 +1312,7 @@
     "error.html": {
       "settings": {
         "title": "Error",
-        "order": 92
+        "order": 96
       },
       "components": [
         {
@@ -1366,7 +1366,7 @@
     "HK_Unit_1_Index.html": {
       "settings": {
         "title": "HK_Unit_1_Index",
-        "order": 11
+        "order": 15
       },
       "components": [
         {
@@ -1428,7 +1428,7 @@
     "HK_Unit_1.html": {
       "settings": {
         "title": "HK_Unit_1",
-        "order": 12
+        "order": 16
       },
       "components": [
         {
@@ -1479,7 +1479,7 @@
     "HK_Unit_1.1.html": {
       "settings": {
         "title": "HK_Unit_1.1",
-        "order": 13
+        "order": 17
       },
       "components": [
         {
@@ -1683,7 +1683,7 @@
     "HK_Unit_1.2.html": {
       "settings": {
         "title": "HK_Unit_1.2",
-        "order": 14
+        "order": 18
       },
       "components": [
         {
@@ -1887,7 +1887,7 @@
     "HK_Unit_4.html": {
       "settings": {
         "title": "HK_Unit_4",
-        "order": 29
+        "order": 33
       },
       "components": [
         {
@@ -1940,7 +1940,7 @@
     "FO_Unit_1.html": {
       "settings": {
         "title": "FO_Unit_1",
-        "order": 32
+        "order": 36
       },
       "components": [
         {
@@ -1993,7 +1993,7 @@
     "HK_Unit_5.html": {
       "settings": {
         "title": "HK_Unit_5",
-        "order": 30
+        "order": 34
       },
       "components": [
         {
@@ -2101,7 +2101,7 @@
     "FO_Unit_2_index.html": {
       "settings": {
         "title": "FO_Unit_2_index",
-        "order": 33
+        "order": 37
       },
       "components": [
         {
@@ -2163,7 +2163,7 @@
     "FO_Unit_2.html": {
       "settings": {
         "title": "FO_Unit_2",
-        "order": 34
+        "order": 38
       },
       "components": [
         {
@@ -2216,7 +2216,7 @@
     "FO_Unit_2.1.html": {
       "settings": {
         "title": "FO_Unit_2.1",
-        "order": 35
+        "order": 39
       },
       "components": [
         {
@@ -2269,7 +2269,7 @@
     "FO_Unit_2.2.html": {
       "settings": {
         "title": "FO_Unit_2.2",
-        "order": 36
+        "order": 40
       },
       "components": [
         {
@@ -2322,7 +2322,7 @@
     "FO_Unit_5.html": {
       "settings": {
         "title": "FO_Unit_5",
-        "order": 44
+        "order": 48
       },
       "components": [
         {
@@ -2546,7 +2546,7 @@
     "HS_Unit_1.html": {
       "settings": {
         "title": "HS_Unit_1",
-        "order": 68
+        "order": 72
       },
       "components": [
         {
@@ -2599,7 +2599,7 @@
     "HS_Unit_2_index.html": {
       "settings": {
         "title": "HS_Unit_2_index",
-        "order": 69
+        "order": 73
       },
       "components": [
         {
@@ -2661,7 +2661,7 @@
     "HS_Unit_2.1.html": {
       "settings": {
         "title": "HS_Unit_2.1",
-        "order": 71
+        "order": 75
       },
       "components": [
         {
@@ -2771,7 +2771,7 @@
     "HS_Unit_2.2.html": {
       "settings": {
         "title": "HS_Unit_2.2",
-        "order": 72
+        "order": 76
       },
       "components": [
         {
@@ -2860,7 +2860,7 @@
     "HS_Unit_3.html": {
       "settings": {
         "title": "HS_Unit_3",
-        "order": 74
+        "order": 78
       },
       "components": [
         {
@@ -2913,7 +2913,7 @@
     "HS_Unit_3.1.html": {
       "settings": {
         "title": "HS_Unit_3.1",
-        "order": 75
+        "order": 79
       },
       "components": [
         {
@@ -3137,7 +3137,7 @@
     "HS_Unit_3.2.html": {
       "settings": {
         "title": "HS_Unit_3.2",
-        "order": 76
+        "order": 80
       },
       "components": [
         {
@@ -3190,7 +3190,7 @@
     "HS_Unit_3.3.html": {
       "settings": {
         "title": "HS_Unit_3.3",
-        "order": 77
+        "order": 81
       },
       "components": [
         {
@@ -3243,7 +3243,7 @@
     "HS_Unit_3_index.html": {
       "settings": {
         "title": "HS_Unit_3_index",
-        "order": 73
+        "order": 77
       },
       "components": [
         {
@@ -3305,7 +3305,7 @@
     "HS_Unit_2.html": {
       "settings": {
         "title": "HS_Unit_2",
-        "order": 70
+        "order": 74
       },
       "components": [
         {
@@ -3358,7 +3358,7 @@
     "FM_Unit_1.html": {
       "settings": {
         "title": "FM_Unit_1",
-        "order": 48
+        "order": 52
       },
       "components": [
         {
@@ -3411,7 +3411,7 @@
     "FM_Unit_1_index.html": {
       "settings": {
         "title": "FM_Unit_1_index",
-        "order": 47
+        "order": 51
       },
       "components": [
         {
@@ -3473,7 +3473,7 @@
     "FM_Unit_1.1.html": {
       "settings": {
         "title": "FM_Unit_1.1",
-        "order": 49
+        "order": 53
       },
       "components": [
         {
@@ -3562,7 +3562,7 @@
     "FM_Unit_1.2.html": {
       "settings": {
         "title": "FM_Unit_1.2",
-        "order": 50
+        "order": 54
       },
       "components": [
         {
@@ -4057,7 +4057,7 @@
     "FM_Unit_1.3.html": {
       "settings": {
         "title": "FM_Unit_1.3",
-        "order": 51
+        "order": 55
       },
       "components": [
         {
@@ -4167,7 +4167,7 @@
     "FM_Unit_1.5.html": {
       "settings": {
         "title": "FM_Unit_1.4",
-        "order": 52
+        "order": 56
       },
       "components": [
         {
@@ -4220,7 +4220,7 @@
     "FM_Unit_1.1_index.html": {
       "settings": {
         "title": "FM_Unit_1.1_index",
-        "order": 53
+        "order": 57
       },
       "components": [
         {
@@ -4282,7 +4282,7 @@
     "FM_Unit_1.1_1.html": {
       "settings": {
         "title": "FM_Unit_1.1_1",
-        "order": 54
+        "order": 58
       },
       "components": [
         {
@@ -4335,7 +4335,7 @@
     "FM_Unit_1.1_2.1.html": {
       "settings": {
         "title": "FM_Unit_1.1_2.1",
-        "order": 56
+        "order": 60
       },
       "components": [
         {
@@ -4481,7 +4481,7 @@
     "FM_Unit_1.1_2.html": {
       "settings": {
         "title": "FM_Unit_1.1_2",
-        "order": 55
+        "order": 59
       },
       "components": [
         {
@@ -4555,7 +4555,7 @@
     "FM_Unit_1.1_3.html": {
       "settings": {
         "title": "FM_Unit_1.1_3",
-        "order": 57
+        "order": 61
       },
       "components": [
         {
@@ -4608,7 +4608,7 @@
     "FM_Unit_2_index.html": {
       "settings": {
         "title": "FM_Unit_2_index",
-        "order": 58
+        "order": 62
       },
       "components": [
         {
@@ -4670,7 +4670,7 @@
     "FM_Unit_2.html": {
       "settings": {
         "title": "FM_Unit_2",
-        "order": 59
+        "order": 63
       },
       "components": [
         {
@@ -4780,7 +4780,7 @@
     "FM_Unit_2.1.html": {
       "settings": {
         "title": "FM_Unit_2.1",
-        "order": 60
+        "order": 64
       },
       "components": [
         {
@@ -4890,7 +4890,7 @@
     "FM_Unit_2.2.html": {
       "settings": {
         "title": "FM_Unit_2.2",
-        "order": 61
+        "order": 65
       },
       "components": [
         {
@@ -4943,7 +4943,7 @@
     "FM_Unit_2.3.html": {
       "settings": {
         "title": "FM_Unit_2.3",
-        "order": 62
+        "order": 66
       },
       "components": [
         {
@@ -4996,7 +4996,7 @@
     "FM_Unit_3_index.html": {
       "settings": {
         "title": "FM_Unit_3_index",
-        "order": 63
+        "order": 67
       },
       "components": [
         {
@@ -5058,7 +5058,7 @@
     "FM_Unit_3.html": {
       "settings": {
         "title": "FM_Unit_3",
-        "order": 64
+        "order": 68
       },
       "components": [
         {
@@ -5111,7 +5111,7 @@
     "FM_Unit_3.1.html": {
       "settings": {
         "title": "FM_Unit_3.1",
-        "order": 65
+        "order": 69
       },
       "components": [
         {
@@ -5164,7 +5164,7 @@
     "FM_Unit_3.2.html": {
       "settings": {
         "title": "FM_Unit_3.2",
-        "order": 66
+        "order": 70
       },
       "components": [
         {
@@ -5217,7 +5217,7 @@
     "FO_Unit_3_Index.html": {
       "settings": {
         "title": "FO_Unit_3_Index",
-        "order": 37
+        "order": 41
       },
       "components": [
         {
@@ -5279,7 +5279,7 @@
     "FO_Unit_3.html": {
       "settings": {
         "title": "FO_Unit_3",
-        "order": 38
+        "order": 42
       },
       "components": [
         {
@@ -5332,7 +5332,7 @@
     "FO_Unit_3.2.html": {
       "settings": {
         "title": "FO_Unit_3.2",
-        "order": 40
+        "order": 44
       },
       "components": [
         {
@@ -5385,7 +5385,7 @@
     "FO_Unit_3.1.html": {
       "settings": {
         "title": "FO_Unit_3.1",
-        "order": 39
+        "order": 43
       },
       "components": [
         {
@@ -5495,7 +5495,7 @@
     "FO_Unit_4_Index.html": {
       "settings": {
         "title": "FO_Unit_4_Index",
-        "order": 41
+        "order": 45
       },
       "components": [
         {
@@ -5557,7 +5557,7 @@
     "FO_Unit_4.html": {
       "settings": {
         "title": "FO_Unit_4",
-        "order": 42
+        "order": 46
       },
       "components": [
         {
@@ -5610,7 +5610,7 @@
     "FO_Unit_4.1.html": {
       "settings": {
         "title": "FO_Unit_4.1",
-        "order": 43
+        "order": 47
       },
       "components": [
         {
@@ -5720,7 +5720,7 @@
     "HK_Unit_3_Index.html": {
       "settings": {
         "title": "HK_Unit_3_Index",
-        "order": 21
+        "order": 25
       },
       "components": [
         {
@@ -5782,7 +5782,7 @@
     "HK_Unit_3.html": {
       "settings": {
         "title": "HK_Unit_3",
-        "order": 22
+        "order": 26
       },
       "components": [
         {
@@ -5835,7 +5835,7 @@
     "HK_Unit_3.1.html": {
       "settings": {
         "title": "HK_Unit_3.1",
-        "order": 23
+        "order": 27
       },
       "components": [
         {
@@ -5888,7 +5888,7 @@
     "HK_Unit_3.2.html": {
       "settings": {
         "title": "HK_Unit_3.2",
-        "order": 24
+        "order": 28
       },
       "components": [
         {
@@ -5941,7 +5941,7 @@
     "HK_Unit_3.3.html": {
       "settings": {
         "title": "HK_Unit_3.3",
-        "order": 25
+        "order": 29
       },
       "components": [
         {
@@ -5994,7 +5994,7 @@
     "HK_Unit_3.4.html": {
       "settings": {
         "title": "HK_Unit_3.4",
-        "order": 26
+        "order": 30
       },
       "components": [
         {
@@ -6047,7 +6047,7 @@
     "HK_Unit_3.5.html": {
       "settings": {
         "title": "HK_Unit_3.5",
-        "order": 27
+        "order": 31
       },
       "components": [
         {
@@ -6100,7 +6100,7 @@
     "HK_Unit_3.6.html": {
       "settings": {
         "title": "HK_Unit_3.6",
-        "order": 28
+        "order": 32
       },
       "components": [
         {
@@ -6153,7 +6153,7 @@
     "HK_Unit_2_Index.html": {
       "settings": {
         "title": "HK_Unit_2_Index",
-        "order": 15
+        "order": 19
       },
       "components": [
         {
@@ -6215,7 +6215,7 @@
     "HK_Unit_2.html": {
       "settings": {
         "title": "HK_Unit_2",
-        "order": 16
+        "order": 20
       },
       "components": [
         {
@@ -6268,7 +6268,7 @@
     "HK_Unit_2.1.html": {
       "settings": {
         "title": "HK_Unit_2.1",
-        "order": 17
+        "order": 21
       },
       "components": [
         {
@@ -6321,7 +6321,7 @@
     "HK_Unit_2.2.html": {
       "settings": {
         "title": "HK_Unit_2.2",
-        "order": 18
+        "order": 22
       },
       "components": [
         {
@@ -6374,7 +6374,7 @@
     "HK_Unit_2.3.html": {
       "settings": {
         "title": "HK_Unit_2.3",
-        "order": 19
+        "order": 23
       },
       "components": [
         {
@@ -6427,7 +6427,7 @@
     "HK_Unit_2.4.html": {
       "settings": {
         "title": "HK_Unit_2.4",
-        "order": 20
+        "order": 24
       },
       "components": [
         {
@@ -6824,11 +6824,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "sptRzeZndI",
+          "_anchor": "content4-8d",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-8d"
+          "_params": {}
         },
         {
           "alias": false,
@@ -6850,22 +6850,22 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Classical Brigade</a> <a class=\"btn btn-black\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Modern staffing</a> <a class=\"btn btn-secondary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Co-ordination's</a> <a class=\"btn btn-success\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Culinary Terms</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"AC_Unit_2.html\" data-app-placeholder=\"Type Text\">Classical Brigade</a> <a class=\"btn btn-black\" href=\"AC_Unit_2.1.html\" data-app-placeholder=\"Type Text\">Modern staffing</a> <a class=\"btn btn-secondary\" href=\"AC_Unit_2.2.html\" data-app-placeholder=\"Type Text\">Co-ordination's</a> <a class=\"btn btn-success\" href=\"AC_Unit_2.3.html\" data-app-placeholder=\"Type Text\">Culinary Terms</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "sptRzfzavV",
+          "_anchor": "header2-8e",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header2-8e"
+          "_params": {}
         }
       ]
     },
     "Updating.html": {
       "settings": {
         "title": "Updating",
-        "order": 93
+        "order": 97
       },
       "components": [
         {
@@ -6908,11 +6908,356 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "sptWXzgokx",
+          "_anchor": "header4-8f",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "AC_Unit_2.html": {
+      "settings": {
+        "title": "AC_Unit_2",
+        "order": 9
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -2</b><div>HIERARCHY AREA OF DEPARTMENT AND KITCHEN</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "spyVizKXgl",
+          "_anchor": "content4-8k",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Successful companies are organized, and many businesses use hierarchical management for their structure. This structure – which makes clear that all employees are under the leadership of another person or department.\n<br>Hierarchical management is a workplace leadership structure in which authority is assigned in ranks and employees take directions from their superiors. \n<br>\n<br><b>HIERARCHY AND KITCHEN STAFFING\n</b><br>Hierarchy refers to the flow of authority from top to bottom in an organization and with respect to the kitchen. It refers to the flow of authority commencing from executive chef and goes to the bottom i.e. kitchen staffing refers to not only assigning the positions but also filling them with the suitable manpower. Staffing is the actual strength of the employees working at different levels, which depends upon the various factors as:\n<br>\n<br>• The extent of the menu and the market a kitchen is serving.\n<br>• Use of prepared convenience foods.\n<br>• Types of equipment available.\n<br>• Need of skill involved at the various levels\n<br>• The size of the establishment\n<br>\n<br><b><i>Kitchen organisation: The organisation of the hotel and restaurant kitchen depends upon the:\n</i></b><br>• Size of the operation\n<br>• Type of the menu\n<br>• Type of the service\n<br>• Type of clientele.\n<br>\n<br><b>CLASSICAL BRIGADE</b>\n<br>Chef Auguste Escoffier gave the concept of classical brigade, which means the actual work force requirement of any particular establishment. He divided whole of the kitchen into parties/ corners\nand the system is followed in the organizations. Purpose of the classical brigade is to fix the duties and responsibilities and fix the area of work by party/ corner. We mean grill party, roast party, vegetarian party etc. It was the time when few machines were available so more need was there to know about the manpower requirements.\nFollowing are the key points related to the classical brigade in a professional kitchen:-<br><br>* A professional kitchen operates with a very distinct rank just like army of soldiers , probably this is why Escoffier called it a brigade.\n<br>* Each member of the kitchen has his/her role to play for the success of a team.\n<br>* It was based on the various sections of the kitchen (for ex. Pastry, butchery, bakery etc.)\n<br>* Every section was named in French.\n<br>*Every section featured a head of department, with cooks, helpers and porters working under him/her<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "spyViAeS6h",
+          "_anchor": "content5-8l",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/kitchen-brigade-meaning-french-of-a-trackx-club-640x480.jpg\" alt=\"Hi\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Image Description</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "image3-8m",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "spyWT8KmXV",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>DUTIES AND RESPONSIBILITIES OF VARIOUS CHEFS \n</b><br>Here, we’ll discuss Saucier, Posssionier, Entremetier, Rotisseur, Garde Manger, Grillardian and Patissier. Other Chef duties and responsibilities will be discussed in Modern staffing. \n<br>\n<br><b>• SAUCE COOK/CHEF SAUCIER:</b> Saucier major responsibilities will be preparing sauce but he prepares his own mise-en place (putting everything in place) i.e. preparing for something in advance like cutting, chopping, and collecting the necessary ingredients for many items. He can receive the prepared cuts of meat from the larder department to prepare stocks<br>\n<br><b>• ROAST COOK/ CHEF ROTISSEUR:</b> He is responsible for the preparation of all the roast and grill items. This section also contains the deep-frying section and also prepares accompaniments, sauces and garnishes for roast and grills. \n<br>\n<br><b>• FISH COOK/CHEF POISSONNIER:</b> except for the deep fried and grilled fish all the fish preparation are prepared here along with the accompaniments, sauces and garnishes. So, a thorough knowledge of various recipes and accompaniments is a must in this department. \n<br>\n<br><b>• GRILL COOK/ CHEF GRILLARDIN:</b> he is the in-charge of grilling of various dishes. Sometimes these chefs work under the roast section. \n<br>\n<br><b>• VEGETABLE COOK/CHEF ENTREMETIER:</b> all the vegetables and potatoes other than deep fried prepared here under this section. \n<br>\n<br><b>• SOUP COOK/CHEF POTAGE:</b> These sections prepare all the soups and their accompaniments and the garnishes are also prepared by this chef. Great care should be taken because it gives the impression about the meal which is to be followed. \n<br>\n<br><b>• LARDER COOK/CHEF GARDE MANGER:</b> It is the cold section of the kitchen which is generally concerned with the pre-preparation of the food which is cooked by another department. This includes the preparation of game, poultry, and fish. Cleaning and portioning of meat are also done in this section. Also, this department is responsible for the preparation of hors d'oeuvres, salads, canapés, sandwiches and butchery section etc. So, the work of this department is unending and continuous throughout the operations. \n<br>\n<br><b>• PASTRY COOK/ CHEF PATISSIER:</b> His work is specialized and all the continental sweets, pastries and bakery products are prepared in the pastry section. \n<br>\n<br><b>• RELIEF COOK/CHEF TOURANT:</b> he is relief cook takes over a section when a particular CDP goes on leave or has an off day. He is generally a senior chef who is an all-rounder. He has got knowledge of all the departments.&nbsp;&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content5-8n",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "spyWTrXRLV",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "AC_Unit_2.1.html": {
+      "settings": {
+        "title": "AC_Unit_2.1",
+        "order": 10
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -2</b><div>HIERARCHY AREA OF DEPARTMENT AND KITCHEN</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "spz0oeIAEn",
+          "_anchor": "content4-8q",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735",
+              "text-align": "center"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>MODERN STAFFING</b></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "spz0of9tJP",
+          "_anchor": "content5-8r",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2021-02-20-at-6.48.23-pm-878x1024.jpg\" alt=\"Hi\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Image Description</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "spz0ofuWPl",
+          "_anchor": "image3-8s",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>DUTIES AND RESPONSIBILITIES OF VARIOUS CHEFS\n</b><br>\n<br><b>A. EXECUTIVE CHEF\n</b><br>\n<br><b><i>1) Planning menu:</i></b> He has to take into consideration all the factors which influence the menus and the chef has to take a critical note of all the activities which are important in the menu planning. Care should be taken of various things such as eating trends, raw materials availability and variety of the meals.\n<br><b><i>2) Forecasting:</i></b> Before indenting and buying, the chef must be able to produce the accurate estimates of the volume of production. He must consider the following points:\n<br>a) Previous year’s sales during the same time period.\n<br>b) Sales forecast from f &amp; b service departments.\n<br>c) Volume of daily enquiries for the parties.\n<br>d) Chef’ s own experience.\n<br><b><i>3) Purchase: </i></b>The food cost will grow up if the purchasing is not done in an optimum manner. Excessive raw materials result in pilferages whereas shortage of raw materials results in the loss of business and decrease in the no. of clientele.\n<br><b><i>4) Planning work schedule:</i></b> It is the duty of the executive chef to ensure that the schedule of work is planned in such a way that enough work forces are available all the time. So, the work schedule should be properly planned in order to ensure manpower availability during the peak season and festival time.\n<br><b><i>5) Staff hiring:</i></b> Although the final decision rests with the personnel manager but the details of the staff hiring are given by the executive chef because he is the one who is actually taking part in the day to day operation with kitchen staff.\n<br><b><i>6) Training</i></b>: The chef will give the demonstration of the new dishes which he wants to introduce in the menu. So, it’s his duty to plan the training program’s not only for new comers but also for the existing staff.\n<br><b><i>7) Supervision of the staff:</i></b> it is the duty of the chef to delegate the authority amongst the various chefs working under him to ensure that the staff is performing duties as per his expectation.\n<br>\n<br><b>B. EXECUTIVE SOUS CHEF\n</b><br><b><i>Reports to : Executive chef\n</i></b><br><i>The specific responsibilities of an executive sous-chef are to:\n</i><i><br></i><br>1. Coordinate with all the outlets, to ensure a total smooth running of the operation.\n<br>2. Ensure that all set-ups and prepared food presentations are up to agreed standards with the executive chef.\n<br>3. Fully monitor portion control in assigned kitchen area and that par stocks are kept at a minimum\n<br>with daily stock and product turnover, utilizing leftovers where and if possible.\n<br>4. Fully supervise all food tasting, presentations, and food samplings in all production phases.\n<br>5. Conduct daily cleanliness checks with the assistant chief steward, with feedback to the executive chef with corrective actions to be taken.\n<br>6. Recommend changes in menus, methods of preparation, kitchen/service equipment or staff. To improve production standards and quality.\n<br>7. Assist the executive chef in developing new cuisine concepts.\n<br>8. Ensure good physical upkeep, condition of equipment and utensils in all the kitchens, and coordinate with the engineering department for repairs and maintenance.\n<br>9. Make sure all the raw material received, in the hotel, for preparation is of high quality, as per\n<br>organizational standards and product specifications.\n<br>10. Recommend changes in systems and procedures to increase efficiency and improve service quality.\n<br>11. Be responsible for maintaining international standards of safety, security, hygiene, and cleanliness in all food preparation and storage areas.\n<br>12. See that all the employees in the department adhere to the organization's rules and regulations.\n<br>\n<br><b>C. SOUS CHEF\n</b><br><b><i>Reports to : Executive sous-chef\n</i></b><br><i>Specific responsibilities of a sous-chef are to:\n</i><i><br></i><br>1. Look after the function of the executive sous-chef during his/her absence.\n<br>2. Train staff on improved work procedures, quality of food production, economical usage of food\n<br>materials, and the attractive presentation of food items.\n<br>3. Approve requisitions from stores for stations assigned and in the executive sous-chef's absence, for the entire main kitchen.\n<br>4. Be responsible for all food production in the area assigned to him.\n<br>5. Be responsible for overall food cost control without affecting standards and specifications as laid out by top management.\n<br>6. Account for the usage, consumption, spoilage, and control of foodstuff produced or stored under\n<br>his/her supervision.\n<br>7. Be responsible for the preparation of mise en place at all stations.\n<br>8. Attend the food and beverage meetings and departmental meetings.\n<br>9, Maintain all attendance records.&nbsp;<br><br><b>D. CHEF DE PARTIE\n</b><br><b><i>Reports to :</i></b> Sous-chef\n<br><i>Specific responsibilities of a chef de partie are to:\n</i><i><br></i><br>1. Be responsible for implementing hotel standards on food quality, preparation, and presentation in\n<br>his/her section/shift.\n<br>2. Recommend changes in systems and procedures to increase efficiency and improve service levels.\n<br>3. Recommend changes at the time of preparation of a new menu by introducing new dishes\n<br>presentation.\n<br>4, Ensure that the hygiene and cleanliness of the kitchen area is maintained as per predetermined\n<br>standards.\n<br>5. Make sure that all the kitchen equipment is operated, maintained, and stored properly and is safe toUse.\n<br>6. Ensure availability of ingredients in the kitchen, at all times, in order to provide a prompt service.\n<br>7. Assist the chef de partie/sous-chef in implementing standards set by the executive chef on food quality,preparation, and presentation in his/her section.\n<br>8. Assist the sous-chef and higher authorities to define the organization of work within his/her kitchen department including assignments, time schedules, and vacations.\n<br>9. Check that inter-kitchen food transfers are accurate and conform to hotel policy.\n<br>10. Ensure proper mise en place in his/her production sections for speedy preparation and service.\n<br>11. Make sure that hygiene and cleanliness of the kitchen area equipment is maintained as per\n<br>predetermined HACCP standards.\n<br>12. Discuss production planning with his/her commis, demi chef de partie, and concerned higher\n<br>kitchen authorities.\n<br>13. Receive daily requirements from storeroom and get it checked and duly signed by his/her senior\n<br>kitchen executive.\n<br>14, Recommend quality status on all the products in his/her kitchen to senior authority and rectify it\n<br>as soon as possible.\n<br>15, Register complaints regarding improper machinery functioning or employee's ill behavior towards his/her kitchen executive.\n<br>16. Brief his/her team members on menu changes or introduction of new ingredients/new dishes on the menu.\n<br>\n<br><b>E. DEMI CHEF DE PARTIE\n</b><br><b><i>Reports to : </i></b>Chef de partie\n<br><i>The specific responsibilities of a demi chef de partie are to:\n</i><i><br></i><br>1. Assist the chef de partie in implementing standards set by the executive chef on food quality, preparation, and presentation in his/her section.\n<br>2. Assist the chef de partie to define the organization of work within his/her kitchen department\n<br>including assignments, time schedules, and vacations.\n<br>3. Make sure that all the kitchen equipment is operated, maintained, and stored properly and are safe to use.\n<br>4. Check that inter-kitchen food transfers are accurate and conform to hotel policy.\n<br>5. Make sure that hygiene and cleanliness of the kitchen area/equipment is maintained as per\n<br>predetermined standards.\n<br>6. Discuss production planning with his/her commis and concerned higher kitchen authorities.\n<br>7. Receive daily requirement from storeroom and get it checked and duly signed by his/her senior\n<br>kitchen executive.\n<br>8. Maintain daily log book and register equipment issues, and any critical information to be passed on\n<br>to higher authority or next shift.\n<br>9. Register complaints regarding improper machinery functioning or employee's ill behavior to his\n<br>chef de partie or senior kitchen executive.\n<br>10. Attend behavioural, vocational, and skill-related training, to enhance his/her skills and develop\n<br>multi-functionality.\n<br>\n<br><b>F. COMMIS</b>\n<br><b><i>Reports to :</i></b> Chef de partie/demi chef de partie\n<br><i style>The specific responsibilities of a commis are to:\n</i><i style><br></i><br>1. Prepare food and provide prompt, courteous, and accurate service to all the customers as per\n<br>organizational standard of quality, as directed.\n<br>2. Control food wastage without compromising on food quality.\n<br>3. Assist chef de partie in implementing and following organizational standards on food quality,\n<br>preparation, and presentation.\n<br>4. Be responsible for maintaining all kitchen equipment in his/her area in good working condition.\n<br>5. Maintain complete hygiene in his/her work area and adhere to the HACCP standards.\n<br>6. Ensure exact collection of perishables, grocery, and meat/fish items as per the storeroom requisition.\n<br>7. Ensure timely cleaning and sanitization of all the equipment and tools in appropriate hygienic manner.\n<br>8. Recommend daily requirement from storeroom to the demi chef de partie.\n<br>9. Coordinate with other food and beverage sections, engineering/housekeeping, etc. whenever required.\n<br>10. Attend behavioral, vocational, and skill-related training, to enhance his/her skills and develop multi-functionality.\n<br>\n<br><b>G. KITCHEN EXECUTIVE (KST)</b>\n<br><b><i>Reports to :</i></b> Sous-chef \n<br><i>The specific responsibilities of a kitchen executive are to:\n</i><i><br></i><br>1. Ensure adherence to organizational standards of food quality, hygiene, preparation, and presentation in his/her kitchen.\n<br>2. Make sure all the kitchen equipment and machinery is in good working order at all times, in his/\n<br>her area of work.\n<br>3. Recommend changes in systems and procedures to increase efficiency and improve service levels.\n<br>4. Be responsible for maintaining of records/documentation in his/her area as per operational/control\n<br>requirements.\n<br>5. Provide timely follow-up on any sick team member and convey the report immediately to HR and executive chef.\n<br>6. Ensure butfets/food displays are set up and maintained professionally, as per organizational standards.\n<br>7. Be responsible for the hygiene standards of his/her kitchen, storage areas, equipment, and machinery.\n<br>8. Check that cleaning schedules by kitchen stewarding department are being followed in timely manner.\n<br>9. Ensure level of dry stores and perishables are maintained on a daily basis, and also ensure correct store requisitioning.\n<br>10. Ensure excellent relations and professionalism among all staff in his/her kitchen and with related departments and staff.\n<br>11. Coordinate functions and activities with other F&amp;B sections, engineering/housekeeping, etc. whenever required.\n<br>12. Assist sous-chef with on-the-job training and classroom training for his/her kitchen and related F&amp;B employees.\n<br>13. Attend behavioral, vocational, and skill-related training, to enhance his/her skills and develop on multi-functionality.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "spz0ofX7XH",
+          "_anchor": "content5-8t",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "AC_Unit_2.2.html": {
+      "settings": {
+        "title": "AC_Unit_2.2",
+        "order": 11
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -2</b><div>HIERARCHY AREA OF DEPARTMENT AND KITCHEN</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "spzalxJNUc",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "header4-8f"
+          "_anchor": "content4-8u"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>COOPERATION OF KITCHEN WITH OTHER DEPARTMENTS (Major)</b><br>\n<br><b>Cooperation With Front Office \n</b><br>• Front office will communicate the arrival and departure list which will help to forecast about the quantities to cook. \n<br>• With the association &amp; assistance of the front office with kitchen people promote sales by explaining the guest as to what is&nbsp; available and where it is available. \n<br>• Front office gives the list of V.I.P arrivals in order to increase the reputation of the establishment. \n<br>\n<br><b>Cooperation With House-keeping \n</b><br>• It is mainly for the supply of linen &amp; uniform i.e. aprons, kitchen, towels, dusters etc and to keep the kitchen clean. \n<br>• However, chefs also coordinate with the horticulture section, which at times falls under the HK department – for fresh herbs, salad leaves, delicate veggies, micro greens and few vegetables from the chef's garden. \n<br>\n<br><b>Cooperation With F &amp; B Service</b> \n<br>• There should be a close liaison between f &amp; b service and the kitchen staff because f &amp; b personnel are involved in the selling of the products made by the kitchen department. \n<br>• It is the duty of the f &amp; b personnel to give the intimation about the various parties to be hosted in future and in turn it is the duty of the kitchen people to provide food at the right time in hygiene condition. \n<br>• Also, f &amp; b personnel must be aware as to how much time a dish requires to get ready because they are the ones who are directly associated with the guests. \n<br>\n<br><b>Cooperation With Maintenance \n</b><br>Maintenance will keep the equipment in working condition. Further this department maintains all the electrical fittings. Also, they introduce as well as instruct about the use of new equipment. \n<br>\n<br><b>Cooperation With Store/Purchase \n</b><br>This department will provide all the raw materials required by the chef. The chef must indent in time to ensure that the purchase personnel get sufficient time to procure these raw materials. The chef also gives purchase specifications from time to time depending upon the recipe requirement. \n<br>\n<br><b>Cooperation With Management \n</b><br>Department must cooperate with the management and should provider the results which the management want to have i.e. As per the menu requirements. Further the department should in-cooperate the new changes, which the management suggests so a good cooperation b/w the kitchen staff and the management should be promoted.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "spzalAzg5M",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-8x"
+        }
+      ]
+    },
+    "AC_Unit_2.3.html": {
+      "settings": {
+        "title": "AC_Unit_2.3",
+        "order": 12
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -2</b><div>HIERARCHY AREA OF DEPARTMENT AND KITCHEN</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "spzaIobaVz",
+          "_anchor": "content4-8y",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735",
+              "text-align": "center"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>CULINARY TERMS</b><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "spzaIp5DMH",
+          "_anchor": "content5-8z",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>1.  ABATS -</b>  Meat items such as offal’s, heads, hearts, liver, kidneys, etc.\n<br><b>2. AIGUILLETTES -</b> Thin strips of the fish, breast of poultry, cut lengthwise.\n<br><b>3. AGING - </b>To improve the tenderness of meat which is held at a cold temperature.\n<br><b>4. A La -</b> According to the style or a standard in vogue, such as a la francaise or according to the French way.\n<br><b>5. A LA BOURGEOISE -</b> Family style-plain.\n<br><b>6. A LA BROCHE -</b> Cooked and roasted on a skewer. Meat or seafood served on a skewer.\n<br><b>7. A La Carte -</b> Food prepared to order; each dish priced separately.\n<br><b>8. ANGLAISE -</b> To cook a anglaise means to cook plainly in water. It also means the preparation of a dish dipped in egg and breadcrumbs, and fried..\n<br><b>9. APPETISER - </b>It is the first course, and it stimulates the appetite. Fruit juices, sherry, cocktails or tidbits could be served.\n<br><b>10. AROMATES -</b> Vegetables like carrots, turnips, onions, leeks, herbs and spices that impart aroma to the dish they are put in.\n<br><b>11. ASPIC -</b> Clear meat or poultry jelly. It is a gelatin in a thin syrupy stage used to decorate dishes in the larder.\n<br><b>12. ARROSER - </b>To baste as in roasting.\n<br><b>13. ASSORTI -</b> An assortment.\n<br><b>14. AU BLEU -</b> In French, it means underdone, i.e. the meat is not cooked properly, another meaning is preparing and cooking a live trout in cooking liquor.\n<br><b>15. AU FOUR -&nbsp;</b>Baked in the oven.\n<br><b>16. AU GRATIN -</b> Food covered with a sauce sprinkled with cheese breadcrumbs, dotted with butter and baked or gratinated in a salamander.\n<br><b>17. AU JUS -</b> Served with natural juices or gravy.\n<br><b>18. AU NATURAL -</b> Served in a simple unadorned style.\n<br><b>19. BABA -</b> A yeast raised cake. A famous variety is flavoured and soaked in rum before serving. Fruit, whipped cream is added. Baba au rum is cooked in rum.\n<br><b>20. BAIN-MARIE -</b> A hot water bath in which utensils containing various culinary preparations are immersed to warm or for the purpose of poaching and reheating.\n<br><b>21. BAKING - </b>Usually the food is put in the oven and cooked by dry heat.\n<br><b>22. BARBECUE -</b> A party in which usually meat (sometimes a whole carcass of animal fixed in a rod) is basted and roasted in front of the people. It is usually held in the open. Meat roasted in open fire is known as barbecued meat.\n<br><b>23. BARDING -</b> Pieces of pork fat placed over the lean meat, fish or the breast of a bird to prevent drying.\n<br><b>24. BARQUETTE -</b> A boat shaped pastry tartlet with a filling.\n<br><b>25. BASTE - </b>To moisten food products with drippings or fat while cooking. The other term for it is spooning of fat.\n<br><b>26. BARON - </b>A double sirloin and rump of beef: also the saddle and two legs of lamb.\n<br><b>27. BAT -</b> To flatten slices of raw meat with a cutlet bat, dipping it in water to prevent meat from sticking to the bat.\n<br><b>28. BATTER - </b>Mixture of flour and liquid of a consistency that can be stirred. Batter could be plain or with eggs. For the beignets and fritters, food items are dipped in the batter and fried.\n<br><b>29. BEATING -</b> Regular lifting motion to bring mixture to smooth texture.\n<br><b>30. BÉCHAMEL -</b> A basic sauce, white in colour, prepared with flour, butter and milk.\n<br><b>31. BEURRE FONDUE -</b> Melted butter.\n<br><b>32. BEURRE NOISETTE -</b> Butter heated to a nut brown colour.\n<br><b>33. BEURRE NOIR -</b> Butter heated to a very dark brown colour.\n<br><b>34. BEURRE MANIE -</b> Equal quantities of flour and butter put in sauces, etc. for thickening.\n<br><b>35. BEIGNETS-</b> Fritters, savoury or sweet, e.g. banana beignet. Bind To cohere, unite or hold together. To the croquette mixture, egg is added to bind.\n<br><b>36. BISQUE -</b> A thick sauce or soup from shellfish or game.\n<br><b>37. BLANC -</b> White.\n<br><b>38. BLANCHING -</b> To submerge in boiling water for a short time. It is done in many ways; tomatoes are dipped in boiling water to blanch, i.e. to remove the skin. Cauliflower is dipped in boiling water to white the colour. French fried potatoes are put in hot fat to let a skin form and to partially cook them.\n<br><b>39. BLANQUETTE </b>- A white stew of veal which has been stiffened in butter and then cooked in white sauce.\n<br><b>40. BLEND -</b> Thorough mixing of two or more ingredients.\n<br><b>41. BOMBE -</b> A frozen dessert. A combination of two or more frozen mixtures (ice-cream, sherbets or mousse) packed in a round or melon shaped mould and frozen.\n<br><b>42. BOUILLON -</b> Soup made of stock which is not as strong as consommé but stronger than broth.\n<br><b>43. BOUCHEE -</b> Very small meat patty or pastry shell filled with meat, poultry or lobster.\n<br><b>44. BOUILLABAISSE -</b> The French Provencal “stew” made of numerous types of fish; combined with savoury spices and oil, served with toasted French garlic bread.\n<br><b>45. BORTSCH -</b> An unpassed soup with an accent on beetroot and is duck flavoured. Native of Poland or Russia. The accompaniments are sour cream, duck bouchee and beetroot juice.\n<br><b>46. BOUQUET GARNI -</b> A bouquet of fresh herbs such as parsley, bay leaf, thyme tied together in a cheese cloth bag, to flavour soups, stews and removed before the dish is served.\n<br><b>47. BRIOCHE -</b> A feathery light yeast cake. A favourite breakfast bun in France.\n<br><b>48. BROIL -</b> The ancient term for grilling.\n<br><b>49. BRUNOISE -</b> Cut into fine pieces.\n<br><b>50. BUFFET - </b>Display of ready to eat foods. Often self-service from a table of assorted foods.\n<br><b>51. CAFÉ -</b> Coffee.\n<br><b>52. CANDYING -</b> Cooking fruit in heavy syrup until transparent. Then drained and dried.\n<br><b>53. CANAPE -</b> Small pieces of fried or toasted bread topped with a wide variety of colourful appetisers. Eaten with fingers. Small fancy open faced item.\n<br><b>54. CARTE DU JOUR -</b> Menu for the day.\n<br><b>55. CANNELLONI -</b> Italian farinaceous dish. It is a pasta preparation stuffed with savoury minced meat and rolled into cigar shapes.\n<br><b>56. CAPON -</b> A young male bird which has been castrated to improve flavour and to fatten. Noted for its tenderness.\n<br><b>57. CARAMELIZE -</b> To heat sugar until it turns dark brown. Used for coating moulds and flavouring dishes.\n<br><b>58. CASSOULET -</b> A hot hors d’oeuvre shaped like a small drum:\n<br><b>59. CASSEROLE -</b> An earthenware or pyrex fireproof dish with a lid.\n<br><b>60. CAVIAR -</b> Salted roe or eggs of fish, usually sturgeon, served as a sandwich spread or in plates as appetisers.\n<br><b>61. CEPES -</b> Species of mushrooms.\n<br><b>62. CHAMPIGNONS -</b> Mushrooms.\n<br><b>63. CHANTILLY CREAM - </b>Whipped cream.\n<br><b>64. CHAPELURE -</b> Crumbs made from dried bread.\n<br><b>65. CHATEAUBRIAND -</b> A steak cut from the head of the beef fillet usually broiled. The steak has been named after the Viscount of Chateaubriand.\n<br><b>66. CLARIFICATION -</b> To make clear, e.g. fat, stock or jelly. Chaud Froid Veloute or demi-glaze with aspic or gelatine used for masking cold dishes.\n<br><b>67. CHIFFONADE -</b> Shreds of lettuce or sorrel.\n<br><b>68. CHINOISE -</b> A conical shaped wire mesh strainer.\n<br><b>69. CHISEL -</b> To cut a vegetable after the manner of a chaff cutting machine.\n<br><b>70. COAGULATION -</b> Proteins solidifying after the application of heat e.g. fried egg.\n<br><b>71. COAT -</b> Cover with sauce.\n<br><b>72. CLOCHESOUS -</b> Under bell, usually glass.\n<br><b>73. CLOUTE -</b> Studded, e.g. clove, bay leaf in an onion.\n<br><b>74. COCOTTE -</b> Porcelain or earthenware fireproof dish.\n<br><b>75. CODDLING -</b> Cooking below boiling point, e.g. coddled eggs.\n<br><b>76. COMPOTE -</b> A dish of stewed fruit retaining their natural shape.\n<br><b>77. COOKOUT -</b> Process of cooking the flour in the roux, sauce or soup.\n<br><b>78. CONCASSE -</b> Coarsely chopped, e.g. blanched tomatoes or parsley, etc.\n<br><b>79. CONDIMENTS -</b> Seasonings.\n<br><b>80. CORRECTING -</b> Adjusting the seasoning, consistency and colour of a dish.\n<br><b>81. CONSOMME -</b> Clear soup made from minced meat, aromatic vegetables, hers and stock, etc. It is clarified with egg white.\n<br><b>82. CORDON -</b> To have a thin line of sauce.\n<br><b>83. COULIS -</b> An essence made from shellfish, also used as a sauce.\n<br><b>84. COURT BOUILLON -</b> A lightly flavoured cooking liquor in which fish is cooked.\n<br><b>85. CONTRE FILLET - </b>Sirloin of beef, deboned.\n<br><b>86. COTE -</b> A rib or chop.\n<br><b>87. CORDON -</b> A thread or thin line of sauce.\n<br><b>88. CRACKLING -</b> The rind of roast pork. Crepe Pancake.\n<br><b>89. CROUTE -</b> Rounds made out of bread or brioche dough used as hors d’oeuvres or as a garnish.\n<br><b>90. CROQUETTES -</b> Thick white sauce or mashed potato base, plus mincemeat, fish or vegetables shaped as pipes dipped in beaten eggs, breadcrumbed and deep fired.\n<br><b>91. CROUTONS -</b> Small dices of fancy shapes or fried or toasted bread used as a garnish for soups or as underliners for all kinds of canapes.\n<br><b>92. CUISINE - </b>Art of cooking, preparation in the kitchen. Cult Cooked.\n<br><b>93. DARIOLE -</b> A deep round sloping sided mould like a flower pot.\n<br><b>94. DARNE- </b>A section of fish cut across the bone of a large whole round fish.\n<br><b>95. DEGLACE - </b>To swill a pan in which food has been cooked with wine/ stock to use the sediment and essences.\n<br><b>96. DEMI -</b> Half.\n<br><b>97. DEMI GLACE - </b>Brown sauce made by reducing equal qualities of brown stock and brown sauce (espagnole). Diable Devilled.\n<br><b>98. DRAIN - </b>Place food cooked in a strainer or colander.\n<br><b>99. DURUM WHEAT - </b>Hard wheat with high gluten content used for making pasta and semolina.\n<br><b>100. DREDGING -</b> Coating with dry ingredients, e.g. sugar or flour.\n<br><b>101. DEPOUILLER - </b>To skim.\n<br><b>102. DOCKING - </b>Making holes in pastry goods to allow steam to pass.\n<br><b>103. DUXELLE - </b>Minced vegetable stuffing or forcemeat consisting of mushrooms, parsley and shallots.\n<br><b>104. DRIPPINGS - </b>The fat and juice which drops from roasting meats Animal fat is also called dripping.\n<br><b>105. DUST - </b>Sprinkling fine sugar or flour.\n<br><b>106. EGG WASH - </b>Brush food item with egg yolk.\n<br><b>107. EMINCE - </b>Cut fine or shredded fine.\n<br><b>108. EMULSION -</b> A mixture-oil and yolk incorporated, does not separate on standing, e.g. mayonnaise, hollandaise.\n<br><b>109. CASSEROLE -</b> Food served in the same dish in which it was cooked.\n<br><b>110. ENTRÉE -</b> A main dish of meat or poultry for an informal meal.\n<br><b>111. ENTREMET - </b>Refers to the sweet course, cold or hot.\n<br><b>112. EPIGRAMME -</b> Boned breast of lamb.\n<br><b>113. ESCALOPES -</b> To cut thin slices sideways.\n<br><b>114. ESTOUFFADE </b>- Brown stock.\n<br><b>115. ESPAGNOLE -</b> Basic brown sauce.\n<br><b>116. ETAMINE - </b>Tammy or double thickness of cheesecloth for straining soups and sauces.\n<br><b>117. FLEURON - </b>Small crescent shape, puff pastry, used as garnish for poached fish, meat, etc.\n<br><b>118. FARCE - </b>Stuffing, and farci means stuffed.\n<br><b>119. FARINACEOUS -</b> It is a word derived from the Latin word “Farina” meaning flour, a wide-range of dishes mostly made from flour, e.g. spaghetti, macaroni, etc.\n<br><b>120. FILLETS -</b> Boneless flesh under the loin of beef, veal or pork.\n<br><b>121. FLAKE - </b>To break into natural segments (fish).\n<br><b>122. FLORENTINE -</b> With spinach.\n<br><b>123. FLUTE -</b> A long crisp roll of bread, thin slices cut on a slant and used for garnishing soups.\n<br><b>124. FOIE GRAS -</b> Flatted goose liver.\n<br><b>125. FOOL -</b> A cold sweet dish made with sieved fruit and whipped to a light mixture served with cream.\n<br><b>126. FORCEMEAT -</b> Mixture of minced or chopped meat and’ seasonings, used for stuffing.\n<br><b>127. FRAPPE -</b> Partially frozen drinks or desserts.\n<br><b>128. FRICADELLES -</b> Meat balls or round cakes made with either raw or cooked meat.\n<br><b>129. FRICANDEAU - </b>Is a slice of veal taken from the topside of veal and cut with the grain 11/2″ thickness.\n<br><b>130. FRICASSEE -</b> Small pieces of chicken, veal or rabbit cooked in white sauce, with the addition of mushrooms, onions, etc. The other name for it is white stew.\n<br><b>131. FRITTERS -</b> Small pieces of vegetables, fruit, cheese, etc. dipped in batter and deep fried.\n<br><b>132. FRITURE -</b> A pan that contains deep fat.\n<br><b>133. FRIZZLING -</b> Cooking in a small amount of fat until crisp.\n<br><b>134. FUMET -</b> A kind of essence extracted from the bones and the skin of fish.\n<br><b>135. GALANTINE -</b> Deboned chicken or fish or meat is minced and stuffed. The forcemeat is seasoned mixed with eggs and cream (optional). Placed in a mould with jelly and served cold. Served at cold buffets or as cold meats for meals.\n<br><b>136. GARNISH -</b> To embellish, to decorate, “Furniture” in French means to garnish.\n<br><b>137. GELATINE -</b> A soluble protein obtained from cow’s hooves. Sold in powder form or in sheets. Used for jellies and for preparing aspics.\n<br><b>138. GHERKINS -</b> Small cucumbers (a few days old) usually pickled.\n<br><b>139. GIBLETS -</b> Liver, heart and trimmings from poultry.\n<br><b>140. GLAZE -</b> A semi-transparent or glossy coating. Also to colour, gives elasticity to a dough.\n<br><b>141. GLUTEN -</b> Vegetable protein found in cereal especially flour.\n<br><b>142. GNOCCHI -</b> Italian-Light dumplings usually made from farina (cream of wheat).\n<br><b>143. GOULASH -</b> A Hungarian beef stew with onions, tomatoes and paprika.\n<br><b>144. GOURMET -</b> Connoisseur of food and drinks known as in epicure.\n<br><b>145. GRENADINE -</b> Slices of veal, a little thicker than escalopes.\n<br><b>146. GRATINATE -</b> To colour under a salamander or in the oven.\n<br><b>147. GRIDDLE -</b> To cook on a solid surface or plate.\n<br><b>148. HASH -</b> It is usually a rechauffe dish. A dish of meat diced or minced and seasoned.\n<br><b>149. HORS D’OEUVRES -</b> Small relishes or appetisers. Served as the first course of a meal.\n<br><b>150. INDIEHNE -</b> An oriental dish. Indian style dish.\n<br><b>151. INFUSION - </b>Liquid obtained from steeping a food, e.g. coffee and tea.\n<br><b>152. INCISE - </b>To make small cuts across the back of fish prior to cooking.\n<br><b>153. ISINGLASS - </b>Fish gelatine-(used for clarification).\n<br><b>154. JARDINIÈRE -</b> Vegetables cut into batons.\n<br><b>155. JULIENNES -</b> Refers to vegetables and meat cut into fine strips (match size) for soups and salads.\n<br><b>156. JUNKET -</b> t is a light, easily digestible dish, good for invalids and children. It is a set milk product because of the addition of rennet. It can be flavoured.\n<br><b>157. KEDGEREE -</b> It is an Anglo-Indian dish of fish, rice, eggs, and curried dish.\n<br><b>158. KOSHER - </b>Meat sold within 48 hrs. after holding, in accordance with prescribed Hebrew religious laws or style of Jewish cooking with restrictions.~ dietary\n<br><b>159. KROMESKIES -</b> Similar to croquettes but it is dipped in a yeast batter and deep fried.\n<br><b>160. LANGOUSTE -</b> Crayfish.\n<br><b>161. LANGOUSTINE -</b> Spiny lobster.\n<br><b>162. LIAISON -</b> Cream and eggs, blood, flour are used as thickening agents for soups and sauces.\n<br><b>163. LARDING -</b> Strips of pork fat inserted into meat with the aid of a larding needle. This keeps the meat moist.\n<br><b>164. MACEDOINE -</b> Mixture of fruit and vegetables cut in even pieces; fruit salad.\n<br><b>165. MAITRE D’HOTEL -</b> Sauce of softened butter, parsley, lemon juice butter chilled and served with fish, steak, etc.\n<br><b>166. MARASCHINO -</b> Italian cherry cordial. Also a type of cherries.\n<br><b>167. MARINADE -</b> A spiced mixture of vinegar, oil, spices or wine.\n<br><b>168. MARMITE- </b>Stock-pot, or earthenware pot in which soup is served.\n<br><b>169. MACERATE -&nbsp;</b>To soak (in flavoured syrup, wine or liquor) often applied to fruits.\n<br><b>170. MANDOLIN - </b>A hand held machine used for slicing vegetables, potatoes.\n<br><b>171. MASKING - </b>To cover completely (usually with a sauce).\n<br><b>172. MATELOTES -</b> Fish stew with wine, onions and seasonings.\n<br><b>173. MATIGNON -</b> Minced aromatic vegetables, ham (optional) thyme, bay leaf, used in dishes to impart a good flavour.\n<br><b>174. MEDALLION -</b> Round flat shaped piece of fish or meat.\n<br><b>175. MENU -</b> List of dishes with fare.\n<br><b>176. MIGNONETTE PEPPER -</b> Coarsely ground pepper.\n<br><b>177. MIREPOIX -</b> Carrots, onions, celery, pork (salted optional) cut into fine dices, with thyme, bay leaf. Improves the flavour of the dish\n<br><b>178. MISE-EN-PLACE -</b> Basic preparation in the kitchen before serving.\n<br><b>179. MONO SODIUM -</b> A flavouring added to meat products to increase glutamate flavour. Known as Chinese salt.\n<br><b>180. MORTIFIER - </b>To hand meat so as to tenderize it.\n<br><b>181. MOUSSE -</b> Applied to a very light dessert generally prepared with whipped cream, egg whites, gelatin and sugar, etc. chilled and frozen. Also referred to meat dishes with egg, cream, gelatin and seasoning, served for cold buffets.\n<br><b>182. NAPPER -</b> To coat or mask with sauce.\n<br><b>183. NAVARIN -</b> Mutton stew with carrots and turnips.\n<br><b>184. NOODLES -</b> Narrow strips of dried dough, used in soups, as garnishes, and also used for Chinese dishes.\n<br><b>185. PANADA -</b> Thick white sauce.\n<br><b>186. PARBOIL-&nbsp;</b>To partially cook.\n<br><b>187. PARMESAN -</b> Italian cooking cheese. Hard sharp cheese, used as garnishes for soups and used for sauce, etc.\n<br><b>188. PAUPIETTE -</b> Stuffed rolled thin slices of meat, etc. braised.\n<br><b>189. PAYSANNE -</b> Cut into uniform shapes, whether it is round, or triangles, etc.\n<br><b>190. PIMENTOS -</b> Red sweet Spanish pepper pod.\n<br><b>191. PIQUANT -</b> Highly seasoned, tangy.\n<br><b>192. PLAT DU JOUR -</b> Special dish of the day.\n<br><b>193. POISSON -&nbsp;</b>  Fish in French.\n<br><b>194. POTAGE -</b> Soup usually thickened.\n<br><b>195. PUREE -</b> Pulp or paste of vegetables or fruit, also a thick soup.\n<br><b>196. QUENELLES - </b>Very light dumplings, which are made out of fish, chicken, or meat, poached and used as a garnish.\n<br><b>197. RAGOUT -</b> Thick savoury stew.\n<br><b>198. RAMEKINS -</b> Food baked in shallow baking china dishes. Individual small baking dishes.\n<br><b>199. RASPINGS -</b> Fine breadcrumbs.\n<br><b>200. RECHAUFFE -</b> A re-heated dish.\n<br><b>201. Reduce -</b> To concentrate a liquid by boiling, usually without a lid.\n<br><b>202. REISH -</b> A highly seasoned food item used as an accompaniment.\n<br><b>203. ROYAL -</b> Used as a garnish for soups, cubes of a savoury custard. Also the name of a kind of icing.\n<br><b>204. SABAYON -</b> A griller with heat from above open front so that the dishes could be placed on shelf for gratinating.\n<br><b>205. SALAMI -</b> Sausage of pork, beef, highly seasoned.\n<br><b>206. SEARING - </b>Browning surface by intense heat, usually meat. To form a protective coating of coagulated proteins to retain the juices of the meat.\n<br><b>207. SCORE - </b>To cut slits in the fat piece of pork before roasting.\n<br><b>208. SKEWER -</b> A metal or wooden pin to hold meat or poultry pieces while cooking, e.g. seekh kabab, shami kababs.\n<br><b>209. SOUSED - </b>Herrings, etc. pickled in vinegar and spices.\n<br><b>210. SOUFFLE -</b> Light puffed baked custard.\n<br><b>211. SPIT -</b> Pointed metal rod to hold meat or poultry for roasting.\n<br><b>212. SUPREME - </b>A fillet of a deboned fish or breast of a chicken. It is the tender portion of the bird.\n<br><b>213. TABLE D’HOTE -</b> Fixed price meal. A meal of a definite number of courses.\n<br><b>214. TERRINE -</b>Forcemeat stuffing moulded cooked and served cold.\n<br><b>215. TIMBALE - </b>A cup shaped mould usually made from meat, fish or vegetables added to a custard mixture and finely decorated.\n<br><b>216. TRIPE -</b> The white fatty inner lining of the stomach, chiefly ox which has a large amount of connective tissue which gelatinizes on boiling and so it is easily digestible.\n<br><b>217. TRONCON -</b> A slice of flat fish with the bone.\n<br><b>218. VOL AU VENT -</b> Puff pastry case.\n<br><b>219. WOK - </b>A concave pan used for stir frying.\n<br><b>220. WHIPPING -</b> Rapid beating to increase the volume of mixing air.\n<br><b>221. ZEST - </b>The rind of orange or lemon grated and used for flavouring.\n<br><b>222. ZUPPA -</b> Italian soup.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content5-90",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "spzaXx4kl3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     }
