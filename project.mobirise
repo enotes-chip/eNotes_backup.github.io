@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "2 Year Subject.html",
+    "currentPage": "AC_Unit_3.1_index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -59,7 +59,7 @@
         "file": "@PROJECT_PATH@/fonts/FFF_Tusj/font.ttf"
       }
     ],
-    "uniqCompNum": 389,
+    "uniqCompNum": 405,
     "versionPublish": "5.1.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -121,7 +121,7 @@
             }
           },
           "_name": "header13",
-          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#232323\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background15.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>e Notes</b><br><b><br></b><br><b><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .social-row\">Version 2.0.1.07</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Important Questions</a></div>\n                <div class=\"social-row display-7 mt-5\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#232323\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background15.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>e Notes</b><br><b><br></b><br><b><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .social-row\">Version 2.0.1.08</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Important Questions</a></div>\n                <div class=\"social-row display-7 mt-5\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sofl8OkJzK",
           "_anchor": "header13-27",
           "_protectedParams": [],
@@ -170,7 +170,7 @@
     "2 Year Subject.html": {
       "settings": {
         "title": "2 Year Subject",
-        "order": 13
+        "order": 16
       },
       "components": [
         {
@@ -206,7 +206,7 @@
     "3 Year Subject.html": {
       "settings": {
         "title": "3 Year Subject",
-        "order": 49
+        "order": 52
       },
       "components": [
         {
@@ -245,7 +245,7 @@
     "Syllabus.html": {
       "settings": {
         "title": "Syllabus",
-        "order": 96
+        "order": 99
       },
       "components": [
         {
@@ -283,7 +283,7 @@
     "1 Sem Syllabus.html": {
       "settings": {
         "title": "1 Sem Syllabus",
-        "order": 98
+        "order": 101
       },
       "components": [
         {
@@ -321,7 +321,7 @@
     "5 Sem Syllabus.html": {
       "settings": {
         "title": "5 Sem Syllabus",
-        "order": 103
+        "order": 106
       },
       "components": [
         {
@@ -359,7 +359,7 @@
     "3 Sem Syllabus.html": {
       "settings": {
         "title": "3 Sem Syllabus",
-        "order": 100
+        "order": 103
       },
       "components": [
         {
@@ -397,7 +397,7 @@
     "AC Syllabus.html": {
       "settings": {
         "title": "AC Syllabus",
-        "order": 99
+        "order": 102
       },
       "components": [
         {
@@ -461,7 +461,7 @@
     "HK Syllabus.html": {
       "settings": {
         "title": "HK Syllabus",
-        "order": 101
+        "order": 104
       },
       "components": [
         {
@@ -525,7 +525,7 @@
     "FO Syllabus.html": {
       "settings": {
         "title": "FO Syllabus",
-        "order": 102
+        "order": 105
       },
       "components": [
         {
@@ -589,7 +589,7 @@
     "H&S Syllabus.html": {
       "settings": {
         "title": "H&S Syllabus",
-        "order": 104
+        "order": 107
       },
       "components": [
         {
@@ -653,7 +653,7 @@
     "FM Syllabus.html": {
       "settings": {
         "title": "FM Syllabus",
-        "order": 105
+        "order": 108
       },
       "components": [
         {
@@ -717,7 +717,7 @@
     "Contact.html": {
       "settings": {
         "title": "Contact",
-        "order": 106
+        "order": 109
       },
       "components": [
         {
@@ -888,7 +888,7 @@
     "Ref.Books.html": {
       "settings": {
         "title": "Ref.Books",
-        "order": 97
+        "order": 100
       },
       "components": [
         {
@@ -1069,7 +1069,7 @@
             }
           },
           "_name": "header18",
-          "_customHTML": "<section class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"135\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Intro with gradient background</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>\n                        Applied Cookery</b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Choose Your Unit</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"AC_Unit_1_index.html\" data-app-placeholder=\"Type Text\">Unit - 1</a> <a class=\"btn btn-secondary\" href=\"AC_Unit_2_index.html\" data-app-placeholder=\"Type Text\">Unit - 2</a> <a class=\"btn btn-warning\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 3</a> <a class=\"btn btn-success\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 4</a> <a class=\"btn btn-black\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 5</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"135\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Intro with gradient background</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>\n                        Applied Cookery</b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Choose Your Unit</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"AC_Unit_1_index.html\" data-app-placeholder=\"Type Text\">Unit - 1</a> <a class=\"btn btn-secondary\" href=\"AC_Unit_2_index.html\" data-app-placeholder=\"Type Text\">Unit - 2</a> <a class=\"btn btn-warning\" href=\"AC_Unit_3_index.html\" data-app-placeholder=\"Type Text\">Unit - 3</a> <a class=\"btn btn-danger\" href=\"AC_Unit_3.1_index.html\" data-app-placeholder=\"Type Text\">Unit - 3.1</a> <a class=\"btn btn-success\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 4</a> <a class=\"btn btn-black\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 5</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sle9faRUq6",
           "_anchor": "header18-17",
           "_protectedParams": [],
@@ -1082,7 +1082,7 @@
     "FO Units.html": {
       "settings": {
         "title": "FO Units",
-        "order": 35
+        "order": 38
       },
       "components": [
         {
@@ -1118,7 +1118,7 @@
     "HK Units.html": {
       "settings": {
         "title": "HK Units",
-        "order": 14
+        "order": 17
       },
       "components": [
         {
@@ -1154,7 +1154,7 @@
     "H&S Units.html": {
       "settings": {
         "title": "H&S Units",
-        "order": 71
+        "order": 74
       },
       "components": [
         {
@@ -1190,7 +1190,7 @@
     "FM Units.html": {
       "settings": {
         "title": "FM Units",
-        "order": 50
+        "order": 53
       },
       "components": [
         {
@@ -1226,7 +1226,7 @@
     "Disclaimer.html": {
       "settings": {
         "title": "Disclaimer",
-        "order": 107
+        "order": 110
       },
       "components": [
         {
@@ -1274,7 +1274,7 @@
     "Privacy Policy.html": {
       "settings": {
         "title": "Privacy Policy",
-        "order": 108
+        "order": 111
       },
       "components": [
         {
@@ -1322,7 +1322,7 @@
     "Help.html": {
       "settings": {
         "title": "Help",
-        "order": 91
+        "order": 94
       },
       "components": [
         {
@@ -1346,7 +1346,7 @@
     "error.html": {
       "settings": {
         "title": "Error",
-        "order": 109
+        "order": 112
       },
       "components": [
         {
@@ -1400,7 +1400,7 @@
     "HK_Unit_1_Index.html": {
       "settings": {
         "title": "HK_Unit_1_Index",
-        "order": 15
+        "order": 18
       },
       "components": [
         {
@@ -1462,7 +1462,7 @@
     "HK_Unit_1.html": {
       "settings": {
         "title": "HK_Unit_1",
-        "order": 16
+        "order": 19
       },
       "components": [
         {
@@ -1529,7 +1529,7 @@
     "HK_Unit_1.1.html": {
       "settings": {
         "title": "HK_Unit_1.1",
-        "order": 17
+        "order": 20
       },
       "components": [
         {
@@ -1750,7 +1750,7 @@
     "HK_Unit_1.2.html": {
       "settings": {
         "title": "HK_Unit_1.2",
-        "order": 18
+        "order": 21
       },
       "components": [
         {
@@ -1971,7 +1971,7 @@
     "HK_Unit_4.html": {
       "settings": {
         "title": "HK_Unit_4",
-        "order": 33
+        "order": 36
       },
       "components": [
         {
@@ -2041,7 +2041,7 @@
     "FO_Unit_1.html": {
       "settings": {
         "title": "FO_Unit_1",
-        "order": 36
+        "order": 39
       },
       "components": [
         {
@@ -2111,7 +2111,7 @@
     "HK_Unit_5.html": {
       "settings": {
         "title": "HK_Unit_5",
-        "order": 34
+        "order": 37
       },
       "components": [
         {
@@ -2236,7 +2236,7 @@
     "FO_Unit_2_index.html": {
       "settings": {
         "title": "FO_Unit_2_index",
-        "order": 37
+        "order": 40
       },
       "components": [
         {
@@ -2298,7 +2298,7 @@
     "FO_Unit_2.html": {
       "settings": {
         "title": "FO_Unit_2",
-        "order": 38
+        "order": 41
       },
       "components": [
         {
@@ -2368,7 +2368,7 @@
     "FO_Unit_2.1.html": {
       "settings": {
         "title": "FO_Unit_2.1",
-        "order": 39
+        "order": 42
       },
       "components": [
         {
@@ -2438,7 +2438,7 @@
     "FO_Unit_2.2.html": {
       "settings": {
         "title": "FO_Unit_2.2",
-        "order": 40
+        "order": 43
       },
       "components": [
         {
@@ -2508,7 +2508,7 @@
     "FO_Unit_5.html": {
       "settings": {
         "title": "FO_Unit_5",
-        "order": 48
+        "order": 51
       },
       "components": [
         {
@@ -2749,7 +2749,7 @@
     "HS_Unit_1.html": {
       "settings": {
         "title": "HS_Unit_1",
-        "order": 72
+        "order": 75
       },
       "components": [
         {
@@ -2787,7 +2787,7 @@
             }
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Hygiene\n</b><br>Hygiene refers to the set of practices associated with the preservation of health and healthy living. In general, hygiene mostly means practices that prevent the spread of disease-causing harmful microorganisms. Since cleaning process removes infections - microbes as well as dirt and soil, they are often the means to achieve hygiene. It is also the name of a branch of science that deals with the promotion of health because of the risk of food poisoning. Kitchen Hygiene refers to maintaining the cleanliness of Kitchen equipment’s, surroundings and including personal hygiene.\n<br>\n<br><b>Sanitation\n</b><br>The word sanitation comes from the Latin word sanitas, which means “health”. Sanitation means creating and maintaining hygienic and healthful conditions. It is an applied science and relates physical, chemical, biological, and microbial principles to food, the environment and health. Sanitation is more than just cleanliness. Food or equipment can be free of visible dirt and still be contaminated with microorganisms or chemicals that can cause illness or food spoilage.\n<br>Sanitary practices and hygienic conditions are becoming more and more important because food is being processed, prepared and sold in larger volumes than before. Some microorganisms cause food spoilage and food-borne illness, but others are beneficial in food processing and preparation. Sanitation can reduce the growth of microorganisms on equipment and dirt on food. This can reduce contamination of food by microorganisms that cause food-borne illness and food spoilage. Sanitary principles also apply to waste disposal and can help reduce pollution and improve ecological balance.\n<br>\n<br><b>The benefits &amp; importance of a good sanitation program</b>\n<br>• Compliance with statutory regulations.\n<br>• Preventing food-borne illness outbreaks.\n<br>• Improving quality and shelf life of foods.\n<br>• Reducing energy and maintenance costs.\n<br>• Increasing quality and confidence.\n<br>• Improve the guest satisfactions\n<br>• Increase the revenue\n<br>\n<br><b>Kitchen Hygiene</b>\n<br>Kitchen hygiene is related to clean and maintain the surfaces and equipment of entire kitchen and very crucial part of total hygiene in the Food production areas. Carelessness in the cleanliness of any section of the kitchen could lead a risk of food poisoning. To make a kitchen safe and hygienic the following important points must be considered.\n<br>\n<br>• Kitchen floors should be cleaned (swept, mopped, scrub with detergent and rinse with hot and cold water) daily or each shift of operation if necessary.\n<br>• Ventilation should be thoroughly cleaned and wiped.\n<br>• Lighting's should be wiped with damp cloth.\n<br>• Walls, ceilings, doors, windows should be wiped and polished with right agents as per the routine.\n<br>• Put rubbish bins in appropriate locations and dispose of garbage frequently.\n<br>• Refrigerator, deep freezer, and cool rooms should be cleaned with lukewarm Soda water. Do not use soap or any other detergent powder.\n<br>• All kitchen (Kitchen appliances) manual and mechanical equipment should be cleaned with hot water such as food mixtures, miners, processors, slicers, grinder/ blender, etc.\n<br>• Still-rooms, working tables, cupboards and racks should be periodically cleaned.\n<br>• Chopping boards should be frequently cleaned and wiped.\n<br>• Kitchen store area must be checked and cleaned regularly.\n<br>\n<br><b>Food Hygiene\n</b><br>\n<br>Food hygiene is a scientific discipline describing handling, preparation, and storage of food in ways that prevent food-borne illness. This includes a number of routines that should be followed to avoid potentially severe health hazards. Food can transmit disease from person to person as well as serve as a growth medium for bacteria that can cause food poisoning. Rules regarding food hygiene are:\n<br>\n<br>• Prevent contaminating food with pathogens spreading from people, pets, and pests.\n<br>• Separate raw and cooked foods to prevent contaminating the cooked foods.\n<br>• Cook foods for the appropriate length of time and at the appropriate temperature to kill temperature.\n<br>• Coolers/ freezers and refrigerators should be cleaned frequently and store food at the proper temperature.\n<br>• Use safe water and raw materials\n<br>• Use clean and sharp blade knife and clean chopping board after each use.\n<br>• Labeling food to indicate when it was produced (or, as food manufacturers prefer, to indicate its “best before\" date).\n<br>• Equipment like spatulas, ladles, skewers, etc. are to be dipped into sanitize after each use.\n<br>• Food once cooked should be re-heated properly up to 70+* Celsius.\n<br>• Quick cooling of food is essential prior to the refrigeration or freezer.\n<br>\n<br><b>Personal hygiene for Food Handlers:\n</b><b><br></b><br>Personal hygiene can be defined as the study and practice of preventing illness or stopping it from spreading by keeping oneself clean. In Other words, personal hygiene refers to high Standard of personal cleanliness and appearance of the staff which is essential not only to prevent the spread of disease but also to win the respect of others because when we apply for a position in a hospitality industry, our appearance and cleanliness will be carefully noted.\n<br>Personal hygiene may be described as the principle of maintaining cleanliness and grooming of the external body. It is, in general, looking after yourself.\n<br>Employees who are ill should not come to work. They should not touch food or equipment and utensils used to process, prepare, and serve food. Food can carry several illnesses, including:\n<br>• Respiratory diseases, e.g., colds, sore throats, pneumonia, scarlet fever, and tuberculosis\n<br>• Gastrointestinal diseases, e.g., vomiting, diarrhea, dysentery\n<br>• Typhoid fever\n<br>• Infectious hepatitis\n<br>\n<br> Proper personal hygiene can be achieved by the following ways:\n<br>\n<br><b>1. Bathing: </b>It is essential for all the food handlers to take a shower regularly and change undergarments daily, such as socks/stockings and briefs. Bathing not only removes visible dirt and germs but also helps eliminate body odour.\n<br>\n<br><b>2. Hands:</b> Hands must be washed thoroughly and frequently with hot soapy water and dry hands with towels or under the dryer. Hand must be washed: -\n<br>• On entering food room and before handling food\n<br>• After going to the toilet\n<br>• After smoking\n<br>• After blowing nose\n<br>• After handling raw food\n<br>• After handling refuse\n<br>• After eating\n<br>• After using cleaning materials\n<br>\n<br><b>3.Fingernails: </b>Fingernails must be kept short. It should be cleaned regularly with a nailbrush, and nail varnish should not be worn.\n<br>\n<br><b>4. Hair:</b> Hair should be washed regularly. It should be kept covered by wearing an appropriate chef hat. The men's hair should be kept short, as it is easier to keep it clean and also looks neater. Women's hair should be covered as much as possible. One should never scratch, comb or touch hair in the kitchen as germs could be transferred to the food via the hands or hair strand may fall in the food.\n<br>\n<br><b>5. Nose: </b>The nose should not be touched when food is being handled. Avoid sneezing or coughing near food. Use a disposable tissue to wipe the nose.\n<br>\n<br><b>6. Mouth:</b> Never touch the mouth or lips as germs in saliva pass from Fingers to food and table-tops. If food needs to be tasted during preparation, a clean spoon should be used and not the fingers or utensils used in preparation.\n<br>\n<br><b>7. Ears:</b> The ear-holes should not be picked or scratched while in the kitchen as germs can be transferred into the food.\n<br>\n<br><b>8. Shoes:</b> Kitchen shoes worn exclusively for food duties should not be worn outside.\n<br>\n<br><b>9. Protective clothing:</b> Uniforms should be worn only at work and not at other times. They should be laundered regularly. Leisure clothes should be kept well away from the kitchen.\n<br>\n<br><b>10. Cuts, burns, and sores: </b>It is particularly important to keep all cuts, burns, and scratches of the skin covered with a waterproof dressing. Where the skin is septic, there are vast numbers of harmful germs. Such germs must not be permitted to get on food.\n<br>\n<br><b>11. Jewellery:</b> Rings, watches, bracelets, earrings, necklaces, etc. should not be worn while at work.\n<br>\n<br><b>12. Cosmetics:</b> Excess cosmetics should not be put while working in the kitchen.\n<br>\n<br><b>13. Habits: </b>Smoking, spitting anywhere, tasting of food using fingers or other activities, which brings hands and mouth directly in contact with food, should be strictly prohibited.\n<br>\n<br><b>14. Illness: </b>Any Illness should be immediately reported to the concerned authority\n<br>\n<br><br>\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Hygiene\n</b><br>Hygiene refers to the set of practices associated with the preservation of health and healthy living. In general, hygiene mostly means practices that prevent the spread of disease-causing harmful microorganisms. Since cleaning process removes infections - microbes as well as dirt and soil, they are often the means to achieve hygiene. It is also the name of a branch of science that deals with the promotion of health because of the risk of food poisoning. Kitchen Hygiene refers to maintaining the cleanliness of Kitchen equipment’s, surroundings and including personal hygiene.\n<br>\n<br><b>Sanitation\n</b><br>The word sanitation comes from the Latin word sanitas, which means “health”. Sanitation means creating and maintaining hygienic and healthful conditions. It is an applied science and relates physical, chemical, biological, and microbial principles to food, the environment and health. Sanitation is more than just cleanliness. Food or equipment can be free of visible dirt and still be contaminated with microorganisms or chemicals that can cause illness or food spoilage.\n<br>Sanitary practices and hygienic conditions are becoming more and more important because food is being processed, prepared and sold in larger volumes than before. Some microorganisms cause food spoilage and food-borne illness, but others are beneficial in food processing and preparation. Sanitation can reduce the growth of microorganisms on equipment and dirt on food. This can reduce contamination of food by microorganisms that cause food-borne illness and food spoilage. Sanitary principles also apply to waste disposal and can help reduce pollution and improve ecological balance.\n<br>\n<br><b>The benefits &amp; importance of a good sanitation program</b>\n<br>• Compliance with statutory regulations.\n<br>• Preventing food-borne illness outbreaks.\n<br>• Improving quality and shelf life of foods.\n<br>• Reducing energy and maintenance costs.\n<br>• Increasing quality and confidence.\n<br>• Improve the guest satisfactions\n<br>• Increase the revenue\n<br>\n<br><b>Kitchen Hygiene</b>\n<br>Kitchen hygiene is related to clean and maintain the surfaces and equipment of entire kitchen and very crucial part of total hygiene in the Food production areas. Carelessness in the cleanliness of any section of the kitchen could lead a risk of food poisoning. To make a kitchen safe and hygienic the following important points must be considered.\n<br>\n<br>• Kitchen floors should be cleaned (swept, mopped, scrub with detergent and rinse with hot and cold water) daily or each shift of operation if necessary.\n<br>• Ventilation should be thoroughly cleaned and wiped.\n<br>• Lighting's should be wiped with damp cloth.\n<br>• Walls, ceilings, doors, windows should be wiped and polished with right agents as per the routine.\n<br>• Put rubbish bins in appropriate locations and dispose of garbage frequently.\n<br>• Refrigerator, deep freezer, and cool rooms should be cleaned with lukewarm Soda water. Do not use soap or any other detergent powder.\n<br>• All kitchen (Kitchen appliances) manual and mechanical equipment should be cleaned with hot water such as food mixtures, miners, processors, slicers, grinder/ blender, etc.\n<br>• Still-rooms, working tables, cupboards and racks should be periodically cleaned.\n<br>• Chopping boards should be frequently cleaned and wiped.\n<br>• Kitchen store area must be checked and cleaned regularly.\n<br>\n<br><b>Food Hygiene\n</b><br>\n<br>Food hygiene is a scientific discipline describing handling, preparation, and storage of food in ways that prevent food-borne illness. This includes a number of routines that should be followed to avoid potentially severe health hazards. Food can transmit disease from person to person as well as serve as a growth medium for bacteria that can cause food poisoning. Rules regarding food hygiene are:\n<br>\n<br>• Prevent contaminating food with pathogens spreading from people, pets, and pests.\n<br>• Separate raw and cooked foods to prevent contaminating the cooked foods.\n<br>• Cook foods for the appropriate length of time and at the appropriate temperature to kill temperature.\n<br>• Coolers/ freezers and refrigerators should be cleaned frequently and store food at the proper temperature.\n<br>• Use safe water and raw materials\n<br>• Use clean and sharp blade knife and clean chopping board after each use.\n<br>• Labeling food to indicate when it was produced (or, as food manufacturers prefer, to indicate its “best before\" date).\n<br>• Equipment like spatulas, ladles, skewers, etc. are to be dipped into sanitize after each use.\n<br>• Food once cooked should be re-heated properly up to 70+* Celsius.\n<br>• Quick cooling of food is essential prior to the refrigeration or freezer.\n<br>\n<br><b>Personal hygiene for Food Handlers:\n</b><b><br></b><br>Personal hygiene can be defined as the study and practice of preventing illness or stopping it from spreading by keeping oneself clean. In Other words, personal hygiene refers to high Standard of personal cleanliness and appearance of the staff which is essential not only to prevent the spread of disease but also to win the respect of others because when we apply for a position in a hospitality industry, our appearance and cleanliness will be carefully noted.\n<br>Personal hygiene may be described as the principle of maintaining cleanliness and grooming of the external body. It is, in general, looking after yourself.\n<br>Employees who are ill should not come to work. They should not touch food or equipment and utensils used to process, prepare, and serve food. Food can carry several illnesses, including:\n<br>• Respiratory diseases, e.g., colds, sore throats, pneumonia, scarlet fever, and tuberculosis\n<br>• Gastrointestinal diseases, e.g., vomiting, diarrhea, dysentery\n<br>• Typhoid fever\n<br>• Infectious hepatitis\n<br>\n<br> Proper personal hygiene can be achieved by the following ways:\n<br>\n<br><b>1. Bathing: </b>It is essential for all the food handlers to take a shower regularly and change undergarments daily, such as socks/stockings and briefs. Bathing not only removes visible dirt and germs but also helps eliminate body odour.\n<br>\n<br><b>2. Hands:</b> Hands must be washed thoroughly and frequently with hot soapy water and dry hands with towels or under the dryer. Hand must be washed: -\n<br>• On entering food room and before handling food\n<br>• After going to the toilet\n<br>• After smoking\n<br>• After blowing nose\n<br>• After handling raw food\n<br>• After handling refuse\n<br>• After eating\n<br>• After using cleaning materials\n<br>\n<br><b>3.Fingernails: </b>Fingernails must be kept short. It should be cleaned regularly with a nailbrush, and nail varnish should not be worn.\n<br>\n<br><b>4. Hair:</b> Hair should be washed regularly. It should be kept covered by wearing an appropriate chef hat. The men's hair should be kept short, as it is easier to keep it clean and also looks neater. Women's hair should be covered as much as possible. One should never scratch, comb or touch hair in the kitchen as germs could be transferred to the food via the hands or hair strand may fall in the food.\n<br>\n<br><b>5. Nose: </b>The nose should not be touched when food is being handled. Avoid sneezing or coughing near food. Use a disposable tissue to wipe the nose.\n<br>\n<br><b>6. Mouth:</b> Never touch the mouth or lips as germs in saliva pass from Fingers to food and table-tops. If food needs to be tasted during preparation, a clean spoon should be used and not the fingers or utensils used in preparation.\n<br>\n<br><b>7. Ears:</b> The ear-holes should not be picked or scratched while in the kitchen as germs can be transferred into the food.\n<br>\n<br><b>8. Shoes:</b> Kitchen shoes worn exclusively for food duties should not be worn outside.\n<br>\n<br><b>9. Protective clothing:</b> Uniforms should be worn only at work and not at other times. They should be laundered regularly. Leisure clothes should be kept well away from the kitchen.\n<br>\n<br><b>10. Cuts, burns, and sores: </b>It is particularly important to keep all cuts, burns, and scratches of the skin covered with a waterproof dressing. Where the skin is septic, there are vast numbers of harmful germs. Such germs must not be permitted to get on food.\n<br>\n<br><b>11. Jewellery:</b> Rings, watches, bracelets, earrings, necklaces, etc. should not be worn while at work.\n<br>\n<br><b>12. Cosmetics:</b> Excess cosmetics should not be put while working in the kitchen.\n<br>\n<br><b>13. Habits: </b>Smoking, spitting anywhere, tasting of food using fingers or other activities, which brings hands and mouth directly in contact with food, should be strictly prohibited.\n<br>\n<br><b>14. Illness: </b>Any Illness should be immediately reported to the concerned authority\n<br>\n<br><br><b>BASIC RULES TO BE OBSERVED WHILE FOOD SERVICE\n</b><br>\n<br>A number of diseases can be spread due to unsanitary practices while serving food. These diseases\ncan be avoided by following certain basic rules of sanitation.\n<br>\n<br>Protecting food during service is very important. Food should be protected at all times from contamination by people, dust. flies as well as changes in temperature.\n<br>\n<br>1. Practice personal hygiene.\n<br>\n<br>2. Avoid handling food with your bare hands. Bread rolls, chapatis, papad, sugar cubes, salads,\ncold cuts. cheese. ice and even garnishes should not be touched. Always use a pair of tongs, spoon or plastic gloves to pick up these foods.\n<br>\n<br>3. Maintain temperature control. Food that is to be held during a long lunch hour should be\nkept at temperatures outside the danger zone. Potentially hazardous or high-risk foods may remain in the danger zone for a maximum period of four hours, after which they should be\nheld outside the danger zone.\n<br>\n<br>The temperature of food in the bain-marie or hot cupboard should be above 63°C and the temperature of food held in the refrigerated case should be 5 to 8°C or lower, depending on the nature of the food.\n<br>\n<br>4. Foods held on buffet tables must be kept at proper hot or cold holding temperatures. Check\nthe temperature of all foods with a probe thermometer.\n<br>\n<br>5. Do not re-serve leftovers that have been displayed on buffets. Foods on buffets remain on the table for several hours and are exposed to contamination by customers who may have coughed, sneezed or touched the food during the meal hour. The top portion of cold foods may get warmed by air and spoilage may begin. Therefore, after a buffet closes, consider all food articles on display contaminated and discard them.\n<br>\n<br>However, in a poor country like India, this rule is not practical and, therefore, the food handler should follow proper temperature control.\n<br>\n<br>6. Food which has once been served to a customer should never be re-served, for example, bread rolls, leftover butter, etc. Only foods that are not potentially hazardous and are packed or wrapped may be served again.\n<br>\n<br>7. Handle dishes and utensils in a sanitary manner. Plates should be held by the bottom or edge. cups by handles or bottoms, silverware by handles. Avoid touching the eating surface of crockery and cutlery.\n<br>\n<br>8. Single service items should be dispensed in such a way that customers remove one item at\na time without touching other items.\n<br>\n<br>9. Before food service begins, all service personnel should check serving dishes for any sign’\nof soil or improper cleaning.\n<br>\n<br>10. Do not serve food in chipped or cracked dishes.\n<br><br>\n<br><b>SPECIAL RULES FOR DINING ROOM WAITERS \n</b><br>\n<br>1. Avoid cross-contamination: Food and clean utensils may get contaminated by dirty plates and utensils if separate stations are not maintained for clean and dirty items. The waiter stations are reserved for clean utensils and food being served to customers, while side stands are reserved for used cutlery, crockery and garbage.\n<br>\n<br>Contamination may also occur when waiters serve food without washing their hands after wiping tables and bussing soiled dishes. These practices are harmful and workers must be made aware of the hazards.\n<br>\n<br>2. Clean and organise your waiter stations and do not use them to store personal belongings.\n<br>\n<br>3. Minimise handling of foods with your hands. Do not rearrange food on the plate unnecessarily,\n<br>\n<br>4. Avoid touching the food or mouth contact surface of utensils as bacteria from the fingers are easily transferred to food. Pick up utensils by the bottom, side or handles. Never pick up glasses or cups bv putting your fingers inside.\n<br>\n<br>5. Clean and sanitise all service utensils like plates, glasses, silverware, etc. Do not wipe it dry\nwith a cloth but allow it to air dry. Wiping with a towel or cloth will contaminate the wares.\n<br>\n<br>6. Store all service utensils correctly after they are sanitised. Flatware and serving utensils\nshould be placed face down. Place silverware in baskets with the cating ends down.\n<br>\n<br>\n<br>SPECIAL RULES FOR BARTENDERS AND BAR WAITERS\n<br>1. Store and handle all drink mixes and food items properly. Keep drink mixes and cream refrigerated or on ice. Avoid handling cut fruit and cherries with bare hands. Wear plastic gloves while cutting fruit and use toothpicks to place the cut fruit in glasses. Keep fruit covered.\n<br><br>2. Clean and sanitise glasses, cutting boards, containers, scoops and spoons properly.\n<br><br>3. Clean and sanitise all equipment, bar tops, counters,shelves, refrigerators, etc. properly.\n<br><br>4. Keep the ice used for drinks clean. Store ice in clean covered ice bins. Use scoops or tongs for removing ice. Do not use the ice which has been used to chill cans and bottles in any drink.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "soUhhJvitU",
@@ -2802,7 +2802,7 @@
     "HS_Unit_2_index.html": {
       "settings": {
         "title": "HS_Unit_2_index",
-        "order": 73
+        "order": 76
       },
       "components": [
         {
@@ -2864,7 +2864,7 @@
     "HS_Unit_2.1.html": {
       "settings": {
         "title": "HS_Unit_2.1",
-        "order": 75
+        "order": 78
       },
       "components": [
         {
@@ -2974,7 +2974,7 @@
     "HS_Unit_2.2.html": {
       "settings": {
         "title": "HS_Unit_2.2",
-        "order": 76
+        "order": 79
       },
       "components": [
         {
@@ -3063,7 +3063,7 @@
     "HS_Unit_3.html": {
       "settings": {
         "title": "HS_Unit_3",
-        "order": 78
+        "order": 81
       },
       "components": [
         {
@@ -3116,7 +3116,7 @@
     "HS_Unit_3.1.html": {
       "settings": {
         "title": "HS_Unit_3.1",
-        "order": 79
+        "order": 82
       },
       "components": [
         {
@@ -3340,7 +3340,7 @@
     "HS_Unit_3.2.html": {
       "settings": {
         "title": "HS_Unit_3.2",
-        "order": 80
+        "order": 83
       },
       "components": [
         {
@@ -3393,7 +3393,7 @@
     "HS_Unit_3.3.html": {
       "settings": {
         "title": "HS_Unit_3.3",
-        "order": 81
+        "order": 84
       },
       "components": [
         {
@@ -3446,7 +3446,7 @@
     "HS_Unit_3_index.html": {
       "settings": {
         "title": "HS_Unit_3_index",
-        "order": 77
+        "order": 80
       },
       "components": [
         {
@@ -3508,7 +3508,7 @@
     "HS_Unit_2.html": {
       "settings": {
         "title": "HS_Unit_2",
-        "order": 74
+        "order": 77
       },
       "components": [
         {
@@ -3561,7 +3561,7 @@
     "FM_Unit_1.html": {
       "settings": {
         "title": "FM_Unit_1",
-        "order": 52
+        "order": 55
       },
       "components": [
         {
@@ -3614,7 +3614,7 @@
     "FM_Unit_1_index.html": {
       "settings": {
         "title": "FM_Unit_1_index",
-        "order": 51
+        "order": 54
       },
       "components": [
         {
@@ -3676,7 +3676,7 @@
     "FM_Unit_1.1.html": {
       "settings": {
         "title": "FM_Unit_1.1",
-        "order": 53
+        "order": 56
       },
       "components": [
         {
@@ -3765,7 +3765,7 @@
     "FM_Unit_1.2.html": {
       "settings": {
         "title": "FM_Unit_1.2",
-        "order": 54
+        "order": 57
       },
       "components": [
         {
@@ -4260,7 +4260,7 @@
     "FM_Unit_1.3.html": {
       "settings": {
         "title": "FM_Unit_1.3",
-        "order": 55
+        "order": 58
       },
       "components": [
         {
@@ -4370,7 +4370,7 @@
     "FM_Unit_1.5.html": {
       "settings": {
         "title": "FM_Unit_1.4",
-        "order": 56
+        "order": 59
       },
       "components": [
         {
@@ -4423,7 +4423,7 @@
     "FM_Unit_1.1_index.html": {
       "settings": {
         "title": "FM_Unit_1.1_index",
-        "order": 57
+        "order": 60
       },
       "components": [
         {
@@ -4485,7 +4485,7 @@
     "FM_Unit_1.1_1.html": {
       "settings": {
         "title": "FM_Unit_1.1_1",
-        "order": 58
+        "order": 61
       },
       "components": [
         {
@@ -4538,7 +4538,7 @@
     "FM_Unit_1.1_2.1.html": {
       "settings": {
         "title": "FM_Unit_1.1_2.1",
-        "order": 60
+        "order": 63
       },
       "components": [
         {
@@ -4684,7 +4684,7 @@
     "FM_Unit_1.1_2.html": {
       "settings": {
         "title": "FM_Unit_1.1_2",
-        "order": 59
+        "order": 62
       },
       "components": [
         {
@@ -4758,7 +4758,7 @@
     "FM_Unit_1.1_3.html": {
       "settings": {
         "title": "FM_Unit_1.1_3",
-        "order": 61
+        "order": 64
       },
       "components": [
         {
@@ -4811,7 +4811,7 @@
     "FM_Unit_2_index.html": {
       "settings": {
         "title": "FM_Unit_2_index",
-        "order": 62
+        "order": 65
       },
       "components": [
         {
@@ -4873,7 +4873,7 @@
     "FM_Unit_2.html": {
       "settings": {
         "title": "FM_Unit_2",
-        "order": 63
+        "order": 66
       },
       "components": [
         {
@@ -4983,7 +4983,7 @@
     "FM_Unit_2.1.html": {
       "settings": {
         "title": "FM_Unit_2.1",
-        "order": 64
+        "order": 67
       },
       "components": [
         {
@@ -5093,7 +5093,7 @@
     "FM_Unit_2.2.html": {
       "settings": {
         "title": "FM_Unit_2.2",
-        "order": 65
+        "order": 68
       },
       "components": [
         {
@@ -5146,7 +5146,7 @@
     "FM_Unit_2.3.html": {
       "settings": {
         "title": "FM_Unit_2.3",
-        "order": 66
+        "order": 69
       },
       "components": [
         {
@@ -5199,7 +5199,7 @@
     "FM_Unit_3_index.html": {
       "settings": {
         "title": "FM_Unit_3_index",
-        "order": 67
+        "order": 70
       },
       "components": [
         {
@@ -5261,7 +5261,7 @@
     "FM_Unit_3.html": {
       "settings": {
         "title": "FM_Unit_3",
-        "order": 68
+        "order": 71
       },
       "components": [
         {
@@ -5314,7 +5314,7 @@
     "FM_Unit_3.1.html": {
       "settings": {
         "title": "FM_Unit_3.1",
-        "order": 69
+        "order": 72
       },
       "components": [
         {
@@ -5367,7 +5367,7 @@
     "FM_Unit_3.2.html": {
       "settings": {
         "title": "FM_Unit_3.2",
-        "order": 70
+        "order": 73
       },
       "components": [
         {
@@ -5420,7 +5420,7 @@
     "FO_Unit_3_Index.html": {
       "settings": {
         "title": "FO_Unit_3_Index",
-        "order": 41
+        "order": 44
       },
       "components": [
         {
@@ -5482,7 +5482,7 @@
     "FO_Unit_3.html": {
       "settings": {
         "title": "FO_Unit_3",
-        "order": 42
+        "order": 45
       },
       "components": [
         {
@@ -5552,7 +5552,7 @@
     "FO_Unit_3.2.html": {
       "settings": {
         "title": "FO_Unit_3.2",
-        "order": 44
+        "order": 47
       },
       "components": [
         {
@@ -5622,7 +5622,7 @@
     "FO_Unit_3.1.html": {
       "settings": {
         "title": "FO_Unit_3.1",
-        "order": 43
+        "order": 46
       },
       "components": [
         {
@@ -5749,7 +5749,7 @@
     "FO_Unit_4_Index.html": {
       "settings": {
         "title": "FO_Unit_4_Index",
-        "order": 45
+        "order": 48
       },
       "components": [
         {
@@ -5811,7 +5811,7 @@
     "FO_Unit_4.html": {
       "settings": {
         "title": "FO_Unit_4",
-        "order": 46
+        "order": 49
       },
       "components": [
         {
@@ -5881,7 +5881,7 @@
     "FO_Unit_4.1.html": {
       "settings": {
         "title": "FO_Unit_4.1",
-        "order": 47
+        "order": 50
       },
       "components": [
         {
@@ -6008,7 +6008,7 @@
     "HK_Unit_3_Index.html": {
       "settings": {
         "title": "HK_Unit_3_Index",
-        "order": 25
+        "order": 28
       },
       "components": [
         {
@@ -6070,7 +6070,7 @@
     "HK_Unit_3.html": {
       "settings": {
         "title": "HK_Unit_3",
-        "order": 26
+        "order": 29
       },
       "components": [
         {
@@ -6140,7 +6140,7 @@
     "HK_Unit_3.1.html": {
       "settings": {
         "title": "HK_Unit_3.1",
-        "order": 27
+        "order": 30
       },
       "components": [
         {
@@ -6210,7 +6210,7 @@
     "HK_Unit_3.2.html": {
       "settings": {
         "title": "HK_Unit_3.2",
-        "order": 28
+        "order": 31
       },
       "components": [
         {
@@ -6280,7 +6280,7 @@
     "HK_Unit_3.3.html": {
       "settings": {
         "title": "HK_Unit_3.3",
-        "order": 29
+        "order": 32
       },
       "components": [
         {
@@ -6350,7 +6350,7 @@
     "HK_Unit_3.4.html": {
       "settings": {
         "title": "HK_Unit_3.4",
-        "order": 30
+        "order": 33
       },
       "components": [
         {
@@ -6420,7 +6420,7 @@
     "HK_Unit_3.5.html": {
       "settings": {
         "title": "HK_Unit_3.5",
-        "order": 31
+        "order": 34
       },
       "components": [
         {
@@ -6490,7 +6490,7 @@
     "HK_Unit_3.6.html": {
       "settings": {
         "title": "HK_Unit_3.6",
-        "order": 32
+        "order": 35
       },
       "components": [
         {
@@ -6560,7 +6560,7 @@
     "HK_Unit_2_Index.html": {
       "settings": {
         "title": "HK_Unit_2_Index",
-        "order": 19
+        "order": 22
       },
       "components": [
         {
@@ -6622,7 +6622,7 @@
     "HK_Unit_2.html": {
       "settings": {
         "title": "HK_Unit_2",
-        "order": 20
+        "order": 23
       },
       "components": [
         {
@@ -6692,7 +6692,7 @@
     "HK_Unit_2.1.html": {
       "settings": {
         "title": "HK_Unit_2.1",
-        "order": 21
+        "order": 24
       },
       "components": [
         {
@@ -6762,7 +6762,7 @@
     "HK_Unit_2.2.html": {
       "settings": {
         "title": "HK_Unit_2.2",
-        "order": 22
+        "order": 25
       },
       "components": [
         {
@@ -6832,7 +6832,7 @@
     "HK_Unit_2.3.html": {
       "settings": {
         "title": "HK_Unit_2.3",
-        "order": 23
+        "order": 26
       },
       "components": [
         {
@@ -6902,7 +6902,7 @@
     "HK_Unit_2.4.html": {
       "settings": {
         "title": "HK_Unit_2.4",
-        "order": 24
+        "order": 27
       },
       "components": [
         {
@@ -7079,6 +7079,23 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".hidden": {
+              "display": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked=\"\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_anchor": "design-block-at",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sr4t7c88HY",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -7126,6 +7143,23 @@
           "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>LEVELS OF SKILLS AND EXPERIENCES\n</b><b><br></b><br>Skills may be grouped into 3 general categories.\n<br><b>1) Supervisory level:</b> The head of the food service, whether called executive chef or kitchen director, must have management and supervisory skills as well as a thorough knowledge of food production. He should be able to:\n<br>● Organize and motivate people under him.\n<br>● Planning menus and production procedures.\n<br>● Controlling costs and managing budgets.\n<br>● Purchasing food supplies &amp; equipment.\n<br>● Must be an experienced chef in order to schedule food production.\n<br>● Train and instruct workers.\n<br>● Control quality.\n<br>\n<br><b>2) Technical level:</b> The cooks are the backbone of the kitchen. These workers carry out the actual food production. They must have knowledge of and experience in cooking techniques. They must be able to function well with their fellow workers and coordinate with other departments. Cooking food in hotels is a team activity.\n<br>\n<br><b>3) Entry-level:</b> this level of workers usually requires no particular skills &amp; experience. The jobs assigned to them are stewarding or basic pre-preparation of vegetables. As their knowledge, skill &amp; experience increases, they may be given a more complex task which will eventually make them skilled chefs. Many Ex-chefs begin their career as pot washers. Beginning in an entry-level position and working one’s way up has been the traditional way of advancing in a food service career. Today, however, who is a graduate from hotel management start at entry-level already possessing knowledge of food production practices, which would give them a head start over other beginners who have no knowledge.\n<br>\n<br><b>B. ATTITUDES AND BEHAVIOR IN THE KITCHEN\n</b><br>\n<br>A CUISINE means the kitchen. Also ‘Art of cooking’\n<br>\n<br><b>C</b>are of equipment\n<br><b>U</b>nderstanding the basic method (to achieve quality)\n<br><b>I</b>ntegrity in handling &amp; serving food \n<br><b>S</b>afety in handling equipment \n<br><b>I</b>nitiatives you will have to take\n<br><b>N</b>eatness during work &amp; presentation. \n<br><b>E</b>fficiency of yourself.\n<br>\n<br><b><i>“Be positive and think positive’’\n</i></b><br>\n<br>The emphasis of a food service education is on learning a set of skills. But attitudes are more important because a good attitude will help you not only to learn skills but also to preserve and overcome many difficulties you will face in your career. The successful food service workers follow an unwritten code of behavior and set of attitudes, which may we call “professionalism”.\n<br>\n<br>Set of qualities are:-\n<br>\n<br><b><i>1. positive attitude</i></b> towards the job: in order to be a good professional chef you must like cooking and want to do it well. The satisfaction of doing your job well and making everything run smoothly will give you enjoyment, which you will always cherish. A chef with a positive attitude works quickly, efficiently, neatly, and safely. Professional chefs take pride in their work and want to make sure that the work is something to be proud of.\n<br>\n<br><b><i>2. Staying power:</i></b> A food service personnel requires good health, physical and mental stamina, and a willingness to work for longer hours.\n<br>\n<br><b><i>3. Ability to work</i></b> with people: works as a team &amp; it is essential to be able to work well as a team and to co-operate with your colleagues.\n<br>\n<br><b><i>4. Communication:\n</i></b><br>● With your supervisors: let them know your difficulties.\n<br>● With your colleagues: share knowledge and also learn from them. Nobody knows everything.\n<br>● With your subordinates: respect them &amp; be courteous.\n<br>● With the food &amp; beverage staff: control your temper.\n<br>\n<br><b><i>5. Eagerness to learn:</i></b> there is more to learn about cooking than you will learn in a lifetime. The food service industry is changing so rapidly that it is vital to be open to new ideas. No matter how good your techniques are, you might learn an even better way to do the same thing, which you must have been doing for a long time.\n<br>\n<br><b><i>6. Must develop a full range of skills:</i></b> A chef must not only be a good cook but is also important to develop and maintain other skills that are necessary for the profession. <br>● Must be able to understand and manage food cost and other financial matters\n<br>● Manage and maintain proper inventories.\n<br>● Deal with suppliers.\n<br>● Understand personnel management.<br>\n<br><b><i>7. Experience: </i></b>there is no substitute for years of experience. Practice more &amp; more to gain more experience.\n<br><br><b><i>8. Aiming for quality: </i></b>whatever you do must have a distinctive sign of quality.\n<br><br><b><i>9. Creativity:</i></b> the sky is a limit, as in “nouvelle cuisine’’.\n<br><br><b><i>10. Return to basics: </i></b>experiments and innovation need a good understanding of basics first.\n<br><br><b><i>11. Care of equipment:</i></b> equipment has been put at your disposal to help you. TAKE CARE OF IT. Treat it as your own, even if it does not belong to you, for others will also be using it.\n<br><br><b><i>12. Safety: </i></b>kitchens can be dangerous places injuries can occur by cuts, burns, handling of machines and equipment, falling, etc. Think about yours as well as others’ safety first.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "spbXoxgEqY",
           "_anchor": "content5-83",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".hidden": {
+              "display": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked=\"\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_anchor": "design-block-au",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sr4tb5ihu2",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -7238,6 +7272,23 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".hidden": {
+              "display": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked=\"\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_anchor": "design-block-av",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sr4tcXpgVq",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -7285,6 +7336,23 @@
           "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>CULINARY HISTORY\n</b><br>\n<br><b>THE ORIGINS OF MODERN CUISINE\n</b><br>Quantity cookery has existed for thousands of years, as long as there have been large groups to feed, such as huge convoy of armies. Modern cuisine began in the middle of the eighteenth century. At this&nbsp; time, food production in France was controlled by special “GUILDS”. Caterers, pastry makers, roasters, and pork butchers held licenses to prepare specific items. An innkeeper, in order to serve a meal to guests, had to buy the various menu items from those operations that&nbsp;were licensed to provide them. Guests had little or no choice and simply ate what was available for that meal. In 1765, a Parisian chef named Boulanger began advertising on his shop sign that “we serve soups”, which he called restaurants or restoratives (literally, the word means “fortifying”). <br><br>According to the story, one of the dishes he served was sheep’s feet in cream sauce. The guild of stew makers challenged him in court for violation of the guilds act... but Boulanger won by claiming he didn’t stew the feet in the sauce but served them with the sauce. In challenging the rules of the guilds, Boulanger unwillingly changed the face for the course of food service history. The new developments in food service received a great stimulus as in the result of the French Revolution, beginning in 1789. Before this time; the great chefs were employed in the houses of the French&nbsp; Authorities. With the revolution and the end of the monarchy, many chefs suddenly got out of work and opened restaurants and inns where they could serve dinners reflecting the talent and creativity of their own chefs, rather than being forced to rely on licensed caterers to supply their food. At the start of the French revolution, there were about 50 restaurants in Paris, ten years later there were about 500. Another important invention that changed the organization of kitchens in the eighteenth century was the stove.\n<br>\n<br><b>CHEF CAREˆME\n</b><br>Marie-Antoine Careme (1784-1833). As a young man, Careme learned all the branches of cooking quickly, and he dedicated his career to refining and organizing culinary techniques. His many books contain the first systematic account of cooking principles, recipes, and menu making.\n<br>\n<br><b>Chef Escoffier</b>\n<br>Georges Auguste Escoffier (1847-1935), the greatest chef of his time, is still today revered by chefs and the gourmet industry as the father of twentieth-century cookery.&nbsp;His two main contributions were:\n<br><br><b><i>1) the simplification of classical cuisine and the classical menu</i></b><br><b><i>2) the reorganization of the kitchen.\n</i></b><br><br>Escoffier rejected what he called the “general confusion” of the old menus, in which sheer quantity seemed to be the most important factor. Instead, he called for order and diversity and emphasized the careful selection of one or two dishes per course, dishes that followed one another harmoniously and delighted the taste with their delicacy and simplicity. Escoffier’s books and recipes are still important references works for professional chefs. The basic cooking methods and preparations we study today are based on Escoffier’s work. His book “Le guide Culinary”, which is still widely used, arranges recipes in a simple system based on the main ingredient a cooking method, according to Escoffier, begin with learning a relatively few basic procedures and understand basic ingredients.\n<br>Escoffier’s second major achievement, the reorganization of the kitchen, resulted in a streamlined workplace that was better suited to turning out the simplified dishes and menus he instituted. The system of the organization he established is still in use today, especially in large hotels and full-service restaurants.\n<br>\n<br><b>Modern technology\n</b><br>Today’s kitchen looks much different from those of Escoffier’s day, though our basic cooking principles are the same. Also, the dishes we eat have gradually changed due to the innovations and creativity of modern chefs. The process of simplification and refinement, to which chef Careme and Escoffier made monumental contributions, is still ongoing, adapting classical cooking to modern conditions and tastes.\n<br>\n<br><b>Development of new equipment</b>\n<br>Modern refrigeration and rapid transportation caused revolutionary changes in eating habits. For the first time, fresh foods of all kinds of meats, fish, vegetables, and fruits- became available throughout the year. Exotic delicacies can now be shipped from anywhere in the world and arrive fresh in peak condition. The development of preservation techniques-not just refrigeration but also freezing,\ncanning, freeze-drying, vacuum packing, and irradiation increased the availability of most foods and made affordable some that were once rare and expensive.\n<br><b><br></b><br><b>Cooking in the Twentieth and Twenty-First Centuries\n</b><br>A generation after Escoffier, the most influential chef in the middle of the twentieth century was Fernand Point (1897-1955). Working quietly and steadily in his restaurant, La Pyramide, in Vienne, France, point simplified and lightened classical cuisine. “point insisted that every meal should be a little marvel” Many of his apprentices, such as Paul Bocuse, Jean, and Pierre Troisgros, and Alain Chapel, went on to become some of the greatest stars of modern cooking. They, along with other chefs in their generation, became best known in the 1960's and early 1970's for a style of cooking called nouvelle cuisine. Reacting to what they saw as a heavy, stodgy, overly complicated classical cuisine, these chefs took point’s lighter approach even further. <br><br>They rejected many traditional principles, such as a dependence on flour to thicken sauces, and instead urged simpler, more natural flavors and preparations, with lighter sauces and seasonings and shorter cooking times. In traditional classical cuisine, many dishes were plated in the dining room by\nwaiters. Nouvelle cuisine, however, placed a great deal of emphasis on artful plating presentations done by the chef in the kitchen. Very quickly, however, this “simpler” style became extravagant and\ncomplicated, famous for strange combinations of foods and fussy, ornate arrangements and designs. By the 1980s, nouvelle cuisine was the subject of jokes.\n<br>\n<br><b>CULINARY HISTORY SUMMARY\n</b><br>❖ Modern cuisine began in the middle of the 18th century.\n<br>❖ At that time it was controlled by the guilds used for licensing of butchery, baker, pastry maker, or for specific items.\n<br>❖ In 1765, a Paris citizen named Boulanger begun to advertise his shop sign (which used to serve soup) named called restaurants or restorative which stands for fortifying.\n<br>❖ According to the story, the dish that he uses to serve was sheep feet in cream sauce &amp; the guild got offended by this thing &amp; challenged him in court but Boulanger won the case by saying he didn’t cook the feet in the sauce but served the sauce with feet.\n<br>❖ In a challenge, the Boulanger unwillingly changed the course of the food history.\n<br>❖ Before the French revolution in 1789, the food industry in France saw so many ups &amp; downs &amp; before this time great chefs were employed in royal palaces or high French nobilities.\n<br>❖ With the revolution, it ended up and chefs were free from this foundation due to these chefs were out of work &amp; started opening their restaurants.\n<br>❖ Revolutionist government abolished the monarchy of guilds, at the\n<br>start of the revolution there were 50 restaurants in Paris, but ten years later they grew up to 500.\n<br>❖ The stove was again invented at the end of the 18th century and the use of fuel started.\n<br>\n<br><b>Modern Technology\n</b><br>These days kitchen looks more difficult than the days of Escoffier or chef Careme, also the dishes have gradually changed due to the creativity of modern chefs whereas basics remain the same and it is still going on.\n<br><b><i>Development of new equipment\n</i></b><br>• Electric range\n<br>• Infrared cooking\n<br>• Microwaves\n<br>• Thermal power heated cooking trap\n<br>• Motorized food processor.\n<br><b><i>Cooling, freezing, heating, &amp; processing is more simplified.\n</i></b><br>• Development and availability of new food products.\n<br>Modern refrigeration &amp; quick transportation has caused revolutionary changes in eating habits. For the first time, fresh foods of all kinds meats, fish, vegetables &amp; fruits have become available throughout the year. Freezing, canning, irradiation.\n<br> \n<br><b>NOUVEELLE CUISINE\n</b><br>A generation after Escoffier was the most influential chefs like Fernand Point (1897-1955) working quietly in his restaurant “Le Pyramide” in Vienne- France. Chef point re simplified and lightened\nthe classical cuisine he insisted that every food must be handled as “a little marvel”. Many of his apprentices like Chef Paul Bocuse, Jean Pierre &amp; Chef Troisgros with Alain chapel went on to become the greatest stars of modern cuisine. These chefs started the foundation of nouvelle cuisine which was more sophisticated and delightful, whereas they rejected many of the traditional methods &amp; principles of cooking and introduced new ones.\n<br>\n<br>Nouvelle cuisine emphasized neat &amp; artful plating techniques it got so fussed about &amp; complicated and became the subject of jokes (later on asked for a return to basics).\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "spc0HVZGmq",
           "_anchor": "content5-87",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".hidden": {
+              "display": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked=\"\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_anchor": "design-block-aw",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sr4teYIi96",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -7357,7 +7425,7 @@
     "Updating.html": {
       "settings": {
         "title": "Updating",
-        "order": 110
+        "order": 113
       },
       "components": [
         {
@@ -7513,6 +7581,23 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".hidden": {
+              "display": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked=\"\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_anchor": "design-block-ax",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sr4thZzWQ9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -7622,6 +7707,23 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".hidden": {
+              "display": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked=\"\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_anchor": "design-block-ay",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sr4tjOf1Ux",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -7671,6 +7773,23 @@
           "_sourceTheme": "mobirise5",
           "_cid": "spzalAzg5M",
           "_anchor": "content5-8x",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".hidden": {
+              "display": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked=\"\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_anchor": "design-block-az",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sr4tlpyxNH",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -7750,13 +7869,30 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".hidden": {
+              "display": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked=\"\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_anchor": "design-block-b0",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sr4tng0UER",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
     "HS_Unit_4_index.html": {
       "settings": {
         "title": "HS_Unit_4_index",
-        "order": 82
+        "order": 85
       },
       "components": [
         {
@@ -7818,7 +7954,7 @@
     "HS_Unit_4.html": {
       "settings": {
         "title": "HS_Unit_4",
-        "order": 83
+        "order": 86
       },
       "components": [
         {
@@ -7871,7 +8007,7 @@
     "HS_Unit_4.2.html": {
       "settings": {
         "title": "HS_Unit_4.2",
-        "order": 85
+        "order": 88
       },
       "components": [
         {
@@ -7924,7 +8060,7 @@
     "HS_Unit_4.1.html": {
       "settings": {
         "title": "HS_Unit_4.1",
-        "order": 84
+        "order": 87
       },
       "components": [
         {
@@ -7977,7 +8113,7 @@
     "HS_Unit_5_index.html": {
       "settings": {
         "title": "HS_Unit_5_index",
-        "order": 86
+        "order": 89
       },
       "components": [
         {
@@ -8039,7 +8175,7 @@
     "HS_Unit_5.html": {
       "settings": {
         "title": "HS_Unit_5",
-        "order": 87
+        "order": 90
       },
       "components": [
         {
@@ -8149,7 +8285,7 @@
     "HS_Unit_5.1.html": {
       "settings": {
         "title": "HS_Unit_5.1",
-        "order": 88
+        "order": 91
       },
       "components": [
         {
@@ -8259,7 +8395,7 @@
     "HS_Unit_5.2.html": {
       "settings": {
         "title": "HS_Unit_5.2",
-        "order": 89
+        "order": 92
       },
       "components": [
         {
@@ -8312,7 +8448,7 @@
     "HS_Unit_5.3.html": {
       "settings": {
         "title": "HS_Unit_5.3",
-        "order": 90
+        "order": 93
       },
       "components": [
         {
@@ -8365,7 +8501,7 @@
     "FM_Q.html": {
       "settings": {
         "title": "FM_Q",
-        "order": 92
+        "order": 95
       },
       "components": [
         {
@@ -8464,7 +8600,7 @@
     "HS_Q.html": {
       "settings": {
         "title": "HS_Q",
-        "order": 93
+        "order": 96
       },
       "components": [
         {
@@ -8562,7 +8698,7 @@
     "FO_Q.html": {
       "settings": {
         "title": "FO_Q",
-        "order": 94
+        "order": 97
       },
       "components": [
         {
@@ -8583,11 +8719,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "sqNK4zAlsp",
+          "_anchor": "content4-an",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-an"
+          "_params": {}
         },
         {
           "alias": false,
@@ -8633,11 +8769,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "sqNK4Bt4ML",
+          "_anchor": "content16-ao",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content16-ao"
+          "_params": {}
         },
         {
           "alias": false,
@@ -8649,18 +8785,18 @@
           "_name": "design-block",
           "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked>\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
           "_cid": "sqNK4DhyQ8",
+          "_anchor": "design-block-ap",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "design-block-ap"
+          "_params": {}
         }
       ]
     },
     "HK_Q.html": {
       "settings": {
         "title": "HK_Q",
-        "order": 95
+        "order": 98
       },
       "components": [
         {
@@ -8681,11 +8817,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "sqNMkK6UlK",
+          "_anchor": "content4-aq",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-aq"
+          "_params": {}
         },
         {
           "alias": false,
@@ -8731,11 +8867,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "sqNMkNowtK",
+          "_anchor": "content16-ar",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content16-ar"
+          "_params": {}
         },
         {
           "alias": false,
@@ -8747,11 +8883,205 @@
           "_name": "design-block",
           "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked>\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
           "_cid": "sqNMkOhW5G",
+          "_anchor": "design-block-as",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "AC_Unit_3_index.html": {
+      "settings": {
+        "title": "AC_Unit_3_index",
+        "order": 13
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffb18a\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div>AIMS &amp; OBJECTS OF COOKING FOOD</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sr4tuoOg7m",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "design-block-as"
+          "_anchor": "content4-b1"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-section-title, .mbr-section-subtitle, .mbr-section-btn, .mbr-text": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"AC_Unit_3.html\" data-app-placeholder=\"Type Text\">Aims &amp; Objectives</a> <a class=\"btn btn-black\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Vegetable Cookery</a> <a class=\"btn btn-secondary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Fruit Cookery</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sr4tupcWkU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header2-b2"
+        }
+      ]
+    },
+    "AC_Unit_3.1_index.html": {
+      "settings": {
+        "title": "AC_Unit_3.1_index",
+        "order": 15
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffb18a\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div>AIMS &amp; OBJECTS OF COOKING FOOD</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sr4vjrU1bM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-b3"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-section-title, .mbr-section-subtitle, .mbr-section-btn, .mbr-text": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-black\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Salads</a> <a class=\"btn btn-primary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Stocks</a>  <a class=\"btn btn-secondary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Sauces</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sr4vjsR6Jc",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header2-b4"
+        }
+      ]
+    },
+    "AC_Unit_3.html": {
+      "settings": {
+        "title": "AC_Unit_3",
+        "order": 14
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3\n</b><div>AIMS &amp; OBJECTS OF COOKING FOOD</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sr4wPquk5N",
+          "_anchor": "content4-b5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>INTRODUCTION\n</b><br>Nature has given us many kinds of food in various forms. A few can be eaten raw, whereas many have to be cooked before they can be consumed. Not all fruits and vegetables can be eaten raw; similarly, there are many foods that cannot be cooked until they are processed first. We cook food for many reasons, the first and foremost is that we want the food to get easily digested by our system. Then, there can be multiple reasons as to why the food must be cooked in a certain manner and presented in a particular Way.\n<br>\n<br>When the human race was evolving, cavemen discovered that food tastes better when it was\ncooked in the fire. The textures, tastes, colors, and flavors probably would not have been of too much concern to the caveman, but as the social set-up got created and food became art and defined the culture of a society, people started to experiment with ingredients and when food started to sell as a commodity, people wanted food in a particular manner as they were paying for the same. With the rise in competition and to sustain the business, chefs started to create possibilities with different ingredients and this phenomenon continues to this day.\n<br>\n<br>Every ingredient reacts differently to heat. There are physical as well as chemical changes that occur\nin food and have an impact upon the texture, flavor, color, and nutrients, which determines the final product. Cooking is the application of heat to food in order to make it safe to eat, digestible, more palatable, and to change its appearance. The heat has to be applied to food in order to cook it. Heat also breaks down the cellulose and the starches present, changes and blends flavors within the food, and also destroys bacteria in order to make food more digestible for humans.\n<br>\n<br>It is important to know how heat and temperature affect these commodities and this will help us to\ncreate an array of dishes with different kinds of textures and consistencies.\n<br>\n<br>WHY DO WE NEED TO COOK FOOD?\n<br>To understand different types of textures, it is first important for budding chefs to know what are the factors that cause these changes in the texture of food.\n<br>\n<br>Vegetables and fruits are composed of proteins, fats, carbohydrates, and water, and also a small number of minerals, vitamins, pigments (coloring agents), and flavor elements. The effect that heat has on each of these components is miraculous. Even the same ingredient cooked with a different cooking method alters the way it feels in the mouth. A potato mash must be light and fluffy, and a potato chip must be crisp and should snap between the teeth. The cake sponge must be light and airy, and a crusty bread must be crunchy from the outside and soft inside. All these words such as soft, airy, light, crisp, and hard refer to the texture of the food or an ingredient. The methods of cooking, time and duration of cooking, the way an ingredient is processed, the cooking medium used are all techniques employed by chefs to create various types of textures and mouthfeel for the ultimate experience. The application of heat has different effects on different nutrients present in the food. For example, when heated, proteins in a protein-rich food react in a different way as compared to carbohydrates, fibers, and even vitamins present in it.\n<br>\n<br><b>CARBOHYDRATES</b> Both sugar and starches are carbohydrates and both of them are present in many forms in vegetables, fruits, grains, beans, and nuts.\nHeat plays a very important role when applied to vegetables in terms of caramelization and\ngelatinization. Caramelization is the browning of sugars. When a liquid is mixed with starch, the\nSugars present in them dissolve in water and then upon heating the sugars turn brown thus giving a\ncaramelized appearance. The browning of sautéed vegetables or browning of roti or naan is all forms of caramelization.\n<br>When starch absorbs water and swells then the process is known as gelatinization. For example,\nThe thickening of a white sauce with a roux or a Chinese sauce with cornstarch.\n<br>\n<br><b>VEGETABLE FIBRE</b> Fibre is the name for a group of complex substances known as cellulose that gives structure and firmness to plants. This fiber cannot be digested. The softening of vegetables on the application of heat is a result of the breaking down of fibers. Some ingredients that are alkaline in nature such as baking soda react with brass and make their texture soft and mushy and on the other hand, few acidic ingredients such as vinegar make the fibers crisp and firm to eat.\n<br>\n<br><b>PROTEINS</b> Proteins are present to a smaller extent in vegetables as compared to meat, fish, and poultry. As heat is applied to proteins, they become firm or they start to coagulate; with an increase in temperature, proteins become even firmer and start to shrink. If proteins are exposed to very high heat then heat toughens them and makes them dry.\n<br>Acids such as lemon juice, vinegar, and tomato products help in speeding up coagulation and in\ndissolving few connective tissues.\n<br>\n<br><b>FATS</b> Fats play a very important part in cooking. Water has a boiling temperature of 100° C, but fats and oils can be heated to very high temperatures ranging between 130° C and 200° C. ‘This unique property of fats helps us to cook the food very fast and also these high temperatures pull out moisture from the surface of the food and help to make crispy textures. Fish cutlets, fish and chips, French fries are all examples of such dishes.\n<br>\n<br>One has to be very careful while working with fats and oils as overheating of a fat or an oil beyond\na certain temperature can cause the oil to smoke and then catch fire. This is also known as the flashpoint. When the oil keeps reaching the smoking point multiple times, it starts to break down into fatty acids and glycerol. Then upon further heating, the glycerol breaks down to further harmful compounds that cause cancer and problems to our digestive system.\n<br>\n<br>\n<br><b>CONCLUSION\n</b><br>\n<br>The aim or the intention of cooking is to see that the food cooked undergoes a physical change, sometimes a chemical change, and is acceptable.\n<br>\n<br>The objective of cooking is to achieve certain results such as:\n<br>1) To facilitate and fasten digestion so that the cooked food is absorbed by the digestive system and subsequently assimilated by the body.\n<br>2) A physical change occurs when a substance changes its form, color, or size, but still remains that same substance, like water that changes to ice.\n<br>3) A chemical change occurs when a substance changes its form, color, or size, combining so as to form an entirely new body, e.g. milk changes to curd.\n<br>4) Cooking partly sterilize food above 40*c, so that the growth of bacteria falls off rapidly and boiling kills the living cells.\n<br>5) Cooking makes food more attractive to have eye appearance and variety.\n<br>6) Cooking increases taste and palatability.\n<br>7) Cooking helps to make food more digestible.\n<br>8) With one ingredient many dishes can be prepared.\n<br>9) Use the right cooking method so that there is minimum loss of color, texture, and nutrition.\n<br>10) Use various ingredients to provide a balanced diet.\n<br>\n<br>\nNow, when we have understood how heat impacts the nutrients in the food, thereby changing the textures in the food, let us understand the textures and what they mean in food.&nbsp;<br>\n<br>\n<b><br>VARIOUS TEXTURES AND CONSISTENCIES\n</b><br>\n<br><b>VARIOUS TEXTURES\n</b><br>It is the term to describe the characteristics of the finished products such as:\n<br>1) Appearance 2) Feel to touch 3) Mouthfeel\n<br>\n<br>We often hear the word ‘texture’ in everyday lives. When we touch or feel something, we have different experiences. Some things are soft to touch whereas some are rough, smooth, silky, etc. This quality of touch is known as texture. Food ingredients also have texture and the versatility of this is that as a chef, we can alter the texture of an ingredient by applying a cooking process or methodology to create an array of tantalizing textures that can create an experience for the diner. Imagine having a khichdi without a poppadom. Obviously, a poppadom will appeal to a majority of people because of the texture changes in the mouth. This is commonly known as mouthfeel.\n<br>\n<br>The food must appeal to all the five senses of sight, touch, smell, taste, and sound. There is, however the sixth sense that is often known as umami in Japan. This is the taste that cannot be described. It is the taste from mushrooms, onions, and Ajinomoto used in Chinese cuisine. It will be hard to classify the taste like salty, sweet, bitter, etc. So in reality, good food creates an experience when it appeals to all the five senses and especially the sixth sense.\n<br>\n<br>The food must look appetizing, should smell pleasant, and should have a great texture and taste.\nThis satisfies four senses such as sight, smell, touch, and taste. What about the sound? How shall we look at satisfying the sense of sound in food? Well, here is where textures play an important part. The crisp texture on fish and chips or crumb-fried chicken, roasted poppadom, or even a thick slice of onion can be satisfying to the sense of sound with chat crisp and brittle textures.\n<br>\n<br>The textures mentioned in the above table can be mixed and interestingly, chefs use this skill to create various textures on the plate, which in turn surprises the customer. Many of these textures can be attained by using various cooking techniques and methods. Let us see how chefs are able to control the textures and what is the science behind these textures.\n<br><br>● Airy\n<br>● Spongy\n<br>● Jelly\n<br>● Soft\n<br>● Hard / Firm\n<br>● Short\n<br>● Flaky\n<br>● Coarse\n<br>● Heavy\n<br>● Light\n<br>● Grainy\n<br>● Smooth\n<br>● Crispy\n<br>● Crunchy\n<br>● Creamy\n<br>● Chewy\n<br>● Crusty\n<br>● Chunky\n<br>\n<br><b>VARIOUS CONSISTENCIES\n</b><br>Generally, the “consistency” word refers to the makeup of the gravies as used in various cuisines such as Indian cuisine or various other preparations such as soups, sauces, batters, and the word consistency is generally used to the materials containing liquid as a major ingredient- various kinds of consistencies are:\n<br><br><b>1) Thick consistency:</b> for example, in soups such as cream of tomato, cream of peas, puree soups, velouté, bisques, and various sauces such as tomato, hollandaise, mayonnaise, etc.\n<br><b>2) Pouring consistency:</b> the best examples of pouring consistencies are batters, pancake batters, etc.\n<br><b>3) Thin consistency:</b> for example, consommés and broth have got thin consistencies.\n<br><b>4) Frozen consistency:</b> for example, in jellies and ice creams where the particles are connected to each other very strongly and hence are unable to flow freely and have got a very thick consistency.\n<br>\n<br>\n<b><br>CONTROLLING THE CHANGES IN TEXTURE AND TECHNIQUES USED IN PRE-PREPARATION\n</b><br>\n<br><b>Fibre</b> Fibre structure in vegetables including cellulose and pectin gives them shape and firmness.\n<br>Cooking helps in softening some of these components. The amount of fiber varies in different vegetables, for example, tomatoes and spinach have fewer fibers than turnips or carrots. Even the age of vegetables would determine the amount of fiber in it, for example, young baby carrots would have less fiber as compared to older tougher carrots. In some vegetables, for example, asparagus, the tip would have less fiber content than its stalk.\n<br>\n<br>Acids such as lemon juice, vinegar, and tomato products make fiber firmer and also increase the\ncooking time.\n<br>\n<br>Fiber is softened by heat which means, the longer you apply heat to vegetables, the softer it becomes. Although the vegetables become softer with the addition of alkalis such as baking soda but this should be avoided as it makes vegetables mushy.\n<br><br><b>Sugars</b> strengthen the cell structure and make the fiber firm. This is more applicable for fruits as apples for applesauce should be cooked and then sweetened but on the other hand, the pears or apples where their shape has to be retained should be cooked in heavy syrup.&nbsp;<br>\n<br><b>Starch</b> is another component of vegetables that affects the texture. Dry starchy foods such as dried legumes, beans, lentils, peas, rice, and macaroni products must be cooked with insufficient amounts of water so that starch granules can absorb moisture and soften. Dried beans are often soaked before Seeing to replace the lost moisture.\n<br>Moist starchy vegetables such as potatoes and sweet potatoes have enough moisture of their own, but still, they must be cooked until starch granules soften.\n<br>\n<br><b>Doneness</b> A vegetable is said to be done when it reaches a desired degree of tenderness. This Varies from vegetable to vegetable and most of the vegetables taste best when they are still firm. Which is known as al dente in Italian cuisine. At this stage of tenderness, not only the vegetables get the most pleasing texture but also they retain maximum flavor, color, and nutrients.\n<br>\n<br><i>For proper doneness and texture some rules must be followed:\n</i><i><br></i><br>● Do not overcook.\n<br>● Cook as close to service as possible.\n<br>● In case, vegetables have to be pre-cooked then they should be undercooked, refreshed in cold water, and refrigerated. Then, they should be reheated and served.\n<br>● Cuts of vegetables should be uniform in order for them to cook evenly.\n<br>● Different vegetables should be cooked differently at different times.\n<br>\n<br><i>Controlling changes in flavor Many flavors are lost during cooking, the longer the vegetable is cooked the more flavor it loses. Flavor loss can be controlled by:\n</i><i><br></i><br>● Cooking for a short time.\n<br>● Addition of salt in boiling water as it helps in the reduction of loss of flavor.\n<br>● Use as little liquid as possible in order to minimize leaching.\n<br>● Steaming helps in reducing leaching out of flavors and reduces cooking time also.\n<br>\n<br>Overcooking produces flavor changes, which are undesirable and which result in strong and unpleasant flavors. Younger vegetables have more amount of sugar that changes to starch as and when they grow and lie in storage. This happens usually in carrots, beets, lettuce, peas, etc.\n<br>\n<br><i>Controlling nutrient loss Factors responsible for nutrient loss are as follows:\n</i><i><br></i><br>● High heat or temperature\n<br>● Long cooking\n<br>● Too much liquid causes leaching\n<br>● Use of alkalis (baking soda, hard water)\n<br>\n<br><i>Some nutrient loss in vegetables is inevitable but few tips to reduce nutrient loss are:\n</i><br>\n<br>● The use of pressure steam reduces cooking time but at the same time, the high heat causes some nutrient loss.\n<br>● Braising uses low heat but extends the cooking time.\n<br>● Boiling is faster than simmering but again high heat can destroy the vegetable.\n<br>\n<br><b>TECHNIQUES USED IN PRE-PREPARATION\n</b><br><b>1) Washing:</b> to remove dirt.\n<br><b>2) Peeling:</b> scraping off the skin of vegetables and fruits.\n<br><b>3) Pairing:</b> removing the surface layer in a circular motion by pressure of a knife-edge all around the object.\n<br><b>4) Cutting:</b> into small pieces by knife (slicing, dicing, shredding, etc.)\n<br><b>5) Mincing:</b> cutting into very small pieces like mutton/onion.\n<br><b>6) Shredding:</b> cutting into long narrow pieces by means of a shredding knife for example cabbage.\n<br><b>7) Slicing:</b> cutting into thin pieces but not as fine as shredding.\n<br><b>8) Slitting:</b> example green chilies.\n<br><b>9) Grating:</b> reducing into small particles by rubbing on a rough surface.\n<br><b>10) Grinding:</b> reducing into small pieces but by crushing for example in masala.\n<br><b>11) Mashing:</b> breaking up of soft food by the application of pressure.\n<br><b>12) Pressing:</b> separating a liquid portion from solids for example cheese preparation.\n<br><b>13) Sieving:</b> passing through a fine wire mesh to remove dirt and impurities. It also helps to entrap air for example sieving of flour.\n<br><b>14) Refining:</b> freeing any material from impurities for example sugar.\n<br><b>15) Skimming:</b> removing a floating layer.\n<br><b>16) Rendering:</b> separating the fat of animals from their connective tissue by heat.\n<br><b>17) Filtration:</b> separating solids from liquids through fine mashed materials as in filtering fruit juices or jelly through cloth bags.\n<br><b>18) Evaporation and reduction:</b> removal of water without the lid.\n<br><b>19) Homogenization:</b> subdividing large particles into smaller ones by forcing them into aperture with great pressure (fat increases).\n<br><b>20) Emulsification:</b> dispersing one liquid into another which is insoluble in each other for example mayonnaise.\n<br>\n<br><b>TECHNIQUES USED IN PREPARATION:\n</b><br>Techniques used in the preparation generally aim at combining or mixing various food materials. Various foods are combined according to palatability and acceptance. Texture and flavor are controlled to an important degree by skill and method employed in combining component material.\n<br>\n<br><b>1) Beating:</b> mixing the materials briskly and dropping them with an appropriate tool. Sometimes it is used as synonyms with whipping.\n<br><b>2) Blending:</b> mixing two or more ingredients thoroughly.\n<br><b>3) Cutting:</b> it is the incorporation of fat in flour and other sifted dry ingredients with a knife. This method produces a coarse division of fat and does not result in blending as in cutting the fat into the mixture.\n<br><b>4) Creaming:</b> softening fat by a fraction with a spoon, usually followed by gradual\nincorporation of sugar as in cake making.\n<br><b>5) Folding:</b> mixing various materials with a palette knife/wooden spoon, by a careful lifting and dropping motion as in whipped egg whites into a cake mixture.\n<br><b>6) Kneading</b>: manipulating by alternating pressure with folding and stretching as in kneading bread dough. A method of combination of water and flour proteins to make gluten.\n<br><b>7) Marinating:</b> coating the surface of a material with marinade which is generally a mixture of oil and acid to soften up the fibers.\n<br><b>8) Stirring:</b> mixing materials with an appropriate tool.\n<br><b>9) Whipping:</b> rapid beating with a whisker or mechanical beater usually to incorporate air as in whipping egg white.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sr4wPrwfJ4",
+          "_anchor": "content5-b7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".hidden": {
+              "display": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked=\"\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sr4wPs8zrh",
+          "_anchor": "design-block-b8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     }
