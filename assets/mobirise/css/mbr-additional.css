@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800&display=swap);
 
 
 
@@ -40,7 +40,7 @@ body {
   font-size: 1.875rem;
 }
 .display-7 {
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Mukta', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -2697,10 +2697,146 @@ a {
 }
 .cid-sp04zDptTj {
   padding-top: 1rem;
-  padding-bottom: 6rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-sp04zDptTj .mbr-text {
+  color: #140735;
+}
+.cid-srgtn5JLoa {
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+.cid-srgtn5JLoa .mbr-overlay {
+  z-index: 1;
+}
+@media (min-width: 992px) {
+  .cid-srgtn5JLoa .carousel {
+    min-height: 500px;
+  }
+  .cid-srgtn5JLoa .carousel img {
+    max-height: 500px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-srgtn5JLoa .carousel {
+    min-height: 325px;
+  }
+  .cid-srgtn5JLoa .carousel img {
+    max-height: 325px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 767px) {
+  .cid-srgtn5JLoa .carousel {
+    min-height: 275px;
+  }
+  .cid-srgtn5JLoa .carousel img {
+    max-height: 275px;
+    object-fit: contain;
+  }
+  .cid-srgtn5JLoa .container .carousel-control {
+    margin-bottom: 0;
+  }
+  .cid-srgtn5JLoa .content-slider-wrap {
+    width: 100% !important;
+  }
+}
+.cid-srgtn5JLoa .carousel,
+.cid-srgtn5JLoa .carousel-inner {
+  display: flex;
+  align-items: center;
+}
+.cid-srgtn5JLoa .item-wrapper {
+  width: 100%;
+}
+.cid-srgtn5JLoa .carousel-caption {
+  bottom: 40px;
+}
+.cid-srgtn5JLoa .carousel-control:hover {
+  background: #1b1b1b;
+  color: #fff;
+  opacity: 1;
+}
+.cid-srgtn5JLoa .mobi-mbri-arrow-next {
+  margin-left: 5px;
+}
+.cid-srgtn5JLoa .mobi-mbri-arrow-prev {
+  margin-right: 5px;
+}
+.cid-srgtn5JLoa .container .carousel-indicators {
+  margin-bottom: 3px;
+}
+.cid-srgtn5JLoa .carousel-control {
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -1.5rem;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.cid-srgtn5JLoa .carousel-control.carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-srgtn5JLoa .carousel-control.carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+@media (max-width: 767px) {
+  .cid-srgtn5JLoa .carousel-control {
+    top: auto;
+    bottom: 1rem;
+  }
+}
+.cid-srgtn5JLoa .carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1.5rem !important;
+}
+.cid-srgtn5JLoa .carousel-indicators li {
+  max-width: 15px;
+  height: 15px;
+  width: 15px;
+  max-height: 15px;
+  margin: 3px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.cid-srgtn5JLoa .carousel-indicators li.active,
+.cid-srgtn5JLoa .carousel-indicators li:hover {
+  opacity: 0.9;
+}
+.cid-srgtn5JLoa .carousel-indicators li::after,
+.cid-srgtn5JLoa .carousel-indicators li::before {
+  content: none;
+}
+.cid-srgtn5JLoa .carousel-indicators.ie-fix {
+  left: 50%;
+  display: block;
+  width: 60%;
+  margin-left: -30%;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .cid-srgtn5JLoa .carousel-indicators {
+    display: none !important;
+  }
+}
+.cid-srgtpio7WE {
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-srgtpio7WE .mbr-text {
   color: #140735;
 }
 .cid-sp08C7Xu6R {
@@ -2748,7 +2884,7 @@ a {
 }
 .cid-sp09lmXGvL {
   padding-top: 1rem;
-  padding-bottom: 6rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 @media (max-width: 991px) {
@@ -2761,6 +2897,14 @@ a {
 }
 .cid-sp09lmXGvL img {
   width: 100%;
+}
+.cid-srgwioSl9w {
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-srgwioSl9w .mbr-text {
+  color: #140735;
 }
 .cid-sp06oCcvgG {
   padding-top: 30px;
