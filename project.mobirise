@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "FM_Unit_1.1_2.1.html",
+    "currentPage": "FM Units.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -70,7 +70,7 @@
         "url": "https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800"
       }
     ],
-    "uniqCompNum": 408,
+    "uniqCompNum": 412,
     "versionPublish": "5.1.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -132,7 +132,7 @@
             }
           },
           "_name": "header13",
-          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#232323\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background15.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>e Notes</b><br><b><br></b><br><b><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .social-row\">Version 2.0.1.08</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Important Questions</a></div>\n                <div class=\"social-row display-7 mt-5\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#232323\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background15.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>e Notes</b><br><b><br></b><br><b><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .social-row\">Version 2.0.1.09</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Important Questions</a></div>\n                <div class=\"social-row display-7 mt-5\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sofl8OkJzK",
           "_anchor": "header13-27",
           "_protectedParams": [],
@@ -256,7 +256,7 @@
     "Syllabus.html": {
       "settings": {
         "title": "Syllabus",
-        "order": 99
+        "order": 101
       },
       "components": [
         {
@@ -294,7 +294,7 @@
     "1 Sem Syllabus.html": {
       "settings": {
         "title": "1 Sem Syllabus",
-        "order": 101
+        "order": 103
       },
       "components": [
         {
@@ -332,7 +332,7 @@
     "5 Sem Syllabus.html": {
       "settings": {
         "title": "5 Sem Syllabus",
-        "order": 106
+        "order": 108
       },
       "components": [
         {
@@ -370,7 +370,7 @@
     "3 Sem Syllabus.html": {
       "settings": {
         "title": "3 Sem Syllabus",
-        "order": 103
+        "order": 105
       },
       "components": [
         {
@@ -408,7 +408,7 @@
     "AC Syllabus.html": {
       "settings": {
         "title": "AC Syllabus",
-        "order": 102
+        "order": 104
       },
       "components": [
         {
@@ -472,7 +472,7 @@
     "HK Syllabus.html": {
       "settings": {
         "title": "HK Syllabus",
-        "order": 104
+        "order": 106
       },
       "components": [
         {
@@ -536,7 +536,7 @@
     "FO Syllabus.html": {
       "settings": {
         "title": "FO Syllabus",
-        "order": 105
+        "order": 107
       },
       "components": [
         {
@@ -600,7 +600,7 @@
     "H&S Syllabus.html": {
       "settings": {
         "title": "H&S Syllabus",
-        "order": 107
+        "order": 109
       },
       "components": [
         {
@@ -664,7 +664,7 @@
     "FM Syllabus.html": {
       "settings": {
         "title": "FM Syllabus",
-        "order": 108
+        "order": 110
       },
       "components": [
         {
@@ -728,7 +728,7 @@
     "Contact.html": {
       "settings": {
         "title": "Contact",
-        "order": 109
+        "order": 111
       },
       "components": [
         {
@@ -899,7 +899,7 @@
     "Ref.Books.html": {
       "settings": {
         "title": "Ref.Books",
-        "order": 100
+        "order": 102
       },
       "components": [
         {
@@ -1165,7 +1165,7 @@
     "H&S Units.html": {
       "settings": {
         "title": "H&S Units",
-        "order": 74
+        "order": 76
       },
       "components": [
         {
@@ -1224,7 +1224,7 @@
             }
           },
           "_name": "header18",
-          "_customHTML": "<section class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"131\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Intro with gradient background</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>\n                        Facility&nbsp;Management</b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Choose Your Unit</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"FM_Unit_1_index.html\" data-app-placeholder=\"Type Text\">Unit - 1</a> <a class=\"btn btn-info\" href=\"FM_Unit_1.1_index.html\" data-app-placeholder=\"Type Text\">Unit - 1.1</a> <a class=\"btn btn-secondary\" href=\"FM_Unit_2_index.html\" data-app-placeholder=\"Type Text\">Unit - 2</a> <a class=\"btn btn-warning\" href=\"FM_Unit_3_index.html\" data-app-placeholder=\"Type Text\">Unit - 3</a> <a class=\"btn btn-success\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Unit - 4</a> <a class=\"btn btn-black\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Unit - 5</a> <a class=\"btn btn-white-outline\" href=\"FM_Q.html\" data-app-placeholder=\"Type Text\">Important Questions</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"131\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Intro with gradient background</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>\n                        Facility&nbsp;Management</b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Choose Your Unit</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"FM_Unit_1_index.html\" data-app-placeholder=\"Type Text\">Unit - 1</a> <a class=\"btn btn-info\" href=\"FM_Unit_1.1_index.html\" data-app-placeholder=\"Type Text\">Unit - 1.1</a> <a class=\"btn btn-secondary\" href=\"FM_Unit_2_index.html\" data-app-placeholder=\"Type Text\">Unit - 2</a> <a class=\"btn btn-warning\" href=\"FM_Unit_3_index.html\" data-app-placeholder=\"Type Text\">Unit - 3</a> <a class=\"btn btn-success\" href=\"FM_Unit_4_index.html\" data-app-placeholder=\"Type Text\">Unit - 4</a> <a class=\"btn btn-black\" href=\"FM_Unit_5_index.html\" data-app-placeholder=\"Type Text\">Unit - 5</a> <a class=\"btn btn-white-outline\" href=\"FM_Q.html\" data-app-placeholder=\"Type Text\">Important Questions</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sleam89mCl",
           "_anchor": "header18-1b",
           "_protectedParams": [],
@@ -1237,7 +1237,7 @@
     "Disclaimer.html": {
       "settings": {
         "title": "Disclaimer",
-        "order": 110
+        "order": 112
       },
       "components": [
         {
@@ -1285,7 +1285,7 @@
     "Privacy Policy.html": {
       "settings": {
         "title": "Privacy Policy",
-        "order": 111
+        "order": 113
       },
       "components": [
         {
@@ -1333,7 +1333,7 @@
     "Help.html": {
       "settings": {
         "title": "Help",
-        "order": 94
+        "order": 96
       },
       "components": [
         {
@@ -1357,7 +1357,7 @@
     "error.html": {
       "settings": {
         "title": "Error",
-        "order": 112
+        "order": 114
       },
       "components": [
         {
@@ -2760,7 +2760,7 @@
     "HS_Unit_1.html": {
       "settings": {
         "title": "HS_Unit_1",
-        "order": 75
+        "order": 77
       },
       "components": [
         {
@@ -2813,7 +2813,7 @@
     "HS_Unit_2_index.html": {
       "settings": {
         "title": "HS_Unit_2_index",
-        "order": 76
+        "order": 78
       },
       "components": [
         {
@@ -2875,7 +2875,7 @@
     "HS_Unit_2.1.html": {
       "settings": {
         "title": "HS_Unit_2.1",
-        "order": 78
+        "order": 80
       },
       "components": [
         {
@@ -2985,7 +2985,7 @@
     "HS_Unit_2.2.html": {
       "settings": {
         "title": "HS_Unit_2.2",
-        "order": 79
+        "order": 81
       },
       "components": [
         {
@@ -3074,7 +3074,7 @@
     "HS_Unit_3.html": {
       "settings": {
         "title": "HS_Unit_3",
-        "order": 81
+        "order": 83
       },
       "components": [
         {
@@ -3127,7 +3127,7 @@
     "HS_Unit_3.1.html": {
       "settings": {
         "title": "HS_Unit_3.1",
-        "order": 82
+        "order": 84
       },
       "components": [
         {
@@ -3351,7 +3351,7 @@
     "HS_Unit_3.2.html": {
       "settings": {
         "title": "HS_Unit_3.2",
-        "order": 83
+        "order": 85
       },
       "components": [
         {
@@ -3404,7 +3404,7 @@
     "HS_Unit_3.3.html": {
       "settings": {
         "title": "HS_Unit_3.3",
-        "order": 84
+        "order": 86
       },
       "components": [
         {
@@ -3457,7 +3457,7 @@
     "HS_Unit_3_index.html": {
       "settings": {
         "title": "HS_Unit_3_index",
-        "order": 80
+        "order": 82
       },
       "components": [
         {
@@ -3519,7 +3519,7 @@
     "HS_Unit_2.html": {
       "settings": {
         "title": "HS_Unit_2",
-        "order": 77
+        "order": 79
       },
       "components": [
         {
@@ -5403,7 +5403,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffb18a\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -2</b><div>BUILDING CONSTRUCTION</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffb18a\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div>BUILDING CONSTRUCTION</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "sp0dzzN9uQ",
@@ -5465,7 +5465,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -2</b><div><b>BUILDING CONSTRUCTION</b></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div><b>BUILDING CONSTRUCTION</b></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "sp0dUCj02A",
@@ -5486,7 +5486,7 @@
             }
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Anti-Termite Treatment\n</b><br>\n<br>Anti-termite treatment is a chemical procedure carried out for soil, masonry, wood, and electrical fixtures to provide the building with a chemical barrier against the subterranean termites before and after construction.\n<br>Anti-termite chemicals, pre and post construction treatment, preventive measures, safety, advantages and disadvantages of anti-termite treatment are discussed in this chapter.  \n<br>The chemicals used for anti-termite treatment in buildings as per Indian Standards (IS 6313 Part-3) are :\n<br>\n<br>1. Chlorpyrifos 20 EC\n<br>2. Lindane 20 EC\n<br>\n<br>The above-mentioned chemicals are used in water emulsion for the treatment of soil in order to protect a building from termite attack. For the treatment of wood, oil or kerosene-based solution of the mentioned chemicals with 1.0% concentration is used.\n<br>\n<br><b>Pre-Construction Anti-Termite Treatment\n</b><br>The procedure for pre-construction anti-termite treatment is given below –\n<br>1. For the excavation made for foundation, the sides and the bottom surface of the foundation trenches and pits are treated with an anti-termite chemical to a height of about 30cm at the rate of 5 Lit. per square meter of surface area.\n<br>2. For flooring, the earth surface is firstly cleaned from wooden and any other garbage particles.\n<br>3. The entire surface should be levelled to the required elevation.\n<br>4. Holes of 30 cm depth at an interval of 15 cm are made.\n<br>5. An emulsion of correct concentration (as mentioned in manufacturer’s specification) shall be made by adding water to the chemical.\n<br>6. This emulsion shall be poured in the holes by pouring jars and sprayed on the surface by using pressure pumps and sprayers.\n<br>7. The chemical is allowed to get soaked through the holes fully.\n<br>Note: The anti-termite treatment must be done by an approved specialized agency for termite-prone areas.\n<br>\n<br><b>Benefits of Pre-Construction Anti-Termite Treatment\n</b><br>1. Less Expensive\n<br>The steps involved in Pre-construction treatment are lesser when compared to post-construction treatment. Thus the cost of the anti-termite is less.\n<br>2. Fewer Obstacles\n<br>The number of obstacles in case of Pre-construction anti-termite treatment is lesser. Major components of buildings like walls, which gives better access to every nook and corner of the buildings without any obstacles.\n<br>3. Prevention is Better than Cure\n<br>Opting for post-construction anti-termite treatment can be late as the termites might have already started doing some sort of destruction to the foundation, walls or the wooden attachments in your home. To eradicate the termite infestation from its root, pre-construction treatment is recommended.\n<br>\n<br><b>Post-Construction Anti-Termite Treatment\n</b><br>1. Inspection\n<br>Before undertaking any type of treatment, a thorough inspection shall be made of the infestation in the building with a view of determining the extent to which it has spread, and the routes of entry of termites into the building.\n<br>2. Extermination of Termites in Building\n<br>The inspection of the infestation gives the location of termites. The extermination inside the building shall be carried out in a thorough manner, seeking the termites in their hideouts, such as ceilings behind wooden paneling's, inside electrical wiring battens, conduits, switchboards and similar locations.\n<br>\n<br><b>Preventive Measures\n</b><br>1. The primary function of soil treatment is to establish a chemical barrier between the termites in the soil and the building to be protected.\n<br>2. To treat the soil outside of foundations, the soil in contact with the external wall of the building shall be treated with the chemical emulsion at the rate of 7.5 lit/Sqm of the vertical surface of the substructure to a depth of 300 mm.\n<br>3. The termites seek their way inside the building floor through the cracks or voids at the following locations –\n<br>(a) At the junction of the floor and walls as a result of shrinkage of the concrete.\n<br>(b) Cracks formed on the floor surface due to construction defects.\n<br>(c) At construction joints and expansion joints in a concrete floor.\n<br>4. Chemical treatment should be done in the building area of the ground floor wherever the cracks are noticed. This is done by drilling vertically 12 mm holes at the junction of floor and walls, constructional and expansion joints mentioned above at 300 mm interval to reach the soil below.\n<br>5. Treatment for wood is done at the points of contact of the woodwork. All the locations where the woodwork in the building is in contact with the woodwork must be treated with anti-termite treatment.\n<br>6. This is done by spraying at the points of contacts with the adjoining masonry with the chemical emulsion of concentration by drilling 6mm holes at a downward angle of about 45° at the junction of woodwork and masonry.\n<br>7. Treatment of electrical fixtures such as switch boxes in the wall is done by removing the outer coverings and treating the internal parts with 5 percent Malathion dusting powder.\n<br>\n<br><b>Safety</b>\n<br>1. All works shall comply with the safety procedure or instruction as set out in project safety plan and municipality rules and regulations.\n<br>2. Basic Personal Protective Equipment (PPE) shall be worn by all staff or laborers.\n<br>3. All operatives shall be inducted before entering the site.\n<br>\n<b><br>Advantages of Anti-Termite Treatment\n</b><br>1. It provides immediate protection to any structure from termites, rodents, and pests.\n<br>2. It lasts for several years.\n<br>3. It eliminates the problem of gaps forming in the protection barrier, allowing termites to enter the home.\n<br>4. Liquid termiticides are relatively inexpensive when compared to other forms of termite control.\n<br>\n<br><b>Disadvantages of Anti-Termite Treatment\n</b><br>1. Anti-Termite treatment can lead to water contamination in areas close to waterways or wetlands.\n<br>2. Drilling into areas that show evidence of termite entry, or concrete may be necessary, which can reduce the strength of the member or structure.\n<br>3. Any small negligence or left out portion can lead to problems with an infestation in future.\n<br>\n<br><b>Maintain the Termite Prevention Features\n</b><br>• After construction, keep the soil around the foundation dry through proper grading and drainage (including maintenance of gutters and downspouts).\n<br>• Reduce openings that offer termites access to the structure (filling cracks in cement foundations as well as around where utilities pass through the wall with cement, grout, or caulk).\n<br>• Fix leaks immediately.\n<br>• Keep vents free from blockage, including plants.\n<br>• Ensure that trees and shrubs are not planted too close to the structure and do not allow them to grow against exposed wood surfaces.\n<br>• Do not pile or store firewood or wood debris next to the house.\n<br>• Inspect periodically to help ensure that termite colonies do not become established.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>What is Termite</b><br>Termites are considered to be the most destructive insect pests in the world. Many buildings and structures are damaged by these pests each year resulting in huge financial losses. Termite, any of a group of cellulose-eating insects, the social system of which shows remarkable parallels with those of ants and bees, although it has evolved independently. Even though termites are not closely related to ants, they are sometimes referred to as white ants. Phylogenetic studies have shown that the closest relative to the termite is the cockroach; for this reason termites are sometimes placed in the order Dictyoptera, which also contains the mantids.<br><br><b>Types of Termite</b><br>● Subterranean termites<br>● Formosan termites<br>● Damp-wood termites<br>● Dry-wood termites<br>● Cone-head termites<b><br></b><br><b>Signs of termite activity</b><br>● Discolored or drooping drywall\n<br>● Peeling paint that resembles water damage\n<br>● Wood that sounds hollow when tapped\n<br>● Small, pinpoint holes in drywall\n<br>● Buckling wooden or laminate floor boards\n<br>● Tiles loosening from the added moisture termites can introduce to your floor\n<br>● Excessively squeaky floorboards\n<br>● Crumbling, damaged wood\n<br>● Stuck windows or doors\n<br>● Maze-like patterns in furniture, floor boards or walls\n<br>● Mounds of dry-wood termite pellets, often resembling small piles of salt or pepper\n<br>● Piles of wings left behind after swarms, often resembling fish scales\n<br>● Mud tubes climbing the foundation of your home\n<br>● Flying termite swarms anywhere on your property<br><br><b>Anti-Termite Treatment\n</b><br>\n<br>Anti-termite treatment is a chemical procedure carried out for soil, masonry, wood, and electrical fixtures to provide the building with a chemical barrier against the subterranean termites before and after construction.\n<br>Anti-termite chemicals, pre and post construction treatment, preventive measures, safety, advantages and disadvantages of anti-termite treatment are discussed in this chapter.  \n<br>The chemicals used for anti-termite treatment in buildings as per Indian Standards (IS 6313 Part-3) are :\n<br>\n<br>1. Chlorpyrifos 20 EC\n<br>2. Lindane 20 EC\n<br>\n<br>The above-mentioned chemicals are used in water emulsion for the treatment of soil in order to protect a building from termite attack. For the treatment of wood, oil or kerosene-based solution of the mentioned chemicals with 1.0% concentration is used.\n<br>\n<br><b>Pre-Construction Anti-Termite Treatment\n</b><br>The procedure for pre-construction anti-termite treatment is given below –\n<br>1. For the excavation made for foundation, the sides and the bottom surface of the foundation trenches and pits are treated with an anti-termite chemical to a height of about 30cm at the rate of 5 Lit. per square meter of surface area.\n<br>2. For flooring, the earth surface is firstly cleaned from wooden and any other garbage particles.\n<br>3. The entire surface should be levelled to the required elevation.\n<br>4. Holes of 30 cm depth at an interval of 15 cm are made.\n<br>5. An emulsion of correct concentration (as mentioned in manufacturer’s specification) shall be made by adding water to the chemical.\n<br>6. This emulsion shall be poured in the holes by pouring jars and sprayed on the surface by using pressure pumps and sprayers.\n<br>7. The chemical is allowed to get soaked through the holes fully.\n<br>Note: The anti-termite treatment must be done by an approved specialized agency for termite-prone areas.\n<br>\n<br><b>Benefits of Pre-Construction Anti-Termite Treatment\n</b><br>1. Less Expensive\n<br>The steps involved in Pre-construction treatment are lesser when compared to post-construction treatment. Thus the cost of the anti-termite is less.\n<br>2. Fewer Obstacles\n<br>The number of obstacles in case of Pre-construction anti-termite treatment is lesser. Major components of buildings like walls, which gives better access to every nook and corner of the buildings without any obstacles.\n<br>3. Prevention is Better than Cure\n<br>Opting for post-construction anti-termite treatment can be late as the termites might have already started doing some sort of destruction to the foundation, walls or the wooden attachments in your home. To eradicate the termite infestation from its root, pre-construction treatment is recommended.\n<br>\n<br><b>Post-Construction Anti-Termite Treatment\n</b><br>1. Inspection\n<br>Before undertaking any type of treatment, a thorough inspection shall be made of the infestation in the building with a view of determining the extent to which it has spread, and the routes of entry of termites into the building.\n<br>2. Extermination of Termites in Building\n<br>The inspection of the infestation gives the location of termites. The extermination inside the building shall be carried out in a thorough manner, seeking the termites in their hideouts, such as ceilings behind wooden paneling's, inside electrical wiring battens, conduits, switchboards and similar locations.\n<br>\n<br><b>Preventive Measures\n</b><br>1. The primary function of soil treatment is to establish a chemical barrier between the termites in the soil and the building to be protected.\n<br>2. To treat the soil outside of foundations, the soil in contact with the external wall of the building shall be treated with the chemical emulsion at the rate of 7.5 lit/Sqm of the vertical surface of the substructure to a depth of 300 mm.\n<br>3. The termites seek their way inside the building floor through the cracks or voids at the following locations –\n<br>(a) At the junction of the floor and walls as a result of shrinkage of the concrete.\n<br>(b) Cracks formed on the floor surface due to construction defects.\n<br>(c) At construction joints and expansion joints in a concrete floor.\n<br>4. Chemical treatment should be done in the building area of the ground floor wherever the cracks are noticed. This is done by drilling vertically 12 mm holes at the junction of floor and walls, constructional and expansion joints mentioned above at 300 mm interval to reach the soil below.\n<br>5. Treatment for wood is done at the points of contact of the woodwork. All the locations where the woodwork in the building is in contact with the woodwork must be treated with anti-termite treatment.\n<br>6. This is done by spraying at the points of contacts with the adjoining masonry with the chemical emulsion of concentration by drilling 6mm holes at a downward angle of about 45° at the junction of woodwork and masonry.\n<br>7. Treatment of electrical fixtures such as switch boxes in the wall is done by removing the outer coverings and treating the internal parts with 5 percent Malathion dusting powder.\n<br>\n<br><b>Safety</b>\n<br>1. All works shall comply with the safety procedure or instruction as set out in project safety plan and municipality rules and regulations.\n<br>2. Basic Personal Protective Equipment (PPE) shall be worn by all staff or laborers.\n<br>3. All operatives shall be inducted before entering the site.\n<br>\n<b><br>Advantages of Anti-Termite Treatment\n</b><br>1. It provides immediate protection to any structure from termites, rodents, and pests.\n<br>2. It lasts for several years.\n<br>3. It eliminates the problem of gaps forming in the protection barrier, allowing termites to enter the home.\n<br>4. Liquid termiticides are relatively inexpensive when compared to other forms of termite control.\n<br>\n<br><b>Disadvantages of Anti-Termite Treatment\n</b><br>1. Anti-Termite treatment can lead to water contamination in areas close to waterways or wetlands.\n<br>2. Drilling into areas that show evidence of termite entry, or concrete may be necessary, which can reduce the strength of the member or structure.\n<br>3. Any small negligence or left out portion can lead to problems with an infestation in future.\n<br>\n<br><b>Maintain the Termite Prevention Features\n</b><br>• After construction, keep the soil around the foundation dry through proper grading and drainage (including maintenance of gutters and downspouts).\n<br>• Reduce openings that offer termites access to the structure (filling cracks in cement foundations as well as around where utilities pass through the wall with cement, grout, or caulk).\n<br>• Fix leaks immediately.\n<br>• Keep vents free from blockage, including plants.\n<br>• Ensure that trees and shrubs are not planted too close to the structure and do not allow them to grow against exposed wood surfaces.\n<br>• Do not pile or store firewood or wood debris next to the house.\n<br>• Inspect periodically to help ensure that termite colonies do not become established.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "sp0dUECuvF",
@@ -5518,7 +5518,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -2</b><div><b>BUILDING CONSTRUCTION</b></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div><b>BUILDING CONSTRUCTION</b></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "sp0ehMrNH7",
@@ -5571,7 +5571,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -2</b><div><b>BUILDING CONSTRUCTION</b></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div><b>BUILDING CONSTRUCTION</b></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "sp0f8vm1sc",
@@ -7612,7 +7612,7 @@
     "Updating.html": {
       "settings": {
         "title": "Updating",
-        "order": 113
+        "order": 115
       },
       "components": [
         {
@@ -8079,7 +8079,7 @@
     "HS_Unit_4_index.html": {
       "settings": {
         "title": "HS_Unit_4_index",
-        "order": 85
+        "order": 87
       },
       "components": [
         {
@@ -8141,7 +8141,7 @@
     "HS_Unit_4.html": {
       "settings": {
         "title": "HS_Unit_4",
-        "order": 86
+        "order": 88
       },
       "components": [
         {
@@ -8194,7 +8194,7 @@
     "HS_Unit_4.2.html": {
       "settings": {
         "title": "HS_Unit_4.2",
-        "order": 88
+        "order": 90
       },
       "components": [
         {
@@ -8247,7 +8247,7 @@
     "HS_Unit_4.1.html": {
       "settings": {
         "title": "HS_Unit_4.1",
-        "order": 87
+        "order": 89
       },
       "components": [
         {
@@ -8300,7 +8300,7 @@
     "HS_Unit_5_index.html": {
       "settings": {
         "title": "HS_Unit_5_index",
-        "order": 89
+        "order": 91
       },
       "components": [
         {
@@ -8362,7 +8362,7 @@
     "HS_Unit_5.html": {
       "settings": {
         "title": "HS_Unit_5",
-        "order": 90
+        "order": 92
       },
       "components": [
         {
@@ -8472,7 +8472,7 @@
     "HS_Unit_5.1.html": {
       "settings": {
         "title": "HS_Unit_5.1",
-        "order": 91
+        "order": 93
       },
       "components": [
         {
@@ -8582,7 +8582,7 @@
     "HS_Unit_5.2.html": {
       "settings": {
         "title": "HS_Unit_5.2",
-        "order": 92
+        "order": 94
       },
       "components": [
         {
@@ -8635,7 +8635,7 @@
     "HS_Unit_5.3.html": {
       "settings": {
         "title": "HS_Unit_5.3",
-        "order": 93
+        "order": 95
       },
       "components": [
         {
@@ -8688,7 +8688,7 @@
     "FM_Q.html": {
       "settings": {
         "title": "FM_Q",
-        "order": 95
+        "order": 97
       },
       "components": [
         {
@@ -8787,7 +8787,7 @@
     "HS_Q.html": {
       "settings": {
         "title": "HS_Q",
-        "order": 96
+        "order": 98
       },
       "components": [
         {
@@ -8885,7 +8885,7 @@
     "FO_Q.html": {
       "settings": {
         "title": "FO_Q",
-        "order": 97
+        "order": 99
       },
       "components": [
         {
@@ -8983,7 +8983,7 @@
     "HK_Q.html": {
       "settings": {
         "title": "HK_Q",
-        "order": 98
+        "order": 100
       },
       "components": [
         {
@@ -9269,6 +9269,130 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "FM_Unit_4_index.html": {
+      "settings": {
+        "title": "FM_Unit_4_index",
+        "order": 74
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffb18a\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -4</b><div>DESIGNS &amp; RENOVATIONS</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "srkBn0oFZn",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-bc"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-section-title, .mbr-section-subtitle, .mbr-section-btn, .mbr-text": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"4\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Introduction</a> <a class=\"btn btn-white\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Renovation &amp; Restoration</a> <a class=\"btn btn-secondary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Interior&nbsp;</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "srkBn0TXAG",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header2-bd"
+        }
+      ]
+    },
+    "FM_Unit_5_index.html": {
+      "settings": {
+        "title": "FM_Unit_5_index",
+        "order": 75
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffb18a\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -5</b><div>HVAC</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "srkBruisaH",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-be"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-section-title, .mbr-section-subtitle, .mbr-section-btn, .mbr-text": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"4\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Introductions</a> <a class=\"btn btn-white\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Ventilation</a> <a class=\"btn btn-secondary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Air-Conditioning</a> <a class=\"btn btn-danger\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Refrigeration</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "srkBrvmbnc",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header2-bf"
         }
       ]
     }
