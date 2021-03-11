@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "FM Units.html",
+    "currentPage": "Help.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -70,7 +70,7 @@
         "url": "https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800"
       }
     ],
-    "uniqCompNum": 412,
+    "uniqCompNum": 421,
     "versionPublish": "5.1.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -81,7 +81,9 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "witsec-white-label": true
+    "witsec-white-label": true,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -132,7 +134,7 @@
             }
           },
           "_name": "header13",
-          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#232323\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background15.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>e Notes</b><br><b><br></b><br><b><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .social-row\">Version 2.0.1.09</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Important Questions</a></div>\n                <div class=\"social-row display-7 mt-5\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#232323\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background15.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>e Notes</b><br><b><br></b><br><b><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .social-row\">Version 2.0.1.10</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Important Questions</a></div>\n                <div class=\"social-row display-7 mt-5\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sofl8OkJzK",
           "_anchor": "header13-27",
           "_protectedParams": [],
@@ -256,7 +258,7 @@
     "Syllabus.html": {
       "settings": {
         "title": "Syllabus",
-        "order": 101
+        "order": 104
       },
       "components": [
         {
@@ -294,7 +296,7 @@
     "1 Sem Syllabus.html": {
       "settings": {
         "title": "1 Sem Syllabus",
-        "order": 103
+        "order": 106
       },
       "components": [
         {
@@ -332,7 +334,7 @@
     "5 Sem Syllabus.html": {
       "settings": {
         "title": "5 Sem Syllabus",
-        "order": 108
+        "order": 111
       },
       "components": [
         {
@@ -370,7 +372,7 @@
     "3 Sem Syllabus.html": {
       "settings": {
         "title": "3 Sem Syllabus",
-        "order": 105
+        "order": 108
       },
       "components": [
         {
@@ -408,7 +410,7 @@
     "AC Syllabus.html": {
       "settings": {
         "title": "AC Syllabus",
-        "order": 104
+        "order": 107
       },
       "components": [
         {
@@ -472,7 +474,7 @@
     "HK Syllabus.html": {
       "settings": {
         "title": "HK Syllabus",
-        "order": 106
+        "order": 109
       },
       "components": [
         {
@@ -536,7 +538,7 @@
     "FO Syllabus.html": {
       "settings": {
         "title": "FO Syllabus",
-        "order": 107
+        "order": 110
       },
       "components": [
         {
@@ -600,7 +602,7 @@
     "H&S Syllabus.html": {
       "settings": {
         "title": "H&S Syllabus",
-        "order": 109
+        "order": 112
       },
       "components": [
         {
@@ -664,7 +666,7 @@
     "FM Syllabus.html": {
       "settings": {
         "title": "FM Syllabus",
-        "order": 110
+        "order": 113
       },
       "components": [
         {
@@ -728,7 +730,7 @@
     "Contact.html": {
       "settings": {
         "title": "Contact",
-        "order": 111
+        "order": 114
       },
       "components": [
         {
@@ -899,7 +901,7 @@
     "Ref.Books.html": {
       "settings": {
         "title": "Ref.Books",
-        "order": 102
+        "order": 105
       },
       "components": [
         {
@@ -1165,7 +1167,7 @@
     "H&S Units.html": {
       "settings": {
         "title": "H&S Units",
-        "order": 76
+        "order": 78
       },
       "components": [
         {
@@ -1237,7 +1239,7 @@
     "Disclaimer.html": {
       "settings": {
         "title": "Disclaimer",
-        "order": 112
+        "order": 115
       },
       "components": [
         {
@@ -1285,7 +1287,7 @@
     "Privacy Policy.html": {
       "settings": {
         "title": "Privacy Policy",
-        "order": 113
+        "order": 116
       },
       "components": [
         {
@@ -1333,7 +1335,7 @@
     "Help.html": {
       "settings": {
         "title": "Help",
-        "order": 96
+        "order": 98
       },
       "components": [
         {
@@ -1344,7 +1346,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-5\">&nbsp;📖&nbsp;<b><a href=\"Syllabus.html\" class=\"text-primary\"><b>Syllabus</b></a><a href=\"Syllabus.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;📚&nbsp;<b><a href=\"Ref.Books.html\" class=\"text-primary\"><b>Reference Books</b></a>\n</b><br><br>&nbsp;📋&nbsp;<b><a href=\"https://drive.google.com/drive/folders/0B8Xw18UCKJ7tQXZuZl9fODBzUFk?usp=sharing\" class=\"text-primary\" target=\"_blank\"><b>Previous Q. Papers</b>\n</a></b><br><br>&nbsp;📧&nbsp;<b><a href=\"Contact.html\" class=\"text-primary\"><b>Contact us</b></a><a href=\"Contact.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;🔒&nbsp;<b><a href=\"Privacy Policy.html\" class=\"text-primary\"><b>Privacy Policy</b></a><a href=\"Privacy Policy.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;📝&nbsp;<a href=\"Disclaimer.html\" class=\"text-primary\"><b>Disclaimer</b></a></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-5\">&nbsp;📖&nbsp;<b><a href=\"Syllabus.html\" class=\"text-primary\"><b>Syllabus</b></a><a href=\"Syllabus.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;📚&nbsp;<b><a href=\"Ref.Books.html\" class=\"text-primary\"><b>Reference Books</b></a>\n</b><br><br>&nbsp;📧&nbsp;<b><a href=\"Contact.html\" class=\"text-primary\"><b>Contact us</b></a><a href=\"Contact.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;🔒&nbsp;<b><a href=\"Privacy Policy.html\" class=\"text-primary\"><b>Privacy Policy</b></a><a href=\"Privacy Policy.html\" class=\"text-primary\">\n</a></b><br><br>&nbsp;📝&nbsp;<a href=\"Disclaimer.html\" class=\"text-primary\"><b>Disclaimer</b></a></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "soUFgrv8YY",
           "_anchor": "content5-4n",
           "_protectedParams": [],
@@ -1357,7 +1359,7 @@
     "error.html": {
       "settings": {
         "title": "Error",
-        "order": 114
+        "order": 117
       },
       "components": [
         {
@@ -2760,7 +2762,7 @@
     "HS_Unit_1.html": {
       "settings": {
         "title": "HS_Unit_1",
-        "order": 77
+        "order": 79
       },
       "components": [
         {
@@ -2813,7 +2815,7 @@
     "HS_Unit_2_index.html": {
       "settings": {
         "title": "HS_Unit_2_index",
-        "order": 78
+        "order": 80
       },
       "components": [
         {
@@ -2875,7 +2877,7 @@
     "HS_Unit_2.1.html": {
       "settings": {
         "title": "HS_Unit_2.1",
-        "order": 80
+        "order": 82
       },
       "components": [
         {
@@ -2985,7 +2987,7 @@
     "HS_Unit_2.2.html": {
       "settings": {
         "title": "HS_Unit_2.2",
-        "order": 81
+        "order": 83
       },
       "components": [
         {
@@ -3074,7 +3076,7 @@
     "HS_Unit_3.html": {
       "settings": {
         "title": "HS_Unit_3",
-        "order": 83
+        "order": 85
       },
       "components": [
         {
@@ -3127,7 +3129,7 @@
     "HS_Unit_3.1.html": {
       "settings": {
         "title": "HS_Unit_3.1",
-        "order": 84
+        "order": 86
       },
       "components": [
         {
@@ -3351,7 +3353,7 @@
     "HS_Unit_3.2.html": {
       "settings": {
         "title": "HS_Unit_3.2",
-        "order": 85
+        "order": 87
       },
       "components": [
         {
@@ -3404,7 +3406,7 @@
     "HS_Unit_3.3.html": {
       "settings": {
         "title": "HS_Unit_3.3",
-        "order": 86
+        "order": 88
       },
       "components": [
         {
@@ -3457,7 +3459,7 @@
     "HS_Unit_3_index.html": {
       "settings": {
         "title": "HS_Unit_3_index",
-        "order": 82
+        "order": 84
       },
       "components": [
         {
@@ -3519,7 +3521,7 @@
     "HS_Unit_2.html": {
       "settings": {
         "title": "HS_Unit_2",
-        "order": 79
+        "order": 81
       },
       "components": [
         {
@@ -4689,7 +4691,7 @@
             }
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Circuit Breakers \n</b><br>Circuit breakers on the other hand, have internal switch mechanisms that can be tripped by an unsafe surge of electricity. \n<br>Circuit Breakers have two different ways of working – the first is through the use of an electromagnet and the other is through the use of a bi-metal strip. In both instances, when turned on, the breaker allows electrical current to pass from a bottom to an upper terminal across the strip. Once the current reaches any unsafe levels, the magnetic force of the strip becomes strong enough to throw a metal lever in the switch mechanism, breaking the current. The other option that can happen is that the metal strip can bend, throwing the switch and breaking the connection. \n<br>\n<br><b>Circuit breaker components\n</b><br>The five universal circuit breaker components are: \n<br>\n<br>● Frame – Protects internal parts of the circuit breaker from outside materials \n<br>● Operating mechanism – Provides a means of opening and closing the circuit breaker \n<br>● Contacts – Allows the current to flow through the circuit breaker when closed. \n<br>● Arc extinguisher – Extinguishes an arc when the circuit breaker interrupts a fault. \n<br>● Trip unit – Opens the operating mechanism in the event of a prolonged overload or short circuit.\n<br>\n<br><b>Advantage &amp; Disadvantage \n</b><br>* Fuse is a less expensive device to protect from over current. It reacts quicker than the circuit breakers, and it as a hope that it won’t cause more failure than the breakers because of it as less moving parts. Whereas in circuit breakers if the inner working parts have some faulty, the damage to the electrical appliances will be more because they react slower than the fuse. \n<br>* One must be careful when replacing the fuse. If you install a 30amp fuse on a 20amp circuit, it ultimately leads to cause an electric fire. \n<br>* Keep on replacing melted fuses can become more expensive but, in circuit breakers, you need to flip the switch. \n<br>* Installation of a circuit breaker is complicated and expensive and also the maintenance cost is high but in a long-term, it saves a lot of money. \n<br>\n<br>\n<br><b>The Difference Between Fuse and Circuit Breaker \n</b><br>* Fuse works on the principle of electrical and thermal properties of the conducting materials whereas the Circuit breaker works on the Electromagnetism and switching principle. \n<br>* Fuses once used cannot be reused again, but the Circuit breaker can be reused. Hence, there is no need to change the circuit breaker after any fault takes place and the coil is tripped. \n<br>* Fuse cannot be used as an ON/OFF switch whereas Circuit Breaker can be used as an ON/OFF switch. \n<br>* Fuses are independent of ambient temperature, but Circuit Breaker not require any ambient temperature. \n<br>* The Fuse provides protection against only power overloads whereas Circuit Breaker provides protection for both power overloads and short circuits. \n<br>* Breaking capacity of the fuse is low as compared to that of a Circuit Breaker. \n<br>* Operating time of fuse is very less about 0.002 second, whereas Operating time of a Circuit Breaker is comparatively more than that of the fuse. It is about 0.02 – 0.05 second. \n<br>* Mode of operation of Fuse is completely automatic, but Circuit Breakers can be operated manually as well as automatically with the help of a relay system. \n<br>* The cost of the fuse is low, whereas Circuit Breakers are more costly. \n<br>\n<br><b>Voltage drop \n</b><br>A voltage drop in an electrical circuit normally occurs when a current passes through the cable. It is related to the resistance or impedance to current flow with passive elements in the circuits including cables, contacts and connectors affecting the level of voltage drop. The longer the circuit or length of cable the greater the voltage loss. The impact of a voltage drop can cause problems such as motors running slowly, heaters not heating to full potential, lights being dimmed. To compensate for voltage drop larger cross-sectional sized cables may be used which offer less resistance / impedance to current flow. \n<br>\n<br>V=IR \n<br>Ohms Law: V = I R \n<br>*Ohm’s Law (I = V/R) says: \n<br>* The current (I) through a wire or electrical resistor is \n<br>* proportional to the potential difference V across the two ends, and \n<br>* inversely proportional to its resistance R. \n<br>* Resistance (R) depends on Surface \n<br><b><br>Single- phase &amp; three- phase electric power \n</b><br>* single-phase electric power is the distribution of alternating current electric power using a system in which all the voltages of the supply vary in unison. Single-phase distribution is used when loads are mostly lighting and heating, with few large electric motors. A single-phase supply connected to an alternating current electric motor does not produce a rotating magnetic field; single-phase motors need additional circuits for starting (capacitor start motor), and such motors are uncommon above 10 kW in rating. \n<br>\n<br>* Three-phase electric power systems have at least three conductors carrying alternating current voltages that are offset in time by one-third of the period. A wye system allows the use of two different voltages from all three phases, such as a 230/400 V system which provides 230 V between the neutral (centre hub) and any one of the phases, and 400 V across any two phases. \n<br>\n<br>\n<br><b>Three Phase Supply Benefits \n</b><br>* Copper Utilization Reduction \n<br>* Lessening of Security Risks for Employees \n<br>* Labour Treatment Costs \n<br>* The efficiency of the Conductor is Greater \n<br>* Facility to Run High Power Loads \n<br>\n<br><b>Single Phase Supply Benefits \n</b><br>* The benefits of choosing a single phase supply include the following. \n<br>* The design is less complex \n<br>* Design cost is less \n<br>* Most efficient AC power supply for up to 1000 watts \n<br>* Single Phase AC Power Supply is most competent for up to 1000 watts. \n<br>* Wide-range of application uses \n<br>\n<br><b>Key Differences between Single Phase and Three Phase Supplies \n</b><br>* The definition of the single-phase power supply is, the power supplies through a single conductor \n<br>* The definition of the three-phase power supply is, the power flows through three conductors. \n<br>* The single-phase power supply has one distinct wave cycle whereas; three phase has three distinct wave cycles. \n<br>* Single phase requires the single wire to connect the circuit whereas; 3-phase needs 3-wires. \n<br>* The voltage of the single phase is 230V, whereas three phase voltage is 415V. \n<br>* The phase name of the single phase is split phase, whereas three phase has no other name. \n<br>* The capacity of power transfer in the single phase is minimum, whereas three phase has the maximum. \n<br>* The connection of single phase is simple whereas in 3-phase is complicated. \n<br>* The power failure happens in a single phase, but not occurs in three phase. \n<br>* The loss in single phase is maximum whereas in three phase is minimum. \n<br>* The single-phase efficiency is less whereas in three phase is high. \n<br>* The single-phase is inexpensive whereas the 3-phase is expensive. \n<br>* The single-phase AC power supply is utilized for home appliances and three phase power supply is used in huge industries to run heavy loads. \n<br>\n<br>\n<br><b>AC &amp; DC System \n</b><br>There are two systems of electric generation and supply, \n<br>1. Direct current or DC. \n<br>2. Alternating current or AC. \n<br>\n<br>● Direct Current: it is the kind of electric current that may or may not change the magnitude but the direction of the current will never change. E.g. Cells, Batteries and DC Generator. \n<br>\n<br>● Alternating Current: it is the kind of electric current, which not only changes its magnitude but also its sign as time passes, in a definite manner. This is the current that is supplied by Power station for domestic and commercial use. \n<br>\n<br><b>Kilowatt hour \n</b><br>One kilowatt-hour is equal to the work done or energy consumed when a device of power 1 kW is used for 1 hour. The hour is a unit of time listed among the non-SI units accepted by the International Bureau of Weights and Measures for use with the SI. Its combination with the kilowatt, a standard SI unit, is therefore permitted within the standard.\n<br>\n<br><b>Electricity sales \n</b><br>Electrical energy is typically sold to consumers in kilowatt-hours. The cost of running an electrical device is calculated by multiplying the device's power consumption in kilowatts by the operating time in hours, and by the price per kilowatt-hour. The unit price of electricity charged by utility companies may depend on the customer's consumption profile over time. Prices vary considerably by locality. In the United States prices in different states can vary by a factor of three.\n<br>\n<br>While smaller customer loads are usually billed only for energy, transmission services, and the rated capacity, larger consumers also pay for peak power consumption, the greatest power recorded in a fairly short time, such as 15 minutes. This compensates the power company for maintaining the infrastructure needed to provide peak power. These charges are billed as demand changes. Industrial users may also have extra charges according to the power factor of their load. \n<br>\n<br>Major energy production or consumption is often expressed as terawatt-hours (TWh) for a given period that is often a calendar year or financial year. A 365-day year equals 8,760 hours, so over a period of one year, power of one gigawatt equates to 8.76 terawatt-hours of energy. Conversely, one terawatt-hour is equal to a sustained power of about 114 megawatts for a period of one year. \n<br>\n<br><i>Examples \n</i><br>An electric heater consuming 1000 watts (1 kilowatt), and operating for one hour uses one kilowatt-hour of energy. A television consuming 100 watts operating for 10 hours continuously uses one kilowatt-hour. A 40-watt electric appliance operating continuously for 25 hours uses one kilowatt-hour. In terms of human power, a healthy adult male manual laborer performs work equal to about one half of one kilowatt-hour over an eight-hour day.\n<br>\n<br><b>Electrical Earthing \n</b><br>The process of transferring the immediate discharge of the electrical energy directly to the earth by the help of the low resistance wire is known as the electrical earthing. The electrical earthing is done by connecting the non-current carrying part of the equipment or neutral of supply system to the ground.\n<br>Mostly, the galvanised iron is used for the earthing. The earthing provides the simple path to the leakage current. The short circuit current of the equipment passes to the earth which has zero potential. Thus, protects the system and equipment from damage.\n<br>\n<b><i><br>Types of Electrical Earthing\n</i></b><br>● Neutral Earthing \n<br>● Equipment Earthing\n<br>\n<b><br>Importance of Earthing \n</b><br>The earthing is essential because of the following reasons \n<br>\n<br>● The earthing protects the personnel from the shortcircuit current. \n<br>● The earthing provides the easiest path to the flow of shortcircuit current even after the failure of the insulation. \n<br>● The earthing protects the apparatus and personnel from the high voltage surges and lightning discharge.<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Circuit Breakers \n</b><br>Circuit breakers on the other hand, have internal switch mechanisms that can be tripped by an unsafe surge of electricity. \n<br>Circuit Breakers have two different ways of working – the first is through the use of an electromagnet and the other is through the use of a bi-metal strip. In both instances, when turned on, the breaker allows electrical current to pass from a bottom to an upper terminal across the strip. Once the current reaches any unsafe levels, the magnetic force of the strip becomes strong enough to throw a metal lever in the switch mechanism, breaking the current. The other option that can happen is that the metal strip can bend, throwing the switch and breaking the connection. \n<br>\n<br><b>Circuit breaker components\n</b><br>The five universal circuit breaker components are: \n<br>\n<br>● Frame – Protects internal parts of the circuit breaker from outside materials \n<br>● Operating mechanism – Provides a means of opening and closing the circuit breaker \n<br>● Contacts – Allows the current to flow through the circuit breaker when closed. \n<br>● Arc extinguisher – Extinguishes an arc when the circuit breaker interrupts a fault. \n<br>● Trip unit – Opens the operating mechanism in the event of a prolonged overload or short circuit.\n<br>\n<br><b>Advantage &amp; Disadvantage \n</b><br>* Fuse is a less expensive device to protect from over current. It reacts quicker than the circuit breakers, and it as a hope that it won’t cause more failure than the breakers because of it as less moving parts. Whereas in circuit breakers if the inner working parts have some faulty, the damage to the electrical appliances will be more because they react slower than the fuse. \n<br>* One must be careful when replacing the fuse. If you install a 30amp fuse on a 20amp circuit, it ultimately leads to cause an electric fire. \n<br>* Keep on replacing melted fuses can become more expensive but, in circuit breakers, you need to flip the switch. \n<br>* Installation of a circuit breaker is complicated and expensive and also the maintenance cost is high but in a long-term, it saves a lot of money. \n<br>\n<br>\n<br><b>The Difference Between Fuse and Circuit Breaker \n</b><br>* Fuse works on the principle of electrical and thermal properties of the conducting materials whereas the Circuit breaker works on the Electromagnetism and switching principle. \n<br>* Fuses once used cannot be reused again, but the Circuit breaker can be reused. Hence, there is no need to change the circuit breaker after any fault takes place and the coil is tripped. \n<br>* Fuse cannot be used as an ON/OFF switch whereas Circuit Breaker can be used as an ON/OFF switch. \n<br>* Fuses are independent of ambient temperature, but Circuit Breaker not require any ambient temperature. \n<br>* The Fuse provides protection against only power overloads whereas Circuit Breaker provides protection for both power overloads and short circuits. \n<br>* Breaking capacity of the fuse is low as compared to that of a Circuit Breaker. \n<br>* Operating time of fuse is very less about 0.002 second, whereas Operating time of a Circuit Breaker is comparatively more than that of the fuse. It is about 0.02 – 0.05 second. \n<br>* Mode of operation of Fuse is completely automatic, but Circuit Breakers can be operated manually as well as automatically with the help of a relay system. \n<br>* The cost of the fuse is low, whereas Circuit Breakers are more costly. \n<br>\n<br><b>Voltage drop \n</b><br>A voltage drop in an electrical circuit normally occurs when a current passes through the cable. It is related to the resistance or impedance to current flow with passive elements in the circuits including cables, contacts and connectors affecting the level of voltage drop. The longer the circuit or length of cable the greater the voltage loss. The impact of a voltage drop can cause problems such as motors running slowly, heaters not heating to full potential, lights being dimmed. To compensate for voltage drop larger cross-sectional sized cables may be used which offer less resistance / impedance to current flow. \n<br>\n<br>V=IR \n<br>Ohms Law: V = I R \n<br>*Ohm’s Law (I = V/R) says: \n<br>* The current (I) through a wire or electrical resistor is \n<br>* proportional to the potential difference V across the two ends, and \n<br>* inversely proportional to its resistance R. \n<br>* Resistance (R) depends on Surface \n<br><b><br>Single- phase &amp; three- phase electric power \n</b><br>* single-phase electric power is the distribution of alternating current electric power using a system in which all the voltages of the supply vary in unison. Single-phase distribution is used when loads are mostly lighting and heating, with few large electric motors. A single-phase supply connected to an alternating current electric motor does not produce a rotating magnetic field; single-phase motors need additional circuits for starting (capacitor start motor), and such motors are uncommon above 10 kW in rating. \n<br>\n<br>* Three-phase electric power systems have at least three conductors carrying alternating current voltages that are offset in time by one-third of the period. A wye system allows the use of two different voltages from all three phases, such as a 230/400 V system which provides 230 V between the neutral (centre hub) and any one of the phases, and 400 V across any two phases. \n<br>\n<br>\n<br><b>Three Phase Supply Benefits \n</b><br>* Copper Utilization Reduction \n<br>* Lessening of Security Risks for Employees \n<br>* Labour Treatment Costs \n<br>* The efficiency of the Conductor is Greater \n<br>* Facility to Run High Power Loads \n<br>\n<br><b>Single Phase Supply Benefits \n</b><br>* The benefits of choosing a single phase supply include the following. \n<br>* The design is less complex \n<br>* Design cost is less \n<br>* Most efficient AC power supply for up to 1000 watts \n<br>* Single Phase AC Power Supply is most competent for up to 1000 watts. \n<br>* Wide-range of application uses \n<br>\n<br><b>Key Differences between Single Phase and Three Phase Supplies \n</b><br>* The definition of the single-phase power supply is, the power supplies through a single conductor \n<br>* The definition of the three-phase power supply is, the power flows through three conductors. \n<br>* The single-phase power supply has one distinct wave cycle whereas; three phase has three distinct wave cycles. \n<br>* Single phase requires the single wire to connect the circuit whereas; 3-phase needs 3-wires. \n<br>* The voltage of the single phase is 230V, whereas three phase voltage is 415V. \n<br>* The phase name of the single phase is split phase, whereas three phase has no other name. \n<br>* The capacity of power transfer in the single phase is minimum, whereas three phase has the maximum. \n<br>* The connection of single phase is simple whereas in 3-phase is complicated. \n<br>* The power failure happens in a single phase, but not occurs in three phase. \n<br>* The loss in single phase is maximum whereas in three phase is minimum. \n<br>* The single-phase efficiency is less whereas in three phase is high. \n<br>* The single-phase is inexpensive whereas the 3-phase is expensive. \n<br>* The single-phase AC power supply is utilized for home appliances and three phase power supply is used in huge industries to run heavy loads. \n<br>\n<br>\n<br><b>AC &amp; DC System \n</b><br>There are two systems of electric generation and supply, \n<br>1. Direct current or DC. \n<br>2. Alternating current or AC. \n<br>\n<br>● Direct Current: it is the kind of electric current that may or may not change the magnitude but the direction of the current will never change. E.g. Cells, Batteries and DC Generator. \n<br>\n<br>● Alternating Current: it is the kind of electric current, which not only changes its magnitude but also its sign as time passes, in a definite manner. This is the current that is supplied by Power station for domestic and commercial use. \n<br>\n<br><b>Kilowatt hour \n</b><br>One kilowatt-hour is equal to the work done or energy consumed when a device of power 1 kW is used for 1 hour. The hour is a unit of time listed among the non-SI units accepted by the International Bureau of Weights and Measures for use with the SI. Its combination with the kilowatt, a standard SI unit, is therefore permitted within the standard.\n<br>\n<br><b>Electricity sales \n</b><br>Electrical energy is typically sold to consumers in kilowatt-hours. The cost of running an electrical device is calculated by multiplying the device's power consumption in kilowatts by the operating time in hours, and by the price per kilowatt-hour. The unit price of electricity charged by utility companies may depend on the customer's consumption profile over time. Prices vary considerably by locality. In the United States prices in different states can vary by a factor of three.\n<br>\n<br>While smaller customer loads are usually billed only for energy, transmission services, and the rated capacity, larger consumers also pay for peak power consumption, the greatest power recorded in a fairly short time, such as 15 minutes. This compensates the power company for maintaining the infrastructure needed to provide peak power. These charges are billed as demand changes. Industrial users may also have extra charges according to the power factor of their load. \n<br>\n<br>Major energy production or consumption is often expressed as terawatt-hours (TWh) for a given period that is often a calendar year or financial year. A 365-day year equals 8,760 hours, so over a period of one year, power of one gigawatt equates to 8.76 terawatt-hours of energy. Conversely, one terawatt-hour is equal to a sustained power of about 114 megawatts for a period of one year. \n<br>\n<br><i>Examples \n</i><br>An electric heater consuming 1000 watts (1 kilowatt), and operating for one hour uses one kilowatt-hour of energy. A television consuming 100 watts operating for 10 hours continuously uses one kilowatt-hour. A 40-watt electric appliance operating continuously for 25 hours uses one kilowatt-hour. In terms of human power, a healthy adult male manual laborer performs work equal to about one half of one kilowatt-hour over an eight-hour day.\n<br>\n<br><b>Electrical Earthing \n</b><br>The process of transferring the immediate discharge of the electrical energy directly to the earth by the help of the low resistance wire is known as the electrical earthing. The electrical earthing is done by connecting the non-current carrying part of the equipment or neutral of the supply system to the ground.\n<br>Mostly, the galvanised iron is used for the earthing. The earthing provides the simple path to the leakage current. The short circuit current of the equipment passes to the earth which has zero potential. Thus, protects the system and equipment from damage.\n<br>\n<b><i><br>Types of Electrical Earthing\n</i></b><br>● Neutral Earthing \n<br>● Equipment Earthing\n<br>\n<b><br>Importance of Earthing \n</b><br>The earthing is essential because of the following reasons \n<br>\n<br>● The earthing protects the personnel from the shortcircuit current. \n<br>● The earthing provides the easiest path to the flow of shortcircuit current even after the failure of the insulation. \n<br>● The earthing protects the apparatus and personnel from the high voltage surges and lightning discharge.<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content5-ba",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
@@ -4856,7 +4858,7 @@
             }
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>The difference between an elevator and an escalator</b><br>● Escalators are necessary “moving stairs” that carrying public up or down between levels of a building. But elevator is a room type lift which hold few number of people at one time and transport people up and down between levels of building.\n<br>● Elevators are used in multi storied buildings such as offices, apartments, banks, hospitals, etc. But escalator are used in malls, metro and railway station, etc.<br>● Elevators are closed cabins abut Escalators are moving stairs.\n<br>● Escalator consists of a motor driven chain on a individual track which cycle on a pair of tracks. An elevator is a type of vertical transportation that moves people or goods between levels of a building. It powered by electric motor that are attach traction cable and counterweight system just like a cylindrical piston.<br>● Escalator are power boozer as they have to operate continuously, whereas elevators save electricity.\n<br>● Elevator can carry only 10 to 15 people at one time. But escalator can carry more than 20 people at one time.<br>● Escalators are energy guzzlers as they have to operate continuously, whereas elevators consume electricity only when in operation.\n<br>● Patients, luggage, etc can’t travel in escalator but can travel in Elevator.<br>● Escalator does not require a specific machine room to control the system of escalator. But elevator require a specific machine room to control the elevator.<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>The difference between an elevator and an escalator</b><br>● Escalators are necessary “moving stairs” that carry the public up or down between levels of a building. But an elevator is a room type lift which holds a few people at one time and transports people up and down between levels of building. \n<br>● Elevators are used in multi storied buildings such as offices, apartments, banks, hospitals, etc. But escalators are used in malls, metro and railway stations, etc.\n<br>● Elevators are closed cabins about Escalators are moving stairs. \n<br>● Escalator consists of a motor driven chain on an individual track which cycles on a pair of tracks. An elevator is a type of vertical transportation that moves people or goods between levels of a building. It is powered by an electric motor that attaches a traction cable and counterweight system just like a cylindrical piston.\n<br>● Escalator are power boozers as they have to operate continuously, whereas elevators save electricity. \n<br>● Elevator can carry only 10 to 15 people at one time. But escalators can carry more than 20 people at one time.\n<br>● Escalators are energy guzzlers as they have to operate continuously, whereas elevators consume electricity only when in operation. \n<br>● Patients, luggage, etc can’t travel in escalators but can travel in Elevator.\n<br>● Escalator does not require a specific machine room to control the system of escalators. But elevators require a specific machine room to control the elevator.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content5-bb",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
@@ -5371,7 +5373,7 @@
             }
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Licenses and Registration Required for Hotel Business\n</b><br>\n<br>A number of licenses and registrations are required for starting and operating a hotel business in India. Many of the licenses and registrations must be obtained prior to starting the hotel and renewed while the hotel is operational. Further, most licenses require the hotel to meet certain rules or criteria’s for maintaining validity. Therefore, it is important for Entrepreneurs in the hotel industry to be aware of these licenses and registrations – to operate a hotel business smoothly.\n<br>A lot of the license requirements depend on the type of hotel, star rating, amenities and the location of the hotel. Further, the rules and regulations to obtain license for hotel industry differs according to the states.\n<br>\n<br><b>Building Permit\n</b><br>The National Building Code of India was prepared by the Bureau of Indian Standards to unify the building regulations throughout the country. The National Building Code is adopted by all Government Departments, Municipal Bodies and other Construction Agencies. As per the National Building Code, no person shall carry out any development, erect, re-erect or make alterations or demolish any building or cause the same to be done without first obtaining a separate permit for each such development/building from the Authority. Therefore, all hotels must have a proper building permit as per the relevant Town Planning Act or Development Act or Municipal Act or any other applicable statutes for layout, building plans, water supply, sewerage, drainage, electrification, etc,.\n<br>\n<br><b>Fire Safety Permit\n</b><br>A fire safety certificate or permit is required for the Fire Department is a must for operating a hotel business. Fire safety certificate is usually provided if the building has incorporated proper fire prevention and fire safety measures as required under the relevant fire safety rules and regulations.\n<br>\n<br><b>Police License for Hotel\n</b><br>Hotels are public places that are monitored closely by the Police Department. Therefore, all hotels must maintain proper log of all Guests who have stayed at the hotel, follow relevant regulations and maintain a valid permit from the Police Department. Police license for hotels usually falls under the power of licensing of Places of Public Entertainment held by Commissioner or Additional Commissioner of Police.\n<br>\n<br><b>Health Trade License or Trade License\n</b><br>A health trade license is usually required from the local Health Department for restaurants and hotels. Health trade licenses are usually issued by the Municipal Corporation. The health trade license is required for businesses that have a direct impact on public health. Compliance with the relevant hygiene and safety norms, which are important for public health is a prerequisite for issuance of a health trade license.\n<br>\n<br><b>Business Registration\n</b><br>It is recommended that a hotel be setup under an artificial legal entity like company or LLP. By operating a company under an artificial legal entity, the liability of the promoters with respect to the business can be limited and the business as a going concern would be easily transferable to another person.\n<br>\n<br><b>ESI Registration\n<br>E</b>SI is an autonomous corporation under Ministry of Labour and Employment, Government of India. Employee’s State Insurance (ESI) registration is mandatory in India for Businesses that employ 10 or more employees. To maintain compliance with the ESI Regulations, the employer must contribute 4.75% of the wages for all employees earning Rs.15,000 or less toward ESI employer dues. The employee is required to contribute 1.75% of his/her wages as ESI dues.\n<br>\n<br><b>PF Registration</b>\n<br>A Employee Provident Fund (PF) Registration is required for any establishment that employs more than 20 persons in India. The PF Board administers a contributory provident fund, pension scheme and an insurance scheme for the workforce engaged in the organized sector in India.\n<br>\n<br><b>Bar License\n</b><br>If the hotel operates a bar or serves alcohol in the restaurants, a Bar license will be required from the relevant authorities. Bar license is usually provided by departments operating under the State Government. Hence, the requirement for bar license varies from state to state.\n<br>\n<br><b>FSSAI Food Business License\n</b><br>A FSSAI food business license under the Food Safety and Standard Act is required for operating a restaurant in India. The FSSAI food business license is usually provided for one year and is renewal at the end of each year. FSSAI license for restaurants are managed by the local FSSAI office. FSSAI license for restaurants does not fall under the purview of the Central Government.\n<br>\n<br><b>Service Tax Registration (After GST, Not Applicable)</b>\n<br>Service tax is applicable on the accommodation services provided by the hotel and food services provided by a restaurant in the hotel. Therefore, hotels must obtain and maintain service tax registration. Hotels having room Tariff of Rs. 1000/- and above have to pay the service tax on 60% of room tariff at 14% (the net rate of Service Tax comes to 8.4%). For restaurants, the service tax is applicable on 40% of the Food and Beverages bill @ 14% (the net rate of service tax comes to 5.6%). Further, the use of banquet hall where substantial food is served attracts service tax @ 14% with abatement of 30%(the net rate of service tax comes to 9.8%).\n<br>\n<br><b>GST Registration\n</b><br>Under the new GST rates, Non-AC restaurants will be charged at 12%, while AC restaurants will be charged at 18%. 5-Star restaurants will be charged a Luxury Tax of a whopping 28%. Restaurants with a turnover less than 50 lakh INR heave a sigh of relief, as they would be levied a GST rate of 5%.\n<br>Hotels and lodges having tariff less than 1000 INR will be taxed at 5%, while those between 1000-2500 will be charged at 12%. Hotels between 2500-5000 will be charged at 18%, and hotels having tariff above 5000 will be considered luxury hotels and charged at 28%.\n<br>\n<br><b><i>Note:</i></b> According to the recent ruling by the government, both AC and Non-AC restaurants will be levied a GST tax of 5%. The restaurants in 5-star hotels that charge Rs 7500 per day will be levied 18% GST. <br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Licenses and Registration Required for Hotel Business\n</b><br>\n<br>A number of licenses and registrations are required for starting and operating a hotel business in India. Many of the licenses and registrations must be obtained prior to starting the hotel and renewed while the hotel is operational. Further, most licenses require the hotel to meet certain rules or criteria’s for maintaining validity. Therefore, it is important for Entrepreneurs in the hotel industry to be aware of these licenses and registrations – to operate a hotel business smoothly.\n<br>A lot of the license requirements depend on the type of hotel, star rating, amenities and the location of the hotel. Further, the rules and regulations to obtain license for hotel industry differs according to the states.\n<br>\n<br><b>Building Permit\n</b><br>The National Building Code of India was prepared by the Bureau of Indian Standards to unify the building regulations throughout the country. The National Building Code is adopted by all Government Departments, Municipal Bodies and other Construction Agencies. As per the National Building Code, no person shall carry out any development, erect, re-erect or make alterations or demolish any building or cause the same to be done without first obtaining a separate permit for each such development/building from the Authority. Therefore, all hotels must have a proper building permit as per the relevant Town Planning Act or Development Act or Municipal Act or any other applicable statutes for layout, building plans, water supply, sewerage, drainage, electrification, etc,.\n<br><br><b>Building Bye-Laws (BBL)\n</b><br>Building Bye-Laws are legal tools used to regulate coverage, height, building bulk, and architectural design and construction aspects of buildings so as to achieve orderly development of an area.<br><br><b>Purpose of building bye laws\n</b><br>•    Ensure uniform development of buildings in a society, town and prevent haphazard development\n<br>•    Affirm public safety against noise, fire, health hazards and structural failures\n<br>•    Ensure optimum utilisation of space\n<br>•    Follow approaches which safeguard complete health, safety and comfort of residents such as proper ventilation, air, light and other essentials<br>\n<br><b>Fire Safety Permit\n</b><br>A fire safety certificate or permit is required for the Fire Department is a must for operating a hotel business. Fire safety certificate is usually provided if the building has incorporated proper fire prevention and fire safety measures as required under the relevant fire safety rules and regulations.\n<br>\n<br><b>Police License for Hotel\n</b><br>Hotels are public places that are monitored closely by the Police Department. Therefore, all hotels must maintain proper log of all Guests who have stayed at the hotel, follow relevant regulations and maintain a valid permit from the Police Department. Police license for hotels usually falls under the power of licensing of Places of Public Entertainment held by Commissioner or Additional Commissioner of Police.\n<br>\n<br><b>Health Trade License or Trade License\n</b><br>A health trade license is usually required from the local Health Department for restaurants and hotels. Health trade licenses are usually issued by the Municipal Corporation. The health trade license is required for businesses that have a direct impact on public health. Compliance with the relevant hygiene and safety norms, which are important for public health is a prerequisite for issuance of a health trade license.\n<br>\n<br><b>Business Registration\n</b><br>It is recommended that a hotel be setup under an artificial legal entity like company or LLP. By operating a company under an artificial legal entity, the liability of the promoters with respect to the business can be limited and the business as a going concern would be easily transferable to another person.\n<br>\n<br><b>ESI Registration\n<br>E</b>SI is an autonomous corporation under Ministry of Labour and Employment, Government of India. Employee’s State Insurance (ESI) registration is mandatory in India for Businesses that employ 10 or more employees. To maintain compliance with the ESI Regulations, the employer must contribute 4.75% of the wages for all employees earning Rs.15,000 or less toward ESI employer dues. The employee is required to contribute 1.75% of his/her wages as ESI dues.\n<br>\n<br><b>PF Registration</b>\n<br>A Employee Provident Fund (PF) Registration is required for any establishment that employs more than 20 persons in India. The PF Board administers a contributory provident fund, pension scheme and an insurance scheme for the workforce engaged in the organized sector in India.\n<br>\n<br><b>Bar License\n</b><br>If the hotel operates a bar or serves alcohol in the restaurants, a Bar license will be required from the relevant authorities. Bar license is usually provided by departments operating under the State Government. Hence, the requirement for bar license varies from state to state.\n<br>\n<br><b>FSSAI Food Business License\n</b><br>A FSSAI food business license under the Food Safety and Standard Act is required for operating a restaurant in India. The FSSAI food business license is usually provided for one year and is renewal at the end of each year. FSSAI license for restaurants are managed by the local FSSAI office. FSSAI license for restaurants does not fall under the purview of the Central Government.\n<br>\n<br><b>Service Tax Registration (After GST, Not Applicable)</b>\n<br>Service tax is applicable on the accommodation services provided by the hotel and food services provided by a restaurant in the hotel. Therefore, hotels must obtain and maintain service tax registration. Hotels having room Tariff of Rs. 1000/- and above have to pay the service tax on 60% of room tariff at 14% (the net rate of Service Tax comes to 8.4%). For restaurants, the service tax is applicable on 40% of the Food and Beverages bill @ 14% (the net rate of service tax comes to 5.6%). Further, the use of banquet hall where substantial food is served attracts service tax @ 14% with abatement of 30%(the net rate of service tax comes to 9.8%).\n<br>\n<br><b>GST Registration\n</b><br>Under the new GST rates, Non-AC restaurants will be charged at 12%, while AC restaurants will be charged at 18%. 5-Star restaurants will be charged a Luxury Tax of a whopping 28%. Restaurants with a turnover less than 50 lakh INR heave a sigh of relief, as they would be levied a GST rate of 5%.\n<br>Hotels and lodges having tariff less than 1000 INR will be taxed at 5%, while those between 1000-2500 will be charged at 12%. Hotels between 2500-5000 will be charged at 18%, and hotels having tariff above 5000 will be considered luxury hotels and charged at 28%.\n<br>\n<br><b><i>Note:</i></b> According to the recent ruling by the government, both AC and Non-AC restaurants will be levied a GST tax of 5%. The restaurants in 5-star hotels that charge Rs 7500 per day will be levied 18% GST. <br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "sp0crbXmFV",
@@ -7612,7 +7614,7 @@
     "Updating.html": {
       "settings": {
         "title": "Updating",
-        "order": 115
+        "order": 118
       },
       "components": [
         {
@@ -8079,7 +8081,7 @@
     "HS_Unit_4_index.html": {
       "settings": {
         "title": "HS_Unit_4_index",
-        "order": 87
+        "order": 89
       },
       "components": [
         {
@@ -8141,7 +8143,7 @@
     "HS_Unit_4.html": {
       "settings": {
         "title": "HS_Unit_4",
-        "order": 88
+        "order": 90
       },
       "components": [
         {
@@ -8194,7 +8196,7 @@
     "HS_Unit_4.2.html": {
       "settings": {
         "title": "HS_Unit_4.2",
-        "order": 90
+        "order": 92
       },
       "components": [
         {
@@ -8247,7 +8249,7 @@
     "HS_Unit_4.1.html": {
       "settings": {
         "title": "HS_Unit_4.1",
-        "order": 89
+        "order": 91
       },
       "components": [
         {
@@ -8300,7 +8302,7 @@
     "HS_Unit_5_index.html": {
       "settings": {
         "title": "HS_Unit_5_index",
-        "order": 91
+        "order": 93
       },
       "components": [
         {
@@ -8362,7 +8364,7 @@
     "HS_Unit_5.html": {
       "settings": {
         "title": "HS_Unit_5",
-        "order": 92
+        "order": 94
       },
       "components": [
         {
@@ -8472,7 +8474,7 @@
     "HS_Unit_5.1.html": {
       "settings": {
         "title": "HS_Unit_5.1",
-        "order": 93
+        "order": 95
       },
       "components": [
         {
@@ -8582,7 +8584,7 @@
     "HS_Unit_5.2.html": {
       "settings": {
         "title": "HS_Unit_5.2",
-        "order": 94
+        "order": 96
       },
       "components": [
         {
@@ -8635,7 +8637,7 @@
     "HS_Unit_5.3.html": {
       "settings": {
         "title": "HS_Unit_5.3",
-        "order": 95
+        "order": 97
       },
       "components": [
         {
@@ -8688,7 +8690,7 @@
     "FM_Q.html": {
       "settings": {
         "title": "FM_Q",
-        "order": 97
+        "order": 99
       },
       "components": [
         {
@@ -8787,7 +8789,7 @@
     "HS_Q.html": {
       "settings": {
         "title": "HS_Q",
-        "order": 98
+        "order": 101
       },
       "components": [
         {
@@ -8885,7 +8887,7 @@
     "FO_Q.html": {
       "settings": {
         "title": "FO_Q",
-        "order": 99
+        "order": 102
       },
       "components": [
         {
@@ -8983,7 +8985,7 @@
     "HK_Q.html": {
       "settings": {
         "title": "HK_Q",
-        "order": 100
+        "order": 103
       },
       "components": [
         {
@@ -9296,11 +9298,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "srkBn0oFZn",
+          "_anchor": "content4-bc",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-bc"
+          "_params": {}
         },
         {
           "alias": false,
@@ -9322,22 +9324,22 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"4\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Introduction</a> <a class=\"btn btn-white\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Renovation &amp; Restoration</a> <a class=\"btn btn-secondary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Interior&nbsp;</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"4\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"FM_Unit_4.html\" data-app-placeholder=\"Type Text\">Introduction</a> <a class=\"btn btn-white\" href=\"FM_Unit_4.1.html\" data-app-placeholder=\"Type Text\">Renovation &amp; Restoration</a> <a class=\"btn btn-secondary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Interior&nbsp;</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "srkBn0TXAG",
+          "_anchor": "header2-bd",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header2-bd"
+          "_params": {}
         }
       ]
     },
     "FM_Unit_5_index.html": {
       "settings": {
         "title": "FM_Unit_5_index",
-        "order": 75
+        "order": 77
       },
       "components": [
         {
@@ -9358,11 +9360,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "srkBruisaH",
+          "_anchor": "content4-be",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-be"
+          "_params": {}
         },
         {
           "alias": false,
@@ -9388,11 +9390,216 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "srkBrvmbnc",
+          "_anchor": "header2-bf",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "AC_Q.html": {
+      "settings": {
+        "title": "AC_Q",
+        "order": 100
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Important Questions</b></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "srmer6pLKZ",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "header2-bf"
+          "_anchor": "content4-bg"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-iconfont": {
+              "font-size": "1.4rem !important",
+              "font-family": "'Moririse2' !important",
+              "color": "@primaryColor",
+              "margin-left": "1rem"
+            },
+            ".panel-group": {
+              "border": "none"
+            },
+            ".panel-title": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "space-between"
+            },
+            ".panel-body, .card-header": {
+              "padding": "1rem 0"
+            },
+            ".panel-title-edit": {
+              "color": "#140735"
+            },
+            ".card .card-header": {
+              "background-color": "transparent",
+              "margin-bottom": "0"
+            },
+            "H3": {
+              "color": "#ed1616"
+            }
+          },
+          "_name": "content16",
+          "_customHTML": "<section class=\"content16\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow, mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <select title=\"Amount\" name=\"cardAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <div class=\"mbr-section-head align-center mb-4\" mbr-if=\"showTitle || showSubtitle\">\n                    <h3 class=\"mbr-section-title mb-0 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                        <b>Applied Cookery</b></h3>\n                    <h4 class=\"mbr-section-subtitle mb-0 mt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                       Accordion Subtitle</h4>\n                </div>\n                <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                    <div class=\"card mb-3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Two Mark Questions</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">● What are the types of maintenance in Hotels? \n<br>● What is hotel maintenance? \n<br>● What is meant by HVAC? \n<br>● What is a unit air conditioner? \n<br>● What is balanced ventilation? \n<br>● What is Hotel Renovation? \n<br>● What are building bye-law \n<br>● What is the importance of hotel renovation? \n<br>● What are the types of hotel waste? \n<br>● What are the types of Termites? \n<br>● What is meant by Frame structures? \n<br>● What is a load-bearing structure? \n<br>● What is voltage drop? \n<br>● What is energy pricing? \n<br>● What are fuses in electrical circuits? \n<br>● What is earthing \n<br>● Define Kilo-watt hour \n<br>● What are the standards of drinking water? \n<br>● What are the causes of dampness in buildings? \n<br>● Define Blueprint \n<br>● What are the types of food for storage purposes? \n<br>● How foods are classified for storage purpose \n<br>● What are display cabinets? \n<br>● What is a circuit breaker? \n<br>● What is a Dumbwaiter? \n<br>● What are the types of Sanitary Traps? \n<br>● What are the plumbing and sanitary system? \n<br>● Define ventilation?</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 1\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Five Mark Questions</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">● What is a circuit breaker?\n<br>● Differentiate between emergency and Breakdown maintenance system\n<br>● Differentiate between scheduled maintenance and emergency breakdown maintenance\n<br>● Differentiate between preventive maintenance and scheduled maintenance\n<br>● Explain the role of chief engineer in star category hotel\n<br>● What are the methods of water treatment for catering use?\n<br>● What are the types of sanitary traps?\n<br>● What are the methods of damp proofing in Buildings?\n<br>● Explain the methods of pre-construction treatment for termites in buildings\n<br>● Explain the Energy Conservation opportunities in hotels\n<br>● Differentiate between Refrigeration and Air Conditioning\n<br>● What are the types of ventilation systems?\n<br>● Different between supply system and exhaust system of ventilation\n<br>● What are service elevators and explain their use?\n<br>● What are dumb waiters?\n<br>● What are service lifts?\n<br>● Explain the types of materials used in interior decoration in the building&nbsp;<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 2\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Ten Mark Questions</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">● Explain in detail the functions of the engineering department of a star category hotel.\n<br>● With the help of an organization structure What are the duties and responsibilities of a chief engineer in a star category hotel?\n<br>● With a neat sketch explain the working of passenger elevator\n<br>● Explain with a neat sketch working of an escalator\n<br>● Differentiate between elevator and escalator\n<br>● Explain the cold water supply system in a large hotel\n<br>● Explain the hot water supply system used in a large hotel\n<br>● Explain in detail anti-termite Treatment works in Buildings.\n<br>● Explain the wastewater disposal system in buildings\n<br>● What are the methods of waste disposal in buildings? explain\n<br>● Explain in detail the types of refrigeration units used in the catering industry\n<br>● What are the methods of ventilation systems used in buildings?\n<br>● Explain in detail about hotel renovation\n<br>● What is hotel renovation and restoration, explain&nbsp;<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>What is Code Editor?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    This extension allows editing the code of block in the app. Also, it's possible to\n                                    add code to the head and body parts of pages.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 4\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>What is Mobirise Kit?\n                                    </b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Mobirise Kit is a service that provides the access to all current and new\n                                    themes/extensions developed by Mobirise. New themes/extensions are released every\n                                    month and will be available in your account during your plan period, without any\n                                    additional charge.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 5\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Can I create sites for commerical\n                                        projects?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Yes, Mobirise is free for both non-profit and commercial sites.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "srmer84DPF",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content16-bh"
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".hidden": {
+              "display": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked=\"\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "srmer9bhPy",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "design-block-bi"
+        }
+      ]
+    },
+    "FM_Unit_4.html": {
+      "settings": {
+        "title": "FM_Unit_4",
+        "order": 75
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -4</b><div><b>DESIGNS &amp; RENOVATIONS</b></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "srmeIgAXt4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-bj"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">HOTEL AND RESORT DESIGN is an integrative process that brings together the skills and expertise of owners, managers, architects, builders, and a host of others to conceive and construct a building to meet a variety of business and travel objectives. Owners see the hotel as a real estate and investment opportunity; managers expect the project to meet certain strategic goals and provide revenue; future guests need accommodations for business or personal travel, and others have myriad reasons for involvement in the development and design process.\n<br>\n<br><b>The Feasibility Study\n</b><br>Among the first steps that the developer takes is to study the feasibility of the proposed hotel. The feasibility study is usually prepared by a consulting firm and reviewed by the hotel management company. Its purpose is twofold: first, it Assesses present and future demand for lodging and such hotel services like meeting rooms, restaurants and lounges, and recreational facilities. Secondly, it estimates the proposed hotel’s operating income and expenses for five to ten years after the\n<br>hotel opens.\n<br>A hotel’s owner has many reasons for undertaking a feasibility study. Most will use the study to help obtain permanent financing; others may use it to gain a franchise or management agreement, attract equity partners, or support a request for a zoning change. Interestingly, only infrequently do these studies actually assess a project’s feasibility, which may largely depend on the owner’s investment\n<br>strategies and tax status. Instead, a feasibility study provides a description of the local area and potential markets, recommends proposed facilities, and projects cash flow. The typical report usually covers the following components:\n<br>\n<br><b>● Local area evaluation:</b> Analyzes the economic vitality of the city or region and describes the suitability of the project site for a hotel.\n<br>●&nbsp;<b>Lodging market analysis:</b> Assesses the present demand for lodging and other revenue generators and future growth rates for each of several market segments, and identifies the existing supply of competitive properties and their probable growth.\n<br>● Proposed facilities: Proposes a balance of guestroom and revenue-generating public facilities (restaurants and lounges, function rooms, retail stores, recreational facilities) and assesses the competitive position of the property.\n<br>● Financial analysis: Estimates income and expenses for the hotel over a five- or ten-year period to show its potential cash flow after fixed charges (before debt service and income tax).\n<br>\n<br><b>HOTEL PLANNING</b>\n<br>The architectural team needs to investigate the site before it can begin to develop the building’s form and organization. The following list identifies some of the things the architect must do:\n<br>\n<br>● Visibility and accessibility: Consider surrounding street patterns, road access.\n<br>● Surface conditions: Analyze terrain, vegetation, utilities, existing buildings and roads, environmental constraints.\n<br>● Subsurface conditions: Investigate water table, bearing capacity of the soil, underground utilities, environmental hazards.\n<br>● Regulatory restrictions: Research applicable zoning, parking, building, and other codes.\n<br>● Site character: Study surface conditions (above), adjoining uses, views.\n<br>● Orientation and climate: Position building and recreational facilities for sun; analyze micro climate (for resorts).\n<br>● Adaptability: Determine the site’s potential for expansion or development for other uses\n<br>\n<br><b>Following points to be considered while plan &amp; design the hotels\n</b><br>Hotel interior designers need to consider which areas should be separated and which can effectively be combined.\n<br>\n<br><b>1. GUEST ROOMS:\n</b><br>Guestroom into separate areas, accommodating such overlapping functions as sleeping, working, lounging, dressing, and hygiene. In addition, the interior designer must select individual furnishings that meet a number of basic design criteria:\n<br>\n<br>● Beds: Determine the exact room mix for the hotel; provide adequate spacing; include bedside tables and adequate lighting; consider TV viewing angle.\n<br>● Work area: Provide a desk or worktable, consider chair height and comfort, and provide a phone and adequate lighting.\n<br>● Lounge area: Provide a soft seating group; consider comfort, lighting, table(s), TV viewing angle, and adequate space for foldout sofa; assess need for mini-bar.\n<br>● Clothes storage/dressing area: Determine requirements for drawer space, the size of the closet, and luggage storage needs; provide full-length mirrors.\n<br>● Bathroom: Select bathroom fixtures and accessories; consider lighting, counter space, ventilation, and finishes.\n<br>● Decor: Evaluate furniture, fixtures, and equipment (FF&amp;E)—carpet, wall covering, sheer and blackout drapes, bedspreads, and so forth.\n<br>● Other: Screen view into guest room from the corridor; provide a separate dressing area; assess the need for balcony, adjoining rooms, etc.\n<br>\n<br><b>2. LOBBY\n</b><br>The development team must establish criteria for the planning and design of the lobby, based on the hotel’s concept and the guest markets it will attract. These criteria might include the following:\n<br>\n<br>● Circulation: Provide clear paths to front desk, elevators, food and beverage (F&amp;B) outlets, function space, etc.\n<br>● Front desk: Make the front desk visible to entering guests. It should overlook the elevators, have sufficient space for check-in‘ check-out lines, and have direct access to the front office.\n<br>● Luggage: Provide areas for bell persons, luggage storage, and other locked storage.\n<br>● Seating: Provide seating near the front desk and entrance, with more private seating nearby, and determine the need for a lobby lounge.\n<br>● Support functions: Conveniently locate retail outlets, the concierge desk, public restrooms, house and pay phones, coatrooms, the hotel directory, etc.\n<br>● Décor: Establish the hotel’s image with millwork, furnishings, artwork, lighting, signage, and so forth that are appropriate to the locale.\n<br>\n<br><b>3. FOOD AND BEVERAGE OUTLETS\n</b><br><b><i>A) Restaurants\n</i></b><br>Restaurants and lounges, because they face such severe outside competition, create the greatest operational and design challenges, Whatever the concept, the food and beverage designer must attempt to meet many generally accepted design criteria:\n<br>\n<br>● Location: Position the main three-meal restaurant convenient to the lobby. Consider locating the specialty restaurant with direct exterior access.\n<br>● Service: Group all food outlets close to the kitchen or a satellite pantry, and provide bars with nearby storage and support areas.\n<br>● Flexibility: Design large restaurants and bars so that sections can be closed during slow periods.\n<br>● Support areas: Place public restrooms, coatrooms, and telephones nearby.\n<br>● Layout: Provide a desk for the host, service stations, and a flexible mix of table sizes. Minimize or eliminate floor-level changes to better accommodate disabled guests.\n<br>\n<br><b><i>B) Function Space\n</i></b><br>● Location: Group all function areas in a location easily accessible from the lobby; in major convention hotels consider creating two or more separate function zones.\n<br>● Flexibility: Include moveable partitions in larger rooms, determine the need for multi-purpose versus dedicated rooms, and create multiple pre-function areas.\n<br>● Access: Provide a separate entrance to the function area from the street or parking lot, provide public and service access to each function room, and consider the access needs for moving display materials into the ballroom and exhibit areas.\n<br>● Support areas: Include sufficient restrooms, coatrooms, and telephones for the public and provide banquet pantry, furniture, and audiovisual storage in the back-of-the-house.\n<br>● Structure: Provide column-free function spaces and locate the ballroom and larger meeting rooms independent of the guest room tower to simplify the hotel's structure.\n<br>● Ceiling height: Determine the need for projection booths in the larger function rooms and consider how the high ceilings in these rooms will affect the floor above.\n<br>● Windows: Determine the need for natural light in function and assembly areas.\n<br>\n<br><b><i>C) Recreational Facilities:\n</i></b><br>● Floors: Select a carpet pattern to aid in room setup; use a portable dance floor.\n<br>● Walls: Apply a chair rail to walls to protect their finish; add fabric panels to improve acoustics and upgrade room appearance.\n<br>● Ceiling: Organize HVAC, lighting, sound system, fire protection, and other systems into a unified design.\n<br>● Windows: Add full blackout capability.\n<br>● Furniture: Select risers, lecterns, stacking chairs, and a balance of rectangular classroom tables and round or oval banquet tables; select high-quality chairs for upgraded conference rooms.\n<br>● Lighting: Provide a fully dimmable system including, as appropriate, chandeliers, down lights, track lights, fluorescent lighting, and decorative wall fixtures.\n<br>● HVAC/systems: Provide separate mechanical, electrical, and sound systems for each room division.\n<br>● Communications: Include TV, telephone, recording, and data lines in each function and control room.\n<br>\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "srmeIgXurZ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-bk"
+        }
+      ]
+    },
+    "FM_Unit_4.1.html": {
+      "settings": {
+        "title": "FM_Unit_4.1",
+        "order": 76
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -4</b><div><b>DESIGNS &amp; RENOVATIONS</b></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "srmvKlvXkn",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-bn"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>HOTEL RENOVATION\n</b><br>Hotel renovation is a process of updating hotel property to meet the changing needs of the market and improving outdated, broken, or damaged premises. A renovation is a conversion of an old structure into a new one within the framework. It typically matches the modern needs and requirements. Complete evacuation of the renovation area is necessary, although floor-by-floor or room-by room renovation is sometimes possible in case of minor renovation. Additionally, renovation brings something back to life and gives a new look.Under hotel renovation, the tangible products are changed, modified, updated or improved.\n<br>\n<br><b>Reason to Renovate\n</b><br>● <b>To fix a safety issue -&nbsp;</b>In hotel renovation some safety issues like electric problems, leakages, cracks in walls are handled that must be taken care of for safety and to prevent any catastrophic event.\n<br>● <b>To upgrade the functionality of the property -</b> Renovation enhances the functioning of the hotel operations. Moreover, it should not decrease the usable space or lower the value of the establishment.\n<br>● <b>To increase the comfort or and leisure of the hotel -</b> Renovation increases the comfort and leisure of the establishment. Although, the renovation should not be done solely for enhancing the aesthetic appeal or else it will end up being just a showplace, lacking the feeling of peace and relaxation.\n<br>● <b>To improve the value of the establishment - </b>Renovation improves the value of the establishment. It is often carried out to have the best returns of the value at the time of sale.\n<br>● <b>To increase the efficiency of the establishment - </b>Improvements in the structure such as new appliances and added insulation decrease the energy usage, thereby reducing the costs. It is observed that such energy efficient structures are an attraction to buyers due to their cost saving ability.\n<br>● <b>To update the style of the establishment - </b>Older structures look out dated and often less attractive. Although, renovation may take place as per the new trends of the market but the timeless styles add to the sophistication of the establishment and can command a premium price from the clientele.\n<br>● <b>To prepare the building for sale -</b> Renovation may even take place before the sale of the establishment. Generally, neutral colours, upgrades that add value and fixing any cosmetic or functional problems help the structure to get in better shape for sale.\n<br>\n<br><b>Identifying The Need For Renovation\n</b><br>Hotels comprises a large number of depreciable elements that wear out or fade with regular use and become outdated and old fashioned which require maintenance or updation to match current market trends and to maintain brands reputation. The following points help in identifying the need for renovation.\n<br>\n<br>1. Cracks, holes or chips in tiles, walls, or floors which will become more severe if not\n<br>attended in time.\n<br>2. Dirty, faded, stained or worn out carpet looks shabby.\n<br>3. The creakiness and showing rust on doors and windows. The sound while operating doors and windows also give an idea, if they require maintenance or not.\n<br>4. Lighting system is not working properly and it feels dark in the room.\n<br>5. Scratched, broken or damaged furniture and fixtures.\n<br>6. Water is not running constantly through taps or there are other plumbing problems.\n<br>7.Creaky, rusty and loose flooring.\n<br>8. Mould signs in the washrooms, toilets or in other such areas.\n<br>9. Worn out, dirty or stained furnishing.\n<br>10. High level of humidity and moisture in the rooms\n<br><br>\n<br><b>Types of Renovation\n</b><br>\n<br><b>Special Projects –</b> The scope of a special project is to perform work related to a specific system upgrade that can be handled without changing the hotel’s interior design in any substantial way. As such, special projects have typically been related to technology or engineering systems. Examples include: installation of electronic locking systems, installation of equipment for high-speed Internet access, and fire sprinkler system retrofits.<br><br><b>Minor renovations(6-Year Cycle)</b> – The minor renovation deals with the renovation or replacement of less durable furnishing and finishes without changing the physical layout. In minor renovation, you’re repairing, repainting and replacement of carpet, furniture, wall covering, drapery and other minor fixing required attention. \n<br>\n<br><b>Major renovations (12 to 15 - Year Cycle)</b> – The major renovation deals with the renovation and replacement of all furnishing and finishes and it may include change in the physical layout. Major renovation is a big step in which a hotel may be going through floors, walls, ceilings or other places that a hotel wouldn’t usually get the chance to be in.A major renovation may include all minor renovations plus the replacement of lighting, fittings, bedding, furniture and other accessories. <br>Hotel will make some big changes which may be partitioning a room or removing walls for increasing the area. The major renovation is usually done to increase or decrease the area of the kitchen or bathroom. Floor or roof and exterior enclosure elements such as walls, windows and doors also are frequently part of a renovation. A hotel may add a new kitchen, guestroom, restaurant, banquet by moving some walls, but adding any extra rooms or space separately is not a part of major renovation. \n<br>\n<br><b>Restoration (25 to 45 - Year Cycle)</b> - In a restoration or total renovation, major elements such as entire corridors, lobby, elevators, stairs, lavatories, complete floor, electrical systems as well as emergency exits revamping, even locations or rooms are added, reconfigured, or relocated for efficient operations and other marketability reasons or to meet the new structural designs.\n<br>\n<br><b>\nThe Planning Phase\n</b><br>\n<br>The planning phase for property renovation consists of several steps:\n<br>\n<br>● Conduct strategic review\n<br>● Survey the property and create a preliminary project list\n<br>● Estimate project costs and benefits\n<br>\n<br><b>Conduct a Strategic Review:</b> The annual renovation process should begin with an understanding of the hotel’s long-term needs, ideally arrived at through a facility life-cycle cost study. However, this plan is normally based on the typical life of building components, without regard to current competitive pressures. Therefore, in addition to this long-term plan, management must have a strategy to contend with the property's immediate competitive environment.\n<br>\n<br>Owners and managers need to take a step-by-step approach to the assessment of the property's current and desired operational mission; there should be a rigorous periodic evaluation of the property, a strategic review. In most organizations, this step is usually handled as a joint effort between management and ownership, typically conducted by the property’s general manager and the owner’s representative or asset manager. In large hotel chains, regional or divisional managers are\n<br>also involved.\n<br>\n<br><b>Survey the Property and Create a Preliminary Project List:</b> The need to properly survey the property cannot be overemphasized. A thorough survey of the property helps management determine what areas and facilities need to be renovated. A proper survey includes input from all department heads. The survey is meant to identify needs and stimulate ideas. Another reason to survey is to force managers responsible for the renovation to inspect the spaces to be renovated. In many cases, two surveys are appropriate. The first survey is typically performed by the hotel's management to identify needs. Once renovation projects have been determined, a follow-up survey is done by the manager in charge of the renovation along with the designer(s) and/or engineer(s) to determine the exact scope of the renovation work. \n<br>\n<br><b>Estimating benefits:</b> There are two types of benefit analysis: one for projects directly affecting revenues, and the other for projects that support revenues. An example of a project directly affecting revenues is the renovation of a lounge; an example of a project that supports revenues would be replacing the roof. The key to analyzing projects directly affecting revenues is to compare the net benefits (i.e, increase in revenues due to renovation) with the renovation costs, using the appropriate present value techniques for revenues that are projected to occur in the future.<br><br><br><b>RENOVATION PROCESS\n</b><br>This process involves renovating a hotel property so as to give it a new and fresh look. This may include repairing and replacing furniture, finishes, soft furnishing and fittings that have become obsolete or need attention. This process is usually carried out every 4-6 years, depending on the wear and tear of building and budget of the hotel. The following steps are carried out in the refurbishing process.\n<br>\n<br><b>1. Physical Evaluation:</b> Physical inspection of the hotel structure is necessary to determine whether refurbishing is required or not. Physical inspection is usually carried out by an executive housekeeper who checks every guestroom and areas in the building for refurbishing. After inspection, a detailed report is prepared which specifies the areas required renovation and estimated budget is prepared.\n<br>\n<br><b>2. Time Allocation:</b> The expected time to complete the renovation process must be taken into account when preparing the reports and costs. The refurbishment process must be carried out in off season or during the period of low occupancy.\n<br>\n<br><b>3. Budgeting:</b> Budgeting is to prepare the estimation cost required for the decided project. The detailed report for money expenditure is prepared for different areas.\n<br>\n<br><b>4. Theme and Design feasibility:</b> In this stage a theme or design is decided for the specific area. Design may be same or different for different spaces.Once a theme or design is decided then a feasibility study is carried out to test the financial viability for the same.\n<br>\n<br><b>5. Décor Preliminaries:</b> Suitable decoration material such as fabrics, colours, finishes should be selected carefully. It should be durable, fire resistant, matching with theme and most importantly easy to clean and maintain.\n<br>\n<br><b>6. Hiring Contractors:</b> The refurbishment is carried out either by the hotel staff or by the contractors. A cost comparison must be done before deciding whether a tender should be invited or not. Usually this kind of work is handled by the contractors as it is expensive to hire new staff, prepare new uniforms, arrange training programmes and so on.\n<br>\n<br>7. Equipment and Raw Material inventory and Ware-Housing: Equipment and raw material required for the process must be purchased after market research. Sufficient supplies should be available in the store all time.\n<br>\n<br><b>8. Pre Arrangements for guests, staff and suppliers:</b> Pre arrangement for guests should be made in prior for avoiding any inconvenience and discomfort to the guests. Guests should be informed about the renovation work carried out in the premises.\n<br>\n<br><b>9. Procedural Guidelines:</b> Guidelines are the parameters set aside to determine a course of action. It may include planning, regulations, evaluations, policies and laws related to the project.\n<br>\n<br><b>10. Control:</b> Success of any project largely depends upon controlling. Controlling checks the mistakes and errors and also helps in facing challenges. It helps in testing, regulating, adjusting or verifying. Controlling is necessary at each level and in each department. \n<br>\n<br><b>SUBSIDIARY PROCESS IN RENOVATION</b>\n<br>There are four major sub-processes in renovation.\n<br>\n<br><b>1. Refurbishing:</b> It involves repairing and fixing some areas or items, decorating a guest room,and restoring the hotels’ appearance and condition.The refurbishment includes changing the furniture, curtains, fittings etc.\n<br>\n<br><b>2. Redecoration: </b>The process of applying paint, touching up of furniture and finishes, changing the wallpapers in rooms. It can also be used to change the style of rooms or other areas.\n<br>\n<br><b>3. Restoration:</b> The term ‘restoration’ is the act of returning the building structure to its former condition. This is usually applied for heritage hotels and some old infrastructure. It also includes repairing walls, replacing old furniture and fixtures, removing old wood floors and refinishing hard floors.\n<br>\n<br><b>4. Remodeling:</b> Remodeling is conversions of existing spaces and structure and the replacement of a defective area or item in the hotel and the addition of space and extensions.In this, a hotel focus on improving a structure that is defective, outdated, broken or damaged.&nbsp;<br><br><b>Post-Renovation Marketing Check-list:</b>\n<br>● Update the hotel’s website and third party booking sites with latest photos\n<br>● Send a press release to local media/newspapers\n<br>● Create videos and Google 360 video tour could be very effective\n<br>● Share renovation description, photos and videos over all social networking&nbsp;<br>● Update sales brochures\n<br>● Place digital frame with latest pictures at reception\n<br>● Email to past clients, notifying them about updating and up gradation&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "srmvKm38RI",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-bo"
         }
       ]
     }
