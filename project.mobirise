@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "Help.html",
+    "currentPage": "FM_Unit_4_index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -70,7 +70,7 @@
         "url": "https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800"
       }
     ],
-    "uniqCompNum": 421,
+    "uniqCompNum": 423,
     "versionPublish": "5.1.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -81,9 +81,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "witsec-white-label": true,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "witsec-white-label": true
   },
   "pages": {
     "index.html": {
@@ -258,7 +256,7 @@
     "Syllabus.html": {
       "settings": {
         "title": "Syllabus",
-        "order": 104
+        "order": 105
       },
       "components": [
         {
@@ -296,7 +294,7 @@
     "1 Sem Syllabus.html": {
       "settings": {
         "title": "1 Sem Syllabus",
-        "order": 106
+        "order": 107
       },
       "components": [
         {
@@ -334,7 +332,7 @@
     "5 Sem Syllabus.html": {
       "settings": {
         "title": "5 Sem Syllabus",
-        "order": 111
+        "order": 112
       },
       "components": [
         {
@@ -372,7 +370,7 @@
     "3 Sem Syllabus.html": {
       "settings": {
         "title": "3 Sem Syllabus",
-        "order": 108
+        "order": 109
       },
       "components": [
         {
@@ -410,7 +408,7 @@
     "AC Syllabus.html": {
       "settings": {
         "title": "AC Syllabus",
-        "order": 107
+        "order": 108
       },
       "components": [
         {
@@ -474,7 +472,7 @@
     "HK Syllabus.html": {
       "settings": {
         "title": "HK Syllabus",
-        "order": 109
+        "order": 110
       },
       "components": [
         {
@@ -538,7 +536,7 @@
     "FO Syllabus.html": {
       "settings": {
         "title": "FO Syllabus",
-        "order": 110
+        "order": 111
       },
       "components": [
         {
@@ -602,7 +600,7 @@
     "H&S Syllabus.html": {
       "settings": {
         "title": "H&S Syllabus",
-        "order": 112
+        "order": 113
       },
       "components": [
         {
@@ -666,7 +664,7 @@
     "FM Syllabus.html": {
       "settings": {
         "title": "FM Syllabus",
-        "order": 113
+        "order": 114
       },
       "components": [
         {
@@ -730,7 +728,7 @@
     "Contact.html": {
       "settings": {
         "title": "Contact",
-        "order": 114
+        "order": 115
       },
       "components": [
         {
@@ -901,7 +899,7 @@
     "Ref.Books.html": {
       "settings": {
         "title": "Ref.Books",
-        "order": 105
+        "order": 106
       },
       "components": [
         {
@@ -1082,7 +1080,7 @@
             }
           },
           "_name": "header18",
-          "_customHTML": "<section class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"135\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Intro with gradient background</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>\n                        Applied Cookery</b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Choose Your Unit</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"AC_Unit_1_index.html\" data-app-placeholder=\"Type Text\">Unit - 1</a> <a class=\"btn btn-secondary\" href=\"AC_Unit_2_index.html\" data-app-placeholder=\"Type Text\">Unit - 2</a> <a class=\"btn btn-warning\" href=\"AC_Unit_3_index.html\" data-app-placeholder=\"Type Text\">Unit - 3</a> <a class=\"btn btn-danger\" href=\"AC_Unit_3.1_index.html\" data-app-placeholder=\"Type Text\">Unit - 3.1</a> <a class=\"btn btn-success\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 4</a> <a class=\"btn btn-black\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 5</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"135\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Intro with gradient background</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>\n                        Applied Cookery</b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Choose Your Unit</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"AC_Unit_1_index.html\" data-app-placeholder=\"Type Text\">Unit - 1</a> <a class=\"btn btn-secondary\" href=\"AC_Unit_2_index.html\" data-app-placeholder=\"Type Text\">Unit - 2</a> <a class=\"btn btn-warning\" href=\"AC_Unit_3_index.html\" data-app-placeholder=\"Type Text\">Unit - 3</a> <a class=\"btn btn-danger\" href=\"AC_Unit_3.1_index.html\" data-app-placeholder=\"Type Text\">Unit - 3.1</a> <a class=\"btn btn-success\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 4</a> <a class=\"btn btn-black\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 5</a> <a class=\"btn btn-white-outline\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Important Questions</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sle9faRUq6",
           "_anchor": "header18-17",
           "_protectedParams": [],
@@ -1167,7 +1165,7 @@
     "H&S Units.html": {
       "settings": {
         "title": "H&S Units",
-        "order": 78
+        "order": 79
       },
       "components": [
         {
@@ -1239,7 +1237,7 @@
     "Disclaimer.html": {
       "settings": {
         "title": "Disclaimer",
-        "order": 115
+        "order": 116
       },
       "components": [
         {
@@ -1287,7 +1285,7 @@
     "Privacy Policy.html": {
       "settings": {
         "title": "Privacy Policy",
-        "order": 116
+        "order": 117
       },
       "components": [
         {
@@ -1335,7 +1333,7 @@
     "Help.html": {
       "settings": {
         "title": "Help",
-        "order": 98
+        "order": 99
       },
       "components": [
         {
@@ -1359,7 +1357,7 @@
     "error.html": {
       "settings": {
         "title": "Error",
-        "order": 117
+        "order": 118
       },
       "components": [
         {
@@ -2762,7 +2760,7 @@
     "HS_Unit_1.html": {
       "settings": {
         "title": "HS_Unit_1",
-        "order": 79
+        "order": 80
       },
       "components": [
         {
@@ -2815,7 +2813,7 @@
     "HS_Unit_2_index.html": {
       "settings": {
         "title": "HS_Unit_2_index",
-        "order": 80
+        "order": 81
       },
       "components": [
         {
@@ -2877,7 +2875,7 @@
     "HS_Unit_2.1.html": {
       "settings": {
         "title": "HS_Unit_2.1",
-        "order": 82
+        "order": 83
       },
       "components": [
         {
@@ -2987,7 +2985,7 @@
     "HS_Unit_2.2.html": {
       "settings": {
         "title": "HS_Unit_2.2",
-        "order": 83
+        "order": 84
       },
       "components": [
         {
@@ -3076,7 +3074,7 @@
     "HS_Unit_3.html": {
       "settings": {
         "title": "HS_Unit_3",
-        "order": 85
+        "order": 86
       },
       "components": [
         {
@@ -3129,7 +3127,7 @@
     "HS_Unit_3.1.html": {
       "settings": {
         "title": "HS_Unit_3.1",
-        "order": 86
+        "order": 87
       },
       "components": [
         {
@@ -3353,7 +3351,7 @@
     "HS_Unit_3.2.html": {
       "settings": {
         "title": "HS_Unit_3.2",
-        "order": 87
+        "order": 88
       },
       "components": [
         {
@@ -3406,7 +3404,7 @@
     "HS_Unit_3.3.html": {
       "settings": {
         "title": "HS_Unit_3.3",
-        "order": 88
+        "order": 89
       },
       "components": [
         {
@@ -3459,7 +3457,7 @@
     "HS_Unit_3_index.html": {
       "settings": {
         "title": "HS_Unit_3_index",
-        "order": 84
+        "order": 85
       },
       "components": [
         {
@@ -3521,7 +3519,7 @@
     "HS_Unit_2.html": {
       "settings": {
         "title": "HS_Unit_2",
-        "order": 81
+        "order": 82
       },
       "components": [
         {
@@ -7614,7 +7612,7 @@
     "Updating.html": {
       "settings": {
         "title": "Updating",
-        "order": 118
+        "order": 119
       },
       "components": [
         {
@@ -8081,7 +8079,7 @@
     "HS_Unit_4_index.html": {
       "settings": {
         "title": "HS_Unit_4_index",
-        "order": 89
+        "order": 90
       },
       "components": [
         {
@@ -8143,7 +8141,7 @@
     "HS_Unit_4.html": {
       "settings": {
         "title": "HS_Unit_4",
-        "order": 90
+        "order": 91
       },
       "components": [
         {
@@ -8196,7 +8194,7 @@
     "HS_Unit_4.2.html": {
       "settings": {
         "title": "HS_Unit_4.2",
-        "order": 92
+        "order": 93
       },
       "components": [
         {
@@ -8249,7 +8247,7 @@
     "HS_Unit_4.1.html": {
       "settings": {
         "title": "HS_Unit_4.1",
-        "order": 91
+        "order": 92
       },
       "components": [
         {
@@ -8302,7 +8300,7 @@
     "HS_Unit_5_index.html": {
       "settings": {
         "title": "HS_Unit_5_index",
-        "order": 93
+        "order": 94
       },
       "components": [
         {
@@ -8364,7 +8362,7 @@
     "HS_Unit_5.html": {
       "settings": {
         "title": "HS_Unit_5",
-        "order": 94
+        "order": 95
       },
       "components": [
         {
@@ -8474,7 +8472,7 @@
     "HS_Unit_5.1.html": {
       "settings": {
         "title": "HS_Unit_5.1",
-        "order": 95
+        "order": 96
       },
       "components": [
         {
@@ -8584,7 +8582,7 @@
     "HS_Unit_5.2.html": {
       "settings": {
         "title": "HS_Unit_5.2",
-        "order": 96
+        "order": 97
       },
       "components": [
         {
@@ -8637,7 +8635,7 @@
     "HS_Unit_5.3.html": {
       "settings": {
         "title": "HS_Unit_5.3",
-        "order": 97
+        "order": 98
       },
       "components": [
         {
@@ -8690,7 +8688,7 @@
     "FM_Q.html": {
       "settings": {
         "title": "FM_Q",
-        "order": 99
+        "order": 100
       },
       "components": [
         {
@@ -8789,7 +8787,7 @@
     "HS_Q.html": {
       "settings": {
         "title": "HS_Q",
-        "order": 101
+        "order": 102
       },
       "components": [
         {
@@ -8887,7 +8885,7 @@
     "FO_Q.html": {
       "settings": {
         "title": "FO_Q",
-        "order": 102
+        "order": 103
       },
       "components": [
         {
@@ -8985,7 +8983,7 @@
     "HK_Q.html": {
       "settings": {
         "title": "HK_Q",
-        "order": 103
+        "order": 104
       },
       "components": [
         {
@@ -9324,7 +9322,7 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"4\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"FM_Unit_4.html\" data-app-placeholder=\"Type Text\">Introduction</a> <a class=\"btn btn-white\" href=\"FM_Unit_4.1.html\" data-app-placeholder=\"Type Text\">Renovation &amp; Restoration</a> <a class=\"btn btn-secondary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Interior&nbsp;</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"4\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"FM_Unit_4.html\" data-app-placeholder=\"Type Text\">Introduction</a> <a class=\"btn btn-white\" href=\"FM_Unit_4.1.html\" data-app-placeholder=\"Type Text\">Renovation &amp; Restoration</a> <a class=\"btn btn-secondary\" href=\"FM_Unit_4.2.html\" data-app-placeholder=\"Type Text\">Interior&nbsp;</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "srkBn0TXAG",
@@ -9339,7 +9337,7 @@
     "FM_Unit_5_index.html": {
       "settings": {
         "title": "FM_Unit_5_index",
-        "order": 77
+        "order": 78
       },
       "components": [
         {
@@ -9401,7 +9399,7 @@
     "AC_Q.html": {
       "settings": {
         "title": "AC_Q",
-        "order": 100
+        "order": 101
       },
       "components": [
         {
@@ -9422,11 +9420,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "srmer6pLKZ",
+          "_anchor": "content4-bg",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-bg"
+          "_params": {}
         },
         {
           "alias": false,
@@ -9468,15 +9466,15 @@
             }
           },
           "_name": "content16",
-          "_customHTML": "<section class=\"content16\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow, mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <select title=\"Amount\" name=\"cardAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <div class=\"mbr-section-head align-center mb-4\" mbr-if=\"showTitle || showSubtitle\">\n                    <h3 class=\"mbr-section-title mb-0 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                        <b>Applied Cookery</b></h3>\n                    <h4 class=\"mbr-section-subtitle mb-0 mt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                       Accordion Subtitle</h4>\n                </div>\n                <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                    <div class=\"card mb-3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Two Mark Questions</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">● What are the types of maintenance in Hotels? \n<br>● What is hotel maintenance? \n<br>● What is meant by HVAC? \n<br>● What is a unit air conditioner? \n<br>● What is balanced ventilation? \n<br>● What is Hotel Renovation? \n<br>● What are building bye-law \n<br>● What is the importance of hotel renovation? \n<br>● What are the types of hotel waste? \n<br>● What are the types of Termites? \n<br>● What is meant by Frame structures? \n<br>● What is a load-bearing structure? \n<br>● What is voltage drop? \n<br>● What is energy pricing? \n<br>● What are fuses in electrical circuits? \n<br>● What is earthing \n<br>● Define Kilo-watt hour \n<br>● What are the standards of drinking water? \n<br>● What are the causes of dampness in buildings? \n<br>● Define Blueprint \n<br>● What are the types of food for storage purposes? \n<br>● How foods are classified for storage purpose \n<br>● What are display cabinets? \n<br>● What is a circuit breaker? \n<br>● What is a Dumbwaiter? \n<br>● What are the types of Sanitary Traps? \n<br>● What are the plumbing and sanitary system? \n<br>● Define ventilation?</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 1\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Five Mark Questions</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">● What is a circuit breaker?\n<br>● Differentiate between emergency and Breakdown maintenance system\n<br>● Differentiate between scheduled maintenance and emergency breakdown maintenance\n<br>● Differentiate between preventive maintenance and scheduled maintenance\n<br>● Explain the role of chief engineer in star category hotel\n<br>● What are the methods of water treatment for catering use?\n<br>● What are the types of sanitary traps?\n<br>● What are the methods of damp proofing in Buildings?\n<br>● Explain the methods of pre-construction treatment for termites in buildings\n<br>● Explain the Energy Conservation opportunities in hotels\n<br>● Differentiate between Refrigeration and Air Conditioning\n<br>● What are the types of ventilation systems?\n<br>● Different between supply system and exhaust system of ventilation\n<br>● What are service elevators and explain their use?\n<br>● What are dumb waiters?\n<br>● What are service lifts?\n<br>● Explain the types of materials used in interior decoration in the building&nbsp;<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 2\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Ten Mark Questions</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">● Explain in detail the functions of the engineering department of a star category hotel.\n<br>● With the help of an organization structure What are the duties and responsibilities of a chief engineer in a star category hotel?\n<br>● With a neat sketch explain the working of passenger elevator\n<br>● Explain with a neat sketch working of an escalator\n<br>● Differentiate between elevator and escalator\n<br>● Explain the cold water supply system in a large hotel\n<br>● Explain the hot water supply system used in a large hotel\n<br>● Explain in detail anti-termite Treatment works in Buildings.\n<br>● Explain the wastewater disposal system in buildings\n<br>● What are the methods of waste disposal in buildings? explain\n<br>● Explain in detail the types of refrigeration units used in the catering industry\n<br>● What are the methods of ventilation systems used in buildings?\n<br>● Explain in detail about hotel renovation\n<br>● What is hotel renovation and restoration, explain&nbsp;<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>What is Code Editor?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    This extension allows editing the code of block in the app. Also, it's possible to\n                                    add code to the head and body parts of pages.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 4\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>What is Mobirise Kit?\n                                    </b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Mobirise Kit is a service that provides the access to all current and new\n                                    themes/extensions developed by Mobirise. New themes/extensions are released every\n                                    month and will be available in your account during your plan period, without any\n                                    additional charge.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 5\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Can I create sites for commerical\n                                        projects?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Yes, Mobirise is free for both non-profit and commercial sites.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content16\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow, mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <select title=\"Amount\" name=\"cardAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <div class=\"mbr-section-head align-center mb-4\" mbr-if=\"showTitle || showSubtitle\">\n                    <h3 class=\"mbr-section-title mb-0 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                        <b>Applied Cookery</b></h3>\n                    <h4 class=\"mbr-section-subtitle mb-0 mt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                       Accordion Subtitle</h4>\n                </div>\n                <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                    <div class=\"card mb-3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Two Mark Questions</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">● Define Cookery\n<br>● Name two positive traits of successful culinary personnel\n<br>● Who is Auguste Escoffier\n<br>● Who invented the classical kitchen brigade and why important?\n<br>● What is meant by Sous chef?\n<br>● What is meant by TOQUE?\n<br>● Define Mise-en-place\n<br>● List 4 types of vegetables\n<br>● List 4 classification of vegetables\n<br>● List 4 types of fruit coulis used in cooking\n<br>● Write Main 4 types food contamination\n<br>● Write any two aims for cooking food\n<br>● Write 4 methods of cooking\n<br>● What is meant by Stock?\n<br>● What is meant by Estouffade?\n<br>● What is meant by Consomme’\n<br>● Name 4 consomme variations\n<br>● What is the difference between roasting and grilling?\n<br>● Define Baking\n<br>● What is meant by Roux?\n<br>● What is meant by Puree?\n<br>● What is meant by Sauce?\n<br>● What is meant by Baste?\n<br>● Bechamel sauce is named after\n<br>● What is meant by Espagnole?\n<br>● Define Bisques\n<br>● Define Parboil\n<br>● Define Shortening\n<br>● Write the difference between Boiling and Broiling\n<br>● What is meant by Blanching\n<br>● What is meant by Thickening agents?\n<br>● What is meant by Coagulation?&nbsp;</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 1\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Five Mark Questions</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">● What is classical brigade system in kitchen and draw explain\n<br>● Explain different part of a knife\n<br>● Explain different cuts of vegetables\n<br>● List color pigments in veg. and explain how you will retain the color during cooling/cooking of Veg.\n<br>● Define salads. What are the different parts of a salad? Discuss various types of salad dressing\n<br>● Explain the classification of soup\n<br>● Name the Mother Sauces. Write the recipe for the White sauce\n<br>● Explain the Structure of the egg\n<br>● Types of stocks and explain\n<br>● Explain different methods of cooking\n<br>● Classify raising agents and briefly explain the chemical raising agents<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 2\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Ten Mark Questions</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">● Draw the organization chart of the culinary department of a 5- star hotel and explain the duties of the executive chef\n<br>● Classify vegetables draw and explain vegetable cuts\n<br>● Classify and explain the different methods of cooking\n<br>● Draw and explain the structure of Egg\n<br>● Define stock and recipe of brown stock and white stock\n<br>● Five types of mother sauce and Espagnole sauce explain\n<br>● Explain: Shortening agents, Raising agents, Thickening agent, selection of egg and caramelization of sugar\n<br>● Explain: Roasting, Broiling, Grilling, Poaching, Fring, Boiling, Baking, Steaming&nbsp;<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>What is Code Editor?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    This extension allows editing the code of block in the app. Also, it's possible to\n                                    add code to the head and body parts of pages.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 4\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>What is Mobirise Kit?\n                                    </b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Mobirise Kit is a service that provides the access to all current and new\n                                    themes/extensions developed by Mobirise. New themes/extensions are released every\n                                    month and will be available in your account during your plan period, without any\n                                    additional charge.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 5\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Can I create sites for commerical\n                                        projects?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Yes, Mobirise is free for both non-profit and commercial sites.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "srmer84DPF",
+          "_anchor": "content16-bh",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content16-bh"
+          "_params": {}
         },
         {
           "_name": "design-block",
@@ -9489,11 +9487,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "srmer9bhPy",
+          "_anchor": "design-block-bi",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "design-block-bi"
+          "_params": {}
         }
       ]
     },
@@ -9521,11 +9519,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "srmeIgAXt4",
+          "_anchor": "content4-bj",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-bj"
+          "_params": {}
         },
         {
           "alias": false,
@@ -9538,15 +9536,15 @@
             }
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">HOTEL AND RESORT DESIGN is an integrative process that brings together the skills and expertise of owners, managers, architects, builders, and a host of others to conceive and construct a building to meet a variety of business and travel objectives. Owners see the hotel as a real estate and investment opportunity; managers expect the project to meet certain strategic goals and provide revenue; future guests need accommodations for business or personal travel, and others have myriad reasons for involvement in the development and design process.\n<br>\n<br><b>The Feasibility Study\n</b><br>Among the first steps that the developer takes is to study the feasibility of the proposed hotel. The feasibility study is usually prepared by a consulting firm and reviewed by the hotel management company. Its purpose is twofold: first, it Assesses present and future demand for lodging and such hotel services like meeting rooms, restaurants and lounges, and recreational facilities. Secondly, it estimates the proposed hotel’s operating income and expenses for five to ten years after the\n<br>hotel opens.\n<br>A hotel’s owner has many reasons for undertaking a feasibility study. Most will use the study to help obtain permanent financing; others may use it to gain a franchise or management agreement, attract equity partners, or support a request for a zoning change. Interestingly, only infrequently do these studies actually assess a project’s feasibility, which may largely depend on the owner’s investment\n<br>strategies and tax status. Instead, a feasibility study provides a description of the local area and potential markets, recommends proposed facilities, and projects cash flow. The typical report usually covers the following components:\n<br>\n<br><b>● Local area evaluation:</b> Analyzes the economic vitality of the city or region and describes the suitability of the project site for a hotel.\n<br>●&nbsp;<b>Lodging market analysis:</b> Assesses the present demand for lodging and other revenue generators and future growth rates for each of several market segments, and identifies the existing supply of competitive properties and their probable growth.\n<br>● Proposed facilities: Proposes a balance of guestroom and revenue-generating public facilities (restaurants and lounges, function rooms, retail stores, recreational facilities) and assesses the competitive position of the property.\n<br>● Financial analysis: Estimates income and expenses for the hotel over a five- or ten-year period to show its potential cash flow after fixed charges (before debt service and income tax).\n<br>\n<br><b>HOTEL PLANNING</b>\n<br>The architectural team needs to investigate the site before it can begin to develop the building’s form and organization. The following list identifies some of the things the architect must do:\n<br>\n<br>● Visibility and accessibility: Consider surrounding street patterns, road access.\n<br>● Surface conditions: Analyze terrain, vegetation, utilities, existing buildings and roads, environmental constraints.\n<br>● Subsurface conditions: Investigate water table, bearing capacity of the soil, underground utilities, environmental hazards.\n<br>● Regulatory restrictions: Research applicable zoning, parking, building, and other codes.\n<br>● Site character: Study surface conditions (above), adjoining uses, views.\n<br>● Orientation and climate: Position building and recreational facilities for sun; analyze micro climate (for resorts).\n<br>● Adaptability: Determine the site’s potential for expansion or development for other uses\n<br>\n<br><b>Following points to be considered while plan &amp; design the hotels\n</b><br>Hotel interior designers need to consider which areas should be separated and which can effectively be combined.\n<br>\n<br><b>1. GUEST ROOMS:\n</b><br>Guestroom into separate areas, accommodating such overlapping functions as sleeping, working, lounging, dressing, and hygiene. In addition, the interior designer must select individual furnishings that meet a number of basic design criteria:\n<br>\n<br>● Beds: Determine the exact room mix for the hotel; provide adequate spacing; include bedside tables and adequate lighting; consider TV viewing angle.\n<br>● Work area: Provide a desk or worktable, consider chair height and comfort, and provide a phone and adequate lighting.\n<br>● Lounge area: Provide a soft seating group; consider comfort, lighting, table(s), TV viewing angle, and adequate space for foldout sofa; assess need for mini-bar.\n<br>● Clothes storage/dressing area: Determine requirements for drawer space, the size of the closet, and luggage storage needs; provide full-length mirrors.\n<br>● Bathroom: Select bathroom fixtures and accessories; consider lighting, counter space, ventilation, and finishes.\n<br>● Decor: Evaluate furniture, fixtures, and equipment (FF&amp;E)—carpet, wall covering, sheer and blackout drapes, bedspreads, and so forth.\n<br>● Other: Screen view into guest room from the corridor; provide a separate dressing area; assess the need for balcony, adjoining rooms, etc.\n<br>\n<br><b>2. LOBBY\n</b><br>The development team must establish criteria for the planning and design of the lobby, based on the hotel’s concept and the guest markets it will attract. These criteria might include the following:\n<br>\n<br>● Circulation: Provide clear paths to front desk, elevators, food and beverage (F&amp;B) outlets, function space, etc.\n<br>● Front desk: Make the front desk visible to entering guests. It should overlook the elevators, have sufficient space for check-in‘ check-out lines, and have direct access to the front office.\n<br>● Luggage: Provide areas for bell persons, luggage storage, and other locked storage.\n<br>● Seating: Provide seating near the front desk and entrance, with more private seating nearby, and determine the need for a lobby lounge.\n<br>● Support functions: Conveniently locate retail outlets, the concierge desk, public restrooms, house and pay phones, coatrooms, the hotel directory, etc.\n<br>● Décor: Establish the hotel’s image with millwork, furnishings, artwork, lighting, signage, and so forth that are appropriate to the locale.\n<br>\n<br><b>3. FOOD AND BEVERAGE OUTLETS\n</b><br><b><i>A) Restaurants\n</i></b><br>Restaurants and lounges, because they face such severe outside competition, create the greatest operational and design challenges, Whatever the concept, the food and beverage designer must attempt to meet many generally accepted design criteria:\n<br>\n<br>● Location: Position the main three-meal restaurant convenient to the lobby. Consider locating the specialty restaurant with direct exterior access.\n<br>● Service: Group all food outlets close to the kitchen or a satellite pantry, and provide bars with nearby storage and support areas.\n<br>● Flexibility: Design large restaurants and bars so that sections can be closed during slow periods.\n<br>● Support areas: Place public restrooms, coatrooms, and telephones nearby.\n<br>● Layout: Provide a desk for the host, service stations, and a flexible mix of table sizes. Minimize or eliminate floor-level changes to better accommodate disabled guests.\n<br>\n<br><b><i>B) Function Space\n</i></b><br>● Location: Group all function areas in a location easily accessible from the lobby; in major convention hotels consider creating two or more separate function zones.\n<br>● Flexibility: Include moveable partitions in larger rooms, determine the need for multi-purpose versus dedicated rooms, and create multiple pre-function areas.\n<br>● Access: Provide a separate entrance to the function area from the street or parking lot, provide public and service access to each function room, and consider the access needs for moving display materials into the ballroom and exhibit areas.\n<br>● Support areas: Include sufficient restrooms, coatrooms, and telephones for the public and provide banquet pantry, furniture, and audiovisual storage in the back-of-the-house.\n<br>● Structure: Provide column-free function spaces and locate the ballroom and larger meeting rooms independent of the guest room tower to simplify the hotel's structure.\n<br>● Ceiling height: Determine the need for projection booths in the larger function rooms and consider how the high ceilings in these rooms will affect the floor above.\n<br>● Windows: Determine the need for natural light in function and assembly areas.\n<br>\n<br><b><i>C) Recreational Facilities:\n</i></b><br>● Floors: Select a carpet pattern to aid in room setup; use a portable dance floor.\n<br>● Walls: Apply a chair rail to walls to protect their finish; add fabric panels to improve acoustics and upgrade room appearance.\n<br>● Ceiling: Organize HVAC, lighting, sound system, fire protection, and other systems into a unified design.\n<br>● Windows: Add full blackout capability.\n<br>● Furniture: Select risers, lecterns, stacking chairs, and a balance of rectangular classroom tables and round or oval banquet tables; select high-quality chairs for upgraded conference rooms.\n<br>● Lighting: Provide a fully dimmable system including, as appropriate, chandeliers, down lights, track lights, fluorescent lighting, and decorative wall fixtures.\n<br>● HVAC/systems: Provide separate mechanical, electrical, and sound systems for each room division.\n<br>● Communications: Include TV, telephone, recording, and data lines in each function and control room.\n<br>\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">HOTEL AND RESORT DESIGN is an integrative process that brings together the skills and expertise of owners, managers, architects, builders, and a host of others to conceive and construct a building to meet a variety of business and travel objectives. Owners see the hotel as a real estate and investment opportunity; managers expect the project to meet certain strategic goals and provide revenue; future guests need accommodations for business or personal travel, and others have myriad reasons for involvement in the development and design process.\n<br>\n<br><b>The Feasibility Study\n</b><br>Among the first steps that the developer takes is to study the feasibility of the proposed hotel. The feasibility study is usually prepared by a consulting firm and reviewed by the hotel management company. Its purpose is twofold: first, it Assesses present and future demand for lodging and such hotel services like meeting rooms, restaurants and lounges, and recreational facilities. Secondly, it estimates the proposed hotel’s operating income and expenses for five to ten years after the\n<br>hotel opens.\n<br>A hotel’s owner has many reasons for undertaking a feasibility study. Most will use the study to help obtain permanent financing; others may use it to gain a franchise or management agreement, attract equity partners, or support a request for a zoning change. Interestingly, only infrequently do these studies actually assess a project’s feasibility, which may largely depend on the owner’s investment\n<br>strategies and tax status. Instead, a feasibility study provides a description of the local area and potential markets, recommends proposed facilities, and projects cash flow. The typical report usually covers the following components:\n<br>\n<br><b>● Local area evaluation:</b> Analyzes the economic vitality of the city or region and describes the suitability of the project site for a hotel.\n<br>●&nbsp;<b>Lodging market analysis:</b> Assesses the present demand for lodging and other revenue generators and future growth rates for each of several market segments, and identifies the existing supply of competitive properties and their probable growth.\n<br>● Proposed facilities: Proposes a balance of guestroom and revenue-generating public facilities (restaurants and lounges, function rooms, retail stores, recreational facilities) and assesses the competitive position of the property.\n<br>● Financial analysis: Estimates income and expenses for the hotel over a five- or ten-year period to show its potential cash flow after fixed charges (before debt service and income tax).\n<br>\n<br><b>HOTEL PLANNING</b>\n<br>The architectural team needs to investigate the site before it can begin to develop the building’s form and organization. The following list identifies some of the things the architect must do:\n<br>\n<br>● Visibility and accessibility: Consider surrounding street patterns, road access.\n<br>● Surface conditions: Analyze terrain, vegetation, utilities, existing buildings and roads, environmental constraints.\n<br>● Subsurface conditions: Investigate water table, bearing capacity of the soil, underground utilities, environmental hazards.\n<br>● Regulatory restrictions: Research applicable zoning, parking, building, and other codes.\n<br>● Site character: Study surface conditions (above), adjoining uses, views.\n<br>● Orientation and climate: Position building and recreational facilities for sun; analyze micro climate (for resorts).\n<br>● Adaptability: Determine the site’s potential for expansion or development for other uses.<br><br><b>What is BluePrint in Constructions</b>\n<br>Construction blueprints (also known as construction plans or construction drawings) are two-dimensional drawings that contain all the details that are needed for a project. Blueprints are far more detailed and technical plans for your remodel or other construction project. These details are needed to request permits, determine the construction schedule, and eventually do the construction itself. It was widely used for over a century for the reproduction of specification drawings used in construction and industry.\n<br>\n<br><b>Why are blueprints important?\n</b><br>● Drawings thereby allow you to measure your compliance against the specifications.\n<br>● They allow you to guide needed installations by referencing as-built drawing sets and enable you to track any kind of modification or addition with what you are installing.\n<br>● Blueprints and drawings are also great resources for maintenance and troubleshooting.<br>\n<br><b>Following points to be considered while plan &amp; design the hotels\n</b><br>Hotel interior designers need to consider which areas should be separated and which can effectively be combined.\n<br>\n<br><b>1. GUEST ROOMS:\n</b><br>Guestroom into separate areas, accommodating such overlapping functions as sleeping, working, lounging, dressing, and hygiene. In addition, the interior designer must select individual furnishings that meet a number of basic design criteria:\n<br>\n<br>● Beds: Determine the exact room mix for the hotel; provide adequate spacing; include bedside tables and adequate lighting; consider TV viewing angle.\n<br>● Work area: Provide a desk or worktable, consider chair height and comfort, and provide a phone and adequate lighting.\n<br>● Lounge area: Provide a soft seating group; consider comfort, lighting, table(s), TV viewing angle, and adequate space for foldout sofa; assess need for mini-bar.\n<br>● Clothes storage/dressing area: Determine requirements for drawer space, the size of the closet, and luggage storage needs; provide full-length mirrors.\n<br>● Bathroom: Select bathroom fixtures and accessories; consider lighting, counter space, ventilation, and finishes.\n<br>● Decor: Evaluate furniture, fixtures, and equipment (FF&amp;E)—carpet, wall covering, sheer and blackout drapes, bedspreads, and so forth.\n<br>● Other: Screen view into guest room from the corridor; provide a separate dressing area; assess the need for balcony, adjoining rooms, etc.\n<br>\n<br><b>2. LOBBY\n</b><br>The development team must establish criteria for the planning and design of the lobby, based on the hotel’s concept and the guest markets it will attract. These criteria might include the following:\n<br>\n<br>● Circulation: Provide clear paths to front desk, elevators, food and beverage (F&amp;B) outlets, function space, etc.\n<br>● Front desk: Make the front desk visible to entering guests. It should overlook the elevators, have sufficient space for check-in‘ check-out lines, and have direct access to the front office.\n<br>● Luggage: Provide areas for bell persons, luggage storage, and other locked storage.\n<br>● Seating: Provide seating near the front desk and entrance, with more private seating nearby, and determine the need for a lobby lounge.\n<br>● Support functions: Conveniently locate retail outlets, the concierge desk, public restrooms, house and pay phones, coatrooms, the hotel directory, etc.\n<br>● Décor: Establish the hotel’s image with millwork, furnishings, artwork, lighting, signage, and so forth that are appropriate to the locale.\n<br>\n<br><b>3. FOOD AND BEVERAGE OUTLETS\n</b><br><b><i>A) Restaurants\n</i></b><br>Restaurants and lounges, because they face such severe outside competition, create the greatest operational and design challenges, Whatever the concept, the food and beverage designer must attempt to meet many generally accepted design criteria:\n<br>\n<br>● Location: Position the main three-meal restaurant convenient to the lobby. Consider locating the specialty restaurant with direct exterior access.\n<br>● Service: Group all food outlets close to the kitchen or a satellite pantry, and provide bars with nearby storage and support areas.\n<br>● Flexibility: Design large restaurants and bars so that sections can be closed during slow periods.\n<br>● Support areas: Place public restrooms, coatrooms, and telephones nearby.\n<br>● Layout: Provide a desk for the host, service stations, and a flexible mix of table sizes. Minimize or eliminate floor-level changes to better accommodate disabled guests.\n<br>\n<br><b><i>B) Function Space\n</i></b><br>● Location: Group all function areas in a location easily accessible from the lobby; in major convention hotels consider creating two or more separate function zones.\n<br>● Flexibility: Include moveable partitions in larger rooms, determine the need for multi-purpose versus dedicated rooms, and create multiple pre-function areas.\n<br>● Access: Provide a separate entrance to the function area from the street or parking lot, provide public and service access to each function room, and consider the access needs for moving display materials into the ballroom and exhibit areas.\n<br>● Support areas: Include sufficient restrooms, coatrooms, and telephones for the public and provide banquet pantry, furniture, and audiovisual storage in the back-of-the-house.\n<br>● Structure: Provide column-free function spaces and locate the ballroom and larger meeting rooms independent of the guest room tower to simplify the hotel's structure.\n<br>● Ceiling height: Determine the need for projection booths in the larger function rooms and consider how the high ceilings in these rooms will affect the floor above.\n<br>● Windows: Determine the need for natural light in function and assembly areas.\n<br>\n<br><b><i>C) Recreational Facilities:\n</i></b><br>● Floors: Select a carpet pattern to aid in room setup; use a portable dance floor.\n<br>● Walls: Apply a chair rail to walls to protect their finish; add fabric panels to improve acoustics and upgrade room appearance.\n<br>● Ceiling: Organize HVAC, lighting, sound system, fire protection, and other systems into a unified design.\n<br>● Windows: Add full blackout capability.\n<br>● Furniture: Select risers, lecterns, stacking chairs, and a balance of rectangular classroom tables and round or oval banquet tables; select high-quality chairs for upgraded conference rooms.\n<br>● Lighting: Provide a fully dimmable system including, as appropriate, chandeliers, down lights, track lights, fluorescent lighting, and decorative wall fixtures.\n<br>● HVAC/systems: Provide separate mechanical, electrical, and sound systems for each room division.\n<br>● Communications: Include TV, telephone, recording, and data lines in each function and control room.\n<br>\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "srmeIgXurZ",
+          "_anchor": "content5-bk",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content5-bk"
+          "_params": {}
         }
       ]
     },
@@ -9574,11 +9572,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "srmvKlvXkn",
+          "_anchor": "content4-bn",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-bn"
+          "_params": {}
         },
         {
           "alias": false,
@@ -9595,11 +9593,64 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "srmvKm38RI",
+          "_anchor": "content5-bo",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "FM_Unit_4.2.html": {
+      "settings": {
+        "title": "FM_Unit_4.2",
+        "order": 77
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -4</b><div><b>DESIGNS &amp; RENOVATIONS</b></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "srsQ7QKuMt",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "content5-bo"
+          "_anchor": "content4-bp"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>INTERIOR DESIGN &amp; DECORATIONS\n</b><br>\n<br><b>INTRODUCTION\n</b><br>Interior design is the orderly arrangement of lines, forms, colors, textures, etc. create beauty in interiors. A good design shows an orderly arrangement of the materials used and, in addition, creates beauty in the finished product.\n<br>Interior decoration can be a highly personal form of self-expression the sum of one’s interests as an individual or as a group as well as a practical statement created by combining various elements of art using certain design principles.\n<br>\n<br><b>PRINCIPLES OF DESIGN\n</b><br>The principles of design help one in determining the quality of a design to assess whether it is artistically good or poor in appearance. While using the basic elements of design or art, we should keep these principles in mind.\n<br>The principles of design are\n<br>● Proportion\n<br>● Balance\n<br>● Emphasis\n<br>● Rhythm\n<br>● Harmony\n<br>\n<br><b>Proportion\n</b><br>The principle of proportion is also called the ‘law of relationships’. The principle of proportion underlines all other principles of design. It states that the relations between parts of the same things or between different things of the same group should be aesthetically satisfying. It deals with relationships of size, shape, color, light, texture, and pattern. In order to achieve designs and arrangements that will hold interest, one must know how to create beautiful relationships within and around a space.\n<br>\n<br><b>Balance\n</b><br>Also known as equilibrium, balance is a condition of rest or repose. Through balance, we get a sense of equipoise. This restful effect is obtained by grouping shapes and colors around a center or pivotal point in such a way that there are equal attractions on each side of that center.\n<br>Balance can be understood well if one understands the principle of the see-saw, as both works on the same principle. Balance in design and art is not the same as balance in weight but is conceived in terms of the amount of attention each element attracts and can be treated in the same way.\n<br>\n<br><b>Emphasis\n</b><br>This is the design principle that directs us to create a point of interest such that the eye is carried first to the most important thing in any arrangement and from that point to every other detail in order of importance. Whenever any object is selected or arranged with reference to its appearance, the principle of emphasis is used, and the success of the result depends upon the knowledge of what to emphasize, how to emphasize; how much to emphasize; and where to place emphasis.\n<br>\n<br><b>Rhythm\n</b><br>This is a major design principle, through which an underlying unity and variety can be achieved. Rhythm is movement. All movement in design is not, however, rhythmic. Sometimes the movement is distracting. In designing, rhythm implies an easy connecting path along which the eye may travel. It may also be called ‘related movement’. If one observes a plain surface, there is usually no movement in it. The eye remains quiet and stops at any point where it happens to fall.\n<br>But the moment a picture or an object is placed against it, the eye starts moving in the direction of the lines suggested in the pattern they make together. At that moment, movement is created. Such a movement may either be organized and easy, that is, rhythmic; or it may be restless and distracting, that is, lacking in rhythm. There are three outstanding ways of developing rhythm in interiors.\n<br>\n<br><b>Harmony\n</b><br>This is the fundamental requirement of any piece of work in which appearance, as well as use, have to be considered. Harmony is the most important of all the principles of design. It is the design principle that produces an expression of unity through the selection and arrangement of discrete objects and ideas. Harmony has five aspects:\n<br>● Harmony of line and shape\n<br>● Harmony of texture\n<br>● Harmony of size\n<br>● Harmony of colours\n<br>● Harmony of Ideas\n<br>\n<br><b>UNITS OF DESIGN\n</b><br>There are four units of design: naturalistic, stylized, geometric, and abstract. An individual design may be based on any one of the units or may contain a combination of two or more units.\n<br>\n<br><b>Naturalistic</b> ‘These represent nature flowers, leaves, fruits, animals, landscapes, and so on. Every effort is made to keep the motifs realistic so that they appear as exact reproductions. These patterns lend themselves to either formal or informal themes.\n<br>\n<br><b>Stylized</b> ‘These designs resemble natural objects, but usually, the lines are simplified and conventionalized. Sometimes they are distorted. The designer uses various degrees of stylization, depending upon the materials employed and the purpose of the article. These motifs may include outsized patterns, for instance, of flowers and other natural forms in colors that are not natural but are intended to create certain effects (warmth, coolness, brightness).\n<br>\n<br><b>Geometric </b>‘These are based on such pure forms as the circle, rectangle, and triangle, although endless variations and combinations of them are used. Geometric motifs include stripes, dots, and checks, as well as many less usual forms.\n<br>\n<br><b>Abstract</b> Many abstract designs are based on geometric forms. ‘Abstract’ implies an element of impressionism and greater freedom than is found in most geometric forms. The shapes and patterns, although derived from the geometric, maybe less rigid and formal than the popular conception of a geometrical design. They are also called ‘non-representational’ because they represent nothing but themselves.<br><br><b>INTERIOR DECORATION\n</b><br>\n<br><b>Introduction\n</b><br>Interior decoration is a highly personal form of self-expression. It is the sum of one’s interests as an individual or a group, a personal statement created by combining various elements of art by using certain principles.\n<br>\n<br>Colour, lighting, floor coverings and finishes, carpets, ceiling and wall coverings, and various window treatments are some important tools used for decorating various areas of a hotel and giving a distinct style to these areas.\n<br>\n<br><b>MATERIALS USED IN INTERIOR DESIGNS\n</b><br>The elements are components or parts which can be isolated and defined in any visual design or work of art. They are the structure of the work and can carry a wide variety of messages.\n<br>\n<br><b>Factors Determining the choose the materials\n</b><br>\n<br>● Appearance: Colour, pattern and texture of the materials should be compatible with the size, décor and activity of the room. Pale colours provide a cool appearance of warmth. Patterned surfaces add interest to the room.\n<br>● Comfort: Foot fatigue should be reduced by use of soft resilient surfaces.  Floor surfaces should not be noisy or slippery.\n<br>● Durability: Grit, dragging of furniture and placement of equipment or circulation of heavy traffic should not damage the interior surface.  They should also not be affected by the cleaning reagents and food spillages.\n<br>● Life Expectancy: Since interiors are not changed frequently, they are expected to last for a longer time.\n<br>● Safety: Safety to the guests and occupants must be considered.  Fire resistance, slip resistance and accident proof surfaces must be selected.\n<br>● Ease of Cleaning: Ease of maintenance and cleaning costs must be considered while selecting them.\n<br>● Cost: The cost of the interior materials, cost of laying and maintenance should be considered before selection.<br><br><b>Interior Material can be classified\n</b><br><b>1. </b>Floor Finishes\n<br><b>2. </b>Wall Finishes\n<br><b>3.</b> Windows\n<br><b>4.</b> Furniture<br><b>5. </b>Accessories&nbsp;<br><b><br>1. Floor Finishes\n</b><br>\n<br>Flooring is the general term for a permanent covering of a floor, or for the work of installing such a floor covering. Floor covering is a term to generically describe any finish material applied over a floor structure to provide a walking surface. Both terms are used interchangeably but floor covering refers more to loose-laid materials.\n<br>\n<br><b>Types of Floors Surfaces/Finish\n</b><br>Floor surfaces are divided into two types of hard and soft floors.  A subfloor is laid below the floor surface, which may be made of softwood or hardboard.  It should be free from dampness, dirt and unevenness.  This protects the top floor.\n<br>\n<br><b>HARD FLOOR SURFACES\n</b><br>Stone Floor Surfaces: These are commonly used in areas that must withstand heavy traffic, repeated washing and movement of goods. These floors are extremely durable and hygienic.\n<br>\n<br>●&nbsp;<b>Concrete:</b> It is composed of cement and sand. Pigments may be added to provide colour.  This floor can withstand large weights but is damaged by acids and alkalis. It is suitable for stores, sub-floors, laundry, staircase etc. Concrete is extremely porous, hard and soiled easily.  A scaler may be applied to make it stain resistant.  These floors are suitable in halls, lounges, corridors, and bathrooms and as tabletops.\n<br>●&nbsp;<b>Wooden Floor Surfaces:</b> These floors are used in all types of establishments for corridors, dance floors, bar areas, dining halls, game rooms etc.  They are more attractive than stone but are very porous and easily damaged by moisture and pests.  A ceiling polish must be applied to increase durability. Strips of wood are cut into varying lengths and laid on a subfloor.  The colour of the floor will depend upon the type of wood used.  Oak and teak are the common types of wood used for flooring. Designs can be created by varying the colour of wooden tiles (blocks) and arranging them in different patterns.\n<br>●&nbsp;<b>Cork Tiles:</b> Cork is obtained from the bark of the cork of oak tree.  It is the least resistant of the hard floor surface.  It is a good insulator, warm, resilient and quite easy to maintain.  It has a high degree of slip resistance but the tiles cannot withstand heavy furniture, grease, and moisture and alkalis.  The colour of natural cork is brown and pigments may be added to obtain other colours e.g. Green.\n<br>●&nbsp;<b>Resilient Floor Surfaces: </b>These floor surfaces include certain plastics or finishes which make them moisture and grease resilient.\n<br>●&nbsp;<b>Terrazzo: </b>This consists of marble chips, set in cement.  It may be plain or coloured and ground smooth.  This is not used in small areas but preferred around pools and in gardens.  These floors are porous and damaged by acids, alkalis and grease.  They are unharmed by water and have good slip resistance when polished.  The common colours are white, green, blue and black.\n<br>● <b>Ceramic Tiles:</b> Ceramic tiles are made of clay and fired at high temperature.  They are hand or machine made, glazed and unglazed. Shapes of the tiles may be square, rectangular or hexagonal. Tiles are waterproof and impervious to cleaning liquid.  They are commonly used in bathrooms, kitchens, laundry, canteens, bars etc. These floors are hard, noisy and tire the feet.  Ceramic floors should not be polished since that would make it dangerously slippery.\n<br>●&nbsp;<b>Mosaic:</b> They are made of glass, silica and clay.  They may be set directly on the floor or made as tiles and laid on a subfloor unaffected by pests or fungi and the glass can be retained for a long time.\n<br><b>● Timber:</b> Well-maintained timber floor surfaces provide attractive hygienic, warm and serviceable floors for a long time.  They may be laid as strips, boards or blocks.  Floorboards are made from softwoods while strips are constructed from hardwoods.  The colour of the floor depends upon the natural grain.  A sealer may be applied or a polish given to the wooden floor to make it glossy and dirt resistant.\n<br>●&nbsp;<b>ChipBoard: </b>Chipboard is obtained by mixing wood chippings or sawdust with resin or cement at high temperature and pressure.  Unlike timber, it does not warm or split.\n<br>●&nbsp;<b>Linoleum:</b> This is made up of lignum, i.e. flax and ileum in oil. Ground corkwood, linseed oil and resins (gum) are pressed on to a jute backing.  This is prepared in sheet or tile form.  Plain colours marbling or patterns may be applied for decorative effect. Linoleum may crack if laid on the poor quality subfloor. It is hard wearing, resilient and warm, but may peel, rot and get destroyed by alkalis.  It is non-flammable but burns marks can be seen.  This is suitable for the linen room, store pantry, kitchen stores.\n<br>●&nbsp;<b>Rubber:</b> Rubber floors are usually made by a combination of natural and synthetic rubber.  They may be laid in sheets or tile form.  They may be coloured and mottled with inlaid patterns.  The floor is hard wearing, resilient, quiet and waterproof.  It is non-slip and maybe grease resistant.  Damage may occur due to alkalis, acids and spirits.  They are not affected by mould, bacteria and pest infestation.  It is commonly used in kitchens, bathrooms, health clubs, near swimming pools etc.\n<br>●&nbsp;<b>Thermoplastic Floors:</b> These are made of asphalt, fibres, mineral fillers and pigments or synthetic resins with a vinyl binder.  The tiles are usually dark coloured and quite durable.  They have good thermal insulation and are resistant to water.  They are damaged by heat, acids and alkalis.  They are useful in canteens, corridors, shops and offices. PVC may be added to make hard thermoplastic more flexible.\n<br>●&nbsp;<b>Vinyl:</b> Vinyl is made from asbestos, fibres, mineral pigments and PVC.  They are very hygienic and deal in hospitals, kitchens, dining areas, nurseries, common rooms, lifts etc. They are water and oil resistant and can be made slip resistant.  They are damaged by cleaning gels, high temperature and acids.\n<br>\n<b><br>FLOOR COVERINGS OR SOFT FLOORS\n</b><br>Floor coverings or soft floors are used for variety in colour, texture and design.  They are warm, durable, quiet, slip resistant and economical.  Various types of colourings may be used in different areas depending upon the cost of maintenance, cost of installation, attractiveness and use.  Soft floor coverings commonly consist of two types: Carpets and Rugs.\n<br>\n<br><b>Carpets:</b> Carpets are used extensively in hotels and institutional establishments. The type of carpet selected will depend upon the suitability and traffic in the area.  They may be used in bedrooms, lounges, TV rooms, restaurants, offices and corridors.  A good quality carpet should be able to withstand spillages, cigarette ash and grit.  They must also be resilient to heavy furniture.\n<br>\n<br>●&nbsp;<b>Backing:</b> Natural materials like jute, hemp, glue and starch are used with resin, synthetic rubber and polypropylene to form the backing.  A secondary backing may be added to improve resilience.\n<br>●&nbsp;<b>Pile:</b> The carpet pile absorbs most of the wear.  It should be strong and resilient, shrink- proof, moth proof and flameproof.  The carpet pile is frequently made of blends of fibres.\n<br>●&nbsp;<b>Wool:</b> Woollen carpets are warm, soft, resilient and do not attract dirt.  However, they are difficult to maintain and quite expensive. They may be blended with 20% nylon.\n<br>●&nbsp;<b>Acrylic:</b> This is close to wool in appearance, wears well, is warm and resilient but soils easily.  This is not easy to clean and not fire resistant.\n<br>●&nbsp;<b>Polyester:</b> This is often blended with nylon.  This is waterproof, easy to clean, soft and hard wearing.\n<br>●&nbsp;<b>Viscose Rayon:</b> This is inexpensive and not hard wearing and is sometimes used in blended carpets along with nylon.&nbsp;<br><br><br><b>2.  INTERIOR WALL FINISHES MATERIAL\n</b><br>\n<br>●&nbsp;<b>Wood Panelling\n</b><br>Wood Panelling is one of the numerous interior wall finishes material you can use. It is a decorative treatment done with the wooden panels of a wall in various designs. The material is often used on plywood and wood covered with veneer or laminate. It is not unusual to see this kind of finishing in top class hostel bedrooms.\n<br>●&nbsp;<b>Tile Cladding\n</b><br>Tile Cladding is one of the common interior wall finishing materials used in decorating homes or offices. There are different kinds of tiles, for example, granite, marble, glazed tiles or vitrified tiles used for tile cladding. \n<br>●&nbsp;<b>Wallpaper\n</b><br>Wallpaper is perhaps the most popular version of the decor of the room. There are different types of wallpaper, from simple paper to vinyl, or even 3D photo wallpaper. The material is selected depending on the room.\n<br>●&nbsp;<b>Decorative Plaster\n</b><br>For most of us the phrase “wall stucco” is associated with aligning surfaces and other rough work. But today, decorative plaster is a great solution for the original decoration of the room.\n<br>●&nbsp;<b>Gypsum Plasterboard\n</b><br>Drywall finishing is a good option for almost any room. Moreover, you can use gypsum plasterboard by yourself to make your walls straight. Besides, it won’t take long.\n<br>●&nbsp;<b>Wall Panels\n</b><br>Most often, you can see the PVC panels in offices, shopping malls, and other commercial establishments. Since plastic is not a natural material. Because of this it is rarely used in the bedroom or living room. But plastic panels will be a great solution for the kitchen or the bathroom since they have all the necessary qualities.\n<br>●&nbsp;<b>Decorative Stone</b>\n<br>The decorative stone in the apartment is very expensive. Also, you’ll unlikely succeed in applying it on the wall by yourself without the necessary experience, so it is required to refer to specialists. This is perhaps the only negative feature of the material. \n<br>●&nbsp;<b>Painting Wall Finishing\n</b><br>More often use of painting is for exterior decoration of a private house, but it will also be a great solution inside your home. Due to the wide variety of colors, textures, and forms, you can give the room a variety of options for decoration.\n<br><br><b>3. WINDOW AND CURTAINS\n</b><br>Windows has four practical functions. They admit air, light, vision and people to varying degrees. Their design may hide, improved, or accentuated by treatment such as curtains, draperies shades and so on.\n<br>\n<br>●&nbsp;<b>A SINGLE WINDOW</b> a single window is a window with a single frame, it opens either inside or outside.\n<br>●&nbsp;<b>DOUBLE SASHED WINDOW</b> this type of window has a sash that can be pushed up and down. Since the part with the glass pane is only half the size of the window frame half of the window will always be left open. This window must be placed such that robbers do not have easy access to it.\n<br>●&nbsp;<b>MULLION WINDOW</b> these really consist of a series of windows. Each window can be treated as a separate unit or unified into a single design.\n<br>●&nbsp;<b>DORMER WINDOWS</b> are provided in attics under slanting gabled roofs mainly to illuminate the rooms towards the middle of the building.\n<br>●&nbsp;<b>SKYLIGHTS</b> these are windows in the ceiling. They are basically there to allow in sunlight. They are left untreated. In cases some treatment is required, custom made, remote controlled, shades are best.\n<br>\n<br><b>BLINDS:</b> blinds are of following types:\n<br>●&nbsp;<b>ROLLER BLINDS:</b> these let in plenty of lights when drawn up. rollers blinds are made up of thick fabric used in conjunction with rollers.\n<br>●&nbsp;<b>ROMAN BLINDS:</b> these are made of fabrics attached to chords. When the cords are pull the blind rises up in accordion pleats to form a pelmet. They are heavier and warmer than roller blinds.\n<br>●&nbsp;<b>VENETIAN BLINDS:</b> these actually originated in china contrary to the name. They are made up of parallel slats of wood metal or plastic aligned horizontally or vertically. They are usually low in price and some custom designed blinds come in different colours and patterns. The version with very thin slats can have different colours on each side. The thin slatted and vertical versions do better in this respect.\n<br>●&nbsp;<b>PINOLEUM BLINDS:</b> these are an inexpensive covering for large windows. They work on the same principle as the venetian blinds except that they close across the window rather than down. They may be mounted on a spring operated roller or moved up and down by cords.\n<br>●&nbsp;<b>BALASTORE BLINDS: </b>these are inexpensive blinds made of strong paper fibre. It is accordion pleated to act like a folding blind. Balusters are perforated with small holes to let light through without glare.\n<br><b>● PLEATED BLINDS:</b> they are made from stronger paper than balusters and have smaller pleats. The paper gives privacy but let sunlight through which is filtered and tinned the colour of the paper. The four most common colours are orange green blue and parchment (natural).\n<br><b>● AUSTRIAN BLINDS:</b> these are ruched fabric. They may be used partially raised and when fully raised they form a decorative pelmet. They are used in banquet halls and large lobbies for a sumptuous effect.\n<br><br><b>4. FURNITURES\n</b><br>In any organization, furniture covers a wide variety of different items, which will be in constant use and yet should retain their overall good appearance. People are seldom as careful of other people’s property as they are of their own and the handling of furniture by large numbers of people results in harder use than if one person was using it all time.\n<br>\n<br><b>Classification of Furniture\n</b><br>● Wooden furniture\n<br>● Wicker and cane furniture\n<br>● Metal furniture\n<br>● Plastic\n<br><b><br>Upholstery Material\n</b><br>The upholstery coverings will to great extent determine the appearance, durability and cost of the piece of furniture and may be made from textiles, i.e. woven fabrics, hide or plastics. The covering required to be:\n<br>● Resistant to abrasion, snagging, creasing, soil and fading,\n<br>● Non-flammable,\n<br>● Non-shading,\n<br>● Pest proof,\n<br>● Easily cleaned\n<br>● Elasticity &amp; resiliency\n<br>\n<br><b>Types of Coverings\n</b><br>\n<br><b><i>a.Textiles- Cotton based, Satin, Velvet, Organza, net, Corduroy, Leather\n</i></b><br>● The textile coverings are the types of fibre, yarn and weave used in the production of the fabric.\n<br>● Smooth fabrics, e.g. brocades and damasks of cotton, rayon or synthetic fibres show soiling more but hold dust less than the rougher, textured fabrics of wool, wool/nylon and wool/Evan mixtures. The latter has a warmer appearance, are less slippery and are less likely to show shine on clothes when sat on.\n<br>● Cut and uncut pile fabrics, e.g. velvet, corduroy, or moquette made of wool, cotton, rayon or synthetic fibres are hard wearing but hold the dust, and cut pile fabrics may show shadowing.\n<br>● The use of synthetic fibres, e.g. nylon, dralon etc, either alone or in the mixtures and blends increases the durability and ease of cleaning of many coverings.\n<br>\n<br><b><i>b. Plastic – vinyl\n</i></b><br>There are many plastic materials available. They are more easily cleaned, equally hardwearing and less expensive than leather coverings. They are mainly vinyl.\n<br><b><br>CURTAINS HEADINGS AND ACCESSORIES\n</b><br>A warm room without accessories would be uninteresting. Accessories lend personality, charm and individuality to a room. Each person’s selection and arrangement will reflect his/her own interest and sensitivity to good design. But the accessories should follow the theme of the room. Accessories must contribute towards the unity of the room\n<br>\n<br><b>1. PELMETS AND CORNICES\n</b><br>Cornices are box-like shapes used at the top horizontal portion of the drapery treatment to hide the poles and other hardware. They are generally 4 to 7 inches deep. The width of cornice of a cornice should be a little less than one eighth of the overall length drapery. They may be of wood plastic or mirrored glass. Wooden cornices may be finished in their natural colour painted in some other colour or covered with cloth, cork, leather. Sometimes the covering is covered in brass nails.\n<br>\n<br><b>2. VALENCE\n</b><br>These are made of fabrics that have been plaited, scalloped, or ruffled. They should never exceed one sixth of the windows height and should be about 8 to 12 in inches in depth. The width of lambrequin should be about a seventh of the floor length drapery.\n<br>\n<br><b>3. SWAGS AND CASCADES\n</b><br>Swags are decorative drapery treatment meant to hide the curtains headings and usually taper to a cascade. These loop and fall luxuriously over a curtain pole ending in elaborate tale. Headings of these types are appropriate for large formal rooms with high ceilings. They tend to look so heavy in small or average sized rooms. The depth of the swag at the center after it has been draped should be about one seventh of the drapery length or one seventh of the drapery length or one seventh of the distance between the top of the frame and the floor. The width of the cascade at the top should coincide with the width of the drapery when hung. The length of the cascade should be 2 to 3 inches above its finished width.\n<br>\n<br><b>4. DRAPERY CRANES\n</b><br>These are appropriate hardware to use where installation has to be flexible. On French windows or swinging casement windows this type of drapery rods with its hinged bracket allow the free edge to swing away from the door or window with the casement.\n<br>\n<b><br>5. Books and Magazines \n</b><br>Books and Magazines are not actually accessories but are classified as such when used decoratively or in large quantities in a room. Displaying books adds depth as well as character to a room and reveals the interests of the owner.\n<br>\n<br><b>6. Lamps </b><br>Well-chosen lamps and light fixtures are extremely important in determining the characters of a room. Although the functional aspect should be the primary consideration in selecting them, it is no less important to choose designs that emphasise the spirit of the room.\n<br>\n<br><b>7. Plants and Indoor Trees\n</b><br>Plants and indoor trees can be placed almost anywhere in a home or apartment, provided they receive adequate light and the environment is favourable for their growth. Plants usually grow profusely in the bathrooms due to high humidity. \n<br>\n<br><b>8. Sculpture\n</b><br>Sculptures can be various materials-stones, wood, metal, ivory, pottery, plastic or glass and of various shapes and sizes. When choosing sculptures, one most look for a good design, honest use of materials and quality in reproduction if applicable.\n<br>\n<br><b>9. Wall Hangings\n</b><br>Wall hangings can be made of a number of materials or types. Printed fabric, carpets, macrame, needlework etc. have all served as wall hangings. Wall hangings are often used to fill large, plain, empty areas. They can also be the focal point of a room.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "srsQ7Rg7As",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-bq"
         }
       ]
     }
