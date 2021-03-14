@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "FM_Unit_5_index.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -76,7 +76,7 @@
         "file": "@PROJECT_PATH@/fonts/FFF_Tusj/font.ttf"
       }
     ],
-    "uniqCompNum": 446,
+    "uniqCompNum": 456,
     "versionPublish": "5.1.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -138,7 +138,7 @@
             }
           },
           "_name": "header13",
-          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#232323\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background15.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>e Notes</b><br><b><br></b><br><b><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .social-row\">Version 2.0.1.12</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Important Questions</a></div>\n                <div class=\"social-row display-7 mt-5\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#232323\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background15.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>e Notes</b><br><b><br></b><br><b><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .social-row\">Version 2.0.1.13</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Important Questions</a></div>\n                <div class=\"social-row display-7 mt-5\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sofl8OkJzK",
           "_anchor": "header13-27",
           "_protectedParams": [],
@@ -262,7 +262,7 @@
     "Syllabus.html": {
       "settings": {
         "title": "Syllabus",
-        "order": 113
+        "order": 114
       },
       "components": [
         {
@@ -300,7 +300,7 @@
     "1 Sem Syllabus.html": {
       "settings": {
         "title": "1 Sem Syllabus",
-        "order": 115
+        "order": 116
       },
       "components": [
         {
@@ -338,7 +338,7 @@
     "5 Sem Syllabus.html": {
       "settings": {
         "title": "5 Sem Syllabus",
-        "order": 120
+        "order": 121
       },
       "components": [
         {
@@ -376,7 +376,7 @@
     "3 Sem Syllabus.html": {
       "settings": {
         "title": "3 Sem Syllabus",
-        "order": 117
+        "order": 118
       },
       "components": [
         {
@@ -414,7 +414,7 @@
     "AC Syllabus.html": {
       "settings": {
         "title": "AC Syllabus",
-        "order": 116
+        "order": 117
       },
       "components": [
         {
@@ -478,7 +478,7 @@
     "HK Syllabus.html": {
       "settings": {
         "title": "HK Syllabus",
-        "order": 118
+        "order": 119
       },
       "components": [
         {
@@ -542,7 +542,7 @@
     "FO Syllabus.html": {
       "settings": {
         "title": "FO Syllabus",
-        "order": 119
+        "order": 120
       },
       "components": [
         {
@@ -606,7 +606,7 @@
     "H&S Syllabus.html": {
       "settings": {
         "title": "H&S Syllabus",
-        "order": 121
+        "order": 122
       },
       "components": [
         {
@@ -670,7 +670,7 @@
     "FM Syllabus.html": {
       "settings": {
         "title": "FM Syllabus",
-        "order": 122
+        "order": 123
       },
       "components": [
         {
@@ -734,7 +734,7 @@
     "Contact.html": {
       "settings": {
         "title": "Contact",
-        "order": 123
+        "order": 124
       },
       "components": [
         {
@@ -905,7 +905,7 @@
     "Ref.Books.html": {
       "settings": {
         "title": "Ref.Books",
-        "order": 114
+        "order": 115
       },
       "components": [
         {
@@ -1171,7 +1171,7 @@
     "H&S Units.html": {
       "settings": {
         "title": "H&S Units",
-        "order": 87
+        "order": 88
       },
       "components": [
         {
@@ -1243,7 +1243,7 @@
     "Disclaimer.html": {
       "settings": {
         "title": "Disclaimer",
-        "order": 124
+        "order": 125
       },
       "components": [
         {
@@ -1291,7 +1291,7 @@
     "Privacy Policy.html": {
       "settings": {
         "title": "Privacy Policy",
-        "order": 125
+        "order": 126
       },
       "components": [
         {
@@ -1339,7 +1339,7 @@
     "Help.html": {
       "settings": {
         "title": "Help",
-        "order": 107
+        "order": 108
       },
       "components": [
         {
@@ -1363,7 +1363,7 @@
     "error.html": {
       "settings": {
         "title": "Error",
-        "order": 126
+        "order": 127
       },
       "components": [
         {
@@ -2766,7 +2766,7 @@
     "HS_Unit_1.html": {
       "settings": {
         "title": "HS_Unit_1",
-        "order": 88
+        "order": 89
       },
       "components": [
         {
@@ -2819,7 +2819,7 @@
     "HS_Unit_2_index.html": {
       "settings": {
         "title": "HS_Unit_2_index",
-        "order": 89
+        "order": 90
       },
       "components": [
         {
@@ -2881,7 +2881,7 @@
     "HS_Unit_2.1.html": {
       "settings": {
         "title": "HS_Unit_2.1",
-        "order": 91
+        "order": 92
       },
       "components": [
         {
@@ -2991,7 +2991,7 @@
     "HS_Unit_2.2.html": {
       "settings": {
         "title": "HS_Unit_2.2",
-        "order": 92
+        "order": 93
       },
       "components": [
         {
@@ -3080,7 +3080,7 @@
     "HS_Unit_3.html": {
       "settings": {
         "title": "HS_Unit_3",
-        "order": 94
+        "order": 95
       },
       "components": [
         {
@@ -3133,7 +3133,7 @@
     "HS_Unit_3.1.html": {
       "settings": {
         "title": "HS_Unit_3.1",
-        "order": 95
+        "order": 96
       },
       "components": [
         {
@@ -3357,7 +3357,7 @@
     "HS_Unit_3.2.html": {
       "settings": {
         "title": "HS_Unit_3.2",
-        "order": 96
+        "order": 97
       },
       "components": [
         {
@@ -3410,7 +3410,7 @@
     "HS_Unit_3.3.html": {
       "settings": {
         "title": "HS_Unit_3.3",
-        "order": 97
+        "order": 98
       },
       "components": [
         {
@@ -3463,7 +3463,7 @@
     "HS_Unit_3_index.html": {
       "settings": {
         "title": "HS_Unit_3_index",
-        "order": 93
+        "order": 94
       },
       "components": [
         {
@@ -3525,7 +3525,7 @@
     "HS_Unit_2.html": {
       "settings": {
         "title": "HS_Unit_2",
-        "order": 90
+        "order": 91
       },
       "components": [
         {
@@ -7618,7 +7618,7 @@
     "Updating.html": {
       "settings": {
         "title": "Updating",
-        "order": 127
+        "order": 128
       },
       "components": [
         {
@@ -8085,7 +8085,7 @@
     "HS_Unit_4_index.html": {
       "settings": {
         "title": "HS_Unit_4_index",
-        "order": 98
+        "order": 99
       },
       "components": [
         {
@@ -8147,7 +8147,7 @@
     "HS_Unit_4.html": {
       "settings": {
         "title": "HS_Unit_4",
-        "order": 99
+        "order": 100
       },
       "components": [
         {
@@ -8200,7 +8200,7 @@
     "HS_Unit_4.2.html": {
       "settings": {
         "title": "HS_Unit_4.2",
-        "order": 101
+        "order": 102
       },
       "components": [
         {
@@ -8253,7 +8253,7 @@
     "HS_Unit_4.1.html": {
       "settings": {
         "title": "HS_Unit_4.1",
-        "order": 100
+        "order": 101
       },
       "components": [
         {
@@ -8306,7 +8306,7 @@
     "HS_Unit_5_index.html": {
       "settings": {
         "title": "HS_Unit_5_index",
-        "order": 102
+        "order": 103
       },
       "components": [
         {
@@ -8368,7 +8368,7 @@
     "HS_Unit_5.html": {
       "settings": {
         "title": "HS_Unit_5",
-        "order": 103
+        "order": 104
       },
       "components": [
         {
@@ -8478,7 +8478,7 @@
     "HS_Unit_5.1.html": {
       "settings": {
         "title": "HS_Unit_5.1",
-        "order": 104
+        "order": 105
       },
       "components": [
         {
@@ -8588,7 +8588,7 @@
     "HS_Unit_5.2.html": {
       "settings": {
         "title": "HS_Unit_5.2",
-        "order": 105
+        "order": 106
       },
       "components": [
         {
@@ -8641,7 +8641,7 @@
     "HS_Unit_5.3.html": {
       "settings": {
         "title": "HS_Unit_5.3",
-        "order": 106
+        "order": 107
       },
       "components": [
         {
@@ -8694,7 +8694,7 @@
     "FM_Q.html": {
       "settings": {
         "title": "FM_Q",
-        "order": 108
+        "order": 109
       },
       "components": [
         {
@@ -8793,7 +8793,7 @@
     "HS_Q.html": {
       "settings": {
         "title": "HS_Q",
-        "order": 110
+        "order": 111
       },
       "components": [
         {
@@ -8891,7 +8891,7 @@
     "FO_Q.html": {
       "settings": {
         "title": "FO_Q",
-        "order": 111
+        "order": 112
       },
       "components": [
         {
@@ -8989,7 +8989,7 @@
     "HK_Q.html": {
       "settings": {
         "title": "HK_Q",
-        "order": 112
+        "order": 113
       },
       "components": [
         {
@@ -9390,7 +9390,7 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"4\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"FM_Unit_5.html\" data-app-placeholder=\"Type Text\">Introductions</a> <a class=\"btn btn-white\" href=\"FM_Unit_5.1.html\" data-app-placeholder=\"Type Text\">Ventilation</a> <a class=\"btn btn-secondary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Air-Conditioning</a> <a class=\"btn btn-danger\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Refrigeration</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"4\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"FM_Unit_5.html\" data-app-placeholder=\"Type Text\">Introductions</a> <a class=\"btn btn-white\" href=\"FM_Unit_5.1.html\" data-app-placeholder=\"Type Text\">Ventilation</a> <a class=\"btn btn-secondary\" href=\"FM_Unit_5.2.html\" data-app-placeholder=\"Type Text\">Air-Conditioning</a> <a class=\"btn btn-danger\" href=\"FM_Unit_5.3.html\" data-app-placeholder=\"Type Text\">Refrigeration</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "srkBrvmbnc",
@@ -9405,7 +9405,7 @@
     "AC_Q.html": {
       "settings": {
         "title": "AC_Q",
-        "order": 109
+        "order": 110
       },
       "components": [
         {
@@ -10157,7 +10157,7 @@
             }
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>VENTILATION<br><br>Introduction</b><br>It is well known that if a closed space is occupied by human beings and/or contains organic matter as in a kitchen or store room, the air inside, if not properly circulated and replaced by fresh outside air, soon becomes hot, humid, and stale. Staying inside will become very uncomfortable and the organic matter would also deteriorate in quality under such conditions. The purpose of ventilation is to provide controlled air to such spaces to prevent unpleasant conditions of internal air. Proper ventilation can provide a very comfortable interior environment to such spaces. Ventilation is, thus, necessary for public areas, guest rooms, banquet halls, kitchen, and other stores. However, it is to be borne in mind that a substantial amount of energy is expended to move a large volume of air through various units in the ventilation route for the purpose.\n<br>\n<br>Ventilation is, thus, about helping air to circulate inside rooms and public areas in the hotel. It allows moisture and airborne pollutants to escape, and fresh, clean air to be drawn into the desired space. Well-designed ventilation provides cooling in summer. In winter, it lets stale air out to keep warmth in. There could be two basic mechanisms for ventilation, namely \n<br>(a) natural circulation (also called passive ventilation) as air flows naturally through doors and windows and \n<br>(b) mechanical ventilation using fans to drive air in and fans to extract air out in the ventilation system of a given space.\n<br>\n<br><b>CONDITIONS OF COMFORT AND VENTILATION SYSTEM\n</b><br>The feeling of comfort for persons inhabiting a space depends largely on the following factors.\n<br>\n<br>● Amount of oxygen available for easy breathing\n<br>● Speed and distribution of air passing around them\n<br>● Quantity of dirt, smoke, and odour in the room\n<br>●Humidity or amount of moisture in the air\n<br>●Temperature\n<br><br>The purpose and design of a good ventilation system are to provide optimal conditions of comfort. Not all spaces in an establishment require the same degree of control for all the factors of comfort. For example, a kitchen may not have close control on temperature, odour, and smoke, while a banquet hall may have very close control of almost all the factors of comfort. Ventilation, thus, has\nto perform the following functions for complete control of the factors of comfort:\n<br><br>1. Supply of fresh air to\n<br>(a) Replenish oxygen in the space\n<br>(b) Remove smoke and odour\n<br>(c) Carry away the heat given off by human body, organic matter, and heat appliances in a kitchen\n<br>2. Proper distribution of air at different spaces inside an establishment through sound design of ducting\n<br>3. Control of temperature by air cooling/heating arrangement\n<br>4. Control of humidity as a part of air-conditioning system\n<br>5. Control of dirt by using filters in the air intake system\n<br>\n<br><b>TYPES OF VENTILATION\n</b><br><b>1. </b>Natural Ventilation\n<br>● Cross Ventilation\n<br><b>2. </b>Mechanical Ventilation (Artificial)\n<br>● Balanced Ventilation\n<br>● Supply Ventilation\n<br>● Exhaust Ventilation\n<br>● Plenum Ventilation\n<br>\n<br><b>Natural Ventilation\n</b><br>Ventilation provided in the building for the entry of fresh air through the door, windows ventilators. It’s called natural ventilation . It’s natural ventilation whatever the external conditions are their same things will be maintained inside the building also. The advantage of natural ventilation is free and no additional devices are required to treat the air.\n<br>\n<br><b>Cross Ventilation\n</b><br>In this method of natural ventilation the openings such as windows or ventilators are provided in the adjacent walls or opposite walls so that fresh air can enter from one side of the opening and the used air can go out from the other end.\n<br>\n<br><b>The balanced system</b> \n<br>It uses a fan to supply air to the interior and another one to remove air from the interior. In many ventilation systems, a lot of energy is saved by a design where a part of the return air from various rooms (already cold/hot and relatively free from dirt albeit a little less fresh) is mixed with fresh air intake.\n<br>\n<br><b>The supply-only system \n</b><br>It uses one or more fans called ‘forced draught’ fans to supply air to the building interior, relying on exfiltration outflow through doors, crevices, etc. to remove air from the building. The air inlet is generally at a high level with louvers that are adjusted to prevent downward draught of cold air.\n<br>\n<br><b>The exhaust-only system \n</b><br>It uses one or more fans called ‘induced draught’ fans to draw air out of the building interior, relying on infiltration or inflow through doors, crevices, etc. to provide the make-up air supply required.\n<br>\n<br><b>Plenum Ventilation\n</b><br>A system of mechanical ventilation in which fresh air is forced into the spaces to be ventilated from a chamber (plenum chamber ) at a pressure slightly higher than atmospheric pressure, so as to expel foul air. This ventilation is used in cinema halls, multiplex, banquet halls to provide the fresh air supply.\n<br>There are two types of Plenum Ventilation\n<br>● Upward Plenum\n<br>● Downward Plenum\n<br>\n<br><b>Upward Plenum\n</b><br>In upward plenum fresh air is forced into the building through the ducks which are fitted at the lower level of buildings and the utilised air is removed through the outlets which are fitted below the ceilings wall. In this process the air force pattern is upward and hence the name upward plenum process.\n<br>\n<br><b>Downward Plenum\n</b><br>In this type of ventilation air is forced into the building through the ducks which are fitted at the higher level (below ceiling level) and utilized air is removed through the ducks which are fitted at the lower level of the building.\n<br>In this process the air force pattern is downward and hence the name downward plenum process.\n<br><br><b>VENTILATION AIR QUANTITY REQUIREMENTS\n</b><br>Depending on the exact nature of space to be ventilated, building codes and ventilation engineering handbooks provide the standards for requirements of fresh air in the space. Fresh air requirement to replenish is only 20 percent of the air needed to remove body odour. So, the amount of fresh air needed is usually based on the requirement to remove odour and the heat generated inside the room. Kitchen requirement usually would not be guided by the requirement of providing an\n<br>odour-free environment.\n<br>\n<br>1. Room-volume basis\n<br>2. Floor-area basis\n<br>3. Occupant-based method, and\n<br>4. Equipment-based method\n<br>\n<br><b>Room-volume Basis\n</b><br>As the name suggests, room-volume basis specifies air requirements for 1 cu m of room volume. Codes usually specify the requirements in terms of number of air changes per hour. One air change is equal to the introduction of fresh air of volume equal to the volume of the room. Thus, if the size of the room is 5 m x 6 m X 3 m (volume being 90 cu m) and if the code specifies that the particular room needs 20 air changes per hour, it would mean that 20 x 90 cu m of air has to be introduced into the room every hour. Some codes specify this requirement not on the basis of gross volume of room space but on the free air space available therein. The number of air changes per hour required for the room depends upon the type of activity being carried on in the room. \n<br>\n<br><b>Floor-area Ventilation Method\n</b><br>The second common procedure involves calculation of fresh air requirements on the basis of gross floor area. A common figure could be 3 cu m of fresh air per hour per square meter of floor area.\n<br>\n<br><b>Occupant-based Method\n</b><br>In this method, the fresh air requirement is specified on the basis of volume of fresh air needed per hour per person. The volume of fresh air needed per person per hour depends on the air space available for each person. Clearly, if free air space available is more per person, the fresh air needed is less. This requirement further depends upon whether or not smoking is permitted in the space. For example, a space where 3 cu m of air space is available per person, the fresh air requirement is 60 cu m per hour per person for non-smoking zone (82 cu m for smoking zone), whereas a space where each person has 12 cu m of air space available inside the room, the fresh air requirement drops to 22 cu m per hour per person for non-smoking zone (30 cu m for smoking zone). The minimum requirement as specified in different building codes range from 18 cu m per hour per person to 21.5 cu m per hour per person.\n<br><br><b>Equipment-based Method\n</b><br>In spaces such as kitchen, stores, machine room, boiler, engine room, and laundries, factors such as the number, size, power consumption, safety requirements, heat potential of the equipment as also the moisture given off by the equipment could be the appropriate basis of calculation of fresh air requirement. The requirement could be specified either per unit of equipment or per net sq m occupied by the equipment. This figure would again vary depending on the type of equipment based on the factors as mentioned.\n<br>\n<br><b>SCHEMES OF VENTILATION SYSTEM\n</b><br>There are many schemes of operations and related installation layout for ventilation systems. They can be classified as follows:\n<br>\n<br>1. Central ventilation system with complete central control\n<br>2. Central ventilation system with separate heating/cooling control for each room/space\n<br>3. Separate ventilation system for each room\n<br>4. Zonal ventilation system\n<br>\n<br><b>Central Ventilation System with Complete Central Control\n</b><br>A central ventilation system includes all sorts of air condition controls such as heating, cooling, humidity control, and dust control. However, a particular estate may not decide to install all the conditioning elements in its ventilation system. This arrangement economizes on the power requirement as the return air is relatively cleaner and cooler/hotter, as the case may be, than fresh\nair and to put it in simple words, it is to a large extent already conditioned except for the presence of exhaled carbon dioxide and odour.\n<br>The important features of central ventilation systems are as follows:\n<br>● There is continuous air (cold/hot, etc.) movement through all the rooms whether or not the rooms are occupied. Even if only one room is occupied, the entire system must be operated to provide ventilation to that room.\n<br>● Only one set of equipment for each function (for example, one fan, one cooler/one heater, one dehumidifier/one humidifier, one air filter, etc.) is required for the purpose.\n<br>\n<br>An analysis of these features indicates that though the capital cost of a central ventilation system may be less, its running cost tends to be high, and it lacks selective control of conditions for different spaces.\n<br>\n<br><b>Central Ventilation System with Separate Heating/Cooling Control for each Room/Space\n</b><br>This system introduces control on selective cooling/heating of rooms while retaining\nthe essential features of a central ventilation system. Although whenever a room is not occupied, the particular heating/cooling unit can be put off, it still circulates fresh air inside unoccupied rooms causing energy and money wastage.\n<br>\n<br><b>Separate Ventilation System for each Room\n</b><br>This system is opposite to the concept of central ventilation system and provides for local fans and other components for ventilation for each room/space. The major advantage is that each room/space can be closely controlled for ventilation requirements. However, the total cost of components is liable to go up as also the cost of carrying large inventory goes up.\n<br>\n<br><b>Zonal Ventilation System</b>\n<br>This is a compromise between local and central systems of ventilation. Separate independent ventilations units are provided for all the rooms/spaces in a particular zone. A zone could be a floor, or a wing, or a building depending on the size, importance of the rooms/space, and level of control desired. If there are some guest rooms still available in zone I while rooms in zone II are all vacant (and hence ventilation systems there not put on operation), a new guest should be encouraged to take room in zone I instead of zone II to economize on costly energy.\n<br>\n<br>\n<b><br>Factors Affecting Ventilation System Design and Performance \n</b><br>Various factors that affect the design. selection and performance are the following:\n<br><br>●&nbsp;<b><i>Type of space being served</i></b> A kitchen should be ventilated by an extraction fan to prevent spread of odour to other rooms. while in public rooms, storehouses. should be ventilated by inlet fans forcing fresh air free of any odour.\n<br>●&nbsp;<b><i>Number of probable occupants</i></b> Bedrooms can have less air changes per hour than a kitchen or a boiler house.\n<br>●&nbsp;<b><i>Amount of dust and pollutants in free air</i> </b>This affects the efficiency of cleaning of the filter units in a ventilation system.\n<br>●&nbsp;<b><i>Type of gas being ventilated out</i></b> Exhaust outlets from areas that may be contaminated by noxious dust, fumes, steam, gases, odour or other contaminants harmful to people should be placed above the roof level. The discharge to the atmosphere should be located as far as possible, usually not less than 8 m from any operable window, door, and/or outdoor intake for a fan.\n<br>●&nbsp;<b><i>Types of space to be ventilated on a particular floor</i></b> If a particular floor has all different types of requirements for different space, a locally controlled system is advisable, while if the floor contains space that can be grouped together according to the ventilation needs, such as a number of guest rooms on a particular floor, it can be served by a dedicated ventilation system with common control.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>AIR CONDITIONING<br><br>Introduction</b><br>Air conditioning, in the most general sense of the term, means any kind of conditioning of air. This includes circulating air in a room, filtering air, cooling or heating air humidifying or dehumidifying air. Complete air conditioning would mean all such processes being carried on air in a ventilation system. Normally, when we say the space is air conditioned, we mean the air is cooled. Cooling of air can be through evaporative cooling, for example, when air flows over a bucket of ice- cold water, the water gets evaporated due to air convection and draws its latent heat required for evaporation from air, which in turn gets cooled air or through heat exchange with refrigerated water from a refrigeration plant. Again, usually air is cooled in air-conditioning units by using refrigerated water and hence a refrigeration plant is necessary for such air-conditioning systems. Before we understand the utility of all the components therein, we recall that temperature and humidity are two very important conditions for feeling of comfort. \n<br>As such, we define and explain a few terms for the basic understanding of the science of air conditioning.\n<br>\n<br><b>Terminologies used in Air Conditioning\n</b><br><b>• Psychrometry –</b> The study and measurement of the properties of air and water vapour mixture is known as psychrometry.\n<br><b>• Dry Air –</b> Atmospheric air consisting of a mixture of gases excluding its water vapour content is known as dry air.\n<br><b>• Moisture –</b> The water vapour contained in air is called moisture.\n<br><b>• Moist Air –</b> Atmospheric air along with gases and water vapour is known as moist air.\n<br><b>• Unsaturated Air –</b> The moist air which does not contain the maximum amount of water vapour that it can hold at a given temperature is known as unsaturated air.\n<br><b>• Saturated Air –</b> The mist air which contains the maximum amount of water vapour that it can hold at a given temperature, is known as saturated air.\n<br><b>• Dry Bulb Temperature (DBT) –</b> The reading of temperature of air given by an ordinary mercury thermometer, having its bulb dry and not under the sun or other heat radiating objects.\n<br><b>• Dew Point Temperature (DPT) –</b> At atmospheric temperature atmospheric air always contains water in the form of vapours .If this air is cooled down, the water vapour is turned into water droplets. This temperature at which the water vapours turns into water droplets is called dew point temperature.\n<br><b>• Wet Bulb Temperature (WBT) –</b> Temperature of air indicated by a mercury thermometer whose bulb is covered by a piece of wet muslin is known as wet bulb temperature.\n<br><b>• Specific Humidity (SH) -</b> It is defined as the total quantity of water vapour in the moist air.\n<br><b>• Relative Humidity (RH) -</b> It is defined as the ratio of actual moist air content of a given volume at a particular temperature to the maximum amount of water vapour if the air is saturated at the same temperature.\n<br>\n<br><b>Types of Air Conditioning\n</b><br><b>•</b> Centralized air – conditioning System\n<br><b>• </b>Unit Air conditioner\n<br><b>a.</b> Window type units\n<br><b>b. </b>Split type units<b><br></b><br><b>CENTRAL AIR-CONDITIONING\n</b><br>Central air conditioning (or central A/C) is a system in which air is cooled at a central location and distributed to and from rooms by one or more fans and ductwork. The work of the air conditioner compressor is what makes the whole process of air conditioning possible. The compression of the refrigerant gas enables it to discharge heat out of the buildings, which is how the cool air is created.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "srCtIOw1HU",
@@ -10166,6 +10166,285 @@
           "_once": false,
           "_params": {},
           "_anchor": "content5-cd"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/1-768x492.png\" alt=\"H\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Image Description</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "srCV1XoHI3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image3-ce"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Components of Centralised Air Conditioning Plant</b><br><br><b>1. FRESH AIR INLET –</b> It admits fresh air through a louver/grille situated on an outside wall very much away from the kitchen, boiler house and water closet (WC) outlets.\n<br><b>2. FILTERS –</b> It is employed to arrest suspended particulate matter such as dirt and dust from inlet air.\n<br><b>3. AIR WASHERS –</b> This is the air – conditioning section which comprises the pre-heater coil, refrigerating coil and banks of water sprays. The functions of air washers are to control humidity and clean air.\n<br><b>4. SCRUBBER PLATES –</b> These are a series of zigzag plates with a stream of water running down them and are used to catch the dirt-laden water droplets coming out from the water spray section in the air washer.\n<br><b>5. WATER ELIMINATOR PLATES –</b> These are a series of dry zigzag plates to remove any remaining free moisture in the air stream.\n<br><b>6. MIST ELIMINATOR –</b> It is a metallic / non-metallic bed through which air is flown upwards. Fine mist is trapped in the bed and falls down as they coalesce (combine) to bigger size.\n<br><b>7. AIR HEATER -</b> This is composed of heating coils to bring the air up to the desirable room temperature, if necessary.\n<br><b>8. INLET FAN –</b> It is a fan for drawing air through the inlet, ducting and forcing it into the various spaces in the building.\n<br><b>9. FRESH AIR INLET/LOUVERS –</b> They are fitted in the inlet of the fresh air for uniform entry of fresh air and hence smooth mixing with return air before entry to the air conditioning section.\n<br><b>10. ROOM INLET GRILLES –</b> One or more grilles in each room for the controlled inflow of air.\n<br><b>11. ROOM EXTRACTION GRILLES –</b> One or more grilles in each room for the outflow of air. One to discharge outside into the atmosphere and another leading back to the AC plant inlet for the re-circulation.\n<br><b>12. EXTRACTION FAN –</b> It is the fan for extracting air in the return path of the air ducting coming back from rooms and spaces.\n<br><b>13. CENTRAL EXTRACTION DAMPER –</b> In case where complete central control is exercised a part of the return air from all spaces is discharged to the atmosphere through a control damper valve in the delivery side of the extractor fan.\n<br><b>14. DUCTING –</b> Ducting is a term used to denote the passage for flow of air from the AC plant through various passages in the building opening into the closed space to be cooled and return to the inlet ducting in the AC plant. This also includes the ducting for exhaust to the atmosphere.\n<br>\n<br><b>Controls in AC systems\n</b><br>Air-conditioning control essentially involves control of temperature and humidity. These controls are effected through thermostats and humidistats, which sense the temperature and humidity of air, respectively and send control signals for corrective actions. Corrective actions include controlling (a) the temperature of air heaters, (b) the temperature of water spray, (c) the operation of refrigeration plants, and (d) the amount of recirculated air (by controlling the damper opening). Different rooms and spaces may require different conditions of air. For example, bedroom and banquet halls should have different requirements of air quality and conditions. The number of occupants should also be a factor in determining the individual requirements. Control can be achieved by any of the following three methods.\n<br>\n<br>1. There is complete central control where the central unit does everything and the whole building receives air at the same uniform temperature and humidity conditions\n<br>\n<br>2. Instead of installing the components of air washer and eliminator in the central plant, these units are located at each room so that the conditions can be controlled very locally.\n<br>\n<br>3. Instead of locating the air-washer components and eliminator for each room, spaces with similar requirements are grouped and separate controls with one set of components consisting of fan, filter, and cooling/heating coil is installed for each such zone.\n<br>\n<br><b>Importance Points to be noted Centralised Air Conditioning Plant\n</b><br>\n<br>● The central air conditioning plants or the systems are used when large buildings, hotels, theatres, airports, shopping malls etc. are to be air conditioned completely.\n<br>● The air conditioning system operates essentially in a closed cycle.\n<br>● Return air from different spaces in the property such as lodging rooms, dining areas, stores, banquet halls, kitchen etc. comes back through the return duct drawn by what is known as an extraction fan or exhauster.\n<br>● This return air although a little stale is still cold/hot and relatively free from dirt and other contaminants present in fresh air.\n<br>● Instead of exhausting the entire return gas out and sucking in fresh air only, it is returned to the circuit to minimize energy requirement for cooling/heating and filtration.\n<br>\n<br><br><b>Unit Air Conditioners – Window Type AC\n</b><br>These are small self contained cabinet style units. The units are made small enough to fit into a standard window frame. Almost all the components of a central air conditioning plant and the refrigeration plants are corporate within the cabinet. The refrigeration plants (small enough to be housed within the box) provide the cook refrigerant for direct cooling the air.\n<br>\n<br><b>Working of unit air conditioners\n</b><br>We recall that a vapour compression refrigeration system needs a \n<br>(a) compressor to pressurize and heat the refrigerant\n<br>(b) a condenser to cool the hot refrigerant gas \n<br>(c) an expansion valve (a constriction in the pipeline carrying the refrigerant, which lowers the pressure and also the temperature of the refrigerant to a very cool state)\n<br>(d) an evaporator coil through which the cool refrigerant passes and surrounding which hot room air circulates to get cool\n<br>(e) appropriate refrigerant\n<br>(f) pipeline for circulating the refrigerant through all the devices as mentioned. \n<br>\n<br>The air-conditioning section consists of a blower (a fan which can develop higher pressure), which sucks in return air from the room through inlet louvers/ grilles over the cool evaporator coil and forces it over the same coil finally back to the room again through delivery louvers/grilles.&nbsp;&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content5-cf",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "srCVMcFw5M",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/2-768x616.png\" alt=\"H\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Image Description</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "image3-cg",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "srCXjvJL2e",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Importance Points to be noted in Unit air conditioner\n</b><br>• This is a completely self contained unit with the compressor, condenser, evaporator, refrigerant piping and air filter all assembled in a very compact manner.\n<br>• The window AC is usually 0.5 to 5 tons in capacity.\n<br>• Latest practice is to use sealed type compressor units so that possibility of leakage of refrigerant is eliminated.\n<br>• There is provision to control the fresh air intake.\n<br>• It is easy to install, operate and maintain.\n<br>• Its running cost is high.\n<br>• It requires at least one wall of the room free and open to the atmosphere, so that the air is discharged in the open.\n<br>\n<br><b>Refrigeration section\n</b><br>• A compressor for raising the temperature and pressure of the refrigerant\n<br>• A hot coil or condenser (on the outside) to reduce the temperature of the high-pressure refrigerant\n<br>• An expansion valve to reduce the pressure and chill the refrigerant\n<br>• A chilled coil or the evaporator coil (on the inside) to carry the chilled refrigerant for cooling the air, in turn\n<br>• Tube for carrying refrigerant\n<br>\n<br><b>Air-conditioning section\n</b><br>• Chilling coil fan/blower to suck in return air from the room and force it over the chilling (or evaporator) coil\n<br>• Air inlet/outlet grilles to the unit from room for re-circulating the room air in a stream-lined manner\n<br>• Fresh air inlet grilles (for some models only) for admitting fresh air into the system\n<br>\n<b><br>Other components/devices\n</b><br>• A fan for drawing atmospheric air to blow over hot condenser coil to lower the temperature of hot gas from the compressor\n<br>• A drive motor for running the condenser fan as well as chilling the coil blower in the air-conditioning section\n<br><b>• </b>A control unit to control temperature and humidity\n<br>\n<br>Models without a fresh air inlet operate entirely on recirculated air and are suitable only for rooms with small fresh air requirements. If we recollect the refrigeration system, we will notice that the first four components comprise a basic refrigeration system. The cold refrigerant passes through the chilling coil over which flows the warm air from outside (in case fresh air is admitted) and the relatively cooler return air from inside the room forced over the chilling coil by a fan. Another fan forces ; atmospheric air to cool the hot refrigerant from the compressor flowing through the hot or condenser coil. These two fans are driven by a single drive motor.<br><br><br><b>Split-system units\n</b><br>The development of split air-conditioning units has further made the installation of room air conditioners more flexible. In this system, the cold Side of the unit (such as expansion valve, chilling coil, etc.) is physically separated from the hot side (such as hot coil or condenser coil). The refrigerant flows through a long pipeline connecting the hot side and the cold side. The cold side is placed inside the room and the hot side outside the building where there is no problem of condensation of water (during passage of atmospheric air over hot coil, moisture condenses out), which had been a problem in the old single-unit compact version for rooms having all walls inside the building. The unit consists of a long, spiral coil shaped like a cylinder. Inside the coil is a fan, to blow air through the coil, along with a weather-resistant compressor and some control logic. <br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content5-ch",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "srCXknAqDu",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/3-768x743.png\" alt=\"H\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Image Description</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "image3-ci",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "srCXTt8pdB",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Thus, the main advantages of Split-type air conditioners are ; \n</b><br>\n<br>• In this system, the cold side of the unit ( such as expansion valve, evaporator coil) is physically separated from the hot side (compressor, condenser). \n<br>• The refrigerant flows through a long pipeline connecting the hot side and the cold side. \n<br>• The cold part inside the room and the hot part outside the building. \n<br>• The main advantages of split type air conditioners are: \n<br>• Low cost for relatively larger size units \n<br>• Absence of noise as the compressor is placed outside the building.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content5-cj",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "srCXU8lqPz",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "FM_Unit_5.3.html": {
+      "settings": {
+        "title": "FM_Unit_5.3",
+        "order": 87
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -5</b><div><b>HVAC</b></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "srD0NG39xb",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-ck"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>REFRIGERATION \n</b><br>\n<br><b>What is refrigeration?\n</b><br>Refrigeration is the science of producing and maintaining a temperature condition in a closed space lower than the surrounding ambiance by removing heat from the space and transferring that heat to another space or substance.\n<br>\n<br><b>Need for refrigeration\n</b><br>• In hotels and households, food items, both cooked and uncooked, can be preserved for a long time in low temperatures.\n<br>• Storage of fruits and vegetables makes it possible to add fresh salads to the menu all year round.\n<br>• Storage of fish, meat and other perishables items safely for longer periods is possible due to refrigeration.\n<br>• Seasonal food items can be bought from the market in bulk quantity at relatively cheaper price, stored in refrigerated conditions and later used during off season.\n<br>• Cooling of desserts and drinks.\n<br>\n<br><b>TERMS USED IN REFRIGERATION\n</b><br><b>• REFRIGERANT –</b> It is the substance used for heat transfer in a refrigeration system. It takes up heat from inside the refrigerator cabinet and releases it to the outside atmosphere.\n<br><b>• SENSIBLE HEAT – </b>The heat which is used to raise or lower the temperature of a substance.\n<br><b>• LATENT HEAT –</b> Latent heat is the energy absorbed or released when a substance changes its physical state. Latent heat is absorbed upon evaporation, and released upon condensation to liquid (as in clouds).\n<br><b>• EVAPORATION –</b> It is the process of a substance in a liquid state changing to a gaseous state due to an increase in temperature and/or pressure.\n<br><b>• CONDENSATION -</b> It is the change of the physical state of matter from gas phase into liquid phase, and is the reverse of evaporation.\n<br><b>• ONE TON OF REFRIGERATION –</b> It means cooling by extracting heat at the rate of 50Kcal/minute or 3000 Kcal/hr.\n<br>\n<br><b>Types of refrigerants&nbsp;</b><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "srD0NOdjkw",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-cl"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/1-768x267.png\" alt=\"H\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Image Description</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "image3-cm",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "srD78Zure7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Desirable properties of refrigerants\n</b><br>• It should be non poisonous and non irritant.\n<br>• It should be non flammable.\n<br>• It should be chemically stable.\n<br>• It should be non corrosive and should not react with the parts / components of the system.\n<br>• It should have no objectionable odour or smell.\n<br>• It should be easily and reliably detectable in case of leakage.\n<br>• Its LH of vapourisation should be high so that quantity of high refrigerant can be minimized.\n<br>• Its cost should be low.\n<br>• It should be easily available.\n<br>\n<br><b>REFRIGERATION PROCESS</b>\n<br>The main components of a refrigeration process are:\n<br>1. Evaporator\n<br>2. Compressor\n<br>3. Condenser\n<br>4. Expansion Valve\n<br>\n<br><b>EVAPORATOR:</b> In the evaporator the Refrigerant absorbs the heat from the object to be cooled and itself gets heated up. The heat absorbed is the latent heat of vaporization of the liquid refrigerant and therefore the refrigerant undergoes a change of state i.e. from liquid to vapours without any change in temperature. The vapour refrigerant then returns to the compressor.\n<br>\n<br><b>COMPRESSOR:</b> The vapour refrigerant is compressed at a very high pressure and temperature. It then passes through the condenser coil.\n<br>\n<br><b>CONDENSER:</b> While passing through the condenser the refrigerant rejects heat either to air or to surrounding water which gets heated up. The refrigerant condenses to a cold liquid state but at high pressure. This high pressure colder refrigerant then passes through the expansion valve.\n<br>\n<br><b>EXPANSION VALVE:</b> The expansion valve cools down the refrigerant to a low temperature and also reduces the pressure. It can be adjusted to control the temperature and pressure to which the refrigerant goes to the evaporator. The cool refrigerant is now ready to absorb heat from the hot objects while passing through the evaporator.\n<br>* Efficiency of Refrigeration System is expressed as Coefficient of Performance (COP) and is\ndefined as the ratio of refrigeration effect produced to the mechanical work done.\n<br>\n<b><br>TYPES OF REFRIGERATING UNITS IN HOTEL INDUSTRY\n</b><br>The usual categories of refrigerating units employed in the hotel industry are:\n<br>• Reach – in Units\n<br>• Counter – top or table – top Units\n<br>• Walk – in Units\n<br>• Special – purpose Units\n<br>\n<br>Each of the above mentioned units can have both cooler and freezer sections in them. Some refrigerators are now divided into four zones to store different types of food. They are as follows:\n<br>• Subzero (up to - 18 degree Celsius) - Freezer Section\n<br>• 0 degree Celsius - Meat preservation Section\n<br>• 5 degree Celsius - Refrigerator\n<br>• 10 degree Celsius - Vegetables Section\n<br>\n<br><b>Reach – in refrigerators\n</b><br>Coolers &amp; Freezers – Capacities of such units are usually expressed in terms of the internal space volume (cubic metre) or in mass (Kg) of material being stored in it. Typical interior temperature range for cooler should be 4.4 degree Celsius to 7 degree Celsius and for a freezer should be -15 degree Celsius to -23 degree Celsius.\n<br>\n<br><b>Counter top units\n</b><br>Small counter top refrigerators are frequently used to facilitate service. They are usually coolers and have features similar to those of reach-in coolers but of much smaller size usually up to a size of 100 litres only.\n<br>\n<br><b>Walk – in refrigeration system\n</b><br>As the name suggests, food operators can directly move into such units. They are much bigger in size and height than walk – in refrigerators. A typical size would be 4 X 5 X 3 m, or even more, or as less as having a floor area of 2 sq.m. They are normally custom built\n<br>\n<b><br>Special purpose units\n</b><br>•&nbsp;<b><i>Ice Cream Conservator and frozen food conservator: </i></b>They are usually “well type” and open vertically through a lid. This minimizes heat loss as cool and heavy air inside cannot escape upward. They are usually maintained at temperatures between -23 to -18 degree Celsius.\n<br>•&nbsp;<b><i>Wet Fish Cabinets:</i></b> They contain deep galvanized drawers in which fish can be embedded in ice. They keep moist storage conditions necessary for maintaining the quality of fish. They are usually maintained at temperatures between 0 to -2 degree Celsius.\n<br>•&nbsp;<b><i>Display Cabinets:</i></b> In many hotels, there is a refrigerated display cabinet kept in the dinning for the customers to choose varieties of meats for grilling. They are also used to display bakery products and desserts.\n<br>•&nbsp;<b><i>Bottle Coolers:</i></b> They are used in dining and are usually in bars. They are constructed in two ways. One is open refrigerated through type and the other is glass front cabinet type with hinged doors or sliding doors.\n<br>•&nbsp;<b>Ice makers:</b> Modern ice making machines need only to be connected to a cold water supply line. Water flows over a refrigerated plate and gets converted into a slab of ice. This slab of ice passes over a wire net which is electrically heated and the slab melts along the wire mesh and falls through the square holes as separate small cubes of ice.\n<br>\n<br><b>CARE AND MAINTENANCE OF REFRIGERATING UNITS\n</b><br>Regular cleaning and maintenance not only makes your equipment work more efficiently, but it also helps it last longer. When parts are worn and dirty, the unit runs more frequently causing more wear and tear on the parts. Eventually, the unit breaks down for good long before it should have. Preventing these issues is simpler than you think. Call in a qualified refrigeration service company at least twice a year and up to once a month, depending on the load and usage of your equipment, to do the following tasks:\n<br>\n<br><b>• </b>Clean evaporator and condenser coils\n<br>• Check lines for condensation\n<br>• Clean fan blades and inspect the fan motor\n<br>• Check integrity of insulation\n<br>• Check for air leaks through cracks, holes, and worn parts like gaskets and seals\n<br>• Lubricate door hinges and handles\n<br>• Check for loose electrical connections\n<br>• Clear drain lines of debris\n<br>• Check temperature and defrost settings and calibrate thermometers\n<br>• Check filters on ice makers\n<br>• Thoroughly clean all ice maker components\n<br>\n<br><b>Difference Between Air Conditioning and Refrigeration\n</b><br>In refrigeration, the apparatus supplies thermal energy from one place to a place of higher temperature whereas in air conditioning, the thermal energy is taken from the air in order to cool the air. Naturally, thermal energy can be seen flowing from higher temperature bearing place to lower temperature bearing place.\n<br>The use of heat pump and refrigerator applications can be seen in all these types of appliances. An AC has an indoor and outdoor unit connected with a pipe, the air is heated, compressed, condensed and then liquified, then the liquid gas evaporates and then cooled with the help of condenser to give the cooled air which we experience.\n<br><b><br></b><br><b>Air Conditioning \n</b><br>• Thermal energy is taken away from the place to keep the air cooler\n<br>• It is a type of refrigeration used to cool large area\n<br>• It deals with maintaining the temperature of a certain volume of air and also maintaining the purity and humidity\n<br>• The compressor and condenser are a separate unit from the evaporator\n<br>• The mechanism is supplied with gas from the tubes\n<br>• Cold air is pushed away from the unit\n<br>\n<b><br>Refrigeration\n</b><br>• Thermal energy is transferred from one place to a place of higher temperature\n<br>• Helps to flow thermal energy against the natural flow of heat\n<br>• It deals only with regulating the temperature of air such as cooling and freezing of products\n<br>• The appliance has a condenser, compressor, and evaporator in one set unit\n<br>• Internal chemicals and even air are supplied from the environment\n<br>• Cold air is kept inside the unit\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content5-cn",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "srD79JVFTZ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     }
