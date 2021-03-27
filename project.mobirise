@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "AC_Unit_4_index.html",
+    "currentPage": "AC_unit_4.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -94,7 +94,7 @@
         "file": "@PROJECT_PATH@/fonts/FFF_Tusj/font.ttf"
       }
     ],
-    "uniqCompNum": 472,
+    "uniqCompNum": 491,
     "versionPublish": "5.1.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -156,7 +156,7 @@
             }
           },
           "_name": "header13",
-          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#232323\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background15.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>e Notes</b><br><b><br></b><br><b><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .social-row\">Version 2.0.1.19</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Important Questions</a></div>\n                <div class=\"social-row display-7 mt-5\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#232323\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background15.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>e Notes</b><br><b><br></b><br><b><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .social-row\">Version 2.0.1.20</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Important Questions</a></div>\n                <div class=\"social-row display-7 mt-5\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sofl8OkJzK",
           "_anchor": "header13-27",
           "_protectedParams": [],
@@ -205,7 +205,7 @@
     "2 Year Subject.html": {
       "settings": {
         "title": "2 Year Subject",
-        "order": 22
+        "order": 25
       },
       "components": [
         {
@@ -241,7 +241,7 @@
     "3 Year Subject.html": {
       "settings": {
         "title": "3 Year Subject",
-        "order": 58
+        "order": 61
       },
       "components": [
         {
@@ -280,7 +280,7 @@
     "Syllabus.html": {
       "settings": {
         "title": "Syllabus",
-        "order": 116
+        "order": 119
       },
       "components": [
         {
@@ -318,7 +318,7 @@
     "1 Sem Syllabus.html": {
       "settings": {
         "title": "1 Sem Syllabus",
-        "order": 118
+        "order": 121
       },
       "components": [
         {
@@ -356,7 +356,7 @@
     "5 Sem Syllabus.html": {
       "settings": {
         "title": "5 Sem Syllabus",
-        "order": 123
+        "order": 126
       },
       "components": [
         {
@@ -394,7 +394,7 @@
     "3 Sem Syllabus.html": {
       "settings": {
         "title": "3 Sem Syllabus",
-        "order": 120
+        "order": 123
       },
       "components": [
         {
@@ -432,7 +432,7 @@
     "AC Syllabus.html": {
       "settings": {
         "title": "AC Syllabus",
-        "order": 119
+        "order": 122
       },
       "components": [
         {
@@ -496,7 +496,7 @@
     "HK Syllabus.html": {
       "settings": {
         "title": "HK Syllabus",
-        "order": 121
+        "order": 124
       },
       "components": [
         {
@@ -560,7 +560,7 @@
     "FO Syllabus.html": {
       "settings": {
         "title": "FO Syllabus",
-        "order": 122
+        "order": 125
       },
       "components": [
         {
@@ -624,7 +624,7 @@
     "H&S Syllabus.html": {
       "settings": {
         "title": "H&S Syllabus",
-        "order": 124
+        "order": 127
       },
       "components": [
         {
@@ -688,7 +688,7 @@
     "FM Syllabus.html": {
       "settings": {
         "title": "FM Syllabus",
-        "order": 125
+        "order": 128
       },
       "components": [
         {
@@ -752,7 +752,7 @@
     "Contact.html": {
       "settings": {
         "title": "Contact",
-        "order": 126
+        "order": 129
       },
       "components": [
         {
@@ -923,7 +923,7 @@
     "Ref.Books.html": {
       "settings": {
         "title": "Ref.Books",
-        "order": 117
+        "order": 120
       },
       "components": [
         {
@@ -1117,7 +1117,7 @@
     "FO Units.html": {
       "settings": {
         "title": "FO Units",
-        "order": 44
+        "order": 47
       },
       "components": [
         {
@@ -1153,7 +1153,7 @@
     "HK Units.html": {
       "settings": {
         "title": "HK Units",
-        "order": 23
+        "order": 26
       },
       "components": [
         {
@@ -1189,7 +1189,7 @@
     "H&S Units.html": {
       "settings": {
         "title": "H&S Units",
-        "order": 89
+        "order": 92
       },
       "components": [
         {
@@ -1225,7 +1225,7 @@
     "FM Units.html": {
       "settings": {
         "title": "FM Units",
-        "order": 59
+        "order": 62
       },
       "components": [
         {
@@ -1261,7 +1261,7 @@
     "Disclaimer.html": {
       "settings": {
         "title": "Disclaimer",
-        "order": 127
+        "order": 130
       },
       "components": [
         {
@@ -1309,7 +1309,7 @@
     "Privacy Policy.html": {
       "settings": {
         "title": "Privacy Policy",
-        "order": 128
+        "order": 131
       },
       "components": [
         {
@@ -1357,7 +1357,7 @@
     "Help.html": {
       "settings": {
         "title": "Help",
-        "order": 109
+        "order": 112
       },
       "components": [
         {
@@ -1381,7 +1381,7 @@
     "error.html": {
       "settings": {
         "title": "Error",
-        "order": 129
+        "order": 132
       },
       "components": [
         {
@@ -1435,7 +1435,7 @@
     "HK_Unit_1_Index.html": {
       "settings": {
         "title": "HK_Unit_1_Index",
-        "order": 24
+        "order": 27
       },
       "components": [
         {
@@ -1497,7 +1497,7 @@
     "HK_Unit_1.html": {
       "settings": {
         "title": "HK_Unit_1",
-        "order": 25
+        "order": 28
       },
       "components": [
         {
@@ -1564,7 +1564,7 @@
     "HK_Unit_1.1.html": {
       "settings": {
         "title": "HK_Unit_1.1",
-        "order": 26
+        "order": 29
       },
       "components": [
         {
@@ -1785,7 +1785,7 @@
     "HK_Unit_1.2.html": {
       "settings": {
         "title": "HK_Unit_1.2",
-        "order": 27
+        "order": 30
       },
       "components": [
         {
@@ -2006,7 +2006,7 @@
     "HK_Unit_4.html": {
       "settings": {
         "title": "HK_Unit_4",
-        "order": 42
+        "order": 45
       },
       "components": [
         {
@@ -2076,7 +2076,7 @@
     "FO_Unit_1.html": {
       "settings": {
         "title": "FO_Unit_1",
-        "order": 45
+        "order": 48
       },
       "components": [
         {
@@ -2146,7 +2146,7 @@
     "HK_Unit_5.html": {
       "settings": {
         "title": "HK_Unit_5",
-        "order": 43
+        "order": 46
       },
       "components": [
         {
@@ -2271,7 +2271,7 @@
     "FO_Unit_2_index.html": {
       "settings": {
         "title": "FO_Unit_2_index",
-        "order": 46
+        "order": 49
       },
       "components": [
         {
@@ -2333,7 +2333,7 @@
     "FO_Unit_2.html": {
       "settings": {
         "title": "FO_Unit_2",
-        "order": 47
+        "order": 50
       },
       "components": [
         {
@@ -2403,7 +2403,7 @@
     "FO_Unit_2.1.html": {
       "settings": {
         "title": "FO_Unit_2.1",
-        "order": 48
+        "order": 51
       },
       "components": [
         {
@@ -2473,7 +2473,7 @@
     "FO_Unit_2.2.html": {
       "settings": {
         "title": "FO_Unit_2.2",
-        "order": 49
+        "order": 52
       },
       "components": [
         {
@@ -2543,7 +2543,7 @@
     "FO_Unit_5.html": {
       "settings": {
         "title": "FO_Unit_5",
-        "order": 57
+        "order": 60
       },
       "components": [
         {
@@ -2784,7 +2784,7 @@
     "HS_Unit_1.html": {
       "settings": {
         "title": "HS_Unit_1",
-        "order": 90
+        "order": 93
       },
       "components": [
         {
@@ -2837,7 +2837,7 @@
     "HS_Unit_2_index.html": {
       "settings": {
         "title": "HS_Unit_2_index",
-        "order": 91
+        "order": 94
       },
       "components": [
         {
@@ -2899,7 +2899,7 @@
     "HS_Unit_2.1.html": {
       "settings": {
         "title": "HS_Unit_2.1",
-        "order": 93
+        "order": 96
       },
       "components": [
         {
@@ -3009,7 +3009,7 @@
     "HS_Unit_2.2.html": {
       "settings": {
         "title": "HS_Unit_2.2",
-        "order": 94
+        "order": 97
       },
       "components": [
         {
@@ -3098,7 +3098,7 @@
     "HS_Unit_3.html": {
       "settings": {
         "title": "HS_Unit_3",
-        "order": 96
+        "order": 99
       },
       "components": [
         {
@@ -3151,7 +3151,7 @@
     "HS_Unit_3.1.html": {
       "settings": {
         "title": "HS_Unit_3.1",
-        "order": 97
+        "order": 100
       },
       "components": [
         {
@@ -3375,7 +3375,7 @@
     "HS_Unit_3.2.html": {
       "settings": {
         "title": "HS_Unit_3.2",
-        "order": 98
+        "order": 101
       },
       "components": [
         {
@@ -3428,7 +3428,7 @@
     "HS_Unit_3.3.html": {
       "settings": {
         "title": "HS_Unit_3.3",
-        "order": 99
+        "order": 102
       },
       "components": [
         {
@@ -3481,7 +3481,7 @@
     "HS_Unit_3_index.html": {
       "settings": {
         "title": "HS_Unit_3_index",
-        "order": 95
+        "order": 98
       },
       "components": [
         {
@@ -3543,7 +3543,7 @@
     "HS_Unit_2.html": {
       "settings": {
         "title": "HS_Unit_2",
-        "order": 92
+        "order": 95
       },
       "components": [
         {
@@ -3596,7 +3596,7 @@
     "FM_Unit_1.html": {
       "settings": {
         "title": "FM_Unit_1",
-        "order": 61
+        "order": 64
       },
       "components": [
         {
@@ -3649,7 +3649,7 @@
     "FM_Unit_1_index.html": {
       "settings": {
         "title": "FM_Unit_1_index",
-        "order": 60
+        "order": 63
       },
       "components": [
         {
@@ -3711,7 +3711,7 @@
     "FM_Unit_1.1.html": {
       "settings": {
         "title": "FM_Unit_1.1",
-        "order": 62
+        "order": 65
       },
       "components": [
         {
@@ -3800,7 +3800,7 @@
     "FM_Unit_1.2.html": {
       "settings": {
         "title": "FM_Unit_1.2",
-        "order": 63
+        "order": 66
       },
       "components": [
         {
@@ -4295,7 +4295,7 @@
     "FM_Unit_1.3.html": {
       "settings": {
         "title": "FM_Unit_1.3",
-        "order": 64
+        "order": 67
       },
       "components": [
         {
@@ -4405,7 +4405,7 @@
     "FM_Unit_1.5.html": {
       "settings": {
         "title": "FM_Unit_1.4",
-        "order": 65
+        "order": 68
       },
       "components": [
         {
@@ -4458,7 +4458,7 @@
     "FM_Unit_1.1_index.html": {
       "settings": {
         "title": "FM_Unit_1.1_index",
-        "order": 66
+        "order": 69
       },
       "components": [
         {
@@ -4520,7 +4520,7 @@
     "FM_Unit_1.1_1.html": {
       "settings": {
         "title": "FM_Unit_1.1_1",
-        "order": 67
+        "order": 70
       },
       "components": [
         {
@@ -4728,7 +4728,7 @@
     "FM_Unit_1.1_2.1.html": {
       "settings": {
         "title": "FM_Unit_1.1_2.1",
-        "order": 69
+        "order": 72
       },
       "components": [
         {
@@ -4895,7 +4895,7 @@
     "FM_Unit_1.1_2.html": {
       "settings": {
         "title": "FM_Unit_1.1_2",
-        "order": 68
+        "order": 71
       },
       "components": [
         {
@@ -4969,7 +4969,7 @@
     "FM_Unit_1.1_3.html": {
       "settings": {
         "title": "FM_Unit_1.1_3",
-        "order": 70
+        "order": 73
       },
       "components": [
         {
@@ -5022,7 +5022,7 @@
     "FM_Unit_2_index.html": {
       "settings": {
         "title": "FM_Unit_2_index",
-        "order": 71
+        "order": 74
       },
       "components": [
         {
@@ -5084,7 +5084,7 @@
     "FM_Unit_2.html": {
       "settings": {
         "title": "FM_Unit_2",
-        "order": 72
+        "order": 75
       },
       "components": [
         {
@@ -5194,7 +5194,7 @@
     "FM_Unit_2.1.html": {
       "settings": {
         "title": "FM_Unit_2.1",
-        "order": 73
+        "order": 76
       },
       "components": [
         {
@@ -5304,7 +5304,7 @@
     "FM_Unit_2.2.html": {
       "settings": {
         "title": "FM_Unit_2.2",
-        "order": 74
+        "order": 77
       },
       "components": [
         {
@@ -5357,7 +5357,7 @@
     "FM_Unit_2.3.html": {
       "settings": {
         "title": "FM_Unit_2.3",
-        "order": 75
+        "order": 78
       },
       "components": [
         {
@@ -5410,7 +5410,7 @@
     "FM_Unit_3_index.html": {
       "settings": {
         "title": "FM_Unit_3_index",
-        "order": 76
+        "order": 79
       },
       "components": [
         {
@@ -5472,7 +5472,7 @@
     "FM_Unit_3.html": {
       "settings": {
         "title": "FM_Unit_3",
-        "order": 77
+        "order": 80
       },
       "components": [
         {
@@ -5525,7 +5525,7 @@
     "FM_Unit_3.1.html": {
       "settings": {
         "title": "FM_Unit_3.1",
-        "order": 78
+        "order": 81
       },
       "components": [
         {
@@ -5578,7 +5578,7 @@
     "FM_Unit_3.2.html": {
       "settings": {
         "title": "FM_Unit_3.2",
-        "order": 79
+        "order": 82
       },
       "components": [
         {
@@ -5631,7 +5631,7 @@
     "FO_Unit_3_Index.html": {
       "settings": {
         "title": "FO_Unit_3_Index",
-        "order": 50
+        "order": 53
       },
       "components": [
         {
@@ -5693,7 +5693,7 @@
     "FO_Unit_3.html": {
       "settings": {
         "title": "FO_Unit_3",
-        "order": 51
+        "order": 54
       },
       "components": [
         {
@@ -5763,7 +5763,7 @@
     "FO_Unit_3.2.html": {
       "settings": {
         "title": "FO_Unit_3.2",
-        "order": 53
+        "order": 56
       },
       "components": [
         {
@@ -5833,7 +5833,7 @@
     "FO_Unit_3.1.html": {
       "settings": {
         "title": "FO_Unit_3.1",
-        "order": 52
+        "order": 55
       },
       "components": [
         {
@@ -5960,7 +5960,7 @@
     "FO_Unit_4_Index.html": {
       "settings": {
         "title": "FO_Unit_4_Index",
-        "order": 54
+        "order": 57
       },
       "components": [
         {
@@ -6022,7 +6022,7 @@
     "FO_Unit_4.html": {
       "settings": {
         "title": "FO_Unit_4",
-        "order": 55
+        "order": 58
       },
       "components": [
         {
@@ -6092,7 +6092,7 @@
     "FO_Unit_4.1.html": {
       "settings": {
         "title": "FO_Unit_4.1",
-        "order": 56
+        "order": 59
       },
       "components": [
         {
@@ -6219,7 +6219,7 @@
     "HK_Unit_3_Index.html": {
       "settings": {
         "title": "HK_Unit_3_Index",
-        "order": 34
+        "order": 37
       },
       "components": [
         {
@@ -6281,7 +6281,7 @@
     "HK_Unit_3.html": {
       "settings": {
         "title": "HK_Unit_3",
-        "order": 35
+        "order": 38
       },
       "components": [
         {
@@ -6351,7 +6351,7 @@
     "HK_Unit_3.1.html": {
       "settings": {
         "title": "HK_Unit_3.1",
-        "order": 36
+        "order": 39
       },
       "components": [
         {
@@ -6421,7 +6421,7 @@
     "HK_Unit_3.2.html": {
       "settings": {
         "title": "HK_Unit_3.2",
-        "order": 37
+        "order": 40
       },
       "components": [
         {
@@ -6491,7 +6491,7 @@
     "HK_Unit_3.3.html": {
       "settings": {
         "title": "HK_Unit_3.3",
-        "order": 38
+        "order": 41
       },
       "components": [
         {
@@ -6561,7 +6561,7 @@
     "HK_Unit_3.4.html": {
       "settings": {
         "title": "HK_Unit_3.4",
-        "order": 39
+        "order": 42
       },
       "components": [
         {
@@ -6631,7 +6631,7 @@
     "HK_Unit_3.5.html": {
       "settings": {
         "title": "HK_Unit_3.5",
-        "order": 40
+        "order": 43
       },
       "components": [
         {
@@ -6701,7 +6701,7 @@
     "HK_Unit_3.6.html": {
       "settings": {
         "title": "HK_Unit_3.6",
-        "order": 41
+        "order": 44
       },
       "components": [
         {
@@ -6771,7 +6771,7 @@
     "HK_Unit_2_Index.html": {
       "settings": {
         "title": "HK_Unit_2_Index",
-        "order": 28
+        "order": 31
       },
       "components": [
         {
@@ -6833,7 +6833,7 @@
     "HK_Unit_2.html": {
       "settings": {
         "title": "HK_Unit_2",
-        "order": 29
+        "order": 32
       },
       "components": [
         {
@@ -6903,7 +6903,7 @@
     "HK_Unit_2.1.html": {
       "settings": {
         "title": "HK_Unit_2.1",
-        "order": 30
+        "order": 33
       },
       "components": [
         {
@@ -6973,7 +6973,7 @@
     "HK_Unit_2.2.html": {
       "settings": {
         "title": "HK_Unit_2.2",
-        "order": 31
+        "order": 34
       },
       "components": [
         {
@@ -7043,7 +7043,7 @@
     "HK_Unit_2.3.html": {
       "settings": {
         "title": "HK_Unit_2.3",
-        "order": 32
+        "order": 35
       },
       "components": [
         {
@@ -7113,7 +7113,7 @@
     "HK_Unit_2.4.html": {
       "settings": {
         "title": "HK_Unit_2.4",
-        "order": 33
+        "order": 36
       },
       "components": [
         {
@@ -7636,7 +7636,7 @@
     "Updating.html": {
       "settings": {
         "title": "Updating",
-        "order": 130
+        "order": 133
       },
       "components": [
         {
@@ -8103,7 +8103,7 @@
     "HS_Unit_4_index.html": {
       "settings": {
         "title": "HS_Unit_4_index",
-        "order": 100
+        "order": 103
       },
       "components": [
         {
@@ -8165,7 +8165,7 @@
     "HS_Unit_4.html": {
       "settings": {
         "title": "HS_Unit_4",
-        "order": 101
+        "order": 104
       },
       "components": [
         {
@@ -8218,7 +8218,7 @@
     "HS_Unit_4.2.html": {
       "settings": {
         "title": "HS_Unit_4.2",
-        "order": 103
+        "order": 106
       },
       "components": [
         {
@@ -8271,7 +8271,7 @@
     "HS_Unit_4.1.html": {
       "settings": {
         "title": "HS_Unit_4.1",
-        "order": 102
+        "order": 105
       },
       "components": [
         {
@@ -8324,7 +8324,7 @@
     "HS_Unit_5_index.html": {
       "settings": {
         "title": "HS_Unit_5_index",
-        "order": 104
+        "order": 107
       },
       "components": [
         {
@@ -8386,7 +8386,7 @@
     "HS_Unit_5.html": {
       "settings": {
         "title": "HS_Unit_5",
-        "order": 105
+        "order": 108
       },
       "components": [
         {
@@ -8496,7 +8496,7 @@
     "HS_Unit_5.1.html": {
       "settings": {
         "title": "HS_Unit_5.1",
-        "order": 106
+        "order": 109
       },
       "components": [
         {
@@ -8606,7 +8606,7 @@
     "HS_Unit_5.2.html": {
       "settings": {
         "title": "HS_Unit_5.2",
-        "order": 107
+        "order": 110
       },
       "components": [
         {
@@ -8659,7 +8659,7 @@
     "HS_Unit_5.3.html": {
       "settings": {
         "title": "HS_Unit_5.3",
-        "order": 108
+        "order": 111
       },
       "components": [
         {
@@ -8712,7 +8712,7 @@
     "FM_Q.html": {
       "settings": {
         "title": "FM_Q",
-        "order": 110
+        "order": 113
       },
       "components": [
         {
@@ -8811,7 +8811,7 @@
     "HS_Q.html": {
       "settings": {
         "title": "HS_Q",
-        "order": 113
+        "order": 116
       },
       "components": [
         {
@@ -8909,7 +8909,7 @@
     "FO_Q.html": {
       "settings": {
         "title": "FO_Q",
-        "order": 114
+        "order": 117
       },
       "components": [
         {
@@ -9007,7 +9007,7 @@
     "HK_Q.html": {
       "settings": {
         "title": "HK_Q",
-        "order": 115
+        "order": 118
       },
       "components": [
         {
@@ -9299,7 +9299,7 @@
     "FM_Unit_4_index.html": {
       "settings": {
         "title": "FM_Unit_4_index",
-        "order": 80
+        "order": 83
       },
       "components": [
         {
@@ -9361,7 +9361,7 @@
     "FM_Unit_5_index.html": {
       "settings": {
         "title": "FM_Unit_5_index",
-        "order": 84
+        "order": 87
       },
       "components": [
         {
@@ -9423,7 +9423,7 @@
     "AC_Q.html": {
       "settings": {
         "title": "AC_Q",
-        "order": 111
+        "order": 114
       },
       "components": [
         {
@@ -9522,7 +9522,7 @@
     "FM_Unit_4.html": {
       "settings": {
         "title": "FM_Unit_4",
-        "order": 81
+        "order": 84
       },
       "components": [
         {
@@ -9575,7 +9575,7 @@
     "FM_Unit_4.1.html": {
       "settings": {
         "title": "FM_Unit_4.1",
-        "order": 82
+        "order": 85
       },
       "components": [
         {
@@ -9628,7 +9628,7 @@
     "FM_Unit_4.2.html": {
       "settings": {
         "title": "FM_Unit_4.2",
-        "order": 83
+        "order": 86
       },
       "components": [
         {
@@ -9681,7 +9681,7 @@
     "FM_Unit_5.html": {
       "settings": {
         "title": "FM_Unit_5",
-        "order": 85
+        "order": 88
       },
       "components": [
         {
@@ -9772,11 +9772,68 @@
             }
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>SALADS\n</b><br>In simple words, a salad is a composition of ingredients that can be raw, cooked, or cold, usually served with a dressing, and eaten as an appetizer or as a main course. The word ‘salad’ originated from the Latin word <b><i>sal</i></b>, meaning salt. Salads are generally served as an accompaniment to a dish but can be served as a course itself, an appetizer, sweet course(fruit salad).\n<br>Salads have come a long way since ancient Roman times, but even till date, a salad will always\ncomprise the following:\n<br>\n<br><b>THE SALAD COMPRISES OF FOUR PARTS\n</b><br>Base\n<br>Body\n<br>Dressing\n<br>Garnish\n<br>\n<br><b>Base\n</b><br>The salad is built up on the base. Common bases include iceberg cups, chiffonade of lettuce, to the\nmore contemporary bases such as noodles, avocado halves, and pineapples. The main purpose is to keep the plate or bowl from looking bare and to provide contrast colour to the other parts of the salad.\n<br>\n<br><b>Body\n</b><br>It is the most important part of the salad and is placed on top of the base. It is the most substantial part that can comprise various ingredients, thus giving the salad its name. The body may include a variety of ingredients such as fish in a tuna salad or apples in a Waldorf salad. Body constituents are the major portion of the salad.\n<br>\n<br><b>Dressing\n</b><br>Dressing is used to moisten and add flavour to the salad. It helps to reduce the excessive bitterness that some salad leaves may have. It can be served by the side or tossed with the salad. It should be added towards the end or as close to the service time as possible. It adds flavour, provides food value, helps in digestion and improves palatability and appearance. A dressing is in a liquid or semi liquid form.\n<br>\n<br><b>Garnish\n</b><br>Garnish is of prime importance in any salad; it is the focal point of the salad and gives the salad its\ndistinctive nature. It provides the salad with colour, contrast, and elevation. Common garnishes are\nchopped walnuts, crostini, fresh herb sprigs, fresh sprouted seed leaves, any of the fruit and vegetables,cut into simple, appropriate shapes, may be used as garnish.\n<br>\n<br><b>TYPES OF SALADS\n</b><br>Salads are of three types:\n<br>\n<br>● Simple Salads\n<br>● Compound Salads\n<br>● Tossed Salads\n<br>\n<br><b>Simple Salads\n</b><br>These salads comprise only one primary ingredient, which makes up the body. with one or two other\ningredients that make up the garnish. These salads are usually tossed with a dressing and one must use ingredients that are grown fresh during the season. \n<br><b><i>Examples:\n</i></b><br>● Celery salad: chopped celery with vinaigrette.\n<br>● Cabbage salad: shredded cabbage with vinaigrette.\n<br>● Cucumber salad: cucumber roundels with vinaigrette.\n<br>\n<br><b>Compound Salads\n</b><br>Compound salads are very elaborate in nature and can vary depending on the skill and the imagination of the chef. They comprise more than one ingredient and can be classified as follows depending on the ingredient used in the body:\n<br>● Fish based\n<br>● Fruit based\n<br>● Meat based\n<br>● Vegetable based\n<br>● Miscellaneous salads\n<br>\n<br><b>Tossed Salads\n</b><br>This is a type of salad where varieties of cooked vegetables, mushrooms, truffles, meats, fish or shellfish etc. are tossed up together with a dressing. Many of the compound salads are also tossed salads. but they are classical and hence, form a different category. All the other creative salads, which are tossed together. will fall in the tossed category.\n<br>\n<br><b>Various types of Lettuce used in salads\n</b><br><b><br></b><br><b><i>Iceberg:\n</i></b><br>One of the most popular lettuce varieties, it gives a very crisp bite. It’s found very commonly in all supermarkets.\n<br><b><i>Radicchio:\n</i></b><br>The leaves have deep red to pink colour with white ribbing. It can be eaten raw in a salad, grilled with olive oil or stuffed\n<br><b><i>Romaine:\n</i></b><br>It’s used in the famous caesar salad. It has very good flavour and crunchy texture.\n<br><b><i>Bibb Lettuce:\n</i></b><br>This is also called butter head lettuce and it’s not commonly available and hence, it is very expensive.\n<br><b><i>Mizuna:\n</i></b><br>The leaves are bright green in colour and have serrated edges, They are a great addition to tossed green salad.\n<br><b><i>Dandelions:\n</i></b><br>These leaves are used in salad to give it a sharp to bitter flavour. The younger leaves can be eaten raw in a salad.\n<br><b><i>Frisée:\n</i></b><br>These are curry lettuce, with long tender leaves that are attached to a whitish stem. The tip of the leaves have a serrated edge.\n<br>\n<br>\n<br><b>SALAD DRESSING\n</b><br>The salient features of salad dressing are as follows:\n<br>● Dressing heightens the flavour and improves the food value.\n<br>● It is usually in a liquid or semi-liquid form, which helps in improving the appearance of the salad.\n<br>● The dressing should complement the ingredients being used.\n<br>● The modern concept of using flavoured oils and reducing the use of fruit juice and extracts in salads is a trend that is fast catching up.\n<br><br><i>Dressings can be classified as follows:\n</i><br><b>Oil-based Dressings\n</b><br>These dressings are temporary emulsions consisting of olive oil and vinegar, commonly called vinaigrette. The dressing can be made in bulk and kept for later use.\nHowever, the oil and vinegar/water separate, with the oil rising to the surface, on standing. Such dressings therefore need to be whisked just before application. Oil-based dressings are best held/stored at near room temperature. The guidelines given below should be followed when making, holding, and applying vinaigrette products:\n<br><br>● For production, choose good quality ingredients, namely oil, vinegar, fresh herbs, and flavourings.\n<br>● Prepare and mix dressings well in advance allowing the flavours to fully infuse with each other.\n<br>● Hold/store prepared oil-based dressings at near room temperature for best results. Holding in the fridge will cause the emulsion to separate.\n<br>● Always re-emulsify the dressings (by agitation or whisking) just before use to ensure the dressing is thoroughly blended together.\n<br>● Ensure the ingredients being favoured/moistened have been properly prepared before the dressing is applied, otherwise the dressing will not coat the salad.\n<br> ● Do not use excessive amounts of dressing. The tossing technique is an ideal way of achieving this requirement.\n<br>\n<br><b>Fresh Cream-based Dressings\n</b><br>These kinds of dressings are prepared using fresh cream. The cream is used to moisten the salad and add to the food value. Cream-based dressings have to be stored under refrigeration and have a very short shelf life.\n<br>\n<br><b>Mayonnaise-based Dressings\n</b><br>Mayonnaise is one of the most popular salad dressings used. It is highly versatile and goes well with fruit-, fish-, and vegetable-based salads. It should always be stored under refrigerated conditions and should be made in smal] quantities. Mayonnaise can also be flavoured by adding ingredients such as sun-dried tomatoes, basil, mustard, etc. to make variations. \n<br>Mayonnaise is a relatively stable emulsion, conditions may arise that will cause prepared mayonnaise to break or separate into an unacceptable product of curdled appearance. To prevent this from happening, it should be stored in a suitable sealed container in cool conditions.\n<br>\n<br><b>Natural Yoghurt Dressings\n</b><br>Yogurt-based dressings are healthy and thus popular in today’s time. It provides a lighter product with a piquant taste that is so desirable in salads.\n<br>\n<br><b>Other Dressings\n</b><br><b><i>Russian dressing:</i></b> mayonnaise, chilly sauce,horseradish,minced onion.\n<br><b><i>Lemon dressing:</i></b> same as vinaigrette dressing using lemon juice instead of vinegar.\n<br><b><i>Thousand island dressing:</i></b> mayonnaise, hard boiled eggs, tomato ketchup, chopped gherkins, chopped onions, pimentos, olives and paprika powder.\n<br>\n<br><b>SALIENT FEATURES OF PREPARING GOOD SALADS\n</b><br>The possible permutations and combinations of ingredients used in the preparation of salads are almost unlimited and this can give wide scope to the person entrusted with their preparation. It does, however, require and understanding of the compatibility of ingredients and for colour, balance, and presentation. Thus, attention should be given to careful decoration and garnishing of all salads; a good colour balance is essential for mixed or composed salads using a number of different ingredients. Care should be given to the following points:\n<br>\n<br>● All raw salad ingredients should be fresh and of good quality.\n<br>● All leaf salad vegetables should be carefully trimmed of all discoloured or damaged leaves and roots, then washed in cold water, drained, and dried thoroughly.\n<br>● Large salad leaves are best if carefully torn into manageable-sized pieces instead of cutting with a knife.\n<br>● Use the core part of the lettuce often referred to as ‘hearts of the lettuce’ wherever possible, as this part is very crisp and offers a natural crunch to the salad.\n<br>● The cutting of vegetables, either raw or cooked, should be carried out as evenly and neatly as possible. This is essential for a good presentation.\n<br>● Some items, such as avocado, pears, small raw artichokes, and some fruits like banana, tend to discolour quickly when cut. This can be prevented by preparing them at the last minute and using a lemon-based dressing. Alternatively, they may be sprinkled first with a little lemon juice.\n<br>● Always mix the salad with dressing at the last minute or the salad can become limp and loose its texture.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>SALADS\n</b><br>In simple words, a salad is a composition of ingredients that can be raw, cooked, or cold, usually served with a dressing, and eaten as an appetizer or as a main course. The word ‘salad’ originated from the Latin word <b><i>sal</i></b>, meaning salt. Salads are generally served as an accompaniment to a dish but can be served as a course itself, an appetizer, sweet course(fruit salad).\n<br>Salads have come a long way since ancient Roman times, but even till date, a salad will always\ncomprise the following:\n<br>\n<br><b>THE SALAD COMPRISES OF FOUR PARTS\n</b><br>1. Base\n<br>2. Body\n<br>3. Dressing\n<br>4. Garnish\n<br>\n<br><b>Base\n</b><br>The salad is built up on the base. Common bases include iceberg cups, chiffonade of lettuce, to the\nmore contemporary bases such as noodles, avocado halves, and pineapples. The main purpose is to keep the plate or bowl from looking bare and to provide contrast colour to the other parts of the salad.\n<br>\n<br><b>Body\n</b><br>It is the most important part of the salad and is placed on top of the base. It is the most substantial part that can comprise various ingredients, thus giving the salad its name. The body may include a variety of ingredients such as fish in a tuna salad or apples in a Waldorf salad. Body constituents are the major portion of the salad.\n<br>\n<br><b>Dressing\n</b><br>Dressing is used to moisten and add flavour to the salad. It helps to reduce the excessive bitterness that some salad leaves may have. It can be served by the side or tossed with the salad. It should be added towards the end or as close to the service time as possible. It adds flavour, provides food value, helps in digestion and improves palatability and appearance. A dressing is in a liquid or semi liquid form.\n<br>\n<br><b>Garnish\n</b><br>Garnish is of prime importance in any salad; it is the focal point of the salad and gives the salad its\ndistinctive nature. It provides the salad with colour, contrast, and elevation. Common garnishes are\nchopped walnuts, crostini, fresh herb sprigs, fresh sprouted seed leaves, any of the fruit and vegetables,cut into simple, appropriate shapes, may be used as garnish.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "srxXTG0drH",
           "_anchor": "content5-bu",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/doc1-11-768x1093.jpg\" alt=\"H\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Image Description</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "image3-d4",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "ssSt6xFMEI",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">TYPES OF SALADS \n<br>Salads are of three types: \n<br>\n<br>● Simple Salads \n<br>● Compound Salads \n<br>● Tossed Salads \n<br>\n<br><b>Simple Salads \n</b><br>These salads comprise only one primary ingredient, which makes up the body. with one or two other ingredients that make up the garnish. These salads are usually tossed with a dressing and one must use ingredients that are grown fresh during the season. \n<br><b><i>Examples: \n</i></b><br>● Celery salad: chopped celery with vinaigrette. \n<br>● Cabbage salad: shredded cabbage with vinaigrette. \n<br>● Cucumber salad: cucumber roundels with vinaigrette. \n<br>\n<br><b>Compound Salads \n</b><br>Compound salads are very elaborate in nature and can vary depending on the skill and the imagination of the chef. They comprise more than one ingredient and can be classified as follows depending on the ingredient used in the body: \n<br>● Fish based \n<br>● Fruit based \n<br>● Meat based \n<br>● Vegetable based \n<br>● Miscellaneous salads \n<br>\n<b><br>Tossed Salads \n</b><br>This is a type of salad where varieties of cooked vegetables, mushrooms, truffles, meats, fish or shellfish etc. are tossed up together with a dressing. Many of the compound salads are also tossed salads. but they are classical and hence, form a different category. All the other creative salads, which are tossed together. will fall in the tossed category. \n<br>\n<br>Various types of Lettuce used in salads \n<br><br><b>Iceberg: \n</b><br>One of the most popular lettuce varieties, it gives a very crisp bite. It’s found very commonly in all supermarkets. \n<br><b>Radicchio: \n</b><br>The leaves have deep red to pink colour with white ribbing. It can be eaten raw in a salad, grilled with olive oil or stuffed \n<br><b>Romaine: \n</b><br>It’s used in the famous caesar salad. It has very good flavour and crunchy texture. \n<br><b>Bibb Lettuce: \n</b><br>This is also called butter head lettuce and it’s not commonly available and hence, it is very expensive. \n<br><b>Mizuna: \n</b><br>The leaves are bright green in colour and have serrated edges, They are a great addition to tossed green salad. \n<br><b>Dandelions: \n</b><br>These leaves are used in salad to give it a sharp to bitter flavour. The younger leaves can be eaten raw in a salad. \n<br><b>Frisée: \n</b><br>These are curry lettuce, with long tender leaves that are attached to a whitish stem. The tip of the leaves have a serrated edge. \n<br>\n<br>\n<br><b>SALAD DRESSING \n</b><br>The salient features of salad dressing are as follows: \n<br>● Dressing heightens the flavour and improves the food value. \n<br>● It is usually in a liquid or semi-liquid form, which helps in improving the appearance of the salad. \n<br>● The dressing should complement the ingredients being used. \n<br>● The modern concept of using flavoured oils and reducing the use of fruit juice and extracts in salads is a trend that is fast catching up. \n<br>\n<br><b><i>Dressings can be classified as follows: \n</i></b><br><b><br></b><b>Oil-based Dressings \n</b><br>These dressings are temporary emulsions consisting of olive oil and vinegar, commonly called vinaigrette. The dressing can be made in bulk and kept for later use. However, the oil and vinegar/water separate, with the oil rising to the surface, on standing. Such dressings therefore need to be whisked just before application. Oil-based dressings are best held/stored at near room temperature. The guidelines given below should be followed when making, holding, and applying vinaigrette products: \n<br>\n<br>● For production, choose good quality ingredients, namely oil, vinegar, fresh herbs, and flavourings. \n<br>● Prepare and mix dressings well in advance allowing the flavours to fully infuse with each other. \n<br>● Hold/store prepared oil-based dressings at near room temperature for best results. Holding in the fridge will cause the emulsion to separate. \n<br>● Always re-emulsify the dressings (by agitation or whisking) just before use to ensure the dressing is thoroughly blended together. \n<br>● Ensure the ingredients being favoured/moistened have been properly prepared before the dressing is applied, otherwise the dressing will not coat the salad. \n<br>● Do not use excessive amounts of dressing. The tossing technique is an ideal way of achieving this requirement. \n<br>\n<br><b>Fresh Cream-based Dressings</b> \n<br>These kinds of dressings are prepared using fresh cream. The cream is used to moisten the salad and add to the food value. Cream-based dressings have to be stored under refrigeration and have a very short shelf life. \n<br>\n<br><b>Mayonnaise-based Dressings \n</b><br>Mayonnaise is one of the most popular salad dressings used. It is highly versatile and goes well with fruit-, fish-, and vegetable-based salads. It should always be stored under refrigerated conditions and should be made in smal] quantities. Mayonnaise can also be flavoured by adding ingredients such as sun-dried tomatoes, basil, mustard, etc. to make variations. \n<br>Mayonnaise is a relatively stable emulsion, conditions may arise that will cause prepared mayonnaise to break or separate into an unacceptable product of curdled appearance. To prevent this from happening, it should be stored in a suitable sealed container in cool conditions. \n<br>\n<br><b>Natural Yoghurt Dressings \n</b><br>Yogurt-based dressings are healthy and thus popular in today’s time. It provides a lighter product with a piquant taste that is so desirable in salads. \n<br>\n<br><b>Other Dressings \n</b><br>● Russian dressing: mayonnaise, chilly sauce,horseradish,minced onion. \n<br>● Lemon dressing: same as vinaigrette dressing using lemon juice instead of vinegar. \n<br>● Thousand island dressing: mayonnaise, hard boiled eggs, tomato ketchup, chopped gherkins, chopped onions, pimentos, olives and paprika powder. \n<br>\n<br><b>SALIENT FEATURES OF PREPARING GOOD SALADS \n</b><br>The possible permutations and combinations of ingredients used in the preparation of salads are almost unlimited and this can give wide scope to the person entrusted with their preparation. It does, however, require and understanding of the compatibility of ingredients and for colour, balance, and presentation. Thus, attention should be given to careful decoration and garnishing of all salads; a good colour balance is essential for mixed or composed salads using a number of different ingredients. Care should be given to the following points: \n<br>\n<br>● All raw salad ingredients should be fresh and of good quality. \n<br>● All leaf salad vegetables should be carefully trimmed of all discoloured or damaged leaves and roots, then washed in cold water, drained, and dried thoroughly. \n<br>● Large salad leaves are best if carefully torn into manageable-sized pieces instead of cutting with a knife. \n<br>● Use the core part of the lettuce often referred to as ‘hearts of the lettuce’ wherever possible, as this part is very crisp and offers a natural crunch to the salad. \n<br>● The cutting of vegetables, either raw or cooked, should be carried out as evenly and neatly as possible. This is essential for a good presentation. \n<br>● Some items, such as avocado, pears, small raw artichokes, and some fruits like banana, tend to discolour quickly when cut. This can be prevented by preparing them at the last minute and using a lemon-based dressing. Alternatively, they may be sprinkled first with a little lemon juice. \n<br>● Always mix the salad with dressing at the last minute or the salad can become limp and loose its texture.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content5-d5",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "ssSt8z9j3G",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -10124,7 +10181,7 @@
             }
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>FRUIT COOKERY\n</b><br>Fruits are a rich source of vitamins and minerals and give the necessary nutrition to our body. Fruits are generally eaten raw, but many of them can be cooked to serve as accompaniments, sauces, or compotes. Some fruits are rich in ‘pectin’, an enzyme that helps in the setting of jams and marmalades. Fruits have been paired with food since time immemorial.\n<br>Fruits are pulpy in character,often juicy &amp; generally developed from flowers of plants &amp; consist of a ripened seed or seeds with some edible tissues attached\n<br>\n<b><br>Why Eat Fruits?\n</b><br>Fruits have a very positive effect on the brain; the most important substance that fruits contain are water (80 percent) and natural sugars. Natural sugars help to stimulate the brain so we can think faster and recall information more quickly. Fruits do not contain any amount of bad cholesterol; therefore, they are amongst the healthiest foods available. Fruits are rich in fibre and vitamins such as vitamin C.\n<br>\n<br><b>CLASSIFICATION OF FRUITS\n</b><br>In botanical terms, a fruit is the ripened ovary of a flowering plant. A fruit usually contains the seeds of the plane that bears it. A number of fruits are also termed as vegetables by some, as there is no single terminology that can accurately fit the variety that can be found among plant fruit. Fruits can be broadly segregated on their composition, nutritional value, shape, and flavour. They could be sweet or sour, depending on the variety. Some are fleshy, some are dry, and some are heavy. It is to be noted that as per culinary terminology, a fruit is defined as a product that has a sweet taste. Fruits generally contain water soluble vitamins such as vitamins B and C. They also have a generous amount of antioxidants present in them. It is for this reason that fruits dis-colour once cut, as the exposure to oxygen instigates chemical reaction with the antioxidants.\n<br><br>Some fruits, known as ‘pseudo-carp’, are accessory fruits, for example, figs. They are not the ripened ovary, but are attached to the plant embryo. Certain fruits are produced without the fusion of the ovary and the embryo. They are artificially produced by a method called ‘parthenocarpy’, in which pollination is omitted. These fruits are seedless. Plants that are non-fruit producing are known as “acarpous”. Fruits are widely used in various ways such as cooked, raw, canned, pureed and squashed\n<br>\n<br><b>On Basis of Texture and Flavour\n</b><br>Fruits are classified on the basis of their texture and flavour and can be classified into:\n<br>\n<br>● <b>Soft Fruits :</b> Papaya, banana, melons, etc.\n<br>●&nbsp;<b>Stone Fruits :</b> Peaches, Mango, etc.\n<br>● <b>Apple &amp; Pear family :</b> All apples and pears\n<br>●<b> Citrus Fruits :</b> Orange, sweet lime, pineapple, etc.\n<br>\n<br><b>On Basis of Appearance and Flesh Content\n</b><br>\n<br><b>Fleshy fruits\n</b><br>These are fruits that have supple flesh around the seed. They can be subdivided again into those formed from and those formed from a group of flowers. Those formed from a single flower are classified as berry, drupe. aggregation of drupes, pomme, and hesperidium. Fruits that grow from a group of flowers and generate only a single seed are sorosis (c.g.. mulberry), syconium (e.g., fig), and coenocarpium (e.g.. pineapple).\n<br>\n<br><b>Dry fruits\n</b><br>Dry fruits are seeds of a fruit confined in a nut. So all nuts such as pistachio, cashew, almonds, and walnuts are dry fruits. Not all seeds of fruits are edible and only a few can be eaten as dry fruits. Many people also dehydrate fresh fruits for preservation and these should not be confused with dry fruits. The dehydrated fruits are simply known as dried fruits.\n<br>\n<br><b>STORAGE OF FRUITS\n</b><br>● hard fruits such as apples should be stored in boxes.\n<br>● Soft fruits such as strawberries, raspberries, should be left in their own punnets.\n<br>● Stoned fruit are stored in a tray and must be individually placed so that any damaged fruit can be discarded easily.\n<br>● Peaches and citrus fruits are left in the delivery tray only.\n<br>● Bananas should not be stored in cool places because their skin turns black.\n<br>\n<br><b>QUALITY AND PURCHASING POINTS FOR FRUITS</b>\n<br>● Soft fruits should not be damaged or overripe.\n<br>● Soft fruits should appear fresh without signs of mould,writing and shrinkage.\n<br>● Certain fruits are purchased on the basis of appearance such as strawberries.\n<br>● Hard fruits should not be bruised.\n<br>\n<br><b>FRUITS IN COOKING\n</b><br>The use of fruits in cooking dates back hundreds of years, Although fruits are most commonly used in desserts, they can also form part of savoury dishes. Fruits are also found in foods such as cookies, muffins, yoghurt, ice cream, and cakes. Fruits are not only used in preparing a variety of dishes, but they also help keep certain foods fresh and help preserve their colour. There are various ways to cook fruit, and certain considerations should be made beforehand as fruit tends to be delicate and can disintegrate easily, They are discussed as below:\n<br>\n<br><b>1. </b>Boiling is too harsh a method for most fruits; gentle simmering preserves the texture and shape of\nfruits. When cooking soft and stone fruits, simply warm them by placing them in a pan of boiled water.\n<br><br><b>2. </b>Poaching is a similar method, and is a common way to cook fruits such as pears. Bring the water to a simmer and then gently lower the fruit into the pan with a spoon. Immediately reduce the heat\nso the liquid is barely bubbling, and cooks until the fruit is tender.\n<br><br><b>3. </b>Stew fruit, where the saucepan is covered and the fruit is cooked in just enough liquid to cover it. This not only helps keeping the moisture, but helps to avoid expelling nutrients and be left with only the fibrous part. Use just enough moisture to cook the fruit. As with cooking vegetables, it is important to retain the crunch while cooking fruits.\n<br><br><b>4. </b>Barbecuing and grilling fruit leads to very sweet, strong flavours; this is due to the intense heat that caramelizes the sugars. Grilled or barbecued fruits make fantastic desserts, side dishes, or appetizers.<br><br><b>5.</b> Once cut, the fruit should be soaked in water to maximize the amount of liquid inside. This prevents the fruit from drying out on the grill. Adding I tsp of lemon juice to the water will help the fruit preserve its colour. It is also a good idea to try grilling bananas, tangerines, and pineapples on their skin. In general, leaving the skin or peel on the fruit helps to maintain its structural integrity as it cooks.\n<br><br><b>6. </b>Sauces of fruits are used to marinate the fruits before grilling them and they can also be served with the fruits after grilling.\n<br><br><b>7. </b>Drying is also a good way of preserving fruits and it intensifies their flavours. Most fruits can be\ndried effectively.\n<br>\n<br>Fruit can be made into jams, jellies, pickles, and chutneys, or can be bottled whole. The most suitable the method of preservation depends on the type of fruit and its quality and ripeness. Underripe fruit is fine for chutneys, jams, and jellies but overripe fruit is only good for making chutney and should not be used for making jam.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>FRUIT COOKERY\n</b><br>Fruits are a rich source of vitamins and minerals and give the necessary nutrition to our body. Fruits are generally eaten raw, but many of them can be cooked to serve as accompaniments, sauces, or compotes. Some fruits are rich in ‘pectin’, an enzyme that helps in the setting of jams and marmalades. Fruits have been paired with food since time immemorial.\n<br>Fruits are pulpy in character,often juicy &amp; generally developed from flowers of plants &amp; consist of a ripened seed or seeds with some edible tissues attached\n<br>\n<b><br>Why Eat Fruits?\n</b><br>Fruits have a very positive effect on the brain; the most important substance that fruits contain are water (80 percent) and natural sugars. Natural sugars help to stimulate the brain so we can think faster and recall information more quickly. Fruits do not contain any amount of bad cholesterol; therefore, they are amongst the healthiest foods available. Fruits are rich in fibre and vitamins such as vitamin C.\n<br>\n<br><b>CLASSIFICATION OF FRUITS\n</b><br>In botanical terms, a fruit is the ripened ovary of a flowering plant. A fruit usually contains the seeds of the plane that bears it. A number of fruits are also termed as vegetables by some, as there is no single terminology that can accurately fit the variety that can be found among plant fruit. Fruits can be broadly segregated on their composition, nutritional value, shape, and flavour. They could be sweet or sour, depending on the variety. Some are fleshy, some are dry, and some are heavy. It is to be noted that as per culinary terminology, a fruit is defined as a product that has a sweet taste. Fruits generally contain water soluble vitamins such as vitamins B and C. They also have a generous amount of antioxidants present in them. It is for this reason that fruits dis-colour once cut, as the exposure to oxygen instigates chemical reaction with the antioxidants.\n<br><br>Some fruits, known as ‘pseudo-carp’, are accessory fruits, for example, figs. They are not the ripened ovary, but are attached to the plant embryo. Certain fruits are produced without the fusion of the ovary and the embryo. They are artificially produced by a method called ‘parthenocarpy’, in which pollination is omitted. These fruits are seedless. Plants that are non-fruit producing are known as “acarpous”. Fruits are widely used in various ways such as cooked, raw, canned, pureed and squashed\n<br>\n<br><b>On Basis of Texture and Flavour\n</b><br>Fruits are classified on the basis of their texture and flavour and can be classified into:\n<br>\n<br>● <b>Soft Fruits :</b> Papaya, banana, melons, etc.\n<br>●&nbsp;<b>Stone Fruits :</b> Peaches, Mango, etc.\n<br>● <b>Apple &amp; Pear family :</b> All apples and pears\n<br>●<b> Citrus Fruits :</b> Orange, sweet lime, pineapple, etc.\n<br>\n<br><b>On Basis of Appearance and Flesh Content\n</b><br>\n<br><b>Fleshy fruits\n</b><br>These are fruits that have supple flesh around the seed. They can be subdivided again into those formed from and those formed from a group of flowers. Those formed from a single flower are classified as berry, drupe. aggregation of drupes, pomme, and hesperidium. Fruits that grow from a group of flowers and generate only a single seed are sorosis (c.g.. mulberry), syconium (e.g., fig), and coenocarpium (e.g.. pineapple).\n<br>\n<br><b>Dry fruits\n</b><br>Dry fruits are seeds of a fruit confined in a nut. So all nuts such as pistachio, cashew, almonds, and walnuts are dry fruits. Not all seeds of fruits are edible and only a few can be eaten as dry fruits. Many people also dehydrate fresh fruits for preservation and these should not be confused with dry fruits. The dehydrated fruits are simply known as dried fruits.\n<br>\n<br><b>STORAGE OF FRUITS\n</b><br>● hard fruits such as apples should be stored in boxes.\n<br>● Soft fruits such as strawberries, raspberries, should be left in their own punnets.\n<br>● Stoned fruit are stored in a tray and must be individually placed so that any damaged fruit can be discarded easily.\n<br>● Peaches and citrus fruits are left in the delivery tray only.\n<br>● Bananas should not be stored in cool places because their skin turns black.\n<br>\n<br><b>QUALITY AND PURCHASING POINTS FOR FRUITS</b>\n<br>● Soft fruits should not be damaged or overripe.\n<br>● Soft fruits should appear fresh without signs of mould,writing and shrinkage.\n<br>● Certain fruits are purchased on the basis of appearance such as strawberries.\n<br>● Hard fruits should not be bruised.\n<br>\n<br><b>FRUITS IN COOKING\n</b><br>The use of fruits in cooking dates back hundreds of years, Although fruits are most commonly used in desserts, they can also form part of savoury dishes. Fruits are also found in foods such as cookies, muffins, yoghurt, ice cream, and cakes. Fruits are not only used in preparing a variety of dishes, but they also help keep certain foods fresh and help preserve their colour. There are various ways to cook fruit, and certain considerations should be made beforehand as fruit tends to be delicate and can disintegrate easily, They are discussed as below:\n<br>\n<br><b>1. </b>Boiling is too harsh a method for most fruits; gentle simmering preserves the texture and shape of\nfruits. When cooking soft and stone fruits, simply warm them by placing them in a pan of boiled water.\n<br><br><b>2. </b>Poaching is a similar method, and is a common way to cook fruits such as pears. Bring the water to a simmer and then gently lower the fruit into the pan with a spoon. Immediately reduce the heat\nso the liquid is barely bubbling, and cooks until the fruit is tender.\n<br><br><b>3. </b>Stew fruit, where the saucepan is covered and the fruit is cooked in just enough liquid to cover it. This not only helps keeping the moisture, but helps to avoid expelling nutrients and be left with only the fibrous part. Use just enough moisture to cook the fruit. As with cooking vegetables, it is important to retain the crunch while cooking fruits.\n<br><br><b>4. </b>Barbecuing and grilling fruit leads to very sweet, strong flavours; this is due to the intense heat that caramelizes the sugars. Grilled or barbecued fruits make fantastic desserts, side dishes, or appetizers.<br><br><b>5.</b> Once cut, the fruit should be soaked in water to maximize the amount of liquid inside. This prevents the fruit from drying out on the grill. Adding I tsp of lemon juice to the water will help the fruit preserve its colour. It is also a good idea to try grilling bananas, tangerines, and pineapples on their skin. In general, leaving the skin or peel on the fruit helps to maintain its structural integrity as it cooks.\n<br><br><b>6. </b>Sauces of fruits are used to marinate the fruits before grilling them and they can also be served with the fruits after grilling.\n<br><br><b>7. </b>Drying is also a good way of preserving fruits and it intensifies their flavours. Most fruits can be\ndried effectively.\n<br><br><b>8. </b>Fruits also can be used as coulis. A coulis is a form of thin sauce made from puréed and strained vegetables or fruits. ie. Raspberry coulis, blueberry coulis, Peach coulis, Blackberry coulis, cherry coulis &amp; etc\n<br>\n<br>Fruit can be made into jams, jellies, pickles, and chutneys, or can be bottled whole. The most suitable the method of preservation depends on the type of fruit and its quality and ripeness. Underripe fruit is fine for chutneys, jams, and jellies but overripe fruit is only good for making chutney and should not be used for making jam.\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "srxYB8z43V",
@@ -10156,7 +10213,7 @@
     "FM_Unit_5.1.html": {
       "settings": {
         "title": "FM_Unit_5.1",
-        "order": 86
+        "order": 89
       },
       "components": [
         {
@@ -10209,7 +10266,7 @@
     "FM_Unit_5.2.html": {
       "settings": {
         "title": "FM_Unit_5.2",
-        "order": 87
+        "order": 90
       },
       "components": [
         {
@@ -10431,7 +10488,7 @@
     "FM_Unit_5.3.html": {
       "settings": {
         "title": "FM_Unit_5.3",
-        "order": 88
+        "order": 91
       },
       "components": [
         {
@@ -10541,7 +10598,7 @@
     "Temp_AC_Q.html": {
       "settings": {
         "title": "Temp_AC_Q",
-        "order": 112
+        "order": 115
       },
       "components": [
         {
@@ -10687,7 +10744,7 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-black\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Soups</a> <a class=\"btn btn-primary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Methods of Cooking</a>  <a class=\"btn btn-secondary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Egg Cookery</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-black\" href=\"AC_unit_4.html\" data-app-placeholder=\"Type Text\">Soups</a> <a class=\"btn btn-primary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Methods of Cooking</a>  <a class=\"btn btn-secondary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Egg Cookery</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "ssp0zHS0zn",
@@ -10696,6 +10753,387 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "AC_unit_4.html": {
+      "settings": {
+        "title": "AC_unit_4",
+        "order": 22
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -4</b><div>METHODS OF COOKING</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "ssSuu1bnK4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-d6"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>SOUPS\n</b><br>One of the most common uses of stocks is to prepare soups. Soups are the second course on the French classical menu referred to as ‘potage’ and can be served as an appropriate meal.\n<br><br>A soup is a flavourful and nutritious liquid food served at the beginning of a meal or a snack. It can\nhave different textures, colours, and flavours depending on the type made. Traditionally in France, soupé was a slice of bread on which the contents of a cooking pot (potage) was poured. Soup, also commonly known as broth in English, was designated as unstrained vegetable, meat, or fish soups garnished with bread, pasta, or rice.\n<br>\n<br>It is important to take utmost care in its preparation, as it will create the first impression on the mind of the guest. Soups can be thin and served as broths, or served as clear soups such as consommé.\nThe popularity of soups today may be due to increased nutrition consciousness, due to a desire for simpler lighter meals, or due to an increased appreciation of how appetizing and satisfying soup can be. Whatever the reason, they emphasize the importance of soup making skills. Soup, according to a dictionary, is a liquid food derived from meat, poultry, fish or vegetable or a combination of them. \n<br>\n<br><b>Classification of Soup&nbsp;&nbsp;</b><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "ssSuu1Y4NC",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-d7"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/doc1-1-768x806.jpg\" alt=\"H\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Image Description</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "image3-d9",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "ssSv19yJGD",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Broth\n</b><br>A broth is a stock-based soup, which is not thickened. It is served unpassed and garnished with chopped herbs, vegetables, or meats. Minestrone, scotch broth are examples of these types of soup. While serving them, one should add reduced stock or glaze to give body to the soup. Bouillon and Broths are terms that are interchangeable and practically mean the same. \n<br>They are unpassed soups. Bouillon comes from the word “boil”. It has a more pronounced strong meaty flavour and is clear soup with pieces of vegetables, meat, seafood, etc., floating in the soup. Broths are similar to bouillons but the liquid is a little cloudy and contains all types of vegetables, meat, chicken, etc. These should be cut into regular shapes, floating in the soup. \n<br>The broths usually have the cheaper cuts of meat, such as the scrag end of mutton, boiling fowls. Some of the popular broths are: Scotch broth, mutton broth, chicken broth, petite marmite, soup bonne femme, soup paysanne and potage fermière.\n<br>\n<br><b>Consommé\n</b><br>A consommé is a clear soup, which is clarified with egg whites. It is an old saying that if one can read\nthe date on the dime thrown in four litres of consommeé, then it is a good consommé. This can be served hot or chilled, consommé take it name generally from of the garnish for example: Consommé Julienne: Julienne cuts of vegetable\n<br>\n<b><br>Preparation of Consommé\n</b><br>\n<br><b>Ingredients\n</b><br>• Minced meat - 225gm.\n<br>• Egg white - 2 no.\n<br>• Onion - 70gm.\n<br>• Celery - 40gm.\n<br>• Carrot - 50gm.\n<br>• Thyme - ¼ tsp\n<br>• Turnips - 30gm.\t09\n<br>• Bay leaf - 1 no.\n<br>• Stock - ½ lit\n<br>• Peppercorn - 3-6 no.\n<br><br><b>Method:\n</b><br>Mix minced meat and chopped onions, carrots, turnips, celery and mix well with egg whites. Add cold stock, thyme, bay leaf and peppercorns. Then put on fire and go on starring so that the ingredients do not stick to the bottom of the pan and the articles are suspended. When the mixture starts boiling then control the temperature. And let it simmer until the coagulated mass comes to the top. Simmer for ½ hour. When the consommé is clear and tasty then strain through a double muslin cloth and add the seasoning agent.\n<br>\n<br><b>Variation of consommé\n</b><br>• Consommé Royal\t: Dice of savoury, egg custard.\n<br>• Consommé Julienne\t: Julienne cuts off vegetables.\n<br>• Consommé Brunoise\t: Small dice cuts of veg. (2mm)\n<br>• Consommé Celestine\t: Julienne cuts of thin pan cake.\n<br>• Consommé vermicelli\t: Fine noodles.\n<br>• Consommé entasse\t: Lightly jelly with gelatin.\n<br>• Consommé Breton\t: Julienne cuts of celery, onions lack.\n<br>• Consommé Daubery\t: Floweret of cauliflower\n<br>• Consommé Madrilène\t: Dice cuts of tomato and green peas.\n<br>• Consommé st. German\t: Green peas.\n<br>• Consommé cereals\t: Rice and barley.\n<br>• Consommé Paysanne\t: Uniform size cuts of fresh vegetables.\n<br>• Consommé Diabolism\t: Diamond cuts of cheese bisque.\n<br>• Consommé Aurora\t: Tomato puree and tapioca.\n<br>• Consommé Caroline\t: Dry cooked rice.\n<br>• Consommé Hungarian\t: Paprika powder and sauté tomato.\n<br>• Consommé Leopold\t: Semolina, Julienne of chervil.\n<br>• Consommé Egg-drops\t: Beaten egg.\n<br>• Consommé Thunderstone : Slice mushroom.\n<br>• Consommé Florentine\t: Julienne cuts of spinach.\n<br>• Consommé Washington\t : Sweet corn.\n<br>• Consommé Parmentière : Potato\n<br>\n<br><b>Purée\n</b><br>Starchy vegetables such as leguminous plants, potatoes or cereals when pureed in soups, usually act as self-thickeners and need no further thickening ingredients. Many vegetables like carrots, pumpkins, turnips, peas, celery, leafy greens need an additional thickening agent as their own purees do not cohere and so the above thickening agents are added. The cooked soup is strained through a sieve and the consistency of the soup is thick. Water or stock in which the pureed product was cooked is usually used as the liquid in the soup. The soup is served with fried golden brown croutons (fried small dices of bread). Common puree soups are—Puree parmentiere, pea soup, lentils puree, tomato soup.\n<br>\n<br><b>Puree Soups\n</b><br>• <i>Compiegne</i> Puree of white rajma (haricot beans) garnished with sorrel and chervil shreds and butter added at the last minute.\n<br>• <i>Conde </i>Puree of red kidney beans with red wine and butter added before serving.\n<br>• <i>Conti </i>Puree of lentils (malka masoor) garnished with bacon chervil and butter added at the last minute.\n<br>• <i>Greeque</i> Puree of green peas and garnished with shreds of carrots, leeks, cabbage and butter added before serving.\n<br>• <i>Lamballe</i> Half of fresh peas puree and half of tapioca puree, and butter added just before serving.\n<br>\n<br>\n<br><b>Velouté\n</b><br>A velouté is a thick soup, which is thickened with a blond roux, passed and finished with a liaison. They may be vegetable or chicken stock based. The texture of veloute is smooth and velvet like.\n<br><br><b>Velouté Soups\n</b><br>• <i>Veloute Marie Louisa</i> Chicken veloute with barley flour, garnish with dices of spring vegetables, cooked macaroni and cream and egg liaison.\n<br>• <i>Veloute Celeris</i> Veloute supreme and celery puree and add cream.\n<br>• <i>Veloute Princesse</i> Equal quantities of chicken veloute and asparagus puree, garnish with dices of chicken and asparagus heads and phiches of chervil and cream.\n<br>• <i>Veloute Montorueil </i>Chicken veloute, garnished printaniere of vegetables, shreds of sorrel and chervil.\n<br>• <i>Veloute Indienne </i>Veloute supreme with coconut milk, flavoured with curry powder, garnished with rice.\n<br><br><b>Cream\n</b><br>A cream soup is a passed thick soup. It may be vegetable or meat based. In classical recipes, it is thickened with béchamel and finished with cream. Modern trends, however, avoid usage of bechamel sauce because of health reasons and to retain the delicate flavours of the vegetables.\n<br>\n<br><b>Cream Soups\n</b><br>•&nbsp;<i>Ambassadeur </i>Prepare puree of fresh peas and garnish with rice, shredded sorrel, chervil, lettuce, add butter and cream just before serving.\n<br>•&nbsp;<i>Bretonne </i>Puree of white rajma (haricot beans) with onions and spring onions. Add tomato puree, add butter and cream before serving.\n<br>•&nbsp;<i>Chantilly </i>Puree of lentils, add cream, garnish with quenelles of chicken.\n<br>•&nbsp;<i>Crecy </i>Puree of carrots and rice and add butter and cream just before serving. \n<br>•&nbsp;<i>Washington</i> Puree of maize, add cream and just before serving, add whisky and port and garnish with maize grains.\n<br><br><b>Bisque\n</b><br>These are shellfish puree soups, thickened with rice or cream. It is a slightly thick rice cream type of soup with small particles of cooked shellfish floating in it, to add flavour and colour. A small amount of wine is added to enhance the flavour. Examples of bisques are: Crayfish bisque, Lobster bisque.\n<br>\n<br><b>Chowder \n</b><br>Originated from America. They are thick heavy soups, owing their consistency to potatoes. Chowders consist of potatoes, onions, pieces of bacon, various seasonings, and seafood. They can be milk or tomato-based. Crackers are generally added just before serving. Examples are: Clam chowder, seafood chowder, oyster chowder, etc.\n<br>\n<br><b>Cold Soups\n</b><br>As the name suggests, these soups are served cold but not chilled. They do not form a separate classification, as they may again be thin or thick, passed or un-passed. Examples of cold soups include\njellied consomme. gazpacho, vichyssoise, ete.\n<br>\n<b><br>Cold Soups\n</b><br>• <i>Veloute de Volaille Froid</i>  Prepare chicken veloute and serve cold.\n<br>• <i>Gelée de Volaille aux tomate</i> Strong tomate chicken consomme jellied.\n<br><br><b>International Soups\n</b><br>Every country has their unique soup, which is also known as the national soup of that country. They do not form a separate classification as they represent the region of origin. For instance. Green turtle soup from England, French onion soup from France, and Mulligatawny from India. Every country has unique soups that have been popular all over the world and the name to tame for these soups has led them to be categorized under a section called International soups.\n<br>\n<b><br>Few International Soups\n</b><br>• Gazpacho – Spain\n<br>• Mulligatawny – India /  Sri Lanka\n<br>• Chicken Broth – England\n<br>• Cockie Leekie – Scotland\n<br>• Clam Chowder – U.S.A\n<br>• Bortsch – Russia\n<br>• Beer soup – Germany\n<br>• French Onion Soup – France\n<br>• Minestrone – Italian\n<br>\n<b><br>GARNISH:\n</b><br>Soup garnishes may be divided into three groups:\n<br><b><i>1. Garnish in the soup</i></b>: Major ingredients of the soup such as vegetables, poultry cut into small dices can be considered a garnish. Consommés are normally named after their garnish. Consommé Julienne is garnished with julienne of vegetables.\n<br>\n<br><b><i>2. Toppings:</i></b> Thick soups are normally decorated with a topping. This could be a simple swirl of cream or chopped parsley, dill leaves of mint. Also included in  this category are toasted sliced almonds, croutons, grated cheese, and crumbled bacon. Clear soups are rarely served with a topping.\n<br>\n<br><b><i>3. Accompaniments: </i></b>Bread rolls, slices and sticks, cheese straws, melba toast, corn chips and cream cracker biscuits are all popular accompaniments for soup along with butter.\n<br>\n<br><b>Commonly used Garnishes for Soups\n</b><br>• <i>Croutons</i> Dices or other shapes made from bread, toast, pastry.\n<br>• <i>Profiteroles</i> Prepared from choux paste. They are miniature cream puffs which may be filled or used plain.\n<br>• <i>Cereals</i> Rice or barley.\n<br>• <i>Cheese</i> Cheese balls, or grated Parmesan served with croutons on one side.\n<br>• <i>Cream</i> Unsweetened whipped cream or sour cream.\n<br>• <i>Meats</i> Usually small dice or juliennes.\n<br>• <i>Poultry</i> Same as meat.\n<br>• <i>Seafood</i> Diced or flaked. Large enough pieces distinguishable.\n<br>• <i>Pastas</i> Noodles, spaghetti, other pasta products such as star letters, cornets, etc.\n<br>• <i>Vegetables </i>Cut in various sizes, shapes—juliennes, round slices, dices of spring, printaniere vegetables.\n<br><br><b>MAKING OF A GOOD SOUP\n</b><br>The following points should be kept in mind while preparing soup:\n<br>1. Always use good quality stock to make soups.\n<br>2. Clear soup should be very clear and cream soups should be smooth and velvety.\n<br>3. The flavour of the main ingredient should stand out in the soup.\n<br>4. For white soups, use only white mirepoix and vice versa.\n<br>5. The thick soup should never coat the back of the spoon, it should be thick and creamy yet not so thick.\n<br>6. Keep skimming the soup and use as less fat and butter as possible.\n<br>7. Season the soups moderately, so that the flavour of the main ingredient is enhanced.\n<br>8. Check the seasoning in the cold soups before serving, as the seasoning goes down once the soup is chilled.\n<br>9. Broth-based soups are robust and full-bodied, so use potatoes, dried pastas, and chunks of meat to create them.\n<br>10. Use strong stock for making consommé.\n<br>11. While making seafood soups, use a variety of fish for a melange of flavours.\n<br>12. Do not use very oily fish to make seafood soups as the oil from the fish lends a very fishy flavour to the soup.\n<br>13. For puree soups, use starchy vegetables.\n<br>14. Add creams and liaisons only in the end and do not boil the soup thereafter.\n<br>15. Always cook the flour before adding to the soup as a thickening agent.\n<br>16. While storing the soups in the refrigerator, keep them unfinished. At the time of guest order, heat and add the seasoning and cream or butter, as desired.\n<br>17. Never store soup beyond two days, as the quality will deteriorate.\n<br>\n<br><b>MODERN TRENDS OF PRESENTING SOUPS\n</b><br>The service of the soup has always been given a lot of importance as it is the first hot meal after the\nappetizers and chefs must ensure that the guests are impressed. Even in the olden days, care was taken to present soup in a particular serveware to enhance the look and feel of the soup. A clear soup such as consommié, is served in white crystal clear porcelain, whereas robust broths are served in large stone glazed pottery bowls. The standard portion size for soup is 6 to 8 oz. (200 to 250 ml).\n<br><br>Chefs should serve hot soup piping hot (ranging 8-10°C) and cold soup cold and not chilled. There are many new types of crockery available to present the soups. Deep plates with large shoulders and small space in between are used to present soups in a fine dining restaurant.\n<br><br>Tea cups are widely used to serve soups. Large rectangular plates are used to serve a hot soup in a small cup accompanied with a chilled sorbet on the side.\n<br>The soup needs to be given due attention and detail, as it brings in good profit margins to the menu.\n<br>\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content5-da",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "ssSv1BeW6o",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".hidden": {
+              "display": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked>\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "ssSuu2PxkH",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "design-block-d8"
+        }
+      ]
+    },
+    "AC_unit_4.1.html": {
+      "settings": {
+        "title": "AC_unit_4.1",
+        "order": 23
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -4</b><div>METHODS OF COOKING</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "ssSxGcWIDD",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-dd"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>SOUPS\n</b><br>One of the most common uses of stocks is to prepare soups. Soups are the second course on the French classical menu referred to as ‘potage’ and can be served as an appropriate meal.\n<br><br>A soup is a flavourful and nutritious liquid food served at the beginning of a meal or a snack. It can\nhave different textures, colours, and flavours depending on the type made. Traditionally in France, soupé was a slice of bread on which the contents of a cooking pot (potage) was poured. Soup, also commonly known as broth in English, was designated as unstrained vegetable, meat, or fish soups garnished with bread, pasta, or rice.\n<br>\n<br>It is important to take utmost care in its preparation, as it will create the first impression on the mind of the guest. Soups can be thin and served as broths, or served as clear soups such as consommé.\nThe popularity of soups today may be due to increased nutrition consciousness, due to a desire for simpler lighter meals, or due to an increased appreciation of how appetizing and satisfying soup can be. Whatever the reason, they emphasize the importance of soup making skills. Soup, according to a dictionary, is a liquid food derived from meat, poultry, fish or vegetable or a combination of them. \n<br>\n<br><b>Classification of Soup&nbsp;&nbsp;</b><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "ssSxGdzeAm",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-de"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/doc1-1-768x806.jpg\" alt=\"H\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Image Description</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "ssSxGdXWT5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image3-df"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Broth\n</b><br>A broth is a stock-based soup, which is not thickened. It is served unpassed and garnished with chopped herbs, vegetables, or meats. Minestrone, scotch broth are examples of these types of soup. While serving them, one should add reduced stock or glaze to give body to the soup. Bouillon and Broths are terms that are interchangeable and practically mean the same. \n<br>They are unpassed soups. Bouillon comes from the word “boil”. It has a more pronounced strong meaty flavour and is clear soup with pieces of vegetables, meat, seafood, etc., floating in the soup. Broths are similar to bouillons but the liquid is a little cloudy and contains all types of vegetables, meat, chicken, etc. These should be cut into regular shapes, floating in the soup. \n<br>The broths usually have the cheaper cuts of meat, such as the scrag end of mutton, boiling fowls. Some of the popular broths are: Scotch broth, mutton broth, chicken broth, petite marmite, soup bonne femme, soup paysanne and potage fermière.\n<br>\n<br><b>Consommé\n</b><br>A consommé is a clear soup, which is clarified with egg whites. It is an old saying that if one can read\nthe date on the dime thrown in four litres of consommeé, then it is a good consommé. This can be served hot or chilled, consommé take it name generally from of the garnish for example: Consommé Julienne: Julienne cuts of vegetable\n<br>\n<b><br>Preparation of Consommé\n</b><br>\n<br><b>Ingredients\n</b><br>• Minced meat - 225gm.\n<br>• Egg white - 2 no.\n<br>• Onion - 70gm.\n<br>• Celery - 40gm.\n<br>• Carrot - 50gm.\n<br>• Thyme - ¼ tsp\n<br>• Turnips - 30gm.\t09\n<br>• Bay leaf - 1 no.\n<br>• Stock - ½ lit\n<br>• Peppercorn - 3-6 no.\n<br><br><b>Method:\n</b><br>Mix minced meat and chopped onions, carrots, turnips, celery and mix well with egg whites. Add cold stock, thyme, bay leaf and peppercorns. Then put on fire and go on starring so that the ingredients do not stick to the bottom of the pan and the articles are suspended. When the mixture starts boiling then control the temperature. And let it simmer until the coagulated mass comes to the top. Simmer for ½ hour. When the consommé is clear and tasty then strain through a double muslin cloth and add the seasoning agent.\n<br>\n<br><b>Variation of consommé\n</b><br>• Consommé Royal\t: Dice of savoury, egg custard.\n<br>• Consommé Julienne\t: Julienne cuts off vegetables.\n<br>• Consommé Brunoise\t: Small dice cuts of veg. (2mm)\n<br>• Consommé Celestine\t: Julienne cuts of thin pan cake.\n<br>• Consommé vermicelli\t: Fine noodles.\n<br>• Consommé entasse\t: Lightly jelly with gelatin.\n<br>• Consommé Breton\t: Julienne cuts of celery, onions lack.\n<br>• Consommé Daubery\t: Floweret of cauliflower\n<br>• Consommé Madrilène\t: Dice cuts of tomato and green peas.\n<br>• Consommé st. German\t: Green peas.\n<br>• Consommé cereals\t: Rice and barley.\n<br>• Consommé Paysanne\t: Uniform size cuts of fresh vegetables.\n<br>• Consommé Diabolism\t: Diamond cuts of cheese bisque.\n<br>• Consommé Aurora\t: Tomato puree and tapioca.\n<br>• Consommé Caroline\t: Dry cooked rice.\n<br>• Consommé Hungarian\t: Paprika powder and sauté tomato.\n<br>• Consommé Leopold\t: Semolina, Julienne of chervil.\n<br>• Consommé Egg-drops\t: Beaten egg.\n<br>• Consommé Thunderstone : Slice mushroom.\n<br>• Consommé Florentine\t: Julienne cuts of spinach.\n<br>• Consommé Washington\t : Sweet corn.\n<br>• Consommé Parmentière : Potato\n<br>\n<br><b>Purée\n</b><br>Starchy vegetables such as leguminous plants, potatoes or cereals when pureed in soups, usually act as self-thickeners and need no further thickening ingredients. Many vegetables like carrots, pumpkins, turnips, peas, celery, leafy greens need an additional thickening agent as their own purees do not cohere and so the above thickening agents are added. The cooked soup is strained through a sieve and the consistency of the soup is thick. Water or stock in which the pureed product was cooked is usually used as the liquid in the soup. The soup is served with fried golden brown croutons (fried small dices of bread). Common puree soups are—Puree parmentiere, pea soup, lentils puree, tomato soup.\n<br>\n<br><b>Puree Soups\n</b><br>• <i>Compiegne</i> Puree of white rajma (haricot beans) garnished with sorrel and chervil shreds and butter added at the last minute.\n<br>• <i>Conde </i>Puree of red kidney beans with red wine and butter added before serving.\n<br>• <i>Conti </i>Puree of lentils (malka masoor) garnished with bacon chervil and butter added at the last minute.\n<br>• <i>Greeque</i> Puree of green peas and garnished with shreds of carrots, leeks, cabbage and butter added before serving.\n<br>• <i>Lamballe</i> Half of fresh peas puree and half of tapioca puree, and butter added just before serving.\n<br>\n<br>\n<br><b>Velouté\n</b><br>A velouté is a thick soup, which is thickened with a blond roux, passed and finished with a liaison. They may be vegetable or chicken stock based. The texture of veloute is smooth and velvet like.\n<br><br><b>Velouté Soups\n</b><br>• <i>Veloute Marie Louisa</i> Chicken veloute with barley flour, garnish with dices of spring vegetables, cooked macaroni and cream and egg liaison.\n<br>• <i>Veloute Celeris</i> Veloute supreme and celery puree and add cream.\n<br>• <i>Veloute Princesse</i> Equal quantities of chicken veloute and asparagus puree, garnish with dices of chicken and asparagus heads and phiches of chervil and cream.\n<br>• <i>Veloute Montorueil </i>Chicken veloute, garnished printaniere of vegetables, shreds of sorrel and chervil.\n<br>• <i>Veloute Indienne </i>Veloute supreme with coconut milk, flavoured with curry powder, garnished with rice.\n<br><br><b>Cream\n</b><br>A cream soup is a passed thick soup. It may be vegetable or meat based. In classical recipes, it is thickened with béchamel and finished with cream. Modern trends, however, avoid usage of bechamel sauce because of health reasons and to retain the delicate flavours of the vegetables.\n<br>\n<br><b>Cream Soups\n</b><br>•&nbsp;<i>Ambassadeur </i>Prepare puree of fresh peas and garnish with rice, shredded sorrel, chervil, lettuce, add butter and cream just before serving.\n<br>•&nbsp;<i>Bretonne </i>Puree of white rajma (haricot beans) with onions and spring onions. Add tomato puree, add butter and cream before serving.\n<br>•&nbsp;<i>Chantilly </i>Puree of lentils, add cream, garnish with quenelles of chicken.\n<br>•&nbsp;<i>Crecy </i>Puree of carrots and rice and add butter and cream just before serving. \n<br>•&nbsp;<i>Washington</i> Puree of maize, add cream and just before serving, add whisky and port and garnish with maize grains.\n<br><br><b>Bisque\n</b><br>These are shellfish puree soups, thickened with rice or cream. It is a slightly thick rice cream type of soup with small particles of cooked shellfish floating in it, to add flavour and colour. A small amount of wine is added to enhance the flavour. Examples of bisques are: Crayfish bisque, Lobster bisque.\n<br>\n<br><b>Chowder \n</b><br>Originated from America. They are thick heavy soups, owing their consistency to potatoes. Chowders consist of potatoes, onions, pieces of bacon, various seasonings, and seafood. They can be milk or tomato-based. Crackers are generally added just before serving. Examples are: Clam chowder, seafood chowder, oyster chowder, etc.\n<br>\n<br><b>Cold Soups\n</b><br>As the name suggests, these soups are served cold but not chilled. They do not form a separate classification, as they may again be thin or thick, passed or un-passed. Examples of cold soups include\njellied consomme. gazpacho, vichyssoise, ete.\n<br>\n<b><br>Cold Soups\n</b><br>• <i>Veloute de Volaille Froid</i>  Prepare chicken veloute and serve cold.\n<br>• <i>Gelée de Volaille aux tomate</i> Strong tomate chicken consomme jellied.\n<br><br><b>International Soups\n</b><br>Every country has their unique soup, which is also known as the national soup of that country. They do not form a separate classification as they represent the region of origin. For instance. Green turtle soup from England, French onion soup from France, and Mulligatawny from India. Every country has unique soups that have been popular all over the world and the name to tame for these soups has led them to be categorized under a section called International soups.\n<br>\n<b><br>Few International Soups\n</b><br>• Gazpacho – Spain\n<br>• Mulligatawny – India /  Sri Lanka\n<br>• Chicken Broth – England\n<br>• Cockie Leekie – Scotland\n<br>• Clam Chowder – U.S.A\n<br>• Bortsch – Russia\n<br>• Beer soup – Germany\n<br>• French Onion Soup – France\n<br>• Minestrone – Italian\n<br>\n<b><br>GARNISH:\n</b><br>Soup garnishes may be divided into three groups:\n<br><b><i>1. Garnish in the soup</i></b>: Major ingredients of the soup such as vegetables, poultry cut into small dices can be considered a garnish. Consommés are normally named after their garnish. Consommé Julienne is garnished with julienne of vegetables.\n<br>\n<br><b><i>2. Toppings:</i></b> Thick soups are normally decorated with a topping. This could be a simple swirl of cream or chopped parsley, dill leaves of mint. Also included in  this category are toasted sliced almonds, croutons, grated cheese, and crumbled bacon. Clear soups are rarely served with a topping.\n<br>\n<br><b><i>3. Accompaniments: </i></b>Bread rolls, slices and sticks, cheese straws, melba toast, corn chips and cream cracker biscuits are all popular accompaniments for soup along with butter.\n<br>\n<br><b>Commonly used Garnishes for Soups\n</b><br>• <i>Croutons</i> Dices or other shapes made from bread, toast, pastry.\n<br>• <i>Profiteroles</i> Prepared from choux paste. They are miniature cream puffs which may be filled or used plain.\n<br>• <i>Cereals</i> Rice or barley.\n<br>• <i>Cheese</i> Cheese balls, or grated Parmesan served with croutons on one side.\n<br>• <i>Cream</i> Unsweetened whipped cream or sour cream.\n<br>• <i>Meats</i> Usually small dice or juliennes.\n<br>• <i>Poultry</i> Same as meat.\n<br>• <i>Seafood</i> Diced or flaked. Large enough pieces distinguishable.\n<br>• <i>Pastas</i> Noodles, spaghetti, other pasta products such as star letters, cornets, etc.\n<br>• <i>Vegetables </i>Cut in various sizes, shapes—juliennes, round slices, dices of spring, printaniere vegetables.\n<br><br><b>MAKING OF A GOOD SOUP\n</b><br>The following points should be kept in mind while preparing soup:\n<br>1. Always use good quality stock to make soups.\n<br>2. Clear soup should be very clear and cream soups should be smooth and velvety.\n<br>3. The flavour of the main ingredient should stand out in the soup.\n<br>4. For white soups, use only white mirepoix and vice versa.\n<br>5. The thick soup should never coat the back of the spoon, it should be thick and creamy yet not so thick.\n<br>6. Keep skimming the soup and use as less fat and butter as possible.\n<br>7. Season the soups moderately, so that the flavour of the main ingredient is enhanced.\n<br>8. Check the seasoning in the cold soups before serving, as the seasoning goes down once the soup is chilled.\n<br>9. Broth-based soups are robust and full-bodied, so use potatoes, dried pastas, and chunks of meat to create them.\n<br>10. Use strong stock for making consommé.\n<br>11. While making seafood soups, use a variety of fish for a melange of flavours.\n<br>12. Do not use very oily fish to make seafood soups as the oil from the fish lends a very fishy flavour to the soup.\n<br>13. For puree soups, use starchy vegetables.\n<br>14. Add creams and liaisons only in the end and do not boil the soup thereafter.\n<br>15. Always cook the flour before adding to the soup as a thickening agent.\n<br>16. While storing the soups in the refrigerator, keep them unfinished. At the time of guest order, heat and add the seasoning and cream or butter, as desired.\n<br>17. Never store soup beyond two days, as the quality will deteriorate.\n<br>\n<br><b>MODERN TRENDS OF PRESENTING SOUPS\n</b><br>The service of the soup has always been given a lot of importance as it is the first hot meal after the\nappetizers and chefs must ensure that the guests are impressed. Even in the olden days, care was taken to present soup in a particular serveware to enhance the look and feel of the soup. A clear soup such as consommié, is served in white crystal clear porcelain, whereas robust broths are served in large stone glazed pottery bowls. The standard portion size for soup is 6 to 8 oz. (200 to 250 ml).\n<br><br>Chefs should serve hot soup piping hot (ranging 8-10°C) and cold soup cold and not chilled. There are many new types of crockery available to present the soups. Deep plates with large shoulders and small space in between are used to present soups in a fine dining restaurant.\n<br><br>Tea cups are widely used to serve soups. Large rectangular plates are used to serve a hot soup in a small cup accompanied with a chilled sorbet on the side.\n<br>The soup needs to be given due attention and detail, as it brings in good profit margins to the menu.\n<br>\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "ssSxGeElP5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-dg"
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".hidden": {
+              "display": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked>\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "ssSxGfaS0W",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "design-block-dh"
+        }
+      ]
+    },
+    "AC_unit_4.2.html": {
+      "settings": {
+        "title": "AC_unit_4.2",
+        "order": 24
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -4</b><div>METHODS OF COOKING</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "ssSxIZSpBo",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-di"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>SOUPS\n</b><br>One of the most common uses of stocks is to prepare soups. Soups are the second course on the French classical menu referred to as ‘potage’ and can be served as an appropriate meal.\n<br><br>A soup is a flavourful and nutritious liquid food served at the beginning of a meal or a snack. It can\nhave different textures, colours, and flavours depending on the type made. Traditionally in France, soupé was a slice of bread on which the contents of a cooking pot (potage) was poured. Soup, also commonly known as broth in English, was designated as unstrained vegetable, meat, or fish soups garnished with bread, pasta, or rice.\n<br>\n<br>It is important to take utmost care in its preparation, as it will create the first impression on the mind of the guest. Soups can be thin and served as broths, or served as clear soups such as consommé.\nThe popularity of soups today may be due to increased nutrition consciousness, due to a desire for simpler lighter meals, or due to an increased appreciation of how appetizing and satisfying soup can be. Whatever the reason, they emphasize the importance of soup making skills. Soup, according to a dictionary, is a liquid food derived from meat, poultry, fish or vegetable or a combination of them. \n<br>\n<br><b>Classification of Soup&nbsp;&nbsp;</b><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "ssSxJ0JkhI",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-dj"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/doc1-1-768x806.jpg\" alt=\"H\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Image Description</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "ssSxJ176uC",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image3-dk"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Broth\n</b><br>A broth is a stock-based soup, which is not thickened. It is served unpassed and garnished with chopped herbs, vegetables, or meats. Minestrone, scotch broth are examples of these types of soup. While serving them, one should add reduced stock or glaze to give body to the soup. Bouillon and Broths are terms that are interchangeable and practically mean the same. \n<br>They are unpassed soups. Bouillon comes from the word “boil”. It has a more pronounced strong meaty flavour and is clear soup with pieces of vegetables, meat, seafood, etc., floating in the soup. Broths are similar to bouillons but the liquid is a little cloudy and contains all types of vegetables, meat, chicken, etc. These should be cut into regular shapes, floating in the soup. \n<br>The broths usually have the cheaper cuts of meat, such as the scrag end of mutton, boiling fowls. Some of the popular broths are: Scotch broth, mutton broth, chicken broth, petite marmite, soup bonne femme, soup paysanne and potage fermière.\n<br>\n<br><b>Consommé\n</b><br>A consommé is a clear soup, which is clarified with egg whites. It is an old saying that if one can read\nthe date on the dime thrown in four litres of consommeé, then it is a good consommé. This can be served hot or chilled, consommé take it name generally from of the garnish for example: Consommé Julienne: Julienne cuts of vegetable\n<br>\n<b><br>Preparation of Consommé\n</b><br>\n<br><b>Ingredients\n</b><br>• Minced meat - 225gm.\n<br>• Egg white - 2 no.\n<br>• Onion - 70gm.\n<br>• Celery - 40gm.\n<br>• Carrot - 50gm.\n<br>• Thyme - ¼ tsp\n<br>• Turnips - 30gm.\t09\n<br>• Bay leaf - 1 no.\n<br>• Stock - ½ lit\n<br>• Peppercorn - 3-6 no.\n<br><br><b>Method:\n</b><br>Mix minced meat and chopped onions, carrots, turnips, celery and mix well with egg whites. Add cold stock, thyme, bay leaf and peppercorns. Then put on fire and go on starring so that the ingredients do not stick to the bottom of the pan and the articles are suspended. When the mixture starts boiling then control the temperature. And let it simmer until the coagulated mass comes to the top. Simmer for ½ hour. When the consommé is clear and tasty then strain through a double muslin cloth and add the seasoning agent.\n<br>\n<br><b>Variation of consommé\n</b><br>• Consommé Royal\t: Dice of savoury, egg custard.\n<br>• Consommé Julienne\t: Julienne cuts off vegetables.\n<br>• Consommé Brunoise\t: Small dice cuts of veg. (2mm)\n<br>• Consommé Celestine\t: Julienne cuts of thin pan cake.\n<br>• Consommé vermicelli\t: Fine noodles.\n<br>• Consommé entasse\t: Lightly jelly with gelatin.\n<br>• Consommé Breton\t: Julienne cuts of celery, onions lack.\n<br>• Consommé Daubery\t: Floweret of cauliflower\n<br>• Consommé Madrilène\t: Dice cuts of tomato and green peas.\n<br>• Consommé st. German\t: Green peas.\n<br>• Consommé cereals\t: Rice and barley.\n<br>• Consommé Paysanne\t: Uniform size cuts of fresh vegetables.\n<br>• Consommé Diabolism\t: Diamond cuts of cheese bisque.\n<br>• Consommé Aurora\t: Tomato puree and tapioca.\n<br>• Consommé Caroline\t: Dry cooked rice.\n<br>• Consommé Hungarian\t: Paprika powder and sauté tomato.\n<br>• Consommé Leopold\t: Semolina, Julienne of chervil.\n<br>• Consommé Egg-drops\t: Beaten egg.\n<br>• Consommé Thunderstone : Slice mushroom.\n<br>• Consommé Florentine\t: Julienne cuts of spinach.\n<br>• Consommé Washington\t : Sweet corn.\n<br>• Consommé Parmentière : Potato\n<br>\n<br><b>Purée\n</b><br>Starchy vegetables such as leguminous plants, potatoes or cereals when pureed in soups, usually act as self-thickeners and need no further thickening ingredients. Many vegetables like carrots, pumpkins, turnips, peas, celery, leafy greens need an additional thickening agent as their own purees do not cohere and so the above thickening agents are added. The cooked soup is strained through a sieve and the consistency of the soup is thick. Water or stock in which the pureed product was cooked is usually used as the liquid in the soup. The soup is served with fried golden brown croutons (fried small dices of bread). Common puree soups are—Puree parmentiere, pea soup, lentils puree, tomato soup.\n<br>\n<br><b>Puree Soups\n</b><br>• <i>Compiegne</i> Puree of white rajma (haricot beans) garnished with sorrel and chervil shreds and butter added at the last minute.\n<br>• <i>Conde </i>Puree of red kidney beans with red wine and butter added before serving.\n<br>• <i>Conti </i>Puree of lentils (malka masoor) garnished with bacon chervil and butter added at the last minute.\n<br>• <i>Greeque</i> Puree of green peas and garnished with shreds of carrots, leeks, cabbage and butter added before serving.\n<br>• <i>Lamballe</i> Half of fresh peas puree and half of tapioca puree, and butter added just before serving.\n<br>\n<br>\n<br><b>Velouté\n</b><br>A velouté is a thick soup, which is thickened with a blond roux, passed and finished with a liaison. They may be vegetable or chicken stock based. The texture of veloute is smooth and velvet like.\n<br><br><b>Velouté Soups\n</b><br>• <i>Veloute Marie Louisa</i> Chicken veloute with barley flour, garnish with dices of spring vegetables, cooked macaroni and cream and egg liaison.\n<br>• <i>Veloute Celeris</i> Veloute supreme and celery puree and add cream.\n<br>• <i>Veloute Princesse</i> Equal quantities of chicken veloute and asparagus puree, garnish with dices of chicken and asparagus heads and phiches of chervil and cream.\n<br>• <i>Veloute Montorueil </i>Chicken veloute, garnished printaniere of vegetables, shreds of sorrel and chervil.\n<br>• <i>Veloute Indienne </i>Veloute supreme with coconut milk, flavoured with curry powder, garnished with rice.\n<br><br><b>Cream\n</b><br>A cream soup is a passed thick soup. It may be vegetable or meat based. In classical recipes, it is thickened with béchamel and finished with cream. Modern trends, however, avoid usage of bechamel sauce because of health reasons and to retain the delicate flavours of the vegetables.\n<br>\n<br><b>Cream Soups\n</b><br>•&nbsp;<i>Ambassadeur </i>Prepare puree of fresh peas and garnish with rice, shredded sorrel, chervil, lettuce, add butter and cream just before serving.\n<br>•&nbsp;<i>Bretonne </i>Puree of white rajma (haricot beans) with onions and spring onions. Add tomato puree, add butter and cream before serving.\n<br>•&nbsp;<i>Chantilly </i>Puree of lentils, add cream, garnish with quenelles of chicken.\n<br>•&nbsp;<i>Crecy </i>Puree of carrots and rice and add butter and cream just before serving. \n<br>•&nbsp;<i>Washington</i> Puree of maize, add cream and just before serving, add whisky and port and garnish with maize grains.\n<br><br><b>Bisque\n</b><br>These are shellfish puree soups, thickened with rice or cream. It is a slightly thick rice cream type of soup with small particles of cooked shellfish floating in it, to add flavour and colour. A small amount of wine is added to enhance the flavour. Examples of bisques are: Crayfish bisque, Lobster bisque.\n<br>\n<br><b>Chowder \n</b><br>Originated from America. They are thick heavy soups, owing their consistency to potatoes. Chowders consist of potatoes, onions, pieces of bacon, various seasonings, and seafood. They can be milk or tomato-based. Crackers are generally added just before serving. Examples are: Clam chowder, seafood chowder, oyster chowder, etc.\n<br>\n<br><b>Cold Soups\n</b><br>As the name suggests, these soups are served cold but not chilled. They do not form a separate classification, as they may again be thin or thick, passed or un-passed. Examples of cold soups include\njellied consomme. gazpacho, vichyssoise, ete.\n<br>\n<b><br>Cold Soups\n</b><br>• <i>Veloute de Volaille Froid</i>  Prepare chicken veloute and serve cold.\n<br>• <i>Gelée de Volaille aux tomate</i> Strong tomate chicken consomme jellied.\n<br><br><b>International Soups\n</b><br>Every country has their unique soup, which is also known as the national soup of that country. They do not form a separate classification as they represent the region of origin. For instance. Green turtle soup from England, French onion soup from France, and Mulligatawny from India. Every country has unique soups that have been popular all over the world and the name to tame for these soups has led them to be categorized under a section called International soups.\n<br>\n<b><br>Few International Soups\n</b><br>• Gazpacho – Spain\n<br>• Mulligatawny – India /  Sri Lanka\n<br>• Chicken Broth – England\n<br>• Cockie Leekie – Scotland\n<br>• Clam Chowder – U.S.A\n<br>• Bortsch – Russia\n<br>• Beer soup – Germany\n<br>• French Onion Soup – France\n<br>• Minestrone – Italian\n<br>\n<b><br>GARNISH:\n</b><br>Soup garnishes may be divided into three groups:\n<br><b><i>1. Garnish in the soup</i></b>: Major ingredients of the soup such as vegetables, poultry cut into small dices can be considered a garnish. Consommés are normally named after their garnish. Consommé Julienne is garnished with julienne of vegetables.\n<br>\n<br><b><i>2. Toppings:</i></b> Thick soups are normally decorated with a topping. This could be a simple swirl of cream or chopped parsley, dill leaves of mint. Also included in  this category are toasted sliced almonds, croutons, grated cheese, and crumbled bacon. Clear soups are rarely served with a topping.\n<br>\n<br><b><i>3. Accompaniments: </i></b>Bread rolls, slices and sticks, cheese straws, melba toast, corn chips and cream cracker biscuits are all popular accompaniments for soup along with butter.\n<br>\n<br><b>Commonly used Garnishes for Soups\n</b><br>• <i>Croutons</i> Dices or other shapes made from bread, toast, pastry.\n<br>• <i>Profiteroles</i> Prepared from choux paste. They are miniature cream puffs which may be filled or used plain.\n<br>• <i>Cereals</i> Rice or barley.\n<br>• <i>Cheese</i> Cheese balls, or grated Parmesan served with croutons on one side.\n<br>• <i>Cream</i> Unsweetened whipped cream or sour cream.\n<br>• <i>Meats</i> Usually small dice or juliennes.\n<br>• <i>Poultry</i> Same as meat.\n<br>• <i>Seafood</i> Diced or flaked. Large enough pieces distinguishable.\n<br>• <i>Pastas</i> Noodles, spaghetti, other pasta products such as star letters, cornets, etc.\n<br>• <i>Vegetables </i>Cut in various sizes, shapes—juliennes, round slices, dices of spring, printaniere vegetables.\n<br><br><b>MAKING OF A GOOD SOUP\n</b><br>The following points should be kept in mind while preparing soup:\n<br>1. Always use good quality stock to make soups.\n<br>2. Clear soup should be very clear and cream soups should be smooth and velvety.\n<br>3. The flavour of the main ingredient should stand out in the soup.\n<br>4. For white soups, use only white mirepoix and vice versa.\n<br>5. The thick soup should never coat the back of the spoon, it should be thick and creamy yet not so thick.\n<br>6. Keep skimming the soup and use as less fat and butter as possible.\n<br>7. Season the soups moderately, so that the flavour of the main ingredient is enhanced.\n<br>8. Check the seasoning in the cold soups before serving, as the seasoning goes down once the soup is chilled.\n<br>9. Broth-based soups are robust and full-bodied, so use potatoes, dried pastas, and chunks of meat to create them.\n<br>10. Use strong stock for making consommé.\n<br>11. While making seafood soups, use a variety of fish for a melange of flavours.\n<br>12. Do not use very oily fish to make seafood soups as the oil from the fish lends a very fishy flavour to the soup.\n<br>13. For puree soups, use starchy vegetables.\n<br>14. Add creams and liaisons only in the end and do not boil the soup thereafter.\n<br>15. Always cook the flour before adding to the soup as a thickening agent.\n<br>16. While storing the soups in the refrigerator, keep them unfinished. At the time of guest order, heat and add the seasoning and cream or butter, as desired.\n<br>17. Never store soup beyond two days, as the quality will deteriorate.\n<br>\n<br><b>MODERN TRENDS OF PRESENTING SOUPS\n</b><br>The service of the soup has always been given a lot of importance as it is the first hot meal after the\nappetizers and chefs must ensure that the guests are impressed. Even in the olden days, care was taken to present soup in a particular serveware to enhance the look and feel of the soup. A clear soup such as consommié, is served in white crystal clear porcelain, whereas robust broths are served in large stone glazed pottery bowls. The standard portion size for soup is 6 to 8 oz. (200 to 250 ml).\n<br><br>Chefs should serve hot soup piping hot (ranging 8-10°C) and cold soup cold and not chilled. There are many new types of crockery available to present the soups. Deep plates with large shoulders and small space in between are used to present soups in a fine dining restaurant.\n<br><br>Tea cups are widely used to serve soups. Large rectangular plates are used to serve a hot soup in a small cup accompanied with a chilled sorbet on the side.\n<br>The soup needs to be given due attention and detail, as it brings in good profit margins to the menu.\n<br>\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "ssSxJ1Ffzr",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-dl"
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".hidden": {
+              "display": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked>\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "ssSxJ2b8p2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "design-block-dm"
         }
       ]
     }
