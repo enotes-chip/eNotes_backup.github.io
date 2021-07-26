@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "FO-2_unit_index.html",
+    "currentPage": "2 Year Subject.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -94,7 +94,7 @@
         "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 532,
+    "uniqCompNum": 550,
     "versionPublish": "5.1.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -231,7 +231,7 @@
             }
           },
           "_name": "header18",
-          "_customHTML": "<section class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#a9c9ff\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#ffbbec\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"113\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Intro with gradient background</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>2nd Year\n</b><div>Choose Your Subject</div></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Mobirise is a free offline app for Windows and Mac to easily create small/medium websites, landing\n                    pages, portfolios. 3500+ beautiful website blocks, templates and themes help you to start easily.\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"HK Units.html\" data-app-placeholder=\"Type Text\">Housekeeping - I</a> <a class=\"btn btn-secondary\" href=\"FO Units.html\" data-app-placeholder=\"Type Text\">Front Office - II</a> <a class=\"btn btn-warning\" href=\"HK-2_Units.html\" data-app-placeholder=\"Type Text\">Housekeeping - II</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#a9c9ff\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#ffbbec\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"113\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Intro with gradient background</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>2nd Year\n</b><div>Choose Your Subject</div></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Mobirise is a free offline app for Windows and Mac to easily create small/medium websites, landing\n                    pages, portfolios. 3500+ beautiful website blocks, templates and themes help you to start easily.\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"HK Units.html\" data-app-placeholder=\"Type Text\">Housekeeping - I</a> <a class=\"btn btn-secondary\" href=\"FO Units.html\" data-app-placeholder=\"Type Text\">Front Office - II</a> <a class=\"btn btn-warning\" href=\"HK-II_units.html\" data-app-placeholder=\"Type Text\">Housekeeping - II</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sp5X3ZvGHf",
           "_anchor": "header18-73",
           "_protectedParams": [],
@@ -244,7 +244,7 @@
     "3 Year Subject.html": {
       "settings": {
         "title": "3 Year Subject",
-        "order": 76
+        "order": 80
       },
       "components": [
         {
@@ -298,7 +298,7 @@
     "Syllabus.html": {
       "settings": {
         "title": "Syllabus",
-        "order": 134
+        "order": 138
       },
       "components": [
         {
@@ -336,7 +336,7 @@
     "1 Sem Syllabus.html": {
       "settings": {
         "title": "1 Sem Syllabus",
-        "order": 136
+        "order": 140
       },
       "components": [
         {
@@ -374,7 +374,7 @@
     "5 Sem Syllabus.html": {
       "settings": {
         "title": "5 Sem Syllabus",
-        "order": 141
+        "order": 145
       },
       "components": [
         {
@@ -412,7 +412,7 @@
     "3 Sem Syllabus.html": {
       "settings": {
         "title": "3 Sem Syllabus",
-        "order": 138
+        "order": 142
       },
       "components": [
         {
@@ -450,7 +450,7 @@
     "AC Syllabus.html": {
       "settings": {
         "title": "AC Syllabus",
-        "order": 137
+        "order": 141
       },
       "components": [
         {
@@ -514,7 +514,7 @@
     "HK Syllabus.html": {
       "settings": {
         "title": "HK Syllabus",
-        "order": 139
+        "order": 143
       },
       "components": [
         {
@@ -578,7 +578,7 @@
     "FO Syllabus.html": {
       "settings": {
         "title": "FO Syllabus",
-        "order": 140
+        "order": 144
       },
       "components": [
         {
@@ -642,7 +642,7 @@
     "H&S Syllabus.html": {
       "settings": {
         "title": "H&S Syllabus",
-        "order": 142
+        "order": 146
       },
       "components": [
         {
@@ -706,7 +706,7 @@
     "FM Syllabus.html": {
       "settings": {
         "title": "FM Syllabus",
-        "order": 143
+        "order": 147
       },
       "components": [
         {
@@ -770,7 +770,7 @@
     "Contact.html": {
       "settings": {
         "title": "Contact",
-        "order": 144
+        "order": 148
       },
       "components": [
         {
@@ -941,7 +941,7 @@
     "Ref.Books.html": {
       "settings": {
         "title": "Ref.Books",
-        "order": 135
+        "order": 139
       },
       "components": [
         {
@@ -1135,7 +1135,7 @@
     "FO Units.html": {
       "settings": {
         "title": "FO Units",
-        "order": 62
+        "order": 66
       },
       "components": [
         {
@@ -1207,7 +1207,7 @@
     "H&S Units.html": {
       "settings": {
         "title": "H&S Units",
-        "order": 107
+        "order": 111
       },
       "components": [
         {
@@ -1243,7 +1243,7 @@
     "FM Units.html": {
       "settings": {
         "title": "FM Units",
-        "order": 77
+        "order": 81
       },
       "components": [
         {
@@ -1279,7 +1279,7 @@
     "Disclaimer.html": {
       "settings": {
         "title": "Disclaimer",
-        "order": 145
+        "order": 149
       },
       "components": [
         {
@@ -1327,7 +1327,7 @@
     "Privacy Policy.html": {
       "settings": {
         "title": "Privacy Policy",
-        "order": 146
+        "order": 150
       },
       "components": [
         {
@@ -1375,7 +1375,7 @@
     "Help.html": {
       "settings": {
         "title": "Help",
-        "order": 127
+        "order": 131
       },
       "components": [
         {
@@ -1399,7 +1399,7 @@
     "error.html": {
       "settings": {
         "title": "Error",
-        "order": 147
+        "order": 151
       },
       "components": [
         {
@@ -1453,7 +1453,7 @@
     "HK_Unit_1_Index.html": {
       "settings": {
         "title": "HK_Unit_1_Index",
-        "order": 42
+        "order": 41
       },
       "components": [
         {
@@ -1515,7 +1515,7 @@
     "HK_Unit_1.html": {
       "settings": {
         "title": "HK_Unit_1",
-        "order": 43
+        "order": 42
       },
       "components": [
         {
@@ -1582,7 +1582,7 @@
     "HK_Unit_1.1.html": {
       "settings": {
         "title": "HK_Unit_1.1",
-        "order": 44
+        "order": 43
       },
       "components": [
         {
@@ -1803,7 +1803,7 @@
     "HK_Unit_1.2.html": {
       "settings": {
         "title": "HK_Unit_1.2",
-        "order": 45
+        "order": 44
       },
       "components": [
         {
@@ -2024,7 +2024,7 @@
     "HK_Unit_4.html": {
       "settings": {
         "title": "HK_Unit_4",
-        "order": 60
+        "order": 59
       },
       "components": [
         {
@@ -2094,7 +2094,7 @@
     "FO_Unit_1.html": {
       "settings": {
         "title": "FO_Unit_1",
-        "order": 63
+        "order": 67
       },
       "components": [
         {
@@ -2164,7 +2164,7 @@
     "HK_Unit_5.html": {
       "settings": {
         "title": "HK_Unit_5",
-        "order": 61
+        "order": 60
       },
       "components": [
         {
@@ -2289,7 +2289,7 @@
     "FO_Unit_2_index.html": {
       "settings": {
         "title": "FO_Unit_2_index",
-        "order": 64
+        "order": 68
       },
       "components": [
         {
@@ -2351,7 +2351,7 @@
     "FO_Unit_2.html": {
       "settings": {
         "title": "FO_Unit_2",
-        "order": 65
+        "order": 69
       },
       "components": [
         {
@@ -2421,7 +2421,7 @@
     "FO_Unit_2.1.html": {
       "settings": {
         "title": "FO_Unit_2.1",
-        "order": 66
+        "order": 70
       },
       "components": [
         {
@@ -2491,7 +2491,7 @@
     "FO_Unit_2.2.html": {
       "settings": {
         "title": "FO_Unit_2.2",
-        "order": 67
+        "order": 71
       },
       "components": [
         {
@@ -2561,7 +2561,7 @@
     "FO_Unit_5.html": {
       "settings": {
         "title": "FO_Unit_5",
-        "order": 75
+        "order": 79
       },
       "components": [
         {
@@ -2802,7 +2802,7 @@
     "HS_Unit_1.html": {
       "settings": {
         "title": "HS_Unit_1",
-        "order": 108
+        "order": 112
       },
       "components": [
         {
@@ -2855,7 +2855,7 @@
     "HS_Unit_2_index.html": {
       "settings": {
         "title": "HS_Unit_2_index",
-        "order": 109
+        "order": 113
       },
       "components": [
         {
@@ -2917,7 +2917,7 @@
     "HS_Unit_2.1.html": {
       "settings": {
         "title": "HS_Unit_2.1",
-        "order": 111
+        "order": 115
       },
       "components": [
         {
@@ -3027,7 +3027,7 @@
     "HS_Unit_2.2.html": {
       "settings": {
         "title": "HS_Unit_2.2",
-        "order": 112
+        "order": 116
       },
       "components": [
         {
@@ -3116,7 +3116,7 @@
     "HS_Unit_3.html": {
       "settings": {
         "title": "HS_Unit_3",
-        "order": 114
+        "order": 118
       },
       "components": [
         {
@@ -3169,7 +3169,7 @@
     "HS_Unit_3.1.html": {
       "settings": {
         "title": "HS_Unit_3.1",
-        "order": 115
+        "order": 119
       },
       "components": [
         {
@@ -3393,7 +3393,7 @@
     "HS_Unit_3.2.html": {
       "settings": {
         "title": "HS_Unit_3.2",
-        "order": 116
+        "order": 120
       },
       "components": [
         {
@@ -3446,7 +3446,7 @@
     "HS_Unit_3.3.html": {
       "settings": {
         "title": "HS_Unit_3.3",
-        "order": 117
+        "order": 121
       },
       "components": [
         {
@@ -3499,7 +3499,7 @@
     "HS_Unit_3_index.html": {
       "settings": {
         "title": "HS_Unit_3_index",
-        "order": 113
+        "order": 117
       },
       "components": [
         {
@@ -3561,7 +3561,7 @@
     "HS_Unit_2.html": {
       "settings": {
         "title": "HS_Unit_2",
-        "order": 110
+        "order": 114
       },
       "components": [
         {
@@ -3614,7 +3614,7 @@
     "FM_Unit_1.html": {
       "settings": {
         "title": "FM_Unit_1",
-        "order": 79
+        "order": 83
       },
       "components": [
         {
@@ -3667,7 +3667,7 @@
     "FM_Unit_1_index.html": {
       "settings": {
         "title": "FM_Unit_1_index",
-        "order": 78
+        "order": 82
       },
       "components": [
         {
@@ -3729,7 +3729,7 @@
     "FM_Unit_1.1.html": {
       "settings": {
         "title": "FM_Unit_1.1",
-        "order": 80
+        "order": 84
       },
       "components": [
         {
@@ -3818,7 +3818,7 @@
     "FM_Unit_1.2.html": {
       "settings": {
         "title": "FM_Unit_1.2",
-        "order": 81
+        "order": 85
       },
       "components": [
         {
@@ -4313,7 +4313,7 @@
     "FM_Unit_1.3.html": {
       "settings": {
         "title": "FM_Unit_1.3",
-        "order": 82
+        "order": 86
       },
       "components": [
         {
@@ -4423,7 +4423,7 @@
     "FM_Unit_1.5.html": {
       "settings": {
         "title": "FM_Unit_1.4",
-        "order": 83
+        "order": 87
       },
       "components": [
         {
@@ -4476,7 +4476,7 @@
     "FM_Unit_1.1_index.html": {
       "settings": {
         "title": "FM_Unit_1.1_index",
-        "order": 84
+        "order": 88
       },
       "components": [
         {
@@ -4538,7 +4538,7 @@
     "FM_Unit_1.1_1.html": {
       "settings": {
         "title": "FM_Unit_1.1_1",
-        "order": 85
+        "order": 89
       },
       "components": [
         {
@@ -4746,7 +4746,7 @@
     "FM_Unit_1.1_2.1.html": {
       "settings": {
         "title": "FM_Unit_1.1_2.1",
-        "order": 87
+        "order": 91
       },
       "components": [
         {
@@ -4913,7 +4913,7 @@
     "FM_Unit_1.1_2.html": {
       "settings": {
         "title": "FM_Unit_1.1_2",
-        "order": 86
+        "order": 90
       },
       "components": [
         {
@@ -4987,7 +4987,7 @@
     "FM_Unit_1.1_3.html": {
       "settings": {
         "title": "FM_Unit_1.1_3",
-        "order": 88
+        "order": 92
       },
       "components": [
         {
@@ -5040,7 +5040,7 @@
     "FM_Unit_2_index.html": {
       "settings": {
         "title": "FM_Unit_2_index",
-        "order": 89
+        "order": 93
       },
       "components": [
         {
@@ -5102,7 +5102,7 @@
     "FM_Unit_2.html": {
       "settings": {
         "title": "FM_Unit_2",
-        "order": 90
+        "order": 94
       },
       "components": [
         {
@@ -5212,7 +5212,7 @@
     "FM_Unit_2.1.html": {
       "settings": {
         "title": "FM_Unit_2.1",
-        "order": 91
+        "order": 95
       },
       "components": [
         {
@@ -5322,7 +5322,7 @@
     "FM_Unit_2.2.html": {
       "settings": {
         "title": "FM_Unit_2.2",
-        "order": 92
+        "order": 96
       },
       "components": [
         {
@@ -5375,7 +5375,7 @@
     "FM_Unit_2.3.html": {
       "settings": {
         "title": "FM_Unit_2.3",
-        "order": 93
+        "order": 97
       },
       "components": [
         {
@@ -5428,7 +5428,7 @@
     "FM_Unit_3_index.html": {
       "settings": {
         "title": "FM_Unit_3_index",
-        "order": 94
+        "order": 98
       },
       "components": [
         {
@@ -5490,7 +5490,7 @@
     "FM_Unit_3.html": {
       "settings": {
         "title": "FM_Unit_3",
-        "order": 95
+        "order": 99
       },
       "components": [
         {
@@ -5543,7 +5543,7 @@
     "FM_Unit_3.1.html": {
       "settings": {
         "title": "FM_Unit_3.1",
-        "order": 96
+        "order": 100
       },
       "components": [
         {
@@ -5596,7 +5596,7 @@
     "FM_Unit_3.2.html": {
       "settings": {
         "title": "FM_Unit_3.2",
-        "order": 97
+        "order": 101
       },
       "components": [
         {
@@ -5649,7 +5649,7 @@
     "FO_Unit_3_Index.html": {
       "settings": {
         "title": "FO_Unit_3_Index",
-        "order": 68
+        "order": 72
       },
       "components": [
         {
@@ -5711,7 +5711,7 @@
     "FO_Unit_3.html": {
       "settings": {
         "title": "FO_Unit_3",
-        "order": 69
+        "order": 73
       },
       "components": [
         {
@@ -5781,7 +5781,7 @@
     "FO_Unit_3.2.html": {
       "settings": {
         "title": "FO_Unit_3.2",
-        "order": 71
+        "order": 75
       },
       "components": [
         {
@@ -5851,7 +5851,7 @@
     "FO_Unit_3.1.html": {
       "settings": {
         "title": "FO_Unit_3.1",
-        "order": 70
+        "order": 74
       },
       "components": [
         {
@@ -5978,7 +5978,7 @@
     "FO_Unit_4_Index.html": {
       "settings": {
         "title": "FO_Unit_4_Index",
-        "order": 72
+        "order": 76
       },
       "components": [
         {
@@ -6040,7 +6040,7 @@
     "FO_Unit_4.html": {
       "settings": {
         "title": "FO_Unit_4",
-        "order": 73
+        "order": 77
       },
       "components": [
         {
@@ -6110,7 +6110,7 @@
     "FO_Unit_4.1.html": {
       "settings": {
         "title": "FO_Unit_4.1",
-        "order": 74
+        "order": 78
       },
       "components": [
         {
@@ -6237,7 +6237,7 @@
     "HK_Unit_3_Index.html": {
       "settings": {
         "title": "HK_Unit_3_Index",
-        "order": 52
+        "order": 51
       },
       "components": [
         {
@@ -6299,7 +6299,7 @@
     "HK_Unit_3.html": {
       "settings": {
         "title": "HK_Unit_3",
-        "order": 53
+        "order": 52
       },
       "components": [
         {
@@ -6369,7 +6369,7 @@
     "HK_Unit_3.1.html": {
       "settings": {
         "title": "HK_Unit_3.1",
-        "order": 54
+        "order": 53
       },
       "components": [
         {
@@ -6439,7 +6439,7 @@
     "HK_Unit_3.2.html": {
       "settings": {
         "title": "HK_Unit_3.2",
-        "order": 55
+        "order": 54
       },
       "components": [
         {
@@ -6509,7 +6509,7 @@
     "HK_Unit_3.3.html": {
       "settings": {
         "title": "HK_Unit_3.3",
-        "order": 56
+        "order": 55
       },
       "components": [
         {
@@ -6579,7 +6579,7 @@
     "HK_Unit_3.4.html": {
       "settings": {
         "title": "HK_Unit_3.4",
-        "order": 57
+        "order": 56
       },
       "components": [
         {
@@ -6649,7 +6649,7 @@
     "HK_Unit_3.5.html": {
       "settings": {
         "title": "HK_Unit_3.5",
-        "order": 58
+        "order": 57
       },
       "components": [
         {
@@ -6719,7 +6719,7 @@
     "HK_Unit_3.6.html": {
       "settings": {
         "title": "HK_Unit_3.6",
-        "order": 59
+        "order": 58
       },
       "components": [
         {
@@ -6789,7 +6789,7 @@
     "HK_Unit_2_Index.html": {
       "settings": {
         "title": "HK_Unit_2_Index",
-        "order": 46
+        "order": 45
       },
       "components": [
         {
@@ -6851,7 +6851,7 @@
     "HK_Unit_2.html": {
       "settings": {
         "title": "HK_Unit_2",
-        "order": 47
+        "order": 46
       },
       "components": [
         {
@@ -6921,7 +6921,7 @@
     "HK_Unit_2.1.html": {
       "settings": {
         "title": "HK_Unit_2.1",
-        "order": 48
+        "order": 47
       },
       "components": [
         {
@@ -6991,7 +6991,7 @@
     "HK_Unit_2.2.html": {
       "settings": {
         "title": "HK_Unit_2.2",
-        "order": 49
+        "order": 48
       },
       "components": [
         {
@@ -7061,7 +7061,7 @@
     "HK_Unit_2.3.html": {
       "settings": {
         "title": "HK_Unit_2.3",
-        "order": 50
+        "order": 49
       },
       "components": [
         {
@@ -7131,7 +7131,7 @@
     "HK_Unit_2.4.html": {
       "settings": {
         "title": "HK_Unit_2.4",
-        "order": 51
+        "order": 50
       },
       "components": [
         {
@@ -7654,7 +7654,7 @@
     "Updating.html": {
       "settings": {
         "title": "Updating",
-        "order": 148
+        "order": 152
       },
       "components": [
         {
@@ -8121,7 +8121,7 @@
     "HS_Unit_4_index.html": {
       "settings": {
         "title": "HS_Unit_4_index",
-        "order": 118
+        "order": 122
       },
       "components": [
         {
@@ -8183,7 +8183,7 @@
     "HS_Unit_4.html": {
       "settings": {
         "title": "HS_Unit_4",
-        "order": 119
+        "order": 123
       },
       "components": [
         {
@@ -8236,7 +8236,7 @@
     "HS_Unit_4.2.html": {
       "settings": {
         "title": "HS_Unit_4.2",
-        "order": 121
+        "order": 125
       },
       "components": [
         {
@@ -8289,7 +8289,7 @@
     "HS_Unit_4.1.html": {
       "settings": {
         "title": "HS_Unit_4.1",
-        "order": 120
+        "order": 124
       },
       "components": [
         {
@@ -8342,7 +8342,7 @@
     "HS_Unit_5_index.html": {
       "settings": {
         "title": "HS_Unit_5_index",
-        "order": 122
+        "order": 126
       },
       "components": [
         {
@@ -8404,7 +8404,7 @@
     "HS_Unit_5.html": {
       "settings": {
         "title": "HS_Unit_5",
-        "order": 123
+        "order": 127
       },
       "components": [
         {
@@ -8514,7 +8514,7 @@
     "HS_Unit_5.1.html": {
       "settings": {
         "title": "HS_Unit_5.1",
-        "order": 124,
+        "order": 128,
         "html_before": "",
         "header_custom": "<script defer async type=\"module\" src=\"//cdn.audioplace.me/audio/nextwidget/w.js\"></script>\n<audioplace-me id=\"87081560\" color=\"#5b007b\" maxwidth=\"600\" voice=\"female\" fab=\"icon\" fab_position=\"bottom_left\" ></audioplace-me>"
       },
@@ -8626,7 +8626,7 @@
     "HS_Unit_5.2.html": {
       "settings": {
         "title": "HS_Unit_5.2",
-        "order": 125
+        "order": 129
       },
       "components": [
         {
@@ -8679,7 +8679,7 @@
     "HS_Unit_5.3.html": {
       "settings": {
         "title": "HS_Unit_5.3",
-        "order": 126
+        "order": 130
       },
       "components": [
         {
@@ -8732,7 +8732,7 @@
     "FM_Q.html": {
       "settings": {
         "title": "FM_Q",
-        "order": 128
+        "order": 132
       },
       "components": [
         {
@@ -8831,7 +8831,7 @@
     "HS_Q.html": {
       "settings": {
         "title": "HS_Q",
-        "order": 131
+        "order": 135
       },
       "components": [
         {
@@ -8929,7 +8929,7 @@
     "FO_Q.html": {
       "settings": {
         "title": "FO_Q",
-        "order": 132
+        "order": 136
       },
       "components": [
         {
@@ -9027,7 +9027,7 @@
     "HK_Q.html": {
       "settings": {
         "title": "HK_Q",
-        "order": 133
+        "order": 137
       },
       "components": [
         {
@@ -9319,7 +9319,7 @@
     "FM_Unit_4_index.html": {
       "settings": {
         "title": "FM_Unit_4_index",
-        "order": 98
+        "order": 102
       },
       "components": [
         {
@@ -9381,7 +9381,7 @@
     "FM_Unit_5_index.html": {
       "settings": {
         "title": "FM_Unit_5_index",
-        "order": 102
+        "order": 106
       },
       "components": [
         {
@@ -9443,7 +9443,7 @@
     "AC_Q.html": {
       "settings": {
         "title": "AC_Q",
-        "order": 129
+        "order": 133
       },
       "components": [
         {
@@ -9542,7 +9542,7 @@
     "FM_Unit_4.html": {
       "settings": {
         "title": "FM_Unit_4",
-        "order": 99
+        "order": 103
       },
       "components": [
         {
@@ -9595,7 +9595,7 @@
     "FM_Unit_4.1.html": {
       "settings": {
         "title": "FM_Unit_4.1",
-        "order": 100
+        "order": 104
       },
       "components": [
         {
@@ -9648,7 +9648,7 @@
     "FM_Unit_4.2.html": {
       "settings": {
         "title": "FM_Unit_4.2",
-        "order": 101
+        "order": 105
       },
       "components": [
         {
@@ -9701,7 +9701,7 @@
     "FM_Unit_5.html": {
       "settings": {
         "title": "FM_Unit_5",
-        "order": 103
+        "order": 107
       },
       "components": [
         {
@@ -10233,7 +10233,7 @@
     "FM_Unit_5.1.html": {
       "settings": {
         "title": "FM_Unit_5.1",
-        "order": 104
+        "order": 108
       },
       "components": [
         {
@@ -10286,7 +10286,7 @@
     "FM_Unit_5.2.html": {
       "settings": {
         "title": "FM_Unit_5.2",
-        "order": 105
+        "order": 109
       },
       "components": [
         {
@@ -10508,7 +10508,7 @@
     "FM_Unit_5.3.html": {
       "settings": {
         "title": "FM_Unit_5.3",
-        "order": 106
+        "order": 110
       },
       "components": [
         {
@@ -10618,7 +10618,7 @@
     "Temp_AC_Q.html": {
       "settings": {
         "title": "Temp_AC_Q",
-        "order": 130
+        "order": 134
       },
       "components": [
         {
@@ -11499,42 +11499,6 @@
         }
       ]
     },
-    "HK-2_Units.html": {
-      "settings": {
-        "title": "HK-2_Units",
-        "order": 41
-      },
-      "components": [
-        {
-          "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = \"image\")": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = \"color\")": {
-              "& when not (@gradientBg)": {
-                "background-color": "@bg-value"
-              },
-              "& when (@gradientBg)": {
-                "background-image": "linear-gradient(~\"@{gradientAngle}deg\", @gradientColor2 10%, @bg-value 100%) !important"
-              }
-            }
-          },
-          "_name": "header18",
-          "_customHTML": "<section class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"158\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Intro with gradient background</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>\n                        Housekeeping-II</b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Choose Your Unit</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Unit - 1</a> <a class=\"btn btn-secondary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Unit - 2</a> <a class=\"btn btn-warning\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 3</a> <a class=\"btn btn-success\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 4</a> <a class=\"btn btn-black\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 5</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sBrCBlAfFY",
-          "_anchor": "header18-e3",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        }
-      ]
-    },
     "FO-1_Units.html": {
       "settings": {
         "title": "FO-1_Units",
@@ -11859,11 +11823,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "sEaPeEfXcr",
+          "_anchor": "content4-eg",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-eg"
+          "_params": {}
         },
         {
           "alias": false,
@@ -11880,11 +11844,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "sEaPeFh32Q",
+          "_anchor": "content5-eh",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content5-eh"
+          "_params": {}
         },
         {
           "_name": "design-block",
@@ -11897,11 +11861,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "sEaPeFR9JV",
+          "_anchor": "design-block-ei",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "design-block-ei"
+          "_params": {}
         }
       ]
     },
@@ -11929,11 +11893,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "sEaRtkbgbt",
+          "_anchor": "content4-ej",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-ej"
+          "_params": {}
         },
         {
           "alias": false,
@@ -11950,11 +11914,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "sEaRtlVXKA",
+          "_anchor": "content5-ek",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content5-ek"
+          "_params": {}
         },
         {
           "_name": "design-block",
@@ -11967,11 +11931,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "sEaRtmxU4B",
+          "_anchor": "design-block-el",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "design-block-el"
+          "_params": {}
         }
       ]
     },
@@ -11999,11 +11963,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "sEaXfRq3gN",
+          "_anchor": "content4-em",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-em"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12020,11 +11984,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "sEaXfVzcKE",
+          "_anchor": "content5-en",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content5-en"
+          "_params": {}
         },
         {
           "_name": "design-block",
@@ -12037,11 +12001,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "sEaXfXuKDZ",
+          "_anchor": "design-block-eo",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "design-block-eo"
+          "_params": {}
         }
       ]
     },
@@ -12069,11 +12033,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "sEaXmXmyKx",
+          "_anchor": "content4-ep",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-ep"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12090,11 +12054,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "sEaXmYbNPY",
+          "_anchor": "content5-eq",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content5-eq"
+          "_params": {}
         },
         {
           "_name": "design-block",
@@ -12107,11 +12071,374 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "sEaXmZmleC",
+          "_anchor": "design-block-er",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "HK-II_units.html": {
+      "settings": {
+        "title": "HK-II_units",
+        "order": 61
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "& when not (@gradientBg)": {
+                "background-color": "@bg-value"
+              },
+              "& when (@gradientBg)": {
+                "background-image": "linear-gradient(~\"@{gradientAngle}deg\", @gradientColor2 10%, @bg-value 100%) !important"
+              }
+            }
+          },
+          "_name": "header18",
+          "_customHTML": "<section class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"158\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Intro with gradient background</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>\n                        Housekeeping - II</b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Choose Your Unit</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"Updating.html\" data-app-placeholder=\"Type Text\">Unit - 1</a> <a class=\"btn btn-secondary\" href=\"HK-II_Unit_2_index.html\" data-app-placeholder=\"Type Text\">Unit - 2</a> <a class=\"btn btn-warning\" href=\"HK-II_Unit_3.html\" data-app-placeholder=\"Type Text\">Unit - 3</a> <a class=\"btn btn-success\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 4</a> <a class=\"btn btn-black\" href=\"error.html\" data-app-placeholder=\"Type Text\">Unit - 5</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sEhQQzTzQN",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "design-block-er"
+          "_anchor": "header18-es"
+        }
+      ]
+    },
+    "HK-II_Unit_3.html": {
+      "settings": {
+        "title": "HK-II_Unit_3",
+        "order": 65
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -3</b><div>COLOUR&nbsp;</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sEhRfWuLxc",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-et"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>Introduction\n</b><br>Colour is an Element of Art. It plays an important role in decoration as well as in our life. Colours are used for various purposes in a decoration. It has different meanings and when used in different combinations, it has some other meaning. It can change the mood of a decoration, which in turn, changes the mood of the person/s in the room. \n<br>\n<br>Colours are a part of the light we see. When sunlight is passed through a PRISM the visible \"white light\" is separated into seven colours of the rainbow known as VIBGYOR, namely: \n<br>\n<br><b>V -</b> Violet \n<br><b>I -</b> Indigo \n<br><b>B -</b> Blue \n<br><b>G -</b> Green \n<br><b>Y -</b> Yellow \n<br><b>0 -</b> Orange \n<br><b>R -</b> Red\n<br>\n<br>In other words, so-called, \"white light\" is actually a combination of these coloured lights. \n<br>\n<br><b>Dimension of colour \n</b><br><b>• </b>Hue is the synonym of colour.\n<br><b>• </b>Chroma or intensity is the brightness or dullness of a colour.\n<br><b>• </b>Value is the lightness or darkness of a colour. The lightest value is white and the darkest is black\n<br>\n<br><b>Types of Colours \n</b><br><b>• </b>Primary Colours\n<br><b>• </b>Secondary Colours\n<br><b>•</b> Tertiary Colours\n<br>\n<br><b>Primary Colours\n</b><br>These colours found in the rods and cones in our eyes they are the basic colours which are obtained directly from nature there are also known as fundamental colours they include:<br>‣ Red\n<br>‣ Blue \n<br>‣ Yellow \n<br><br><b>Secondary colours \n</b><br>These colours are produced by mixing two primary colours in equal preparation there are three secondary colours Orange green and violet they are obtained as \n<br>‣ Red + yellow = Orange \n<br>‣ Yellow + Blue = Green \n<br>‣ Blue + Red =Violet\n<br>\n<br><b>Tertiary Colours\n</b><br>These colours are produced by mixing a Primary colour with a Secondary colour in equal proportion. They are six in numbers Red-Orange, Yellow-Orange, Yellow-Green, Blue-Green, Blue-Violet, and Red-Violet. While preparing a Tertiary colour. The Primary colour chosen should be a part of the Secondary colour with which it is mixed.\n<br>\n<br><i>They are brained as:\n</i><br>‣ Red + Orange = Red-Orange\n<br>‣ Yellow + Orange = Yellow-Orange\n<br>‣ Yellow + Green = Yellow-Green\n<br>‣ Blue + Green = Blue-Green\n<br>‣ Blue + Violet = Blue-Violet\n<br>‣ Red + Violet = Red-Violet\n<br>\n<br><b>Colour wheel \n</b><br>The total number of colours in interior decoration is considered twelve in number they are Red, Red-orange, Orange, Yellow-orange, Yellow, Yellow-green, Green, Blue-green, Blue, Blue-violet, Violet and Red violet these 12 colours are interrelated to each other when they are situated side-by-side their form a chain which is represented in the form of circle or wheel known as the colour wheel&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sEhRfWRcgh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-eu"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/1024px-byr-color-wheel.svg-976x976.png\" alt=\"Hi\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Image Description</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sEhRfXbIAt",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image3-ev"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>COLOUR SCHEMES</b> \n<br>It is best to develop one's own colour sense by studying and by observing books, museums and art galleries. Since that is a long process, the following information on the use of colour schemes is a definite help. <br>\n<br><b>1.Monochromatic Colour Scheme</b> -.only one colour is used in varied values and intensity. This scheme may be monotonous for bedrooms. Many values of one hue like red, brown, dusty pink, slate blue and lime are attractive.\n<br>\n<br><b>2.Analogous -</b> is made by combining colours that are harmonious because they contain a proportion of the same colour. They are likely to be too cold or too warm, therefore, care should be taken to include at least one primary colour.\n<br>\n<br><b>3.Triad - </b>combines three equidistance colours, which occur at the points of an equilateral triangle, placed anywhere on the colour circle. This scheme is well balanced but the colour must be subdued to attain harmony.\n<br>\n<br><b>4. Complementary -</b> colours are opposite in the colour circle. It is a stimulating and balanced plan. The colour must be subdued and one should dominate.\n<br>\n<br><b>5. Split Complimentary -</b> one colour is used with the two colours that adjoin its complement on a colour circle. This plan provides some subtle combinations when the colours employed are properly subdued.\n<br>\n<br><b>6. Tetrad Colour Scheme -</b> In this scheme, FOUR colours are used. The colours chosen should be at an equal distance on the colour wheel. One of the colours should be in a stronger, brighter tone than the others.\n<br>\n<br><b>7. Dominating Colour-</b> in any type of colour scheme for any purpose, one colour should dominate in quantity; usually, another colour should be secondary in quantity. If a third colour is used, it should be least in quantity. The smaller the area, more brighter are the colours.\n<br>\n<br>\n<br><b>Factors that influence colour schemes: \n</b><br>1. The room, size, shape, exposure (sun direction)\n<br>2. Mood\n<br>3. Style\n<br>4. Current position\n<br>5. Use of the room.\n<br>\n<br><b>General suggestions for mixing colour scheme: \n</b><br>Definite colour schemes such as complementary, analogous or triad are recommended. \n<br>\n<br>1. A safe colour scheme consists of tint and shade of one colour (monochromatic) recommended for areas not to be used for too long, i.e. dining room, lobby, foyer etc.\n<br>2. An easy scheme consists of white or off-white plus one or two clear colours \n<br>3. Three colours for (small areas) and four (for larger areas) \n<br>4. A scheme should be definitely dark or light \n<br>5. Either warm or cool colour should predominate\n<br>6. A neutralized colour is generally best for large areas \n<br>7. A more definite colour scheme is suited for medium areas \n<br>8. One or two brighter colours sometimes complement the dominant colour \n<br>9. If a scheme lacks sparkle a brilliant contrasting colour or white may be added \n<br>10. Equal areas of different colours or monotonous \n<br>11. Every colour scheme should have dominating colour and a secondary colour\n<br>\n<br><b>Procedure for making a colour scheme\n</b><br>1. Review the factors that influence colour schemes \n<br>2. Review the suggestions above \n<br>3. Consider the colour scheme of an adjoining room \n<br>4. Decide on the background colour \n<br>5. Procure samples of fabrics, wall colour )Paints), wood texture, wallpapers, etc, \n<br>6. Select colour scheme from fabric paints etc,\n<br>7. Plan the values from those fabric paints etc,\n<br>8. Plan the colour proportion (large, medium, or small areas) \n<br>9. Plan the variations in the intensity of the chosen few )bright or greyed)\n<br>\n<br><b>Warm and cool colour \n</b><br>Colours that contain yellow or red are considered to be warm, probably because we associate them with fire, sunshine and artificial light. Blues and greens suggest coolness because we associate it with skies, water, ice and foliage. In any colour in another scheme, either warm or cool colour should dominate \n<br>\n<br><b>Advancing or receding colour \n</b><br>Warm Hue seems to advance while cool ones receding the most strongly advancing colour is yellow, then Orange, Red, Green, Violet, Blue in the interior.\n<br>\n<br><b>Psychological Effect \n</b><br>Colours have various effects on our daily life, mainly on our psychology. We read different colours in different ways like white shows cleanliness and purity. Blue and Green colours make u feel cool and calm and a feeling of rest comes in you. Yellow is considered to be the colour of the Sun and makes us feel warm and cheerful. Blue colour opens up our mind as Blue is the colour of the Sky which is open and widely spread. Red is a hot colour and can raise the temper of anybody's mind. Red also symbolizes welcome and affection. So we welcome our guests with red carpet, gift red rose to our beloved ones. Black is the symbol of evil or death. Black is also a depressing colour because it is linked with darkness. In this way, colours affect our mood in various ways and our mood is changed with the change of the colours' symbolic meaning. \n<br>\n<b><br>Emotional Effect \n</b><br><b>1. Yellow -</b> has the effect of cheerfulness, gaiety, buoyancy, optimism, sympathy and prosperity. In-home decoration, yellow is indispensable because more than any other colour, it gives the effect of light. Accessories of yellow are usually needed in north rooms.\n<br>\n<br><b>2. Orange -</b> is warm in a pure state and therefore should be used in small quantities. It expresses energy, spirit, hope and cordiality. neutralized forms of orange are peach, rust, copper which radiate hospitality.\n<br>\n<br><b>3. Brown -</b> brown walls are now effectively used with natural wood furniture and light beige rugs or with one striking colour such as turquoise blue or cherry red. Chocolate, burnt cinnamon is more usable than other shades of yellow, brown.\n<br>\n<br>4. Red - is the colour of fire and blood. It is an expression of primitive passion,-war, vigour, power, movement, aggression, boldness and love. In decoration, red gives the impression of splendour, warmth, hospitality and exhilaration. It is cheerful but not restful and so must be used discreetly. Reds are usually greyed. In pure form, it should be used only in small proportions. Dark, dull, raspberry red has proved to be a successful colour for carpets. Pink is one of women's favourite colours and should be greyed if used in large quantities. \n<br>\n<br><b>5. Purple -</b> is made of red and blue which possesses quite opposite charac­teristics and when mixed cancel each other's effects, so that purple is somewhat gentle and vague. It suggests mastery, dignity, reflection and twilight.\n<br>\n<br><b>6. Blue -</b> is the colour of clear sky and deep water and so is associated with coolness. It expresses distance, spaciousness, loftiness, dignity, calmness, serenity, reserve, formality, lack of sympathy and is an antidote to too much warmth. Blue is not so friendly with one another as other colours are both daylight and artificial light. Blue is a very important decorative colour as it is usable in large areas. Since blue is not neutralized as much as others.\n<br>\n<br><b>7. Green -</b> is the colour of grass, vegetables and leaves and it naturally suggests rest, cool, shade and refreshment, all pleasant things. Green is considered beneficial to the eyes, nerves and disposition. Predominates and cool if blue is dominant. Vigorous green combines well with knotty natural wood.\n<br><br><b>8. Neutral colours -</b> are black, white and grey and also beige (natural wood colour). Such colours are most valuable for home furnishings, for large background areas are generally natural in colour. The true neutral colours are cool in effect.\n<br>\n<br><b>9. Black -</b> suggests mystery, wisdom, sophistication and in decoration can be employed to create a dramatic effect to a decorative scheme of dark colours; it adds spirit and interest. But in a light colour scheme, it adds too much interest and makes other colours appear faded. A small quantity of black is effective. Black furniture, particularly oriental pieces, are sometimes used to offset luxurious settings.\n<br>\n<b><br>10. White -</b> is a recurring favourite between periods of colourful decoration because of its serenity and coolness. White and off white are approved for exteriors and interiors. White is valuable for the opportunity it gives to display other colours. Pure white is best with cool colours, whereas cream and off white are usually more harmonious in warm schemes.\n<br>\n<br><b>11. Grey - </b>produced by mixing white and black has no particular character of its own, although in the light it seems gentle in the dark shade, dignified and restrained. Grey may be warm or cool. Grey should be accompanied by some brilliant colour to counteract its neutrality.\n<br>\n<b><br></b>SYMBOLIC MEANING OF COLOURS<br><b>» WHITE:</b> innocence, purity, faith, peace, surrender, cleanliness, mourning (in India).\n<br><b>» BLACK:</b> Life ( out of darkness comes the day), death, darkness, evil, sophistication, wisdom, mystery, mourning, protest.\n<br><b>» RED:</b> Life (colour of blood), Danger (colour of fire), love, war, passion, vigour, aggression. \n<br><b>» BLUE: </b>coolness (associated with water bodies), vast ( colour of the sky) depth, distance, spaciousness, dignity, calmness, formality, happiness, truth, honour, repose/rest.\n<br><b>» GREEN: </b>cool and warm (combination of blue and yellow), rest/repose, shade, shelter, life envy, jealousy, ill-health.\n<br><b>» YELLOW:</b> Warmth (colour of sun), prosperity, gaiety, cheerfulness, excitement, poverty.\n<br><b>» ORANGE:</b> Warmth (combination of red and yellow), hope, courage, cordiality, spirit.\n<br><b>» PURPLE:</b> Royalty (combination of blue and red), dignity.\n<br><b>» GREY:</b> Sadness ( combination of black and white), dignity, masculinity, modest, gentle, sincere, indifference.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sEhRfXDRcG",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-ew"
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".hidden": {
+              "display": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked=\"\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sEhRfXZN1i",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "design-block-ex"
+        }
+      ]
+    },
+    "HK-II_Unit_2.html": {
+      "settings": {
+        "title": "HK-II_Unit_2",
+        "order": 63
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -2</b><div>UNIFORM &amp; SEWING ROOMS</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sEhUuc4bYZ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-ey"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Uniforms are outfits of specified material, colour, and design, usually provided by the establishment, for certain staff such that all employees in equivalent or similar positions wear identical outfits. \n<br>\n<br>Uniforms are issued to most people who work in the hospitality industry, especially salaried employees. Employees in the 'back of the house' areas normally wear functional yet pleasing uniforms. Uniforms for the restaurant and front office staff must not only be functional but must also go with the ambience of the area they work in. For example, a poolside restaurant in a resort property can have stewards dressed in the Bermudas and a floral shirt with accessories such as a straw hat and sandals. Many hotels now prefer their employees to retain the feel of the region in which the hotel is situated and to showcase the culture and tradition of the place. A hotel that is very 'Indian' can have a doorman dressed up as a royal Punjabi guard with appropriate accessories. Managers, executives, and senior staff have uniforms to enhance their image. \n<br>\n<br>In most hotels, the housekeeping department is the custodian of uniforms for all hotel employees. A reasonable uniform programme should allow the issue of two uniforms to each employee upon employment and the third set on confirmation.\n<br>\n<br><b>SELECTION AND DESIGN OF UNIFORMS</b>\n<br>Terry cottons are the most popular choice for uniforms as they have the advantages of both natural and synthetic fibres. Suiting materials are used for trousers and skirts. Drill ( cot­ton) is the popular choice for cooks' coats and aprons as it is cool, durable, and easy to maintain. Gabardine or any white suiting material may be used for chefs' coats, as they keep up appearances. \n<br>\n<br><b>Points to be Considered while Designing Uniforms</b> \n<br>The following points should be kept in mind while designing uniforms. \n<br>\n<br><b><i>General profile of the employees</i></b> The cultural background, age, and so on of the hotel's employees need to be kept in mind along with the hotel's ethos and the employees' work profiles. Some hotels even involve the staff concerned while designing their uniforms. \n<br>\n<br><b><i>Image and identity of the property</i></b> If the hotel wants to create a desirable, eye-catching, smart, efficient, and professional image, the uniforms should be chosen to reflect, and indeed create this impression. Emblems, badges, and embroidery can customize the uniforms so as to identify the hotel, the department, and the employee. The uniform can also match the decor and theme of the hotel, thereby reinforcing the image of the property.\n<br>\n<br><i><b>Comfort in wear</b></i> This depends on the right fabric being used, and even more important on a good fit. Hotel staff have to be active and hardworking, and the· uniform should complement this. They may need to reach, bend, stretch, or squat. The fit of the uniform should be such that it does not bind or restrict movement. \n<br>\n<br><b><i>Purpose of work</i></b> Designing for the purpose of the work is of paramount importance. Pockets are an important part of designing. A pair of dungarees or overalls must have several deep pockets for the maintenance employee to keep tools handy. A steward must have pockets that are not very conspicuous to keep a pen, lighter, and so on. Shoes chosen for the cooks must be skid-proof. Short sleeves are more practical for GRAs. Some uniform accessories, such as the headwear of kitchen staff (toque), also fulfil an important hygiene function in addition to making their work easier. \n<br>\n<br><b><i>Appearance and style</i></b> While keeping in mind the environment of the establishment a uniform should be designed in such a way that it will look equally good on the stout and thin, the tall and short. Well-made garments use fabrics that are designed for heavy wear, and their workmanship must support that. That way, they will stay bright and look new through countless launderings. \n<br>\n<br><b><i>Climatic conditions</i></b> of the place These must be considered especially if the hotel is not centrally air-conditioned. A full-sleeved terylene shirt with a tie can be stifling for a steward in a humid area. Generally, cooks and maintenance crew use 100 percent drill uniforms. \n<br>\n<br><b><i>Budget and value for money</i></b> In the selection of fabric for uniforms, one should keep in mind the allocated budget, and seek value for money. Laundering and maintaining uniforms is a challenge. Uniforms that look good, are comfortable, and maintain their appearance through a number of laundry cycles are more economical than cheap fabrics that do not perform or last. Blends are easier and cheaper to maintain; however, blends are not recom­mended for employees working in greasy areas (cooks, maintenance staff) as synthetics and blends do not let go of grease and perspiration stains easily. Also, the fewer the accessories, the less the headache of keeping a tab of them, and usually, the lower the expense. \n<br>\n<br><b><i>Fabric</i></b> Fabric selection is also a critical factor to consider when purchasing materials for uniforms. Cotton outfits are preferred as uniforms because they are porous and more absorbent than polyester and cotton blends. However, blends with cotton are increasing in popularity because they have better soil-release qualities in general and at the same time retain some coolness. \n<br>\n<br><b><i>Ease of availability of materials</i></b> The fabric and accessories chosen for the uniforms must be readily available whenever new uniforms are required. \n<br>\n<br><b><i>Staff turnover</i></b> This is another challenge. Free-size uniforms can be used in high-turnover areas to address this. Trousers or skirts can have elasticated waistbands to accommodate different sizes. \n<br><b><br></b><br><b>Uniform Management in Hotels \n</b><br>Efficient management of uniforms in hotels needs the following procedures to be followed. \n<br>\n<br><b><i>1. Establishment of par levels for uniforms </i></b>Hotels generally maintain 3-par for uniforms. \n<br>\n<br><b><i>2. Preparation of a budget for uniforms</i></b> The Executive Housekeeper (EHK) with the help of the Uniform Room Supervisor makes the budget for the uniforms for the entire hotel staff. Before budgeting, a detailed survey of the market and current trends needs to be done since the expenditure involved is high. \n<br>\n<br><b><i>3. Developing and implementing an effective uniform control system</i></b> It is essential that the housekeeping department develops a system of controlling uniform distribution and usage, monitored by the EHK. The system should include recording the following: \n<br>\n<br><i>Name of the person receiving a uniform\n</i><br>» Date of issue\n<br>» Number of pieces issued\n<br>» A record of misplaced or stolen items\n<br>» A record of any uniforms that are out on temporary loan\n<br>\n<br><b>4.Designing new uniforms </b>The housekeeper has to undertake this task keeping in mind changing trends. The following process is followed: \n<br><b>» </b>After the budget is sanctioned, sample uniforms are made by the EHK for all departments. The points to be considered while designing uniforms have been discussed earlier in the chapter.\n<br><b>» </b>The samples are then sent to the laundry for checks on colour fastness and durability \n<br><b>»</b> After approval of samples, a purchase requisition is made and given to the purchase department for the purchase of fabric \n<br><b>»</b> Uniforms for stitched by the tailors at the hotel’s sewing room or a uniform contractor \n<br><b>»</b> Trials are carried out for all the staff members and the required alterations are done \n<br><b>» </b>The new uniforms are received or sent to the uniform room for tagging with codes for each staff member\n<br>\n<br><b>5. Outfitting new personnel</b> A new employee joining any department has to have a Uniform Request Form signed by the Personnel Manager as well as the HOD. If the employee is a part-timer or trainee, old uniforms in good condition and fit can be issued.\n<br>\n<br>\n<br><b>Uniform exchange procedure \n</b><br>The following procedure is followed: \n<br>\n<br>» A clean set is issued in exchange for a soiled set.\n<br>» The uniform room attendant checks the condition of the uniform for any damage or repair.\n<br>» The uniforms are then sorted based on the fabric and sent to the laundry for washing.\n<br>» The number and type of uniforms sent to the laundry are entered in the 'soiled uniform account register'.\n<br>\n<br><b>Storing uniforms \n</b><br>The following steps are followed: \n<br>\n<br>» On return from laundry, the uniforms are sorted out department wise.\n<br>» The uniforms received are then tallied with the soiled uniform account register.\n<br>» The uniforms are then hung on hangers and stored in the uniform room.\n<br>» In many properties, auto valet systems are installed. These consist of a computerized system with single or multi-distribution conveyors where the uniforms are hung and delivered from.\n<br>\n<br><b>Maintenance and upkeep of uniforms</b> The uniform room attendant keep a check on the condition of the uniforms for any damage or repair. Such repairs should be carried out immediately by the tailors. \n<br>\n<br><b>Replacement of uniforms</b> If any uniform has to be replaced due to misplacement, theft, or damage, the request has to come from the HOD and be authorized by the EHK. \n<br>\n<br><b>Recovering uniforms</b> from staff who have resigned or been terminated The housekeep­ing and the personnel department should be informed by the concerned departments about employees who have resigned or been terminated, so that their uniforms may be taken back. In case the uniforms returned are not in good condition or unjustifiably damaged, the employee may be charged. \n<br>\n<br><b>Disposal of old uniforms</b> Old and many used uniforms are condemned and sent to charitable institutions. Old uniforms in good condition are used for trainees in various departments \n<br>\n<br>\n<br><b>ESTABLISHING PAR LEVELS FOR UNIFORMS\n</b><br>When drawing up a budget for uniforms, consideration should be given to the staff turnover, life expectancy of the garments, seasonal requirements, anticipated changes in decor, and laundry requirements. As a general rule, staff should be supplied with at least 2-3 sets of outfits. Kitchen staff requires at least 4 sets of whites, and more if they enter the restaurant. \n<br>\n<br><b>Number of Sets \n</b><br>When deciding the number of sets of uniforms needed by staff, the following factors are to be considered: \n<br>\n<br><b>Uniform material</b> The life expectancy of a uniform is between 12-18 months and the material chosen should last for the expected lifespan. Uniforms made of cotton-for example, a chef’s coat, trousers or utility worker’s uniforms will need to be changed daily. Terry cotton and polyester may need to be changed after every 2 days, whereas for silk it may be 3 days. \n<br>\n<br><b>Nature of job</b> Some jobs in hotels is strenuous in nature. These jobs include those of GRA’s, housemen, utility workers, the maintenance crew, and so on. These workers may require a change of uniform more often. Similarly, staff coming into contact with food as well as those in the 'front of the house' areas would require a change more often than the others. Uniforms for executives are dry-cleaned only periodically. \n<br>\n<br><b>Frequency of laundering </b>Depending on how often uniforms are sent to the laundry and whether the laundry is in-house or a contracted service would also influence the number of sets required.\n<br>\n<br><b>Calculating par Stock Quantity for Uniforms \n</b><br>If uniforms are normally changed every alternate day then the number of pars required is 3 - on any given day, one is with an employee (in use), one is in the linen and uniform room and one is in the laundry.\n<br>\n<br>If uniforms are changed every day, as for cooks 5 sets are required more sets may be required if laundering takes more than 24 hours. \n<br>The following information is required if stocks are to be established \n<br>» The total number of uniformed employees in the hotel their departments, and their definitions \n<br>» Men - women ratio \n<br>» Staff turnover patterns \n<br>» Frequency of laundering \n<br>» Time taken for laundering\n<br>\n<br><b>STORAGE OF UNIFORMS \n</b><br>Fresh uniforms received from the laundry by the linen room are stored according to the department and designation of the staff. Each uniform should bear the department's name, the employee's designation, and a serial number on the collar of the shirt or equivalent garment. The linen room storage area should be properly aired. The humid­ity of the room should be less than 20 percent. \n<br>In many hotels, staff members are not allowed to take their uniforms outside the hotel. Instead, the employees are provided with lockers to keep their uniforms at the end of the shift. \n<br>\n<br><b>ISSUING AND EXCHANGING OF UNIFORMS</b> \n<br>In this section, we shall discuss the process of issuing and exchanging uniforms for employees \n<br>\n<br><b>Issuing uniforms to new employees \n</b><br>In the case of new employees, uniforms or issued against specific authorization letters received from the personnel department. Their employees are required to sign for his or her particular uniform. A uniform issue slip is also provided to the employee by the personnel department to let him/her prove that he/she is a new employee and is part of the organization. The uniform is then issued from the Linen room where the name of the department and the items issued or entered in the register and the signature of the employee are taken.\n<br>\n<br><b>Issuing uniforms to regular employees \n</b><br>uniforms are usually given to employees on one for one basis that is one Fresh uniform for soiled one. Only when leaving the organization, an employee has to get a signature for uniform clearance from the linen room supervisor, failing which the Last paycheck is withheld.\n<br>\n<br><b>Uniform Exchange Procedure \n</b><br>A uniform register in which the movement of uniforms is recorded is maintained by the linen and uniform room supervisor. The procedure is as follow:\n<br>» For regular employees, ensure that they have arrived for uniform exchange at the stipulated time.\n<br>» Check the uniform being returned for any damage.\n<br>» Issue a fresh uniform strictly on a one-for-one basis ensuring that it is of the correct size and name (if the uniform is specially tailored for a person).\n<br>» Make out the uniform exchange slip in duplicate only when the employee deposits a soiled uniform and takes the clean one on the following day. In order to put forth his/her claim, the employee has to produce the uniform slip, authorizing his /her entitled to the uniforms. The original uniform slip is given to the employee and the duplicate is retained in the uniform exchange slip book. \n<br>» If the soiled uniform is found to be damaged such that it can be mended, warn the employee. If the uniform cannot be mended, report the matter to the supervisor.\n<br>\n<br><b>ADVANTAGES OF PROVIDING STAFF UNIFORMS\n</b><br>Having uniforms for the staff is essential at most hospitality properties, for the following reasons: \n<br>\n<br>» They ensure a well-groomed appearance for staff.\n<br>» They help to create an atmosphere or set the scene. For example, a uniform may match the decor or the theme of the property.\n<br>» They help identify the hotel staff and their position to the guest.\n<br>» They help differentiate between staff and guests.\n<br>» If made in the right design for work, they provide comfort for the staff.\n<br>» They instil a feeling of belongingness and loyalty to the establishment among the staff.\n<br>» They enhance the spirit of teamwork.\n<br>» They allow employees to save money on working clothes and costs of laundering.\n<br>» It is easier for staff to take up messy jobs when they know that their own clothes are not involved.\n<br>» Some uniforms may have a protective role.\n<br>» Some uniforms may confer prestige on the wearer.\n<br>\n<br><b>TRENDS IN HOTEL UNIFORMS\n</b><br>Ideal uniform designs comprise the attributes of functionality, comfort, appearance, and character. Hotel properties now give immense significance to designing uniforms and take onboard fashion designers who consequently have discussions with the hotel's staff and develop trendy, comfortable uniforms. Some of the emerging trends in hotel uniforms are as follows. \n<br>\n<br><b>Customized uniforms</b> Where in earlier times, most hotels went on with the usual uni­form fare in hotels, the trend now is for a designer to customize uniforms post discussion with the hotel's staff. \n<br>\n<br><b>Vibrant colours</b> A new trend for vibrant colours has replaced the generic designs that once dominated the hospitality sector. These colours appear like splashes of vibrant hues in scarves, embroideries, accent, or trim rather than the base colours of uniforms. Luxury resorts are embracing brighter, livelier colours in uniforms as representative of their environment. Bright shades of blue, citrus and clear greens are finding their way in splashes on staff uniforms in such properties. The formal suits too are moving away from the traditional black to dynamic shades of charcoal grey. \n<br>\n<br><b>Monochromatic look</b> Designers suggest that the uniform that is monochromatic top and bottom build in simplicity and more sophistication. The look is more flattering than a two colour outfit which cuts people into two. Hence, more and more properties now have front desk staff especially, sporting an all-black, all-grey, or all-brown uniform with a splash of colour in accessories.\n<br> \n<br><b>Contemporary lines</b> A sleek design as seen in fitted shirts and nipped at the waist apparel for ladies is the trend now. \n<br>\n<br><b>Blending in the casual look</b> Uniforms are increasingly taking on more of a casual look than formal. Hotels are doing away with the conservatively dressed look, blending in a more casual look in the formal uniforms. As hotels move in to engage the guests in all core areas, bringing in a semi-casual flavour gives employees a fresh, approachable, and relaxed look. An example for the same is a streamlined 3/ 4th sleeve blouse for lady guest service associates. The staff of many properties also sport the casual look on weekends. \n<br>\n<br><b>Local flair</b> With increasing competition, hotel properties are distinguishing themselves by building a story into their property with their uniform programme reflecting their local culture and geography. Many properties draw in from their rich cultural and histori­cally significant dressing styles and blend in a part of this heritage with their uniforms. \n<br>\n<br><b>Comfort</b> gets priority Hotels are also breaking away from the stiff tradition of neck and bow ties, going in for open collars, polo necks, Chinese collars, and so on to bring in the element of comfort in an industry that chips in possibly the longest man-hours on work. Flat, soft, comfortable shoes are preferred instead of completely formal, hard box shoes for employees who are on their feet all day. \n<br>\n<br><b>Flexibility</b> More pants and skirts options are now available for female employees to choose from. Female front desk employees are starting to don day dresses or skirts with jackets instead of traditional suiting. At many resorts, female hostesses and cocktail servers are embracing retail-inspired garments such as maxi dresses, dresses with higher hemlines and slimmer silhouettes made in body-conscious fabrics, and garments of knitwear fabrics.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sEhUufTcla",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-ez"
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".hidden": {
+              "display": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked=\"\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sEhUuhAj5C",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "design-block-f2"
+        }
+      ]
+    },
+    "HK-II_Unit_2.1.html": {
+      "settings": {
+        "title": "HK-II_Unit_2.1",
+        "order": 64
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -2</b><div>UNIFORM &amp; SEWING ROOMS</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sEhV7b5f9n",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-f3"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#140735"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>INTRODUCTION\n</b><br>Space should be allotted in the linen area for a sewing room where linen, uniforms,  and guest clothing can be repaired and attended to. The first essential for successful sewing is a good work area. Ideally, it should be a small room set apart for the purpose or in smaller hotels, a well-lit corner kept solely for sewing.\n<br>\n<br><b>Activities in the Sewing Room\n</b><br><b>• </b>Designing, stitching, altering and mending uniforms, Hemming, stitching of hooks, buttons, repairs to torn pockets, replacements of zips, etc. are carried out.\n<br><b>•</b> Stitching and patching of table linen and various F&amp;B linen-like serviettes, jupone, napperons, etc.\n<br><b>•</b> Making ‘make-overs’ or ‘cutting down’ from condemned linen into still-usable forms for guest areas or staff areas. Make-overs are rarely used in guest areas. A discarded or condemned bed sheet can be made over into a pillowcase or a discarded table cloth can be cut down to a perfectly usable serviette.\n<br><b>•</b> Making crib-size sheets, blankets and pillowcases.\n<br><b>•</b> Sewing soft furnishings such as draperies and bedspreads if fabric is available.\n<br><b>•</b> Repairing curtains, bedspreads, etc. whatever is an expensive item and requires a minimum of repair to put it in order or be of use.\n<br><b>•</b> Mending of linen and uniforms Frayed parts and tears frequently occur in towels, table and bed linen. These are repaired by machine darning. Patching, repairing flaps of pillowcases and torn pockets are common sewing tasks. Ideally mending should be carried out before laundering, but dealing with soiled or wet articles is unpleasant, so mending is usually done on laundered articles.\n<br><b>• </b>Straightforward ordinary machining is done for hems on sheets and towels, and table linen. New items which require straight stitching like bedsheets and tablecloths may be made.\n<br><b>•</b> Repairing guests’ clothing can be done on request and charges may or may not be levied as per hotel policy.\n<br><b>• </b>Machine marking and monogramming may be carried out. For marking linen, it is usual to mark on the right side of the article, on the wrong side, the name of the hotel and the department and the date it was put into circulation. The latter shows the wearing quality of the article and helps to estimate the lifespan of the article.\n<br><b>•</b> Stitching of upholstery\n<br><b>•</b> Making recommendations for the quantity of material required for upholstery, curtains, and so on\n<br><b>•</b> Converting condemned linen into reusable form\n<br> \n<br><b><br></b><b>JOB SPECIFICATION OF A SEAMSTRESS/TAILOR\n</b><br>To perform skilled tasks in the making and repairing of such articles as draperies, curtains, slipcovers, lampshades, and towels. \n<br> \n<br><b>‣ </b>Must be proficient in the use of the following: sewing machine, electric iron, button-holing machine, sewing needles and thimble, scissors, and measuring tape. \n<br><b>‣ </b>Promotion possible to posts of Head seamstress, linen room attendant, and linen room supervisor. \n<br><b>‣ </b>The duties of this job may be divided between a seamstress of draperies and curtains and a seamstress of fine linen (such as napkins and tablecloths). \n<br><b>‣ </b>The duties of this job may be included with those of linen room maid or linen room supervisor. \n<br><b>‣ </b>Hazards: Possible injury to hands from sewing machine needles. \n<br><b>‣ </b>Not only are there eye guards and finger guards on the machines, but also proper grounding of electrical connections is ensured.\n<br>\n<br><b><br></b><b>SEWING AREA AND EQUIPMENT\n</b><br>The basic sewing room equipment includes a work table, an ironing board, and sewing machines. Heat-patching machines for the neat repair of holes in linen are also useful. An over-edging machine is used for remaking discards such as towels into waste cloths. It cuts. seams. and overcasts in one operation. \n<br><br>Good lighting in the sewing room is essential. Storage space should be provided for fabrics patterns and smaller equipment. A pegboard screen is useful for hanging tool clothes and storage bags. The work surface should be large enough-at least 2 x I sq metre-for cutting and pinning, and also firm enough to bear the load of the sew­ing machine. Small items such as thread, zippers, and trimmings should be stored in a basket, workbox, or shallow drawer. Repairs should be made with 100-percent polyester threads, which give strength and do not shrink. <br>\n<br>Good quality tools make sewing easier and less time-consuming and the results more professional. All the machines should be dusted and oiled regularly by the operators. \n<br>A regular servicing schedule should also be made with the company providing the machines. \n<br>\n<br><b>Cutting tools \n</b><br>Fabric shears or scissors should be used only for cutting fabrics, as using them on paper will blunt them. An appropriate size is 10-12 inches. Use small scissors with sharp, pointed ends for buttonholes, embroidery, and cutting the ends of cotton thread. A seam ripper, which has a tiny protected blade, cuts stitching without harming the fabric. Pinking shears give a zigzag, fray-resistant finish to raw edges. \n<br>\n<br><b>Measuring tools</b> \n<br>Choose a fibreglass tape measure - this material does not stretch. It should be marked with metric as well as imperial measurements. A metre stick or metre rule is essential for working on soft furnishings. It is also useful for marking long lines on patterns or checking hem levels. A set square is needed when cutting curtains or upholstery to ensure true right angles at the corners. Perspex rulers and set squares allow one to see the grain of the fabric. \n<br>\n<br><b>Pins and pincushions \n</b><br>Use fine, sharp pins, preferably 18 mm long. Shorter pins can be used for lightweight fabrics and paper. Glass-headed pins can be used for sheer or lacy fabrics. Longer, 30-mm pins are needed when cutting out loose covers. A pincushion held on the wrist on a band of elastic keeps pins and needles handy while working. It can also be hung on the sewing machine.\n<br>\n<br><b>Needles and thimble \n</b><br>Needles are graded by number, ranging from No. 1 (longest and thickest) to No. 24 (smallest and finest). Keep a darning needle and darning mushroom in the work basket. Keep needles threaded in a dry place, such as a felt-paged needle-book, to protect them. \n<br>\n<br>Thimbles are protective covers worn on the thumb and second finger when sewing. Steel thimbles are the best. They should fit the fingers snugly. \n<br>\n<br><b>Clips and weights</b> \n<br>When cutting a long piece of fabric, fix it to the edge of the table with clips. Weights are also useful for preventing the material from slipping or twisting off-grain. \n<br>\n<br><b>Pattern paper \n</b><br>The special pattern paper is available, marked with squares to make pattern drawing easy. But large sheets of lining paper or brown paper can also be used for soft-furnishing patterns. Tissue-paper patterns that are being used a lot should be transferred to heavier paper. \n<br>\n<br><b>Marking equipment \n</b><br>Tailor's chalk is used for marking alterations. Test fabrics first to make sure that the chalk will not permanently mark them. Coloured carbon paper can be used with a tracing wheel to transfer pattern markings onto the fabric. For delicate fabrics, use a smooth-edged wheel. For everything else, use a spiked wheel. \n<br>\n<br><b>Sewing machine \n</b><br>The machines should be able to handle various thicknesses of fabric and blind-stitch so that the stitching does not show on the other side. Computerized machines are more expensive but they are easy to operate, very accurate, and do double duty. Zig-zagging machines or attachments can be used for mending, darning, and sewing buttons.&nbsp;&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sEhV7c5nPp",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-f4"
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".hidden": {
+              "display": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\" checked=\"\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sEhV7dYLrA",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "design-block-f7"
+        }
+      ]
+    },
+    "HK-II_Unit_2_index.html": {
+      "settings": {
+        "title": "HK-II_Unit_2_index",
+        "order": 62
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#232323"
+            },
+            "H2": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffb18a\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>\n                    Unit -1</b><br>Housekeeping Department<br></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Unit -2</b><div>UNIFORM &amp; SEWING ROOMS</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sEhWYyIEdp",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-f8"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-section-title, .mbr-section-subtitle, .mbr-section-btn, .mbr-text": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffb18a\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click any text to edit or style it. Select text to insert a link. Click the blue \"Gear\" icon at the top right corner to hide/show buttons, text, title, and change the block background. Click the red \"+\" button at the bottom right corner to add a new block. Use the top left menu to create new pages, sites, and add new themes and extensions.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"HK-II_Unit_2.html\" data-app-placeholder=\"Type Text\">Uniform Room</a> <a class=\"btn btn-white\" href=\"HK-II_Unit_2.1.html\" data-app-placeholder=\"Type Text\">Sewing Room</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sEhWYz4bxL",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header2-f9"
         }
       ]
     }
