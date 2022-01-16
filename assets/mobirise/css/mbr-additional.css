@@ -688,6 +688,118 @@ body {
 a {
   transition: color 0.6s;
 }
+.cid-sUF4uGTApj #loading-center-preloader {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #fafafa;
+}
+.cid-sUF4uGTApj #loading-center-absolute {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+}
+.cid-sUF4uGTApj .spinner {
+  position: relative;
+  margin: 0px 0px 0px -60px;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-size: 10px;
+}
+.cid-sUF4uGTApj .loader {
+  border: 0px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+@-webkit-keyframes rock {
+  0% {
+    -webkit-transform: rotate(-20deg);
+  }
+  25% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+  }
+  75% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+  }
+}
+@keyframes rock {
+  0% {
+    -webkit-transform: rotate(-20deg);
+  }
+  25% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+  }
+  75% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+@keyframes clip {
+  0% {
+    -webkit-clip-path: circle(10%);
+    clip-path: circle(10%);
+  }
+  100% {
+    -webkit-clip-path: circle(100%);
+    clip-path: circle(100%);
+  }
+}
+.cid-sUF4uGTApj .animate-logo {
+  -webkit-animation: pulse 1.5s infinite;
+  -moz-animation: pulse 1.5s infinite;
+  -o-animation: pulse 1.5s infinite;
+  animation: pulse 1.5s infinite;
+}
+.cid-sUF4uGTApj .dentaura-logo-preloader {
+  width: 100%;
+  border-radius: 50%;
+}
+.cid-sUF4uGTApj H3 {
+  margin-top: 1rem;
+  text-align: center;
+  color: #e43f3f;
+  font-size: 1rem;
+}
 .cid-sofl8OkJzK {
   background-image: url("../../../assets/images/background15.jpg");
 }
@@ -714,11 +826,347 @@ a {
 .cid-sofl8OkJzK .social-row {
   color: #232323;
 }
+.cid-sUF38JNTpV #loading-center-preloader {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #fafafa;
+}
+.cid-sUF38JNTpV #loading-center-absolute {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+}
+.cid-sUF38JNTpV .spinner {
+  position: relative;
+  margin: 0px 0px 0px -60px;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-size: 10px;
+}
+.cid-sUF38JNTpV .loader {
+  border: 0px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+@-webkit-keyframes rock {
+  0% {
+    -webkit-transform: rotate(-20deg);
+  }
+  25% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+  }
+  75% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+  }
+}
+@keyframes rock {
+  0% {
+    -webkit-transform: rotate(-20deg);
+  }
+  25% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+  }
+  75% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+@keyframes clip {
+  0% {
+    -webkit-clip-path: circle(10%);
+    clip-path: circle(10%);
+  }
+  100% {
+    -webkit-clip-path: circle(100%);
+    clip-path: circle(100%);
+  }
+}
+.cid-sUF38JNTpV .animate-logo {
+  -webkit-animation: pulse 1.5s infinite;
+  -moz-animation: pulse 1.5s infinite;
+  -o-animation: pulse 1.5s infinite;
+  animation: pulse 1.5s infinite;
+}
+.cid-sUF38JNTpV .dentaura-logo-preloader {
+  width: 100%;
+  border-radius: 50%;
+}
+.cid-sUF38JNTpV H3 {
+  margin-top: 1rem;
+  text-align: center;
+  color: #e43f3f;
+  font-size: 1rem;
+}
 .cid-sSGqzUxk8J {
   background-image: linear-gradient(113deg, #97d9e1 10%, #ff8a8a 100%) !important;
 }
+.cid-sUF3IJhtXP #loading-center-preloader {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #fafafa;
+}
+.cid-sUF3IJhtXP #loading-center-absolute {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+}
+.cid-sUF3IJhtXP .spinner {
+  position: relative;
+  margin: 0px 0px 0px -60px;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-size: 10px;
+}
+.cid-sUF3IJhtXP .loader {
+  border: 0px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+@-webkit-keyframes rock {
+  0% {
+    -webkit-transform: rotate(-20deg);
+  }
+  25% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+  }
+  75% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+  }
+}
+@keyframes rock {
+  0% {
+    -webkit-transform: rotate(-20deg);
+  }
+  25% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+  }
+  75% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+@keyframes clip {
+  0% {
+    -webkit-clip-path: circle(10%);
+    clip-path: circle(10%);
+  }
+  100% {
+    -webkit-clip-path: circle(100%);
+    clip-path: circle(100%);
+  }
+}
+.cid-sUF3IJhtXP .animate-logo {
+  -webkit-animation: pulse 1.5s infinite;
+  -moz-animation: pulse 1.5s infinite;
+  -o-animation: pulse 1.5s infinite;
+  animation: pulse 1.5s infinite;
+}
+.cid-sUF3IJhtXP .dentaura-logo-preloader {
+  width: 100%;
+  border-radius: 50%;
+}
+.cid-sUF3IJhtXP H3 {
+  margin-top: 1rem;
+  text-align: center;
+  color: #e43f3f;
+  font-size: 1rem;
+}
 .cid-sp5X3ZvGHf {
   background-image: linear-gradient(113deg, #ffbbec 10%, #a9c9ff 100%) !important;
+}
+.cid-sUF3PjynYw #loading-center-preloader {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #fafafa;
+}
+.cid-sUF3PjynYw #loading-center-absolute {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+}
+.cid-sUF3PjynYw .spinner {
+  position: relative;
+  margin: 0px 0px 0px -60px;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-size: 10px;
+}
+.cid-sUF3PjynYw .loader {
+  border: 0px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+@-webkit-keyframes rock {
+  0% {
+    -webkit-transform: rotate(-20deg);
+  }
+  25% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+  }
+  75% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+  }
+}
+@keyframes rock {
+  0% {
+    -webkit-transform: rotate(-20deg);
+  }
+  25% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+  }
+  75% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+@keyframes clip {
+  0% {
+    -webkit-clip-path: circle(10%);
+    clip-path: circle(10%);
+  }
+  100% {
+    -webkit-clip-path: circle(100%);
+    clip-path: circle(100%);
+  }
+}
+.cid-sUF3PjynYw .animate-logo {
+  -webkit-animation: pulse 1.5s infinite;
+  -moz-animation: pulse 1.5s infinite;
+  -o-animation: pulse 1.5s infinite;
+  animation: pulse 1.5s infinite;
+}
+.cid-sUF3PjynYw .dentaura-logo-preloader {
+  width: 100%;
+  border-radius: 50%;
+}
+.cid-sUF3PjynYw H3 {
+  margin-top: 1rem;
+  text-align: center;
+  color: #e43f3f;
+  font-size: 1rem;
 }
 .cid-sPuUjd8dEv {
   background-image: linear-gradient(113deg, #ffbbec 10%, #a9c9ff 100%) !important;
@@ -954,7 +1402,7 @@ a {
 }
 .cid-soUwh6vYa7 {
   padding-top: 4rem;
-  padding-bottom: 0rem;
+  padding-bottom: 6rem;
   background-color: #ffffff;
 }
 .cid-soUwh6vYa7 .mbr-iconfont {
@@ -983,72 +1431,6 @@ a {
   margin-bottom: 0;
 }
 .cid-soUwh6vYa7 H3 {
-  color: #ed1616;
-}
-.cid-soUwmkyC5p {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  background-color: #ffffff;
-}
-.cid-soUwmkyC5p .mbr-iconfont {
-  font-size: 1.4rem !important;
-  font-family: 'Moririse2' !important;
-  color: #6592e6;
-  margin-left: 1rem;
-}
-.cid-soUwmkyC5p .panel-group {
-  border: none;
-}
-.cid-soUwmkyC5p .panel-title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.cid-soUwmkyC5p .panel-body,
-.cid-soUwmkyC5p .card-header {
-  padding: 1rem 0;
-}
-.cid-soUwmkyC5p .panel-title-edit {
-  color: #140735;
-}
-.cid-soUwmkyC5p .card .card-header {
-  background-color: transparent;
-  margin-bottom: 0;
-}
-.cid-soUwmkyC5p H3 {
-  color: #ed1616;
-}
-.cid-soUwmJKO6d {
-  padding-top: 0rem;
-  padding-bottom: 5rem;
-  background-color: #ffffff;
-}
-.cid-soUwmJKO6d .mbr-iconfont {
-  font-size: 1.4rem !important;
-  font-family: 'Moririse2' !important;
-  color: #6592e6;
-  margin-left: 1rem;
-}
-.cid-soUwmJKO6d .panel-group {
-  border: none;
-}
-.cid-soUwmJKO6d .panel-title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.cid-soUwmJKO6d .panel-body,
-.cid-soUwmJKO6d .card-header {
-  padding: 1rem 0;
-}
-.cid-soUwmJKO6d .panel-title-edit {
-  color: #140735;
-}
-.cid-soUwmJKO6d .card .card-header {
-  background-color: transparent;
-  margin-bottom: 0;
-}
-.cid-soUwmJKO6d H3 {
   color: #ed1616;
 }
 .cid-sle9faRUq6 {
@@ -1096,6 +1478,118 @@ a {
 .cid-sqBfg2KGMr .hidden {
   display: none;
 }
+.cid-sUF4J2ESlE #loading-center-preloader {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #fafafa;
+}
+.cid-sUF4J2ESlE #loading-center-absolute {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+}
+.cid-sUF4J2ESlE .spinner {
+  position: relative;
+  margin: 0px 0px 0px -60px;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-size: 10px;
+}
+.cid-sUF4J2ESlE .loader {
+  border: 0px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+@-webkit-keyframes rock {
+  0% {
+    -webkit-transform: rotate(-20deg);
+  }
+  25% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+  }
+  75% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+  }
+}
+@keyframes rock {
+  0% {
+    -webkit-transform: rotate(-20deg);
+  }
+  25% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+  }
+  75% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+@keyframes clip {
+  0% {
+    -webkit-clip-path: circle(10%);
+    clip-path: circle(10%);
+  }
+  100% {
+    -webkit-clip-path: circle(100%);
+    clip-path: circle(100%);
+  }
+}
+.cid-sUF4J2ESlE .animate-logo {
+  -webkit-animation: pulse 1.5s infinite;
+  -moz-animation: pulse 1.5s infinite;
+  -o-animation: pulse 1.5s infinite;
+  animation: pulse 1.5s infinite;
+}
+.cid-sUF4J2ESlE .dentaura-logo-preloader {
+  width: 100%;
+  border-radius: 50%;
+}
+.cid-sUF4J2ESlE H3 {
+  margin-top: 1rem;
+  text-align: center;
+  color: #e43f3f;
+  font-size: 1rem;
+}
 .cid-sSGv2BPcUL {
   padding-top: 3rem;
   padding-bottom: 5rem;
@@ -1109,7 +1603,7 @@ a {
 }
 .cid-sSGv2BPcUL .card-wrapper {
   min-height: 90px;
-  min-width: 20px;
+  min-width: 10px;
   transition: all 0.3s;
   border-radius: 20px;
   padding: 1rem;

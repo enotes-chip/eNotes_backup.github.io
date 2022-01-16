@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "FO Units.html",
+    "currentPage": "Ref.Books.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -94,7 +94,7 @@
         "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 588,
+    "uniqCompNum": 597,
     "versionPublish": "5.1.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -108,7 +108,9 @@
     "witsec-white-label": true,
     "dppsSwitcher": true,
     "spellingSwitch": true,
-    "site_lang": "en"
+    "site_lang": "en",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -121,6 +123,145 @@
         "html_before": ""
       },
       "components": [
+        {
+          "_name": "preloader11",
+          "_styles": {
+            "#loading-center-preloader": {
+              "width": "100%",
+              "height": "100vh",
+              "position": "relative",
+              "background-color": "@preBgcolor"
+            },
+            "#loading-center-absolute": {
+              "position": "absolute",
+              "left": "50%",
+              "top": "40%"
+            },
+            ".spinner": {
+              "position": "relative",
+              "margin": "0px 0px 0px -60px",
+              "width": "250px",
+              "height": "250px",
+              "text-align": "center",
+              "font-size": "10px"
+            },
+            ".loader": {
+              "border": "0px",
+              "border-radius": "50%",
+              "width": "120px",
+              "height": "120px"
+            },
+            "@-webkit-keyframes rock": {
+              "0%": {
+                "-webkit-transform": "rotate(-20deg)"
+              },
+              "25%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "50%": {
+                "-webkit-transform": "rotate(20deg)"
+              },
+              "75%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "100%": {
+                "-webkit-transform": "rotate(-20deg)"
+              }
+            },
+            "@keyframes rock": {
+              "0%": {
+                "-webkit-transform": "rotate(-20deg)"
+              },
+              "25%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "50%": {
+                "-webkit-transform": "rotate(20deg)"
+              },
+              "75%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "100%": {
+                "-webkit-transform": "rotate(-20deg)"
+              }
+            },
+            "@-webkit-keyframes spin": {
+              "0%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "100%": {
+                "-webkit-transform": "rotate(360deg)"
+              }
+            },
+            "@keyframes spin": {
+              "0%": {
+                "transform": "rotate(0deg)"
+              },
+              "100%": {
+                "transform": "rotate(360deg)"
+              }
+            },
+            "@keyframes pulse": {
+              "0%": {
+                "transform": "scale(0.5)"
+              },
+              "50%": {
+                "transform": "scale(1)"
+              },
+              "100%": {
+                "transform": "scale(0.5)"
+              }
+            },
+            "@keyframes clip": {
+              "0%": {
+                "-webkit-clip-path": "circle(10%)",
+                "clip-path": "circle(10%)"
+              },
+              "100%": {
+                "-webkit-clip-path": "circle(100%)",
+                "clip-path": "circle(100%)"
+              }
+            },
+            ".animate-logo": {
+              "& when (@showLoader = 'showRocking')": {
+                "-webkit-animation": "rock (@animationSpeed * 0.5s) linear infinite",
+                "animation": "rock (@animationSpeed * 0.5s) linear infinite"
+              },
+              "& when (@showLoader = 'showclipping')": {
+                "animation": "clip (@animationSpeed * 0.5s) ease-in-out infinite alternate"
+              },
+              "& when (@showLoader = 'showPulse')": {
+                "-webkit-animation": "pulse (@animationSpeed * 0.5s) infinite",
+                "-moz-animation": "pulse (@animationSpeed * 0.5s) infinite",
+                "-o-animation": "pulse (@animationSpeed * 0.5s) infinite",
+                "animation": "pulse (@animationSpeed * 0.5s) infinite"
+              },
+              "& when (@showLoader = 'showRotating')": {
+                "-webkit-animation": "spin (@animationSpeed * 0.5s) linear infinite",
+                "animation": "spin (@animationSpeed * 0.5s) linear infinite"
+              }
+            },
+            ".dentaura-logo-preloader": {
+              "width": "100%",
+              "border-radius": "(@borderRadius * 1%)"
+            },
+            "H3": {
+              "margin-top": "(@marginTexttop * 0.5rem)",
+              "text-align": "center",
+              "color": "#e43f3f",
+              "font-size": "1rem"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\" group=\"Dentaura Preloader\" plugins=\"Dentaurapreloader\" once=\"Dentaura Preloader\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"color\" title=\"Background Color\" name=\"preBgcolor\" value=\"#fafafa\">\n        <select title=\"Animation type\" name=\"showLoader\">\n            <option value=\"showPulse\" selected=\"\">Pulse Effect</option>\n\t        <option value=\"showRocking\">Rocking Effect</option>\n\t        <option value=\"showRotating\">Rotating Effect</option>\n\t        <option value=\"showclipping\">Clipping Effect</option>\n        </select>\n        <input type=\"range\" inline=\"\" title=\"Animation speed\" name=\"animationSpeed\" min=\"1\" max=\"5\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Image border round\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"1\" value=\"50\">\n        <input type=\"checkbox\" title=\"Remove Text\" name=\"showText\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top margin of text\" name=\"marginTexttop\" min=\"0\" max=\"5\" step=\"1\" value=\"2\" condition=\"showText\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <!-- Dentaura Preloader -->\n        <div id=\"loading-preloader\">\n            <div id=\"loading-center-preloader\">\n                <div id=\"loading-center-absolute\">\n                    <div class=\"spinner\">\n\t\t\t\t\t\t<div class=\"loader\"><img src=\"@PROJECT_PATH@/assets/images/icon_new_png-240x240.png\" class=\"dentaura-logo-preloader animate-logo\" alt=\"\"><br><h3 mbr-theme-style=\"display-5\" mbr-if=\"showText\"><b>Loading...</b></h3></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    <!--End of Dentaura Preloader -->\n\t\n</section>",
+          "_anchor": "preloader11-gg",
+          "_isUserblock": true,
+          "_sourceTheme": "dentauram4",
+          "_cid": "sUF4uGTApj",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": "Dentaura Preloader",
+          "_params": {}
+        },
         {
           "alias": false,
           "_styles": {
@@ -159,7 +300,7 @@
             }
           },
           "_name": "header13",
-          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#232323\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background15.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>e Notes</b><br><b><br></b><br><b><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .social-row\">Version 2.0.1.30</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Important Questions</a></div>\n                <div class=\"social-row display-7 mt-5\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header13\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"socialIconColor\" value=\"#232323\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background15.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>e Notes</b><br><b><br></b><br><b><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .social-row\">Version 2.0.1.31</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Important Questions</a></div>\n                <div class=\"social-row display-7 mt-5\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-youtube\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-telegram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sofl8OkJzK",
           "_anchor": "header13-27",
           "_protectedParams": [],
@@ -175,6 +316,145 @@
         "order": 2
       },
       "components": [
+        {
+          "_name": "preloader11",
+          "_styles": {
+            "#loading-center-preloader": {
+              "width": "100%",
+              "height": "100vh",
+              "position": "relative",
+              "background-color": "@preBgcolor"
+            },
+            "#loading-center-absolute": {
+              "position": "absolute",
+              "left": "50%",
+              "top": "40%"
+            },
+            ".spinner": {
+              "position": "relative",
+              "margin": "0px 0px 0px -60px",
+              "width": "250px",
+              "height": "250px",
+              "text-align": "center",
+              "font-size": "10px"
+            },
+            ".loader": {
+              "border": "0px",
+              "border-radius": "50%",
+              "width": "120px",
+              "height": "120px"
+            },
+            "@-webkit-keyframes rock": {
+              "0%": {
+                "-webkit-transform": "rotate(-20deg)"
+              },
+              "25%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "50%": {
+                "-webkit-transform": "rotate(20deg)"
+              },
+              "75%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "100%": {
+                "-webkit-transform": "rotate(-20deg)"
+              }
+            },
+            "@keyframes rock": {
+              "0%": {
+                "-webkit-transform": "rotate(-20deg)"
+              },
+              "25%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "50%": {
+                "-webkit-transform": "rotate(20deg)"
+              },
+              "75%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "100%": {
+                "-webkit-transform": "rotate(-20deg)"
+              }
+            },
+            "@-webkit-keyframes spin": {
+              "0%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "100%": {
+                "-webkit-transform": "rotate(360deg)"
+              }
+            },
+            "@keyframes spin": {
+              "0%": {
+                "transform": "rotate(0deg)"
+              },
+              "100%": {
+                "transform": "rotate(360deg)"
+              }
+            },
+            "@keyframes pulse": {
+              "0%": {
+                "transform": "scale(0.5)"
+              },
+              "50%": {
+                "transform": "scale(1)"
+              },
+              "100%": {
+                "transform": "scale(0.5)"
+              }
+            },
+            "@keyframes clip": {
+              "0%": {
+                "-webkit-clip-path": "circle(10%)",
+                "clip-path": "circle(10%)"
+              },
+              "100%": {
+                "-webkit-clip-path": "circle(100%)",
+                "clip-path": "circle(100%)"
+              }
+            },
+            ".animate-logo": {
+              "& when (@showLoader = 'showRocking')": {
+                "-webkit-animation": "rock (@animationSpeed * 0.5s) linear infinite",
+                "animation": "rock (@animationSpeed * 0.5s) linear infinite"
+              },
+              "& when (@showLoader = 'showclipping')": {
+                "animation": "clip (@animationSpeed * 0.5s) ease-in-out infinite alternate"
+              },
+              "& when (@showLoader = 'showPulse')": {
+                "-webkit-animation": "pulse (@animationSpeed * 0.5s) infinite",
+                "-moz-animation": "pulse (@animationSpeed * 0.5s) infinite",
+                "-o-animation": "pulse (@animationSpeed * 0.5s) infinite",
+                "animation": "pulse (@animationSpeed * 0.5s) infinite"
+              },
+              "& when (@showLoader = 'showRotating')": {
+                "-webkit-animation": "spin (@animationSpeed * 0.5s) linear infinite",
+                "animation": "spin (@animationSpeed * 0.5s) linear infinite"
+              }
+            },
+            ".dentaura-logo-preloader": {
+              "width": "100%",
+              "border-radius": "(@borderRadius * 1%)"
+            },
+            "H3": {
+              "margin-top": "(@marginTexttop * 0.5rem)",
+              "text-align": "center",
+              "color": "#e43f3f",
+              "font-size": "1rem"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\" group=\"Dentaura Preloader\" plugins=\"Dentaurapreloader\" once=\"Dentaura Preloader\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"color\" title=\"Background Color\" name=\"preBgcolor\" value=\"#fafafa\">\n        <select title=\"Animation type\" name=\"showLoader\">\n            <option value=\"showPulse\" selected=\"\">Pulse Effect</option>\n\t        <option value=\"showRocking\">Rocking Effect</option>\n\t        <option value=\"showRotating\">Rotating Effect</option>\n\t        <option value=\"showclipping\">Clipping Effect</option>\n        </select>\n        <input type=\"range\" inline=\"\" title=\"Animation speed\" name=\"animationSpeed\" min=\"1\" max=\"5\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Image border round\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"1\" value=\"50\">\n        <input type=\"checkbox\" title=\"Remove Text\" name=\"showText\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top margin of text\" name=\"marginTexttop\" min=\"0\" max=\"5\" step=\"1\" value=\"2\" condition=\"showText\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <!-- Dentaura Preloader -->\n        <div id=\"loading-preloader\">\n            <div id=\"loading-center-preloader\">\n                <div id=\"loading-center-absolute\">\n                    <div class=\"spinner\">\n\t\t\t\t\t\t<div class=\"loader\"><img src=\"@PROJECT_PATH@/assets/images/icon_new_png-240x240.png\" class=\"dentaura-logo-preloader animate-logo\" alt=\"\"><br><h3 mbr-theme-style=\"display-5\" mbr-if=\"showText\"><b>Loading...</b></h3></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    <!--End of Dentaura Preloader -->\n\t\n</section>",
+          "_anchor": "preloader11-gc",
+          "_isUserblock": true,
+          "_sourceTheme": "dentauram4",
+          "_cid": "sUF38JNTpV",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": "Dentaura Preloader",
+          "_params": {}
+        },
         {
           "alias": false,
           "_styles": {
@@ -214,6 +494,145 @@
       },
       "components": [
         {
+          "_name": "preloader11",
+          "_styles": {
+            "#loading-center-preloader": {
+              "width": "100%",
+              "height": "100vh",
+              "position": "relative",
+              "background-color": "@preBgcolor"
+            },
+            "#loading-center-absolute": {
+              "position": "absolute",
+              "left": "50%",
+              "top": "40%"
+            },
+            ".spinner": {
+              "position": "relative",
+              "margin": "0px 0px 0px -60px",
+              "width": "250px",
+              "height": "250px",
+              "text-align": "center",
+              "font-size": "10px"
+            },
+            ".loader": {
+              "border": "0px",
+              "border-radius": "50%",
+              "width": "120px",
+              "height": "120px"
+            },
+            "@-webkit-keyframes rock": {
+              "0%": {
+                "-webkit-transform": "rotate(-20deg)"
+              },
+              "25%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "50%": {
+                "-webkit-transform": "rotate(20deg)"
+              },
+              "75%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "100%": {
+                "-webkit-transform": "rotate(-20deg)"
+              }
+            },
+            "@keyframes rock": {
+              "0%": {
+                "-webkit-transform": "rotate(-20deg)"
+              },
+              "25%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "50%": {
+                "-webkit-transform": "rotate(20deg)"
+              },
+              "75%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "100%": {
+                "-webkit-transform": "rotate(-20deg)"
+              }
+            },
+            "@-webkit-keyframes spin": {
+              "0%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "100%": {
+                "-webkit-transform": "rotate(360deg)"
+              }
+            },
+            "@keyframes spin": {
+              "0%": {
+                "transform": "rotate(0deg)"
+              },
+              "100%": {
+                "transform": "rotate(360deg)"
+              }
+            },
+            "@keyframes pulse": {
+              "0%": {
+                "transform": "scale(0.5)"
+              },
+              "50%": {
+                "transform": "scale(1)"
+              },
+              "100%": {
+                "transform": "scale(0.5)"
+              }
+            },
+            "@keyframes clip": {
+              "0%": {
+                "-webkit-clip-path": "circle(10%)",
+                "clip-path": "circle(10%)"
+              },
+              "100%": {
+                "-webkit-clip-path": "circle(100%)",
+                "clip-path": "circle(100%)"
+              }
+            },
+            ".animate-logo": {
+              "& when (@showLoader = 'showRocking')": {
+                "-webkit-animation": "rock (@animationSpeed * 0.5s) linear infinite",
+                "animation": "rock (@animationSpeed * 0.5s) linear infinite"
+              },
+              "& when (@showLoader = 'showclipping')": {
+                "animation": "clip (@animationSpeed * 0.5s) ease-in-out infinite alternate"
+              },
+              "& when (@showLoader = 'showPulse')": {
+                "-webkit-animation": "pulse (@animationSpeed * 0.5s) infinite",
+                "-moz-animation": "pulse (@animationSpeed * 0.5s) infinite",
+                "-o-animation": "pulse (@animationSpeed * 0.5s) infinite",
+                "animation": "pulse (@animationSpeed * 0.5s) infinite"
+              },
+              "& when (@showLoader = 'showRotating')": {
+                "-webkit-animation": "spin (@animationSpeed * 0.5s) linear infinite",
+                "animation": "spin (@animationSpeed * 0.5s) linear infinite"
+              }
+            },
+            ".dentaura-logo-preloader": {
+              "width": "100%",
+              "border-radius": "(@borderRadius * 1%)"
+            },
+            "H3": {
+              "margin-top": "(@marginTexttop * 0.5rem)",
+              "text-align": "center",
+              "color": "#e43f3f",
+              "font-size": "1rem"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\" group=\"Dentaura Preloader\" plugins=\"Dentaurapreloader\" once=\"Dentaura Preloader\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"color\" title=\"Background Color\" name=\"preBgcolor\" value=\"#fafafa\">\n        <select title=\"Animation type\" name=\"showLoader\">\n            <option value=\"showPulse\" selected=\"\">Pulse Effect</option>\n\t        <option value=\"showRocking\">Rocking Effect</option>\n\t        <option value=\"showRotating\">Rotating Effect</option>\n\t        <option value=\"showclipping\">Clipping Effect</option>\n        </select>\n        <input type=\"range\" inline=\"\" title=\"Animation speed\" name=\"animationSpeed\" min=\"1\" max=\"5\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Image border round\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"1\" value=\"50\">\n        <input type=\"checkbox\" title=\"Remove Text\" name=\"showText\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top margin of text\" name=\"marginTexttop\" min=\"0\" max=\"5\" step=\"1\" value=\"2\" condition=\"showText\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <!-- Dentaura Preloader -->\n        <div id=\"loading-preloader\">\n            <div id=\"loading-center-preloader\">\n                <div id=\"loading-center-absolute\">\n                    <div class=\"spinner\">\n\t\t\t\t\t\t<div class=\"loader\"><img src=\"@PROJECT_PATH@/assets/images/icon_new_png-240x240.png\" class=\"dentaura-logo-preloader animate-logo\" alt=\"\"><br><h3 mbr-theme-style=\"display-5\" mbr-if=\"showText\"><b>Loading...</b></h3></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    <!--End of Dentaura Preloader -->\n\t\n</section>",
+          "_anchor": "preloader11-gd",
+          "_isUserblock": true,
+          "_sourceTheme": "dentauram4",
+          "_cid": "sUF3IJhtXP",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": "Dentaura Preloader",
+          "_params": {}
+        },
+        {
           "alias": false,
           "_styles": {
             "& when not (@fullScreen)": {
@@ -249,6 +668,145 @@
         "order": 86
       },
       "components": [
+        {
+          "_name": "preloader11",
+          "_styles": {
+            "#loading-center-preloader": {
+              "width": "100%",
+              "height": "100vh",
+              "position": "relative",
+              "background-color": "@preBgcolor"
+            },
+            "#loading-center-absolute": {
+              "position": "absolute",
+              "left": "50%",
+              "top": "40%"
+            },
+            ".spinner": {
+              "position": "relative",
+              "margin": "0px 0px 0px -60px",
+              "width": "250px",
+              "height": "250px",
+              "text-align": "center",
+              "font-size": "10px"
+            },
+            ".loader": {
+              "border": "0px",
+              "border-radius": "50%",
+              "width": "120px",
+              "height": "120px"
+            },
+            "@-webkit-keyframes rock": {
+              "0%": {
+                "-webkit-transform": "rotate(-20deg)"
+              },
+              "25%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "50%": {
+                "-webkit-transform": "rotate(20deg)"
+              },
+              "75%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "100%": {
+                "-webkit-transform": "rotate(-20deg)"
+              }
+            },
+            "@keyframes rock": {
+              "0%": {
+                "-webkit-transform": "rotate(-20deg)"
+              },
+              "25%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "50%": {
+                "-webkit-transform": "rotate(20deg)"
+              },
+              "75%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "100%": {
+                "-webkit-transform": "rotate(-20deg)"
+              }
+            },
+            "@-webkit-keyframes spin": {
+              "0%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "100%": {
+                "-webkit-transform": "rotate(360deg)"
+              }
+            },
+            "@keyframes spin": {
+              "0%": {
+                "transform": "rotate(0deg)"
+              },
+              "100%": {
+                "transform": "rotate(360deg)"
+              }
+            },
+            "@keyframes pulse": {
+              "0%": {
+                "transform": "scale(0.5)"
+              },
+              "50%": {
+                "transform": "scale(1)"
+              },
+              "100%": {
+                "transform": "scale(0.5)"
+              }
+            },
+            "@keyframes clip": {
+              "0%": {
+                "-webkit-clip-path": "circle(10%)",
+                "clip-path": "circle(10%)"
+              },
+              "100%": {
+                "-webkit-clip-path": "circle(100%)",
+                "clip-path": "circle(100%)"
+              }
+            },
+            ".animate-logo": {
+              "& when (@showLoader = 'showRocking')": {
+                "-webkit-animation": "rock (@animationSpeed * 0.5s) linear infinite",
+                "animation": "rock (@animationSpeed * 0.5s) linear infinite"
+              },
+              "& when (@showLoader = 'showclipping')": {
+                "animation": "clip (@animationSpeed * 0.5s) ease-in-out infinite alternate"
+              },
+              "& when (@showLoader = 'showPulse')": {
+                "-webkit-animation": "pulse (@animationSpeed * 0.5s) infinite",
+                "-moz-animation": "pulse (@animationSpeed * 0.5s) infinite",
+                "-o-animation": "pulse (@animationSpeed * 0.5s) infinite",
+                "animation": "pulse (@animationSpeed * 0.5s) infinite"
+              },
+              "& when (@showLoader = 'showRotating')": {
+                "-webkit-animation": "spin (@animationSpeed * 0.5s) linear infinite",
+                "animation": "spin (@animationSpeed * 0.5s) linear infinite"
+              }
+            },
+            ".dentaura-logo-preloader": {
+              "width": "100%",
+              "border-radius": "(@borderRadius * 1%)"
+            },
+            "H3": {
+              "margin-top": "(@marginTexttop * 0.5rem)",
+              "text-align": "center",
+              "color": "#e43f3f",
+              "font-size": "1rem"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\" group=\"Dentaura Preloader\" plugins=\"Dentaurapreloader\" once=\"Dentaura Preloader\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"color\" title=\"Background Color\" name=\"preBgcolor\" value=\"#fafafa\">\n        <select title=\"Animation type\" name=\"showLoader\">\n            <option value=\"showPulse\" selected=\"\">Pulse Effect</option>\n\t        <option value=\"showRocking\">Rocking Effect</option>\n\t        <option value=\"showRotating\">Rotating Effect</option>\n\t        <option value=\"showclipping\">Clipping Effect</option>\n        </select>\n        <input type=\"range\" inline=\"\" title=\"Animation speed\" name=\"animationSpeed\" min=\"1\" max=\"5\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Image border round\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"1\" value=\"50\">\n        <input type=\"checkbox\" title=\"Remove Text\" name=\"showText\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top margin of text\" name=\"marginTexttop\" min=\"0\" max=\"5\" step=\"1\" value=\"2\" condition=\"showText\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <!-- Dentaura Preloader -->\n        <div id=\"loading-preloader\">\n            <div id=\"loading-center-preloader\">\n                <div id=\"loading-center-absolute\">\n                    <div class=\"spinner\">\n\t\t\t\t\t\t<div class=\"loader\"><img src=\"@PROJECT_PATH@/assets/images/icon_new_png-240x240.png\" class=\"dentaura-logo-preloader animate-logo\" alt=\"\"><br><h3 mbr-theme-style=\"display-5\" mbr-if=\"showText\"><b>Loading...</b></h3></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    <!--End of Dentaura Preloader -->\n\t\n</section>",
+          "_anchor": "preloader11-ge",
+          "_isUserblock": true,
+          "_sourceTheme": "dentauram4",
+          "_cid": "sUF3PjynYw",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": "Dentaura Preloader",
+          "_params": {}
+        },
         {
           "alias": false,
           "_styles": {
@@ -906,111 +1464,11 @@
             }
           },
           "_name": "content16",
-          "_customHTML": "<section class=\"content16\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow, mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <select title=\"Amount\" name=\"cardAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <div class=\"mbr-section-head align-center mb-4\" mbr-if=\"showTitle || showSubtitle\">\n                    <h3 class=\"mbr-section-title mb-0 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                        <b>1st Semester</b></h3>\n                    <h4 class=\"mbr-section-subtitle mb-0 mt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                       Accordion Subtitle</h4>\n                </div>\n                <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                    <div class=\"card mb-3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Applied Cookery</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><b>⦿ CULINARIA SEREIS OF BOOKS CULINARIA ITALIA </b>by Claudia Piras\n<br><b>⦿ CULINARIA ENGLAND</b> by Rose Mary Parkinson\n<br><b>⦿ CULINARIA FRANCE</b> by Konemann\n<br><b>⦿ THE COOKS BOOK </b>BY JILL NORMAN\n<br><b>⦿ LAROUSSE GARTONOMIQUE</b> BY HAMLYN\n<br><b>⦿ FOOD PRODUCTION OPERATION</b> BY P S BALI&nbsp;<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 1\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>What is Mobirise Kit?\n                                    </b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Mobirise Kit is a service that provides the access to all current and new\n                                    themes/extensions developed by Mobirise. New themes/extensions are released every\n                                    month and will be available in your account during your plan period, without any\n                                    additional charge.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 2\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Can I create sites for commerical\n                                        projects?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Yes, Mobirise is free for both non-profit and commercial sites.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>What is Code Editor?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    This extension allows editing the code of block in the app. Also, it's possible to\n                                    add code to the head and body parts of pages.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 4\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>What is Mobirise Kit?\n                                    </b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Mobirise Kit is a service that provides the access to all current and new\n                                    themes/extensions developed by Mobirise. New themes/extensions are released every\n                                    month and will be available in your account during your plan period, without any\n                                    additional charge.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 5\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Can I create sites for commerical\n                                        projects?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Yes, Mobirise is free for both non-profit and commercial sites.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content16\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow, mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <select title=\"Amount\" name=\"cardAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <div class=\"mbr-section-head align-center mb-4\" mbr-if=\"showTitle || showSubtitle\">\n                    <h3 class=\"mbr-section-title mb-0 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                        <b>BBA - T</b>ourism<b>&nbsp;H</b>ospitality<b> &amp; H</b>otel<b>&nbsp;H</b>ospitality</h3>\n                    <h4 class=\"mbr-section-subtitle mb-0 mt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                       Accordion Subtitle</h4>\n                </div>\n                <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                    <div class=\"card mb-3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Applied Cookery</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><b>⦿ CULINARIA SEREIS OF BOOKS CULINARIA ITALIA </b>by Claudia Piras\n<br><b>⦿ CULINARIA ENGLAND</b> by Rose Mary Parkinson\n<br><b>⦿ CULINARIA FRANCE</b> by Konemann\n<br><b>⦿ THE COOKS BOOK </b>BY JILL NORMAN\n<br><b>⦿ LAROUSSE GARTONOMIQUE</b> BY HAMLYN\n<br><b>⦿ FOOD PRODUCTION OPERATION</b> BY P S BALI&nbsp;<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 1\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Housekeeping</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><b>⦿ Managing Housekeeping Operations</b> By Aleta A. Nitschke AH&amp;LEI \n<br><b>⦿ Hotel Housekeeping Management &amp; Operations</b> By Sudhir Andrews \n<br><b>⦿ Hotel Housekeeping </b>: A Training Manual By Sudhir Andrews \n<br><b>⦿ Hotel Housekeeping</b> By G.Raghubalan \n<br><b>⦿ Theory and Practices of Professional Housekeeping</b> By Sunita Srinivas \n<br><b>⦿ The Art of Flower Arrangement</b> By Ted Smart \n<br><b>⦿ Organisation of Housekeeping Management</b> By Dr.R.K.Singh</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 2\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Front Office</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><b>⦿ Hotel Front Office</b> – A Training Manual By Sudhir Andrews \n<br><b>⦿ Hotel Front Office Training Manua</b>l By Suvradeep Gauranga Ghosh \n<br><b>⦿ Front Office Management in Hotel</b> By B.K.Chakravarthy \n<br><b>⦿ Front Office Management</b> By R.K.Singh \n<br><b>⦿ Hotel Front Office Operations and Management</b> By Jatashankar R Tewari \n<br><b>⦿ Managing Front Office Operations</b> By Michael L. AHLEA \n<br><b>⦿ Front Office Operations</b> By Bhatnakar \n<br><b>⦿ Computers in Hotels : Concepts and Applications</b> By Partho Pratim Seal</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Facility Management</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><b>⦿ Hotel Planning &amp; Design</b> - Rutes&amp;Penner\n<br><b>⦿ Facilities Management</b> - David M. Stipanuk&amp; Harold Roffmann\n<br><b>⦿ Principles of Hotel Engineering</b> - Borsenic\n<br><b>⦿ Principles of Hotel Maintenance</b> - Gladwell\n<br><b>⦿ Hotel facility planning, oxford,2010</b> - Tarun Bansal</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 4\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>What is Mobirise Kit?\n                                    </b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Mobirise Kit is a service that provides the access to all current and new\n                                    themes/extensions developed by Mobirise. New themes/extensions are released every\n                                    month and will be available in your account during your plan period, without any\n                                    additional charge.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 5\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Can I create sites for commerical\n                                        projects?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Yes, Mobirise is free for both non-profit and commercial sites.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content16-4i",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "soUwh6vYa7",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-iconfont": {
-              "font-size": "1.4rem !important",
-              "font-family": "'Moririse2' !important",
-              "color": "@primaryColor",
-              "margin-left": "1rem"
-            },
-            ".panel-group": {
-              "border": "none"
-            },
-            ".panel-title": {
-              "display": "flex",
-              "align-items": "center",
-              "justify-content": "space-between"
-            },
-            ".panel-body, .card-header": {
-              "padding": "1rem 0"
-            },
-            ".panel-title-edit": {
-              "color": "#140735"
-            },
-            ".card .card-header": {
-              "background-color": "transparent",
-              "margin-bottom": "0"
-            },
-            "H3": {
-              "color": "#ed1616"
-            }
-          },
-          "_name": "content16",
-          "_customHTML": "<section class=\"content16\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow, mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <select title=\"Amount\" name=\"cardAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <div class=\"mbr-section-head align-center mb-4\" mbr-if=\"showTitle || showSubtitle\">\n                    <h3 class=\"mbr-section-title mb-0 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                        <b>3rd Semester</b></h3>\n                    <h4 class=\"mbr-section-subtitle mb-0 mt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                       Accordion Subtitle</h4>\n                </div>\n                <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                    <div class=\"card mb-3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Housekeeping</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><b>⦿ Managing Housekeeping Operations</b> By Aleta A. Nitschke AH&amp;LEI\n<br><b>⦿ Hotel Housekeeping Management&nbsp;&amp; Operations </b>By Sudhir Andrews\n<br><b>⦿ Hotel Housekeeping : A Training Manual </b>By Sudhir Andrews\n<br><b>⦿ Hotel Housekeeping</b> By G.Raghubalan\n<br><b>⦿ Theory and Practices of Professional Housekeeping</b> By Sunita Srinivas\n<br><b>⦿ The Art of Flower Arrangement</b> By Ted Smart\n<br><b>⦿ Organisation of Housekeeping Management</b> By Dr.R.K.Singh</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 1\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Front Office</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><b>⦿ Hotel Front Office</b> – A Training Manual By Sudhir Andrews\n<br><b>⦿ Hotel Front Office Training Manual</b> By Suvradeep Gauranga Ghosh\n<br><b>⦿ Front Office Management in Hotel</b> By B.K.Chakravarthy\n<br><b>⦿ Front Office Management By</b> R.K.Singh\n<br><b>⦿ Hotel Front Office Operations and Management</b> By Jatashankar R Tewari\n<br><b>⦿ Managing Front Office Operations</b> By Michael L. AHLEA\n<br><b>⦿ Front Office Operations</b> By Bhatnakar\n<br><b>⦿ Computers in Hotels</b> : <b><i>Concepts and Applications</i></b> By Partho Pratim Seal</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 2\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Can I create sites for commerical\n                                        projects?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Yes, Mobirise is free for both non-profit and commercial sites.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>What is Code Editor?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    This extension allows editing the code of block in the app. Also, it's possible to\n                                    add code to the head and body parts of pages.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 4\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>What is Mobirise Kit?\n                                    </b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Mobirise Kit is a service that provides the access to all current and new\n                                    themes/extensions developed by Mobirise. New themes/extensions are released every\n                                    month and will be available in your account during your plan period, without any\n                                    additional charge.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 5\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Can I create sites for commerical\n                                        projects?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Yes, Mobirise is free for both non-profit and commercial sites.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content16-4j",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise5",
-          "_cid": "soUwmkyC5p",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-iconfont": {
-              "font-size": "1.4rem !important",
-              "font-family": "'Moririse2' !important",
-              "color": "@primaryColor",
-              "margin-left": "1rem"
-            },
-            ".panel-group": {
-              "border": "none"
-            },
-            ".panel-title": {
-              "display": "flex",
-              "align-items": "center",
-              "justify-content": "space-between"
-            },
-            ".panel-body, .card-header": {
-              "padding": "1rem 0"
-            },
-            ".panel-title-edit": {
-              "color": "#140735"
-            },
-            ".card .card-header": {
-              "background-color": "transparent",
-              "margin-bottom": "0"
-            },
-            "H3": {
-              "color": "#ed1616"
-            }
-          },
-          "_name": "content16",
-          "_customHTML": "<section class=\"content16\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow, mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <select title=\"Amount\" name=\"cardAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <div class=\"mbr-section-head align-center mb-4\" mbr-if=\"showTitle || showSubtitle\">\n                    <h3 class=\"mbr-section-title mb-0 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                        <b>5th Semester</b></h3>\n                    <h4 class=\"mbr-section-subtitle mb-0 mt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                       Accordion Subtitle</h4>\n                </div>\n                <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                    <div class=\"card mb-3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Facility Management</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><b>⦿ Hotel Planning &amp; Design </b>- Rutes&amp;Penner<br><b>⦿ Facilities Management </b>- David M. Stipanuk&amp; Harold Roffmann<br><b>⦿ Principles of Hotel Engineering </b>- Borsenic<br><b>⦿ Principles of Hotel Maintenance</b> - Gladwell<br><b>⦿ Hotel facility planning, oxford,2010</b> - Tarun Bansal</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 1\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\"><b>Hygiene &amp; Sanitation</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><b>⦿ Hotel Management-Educational and Environmental Aspects</b> -Yogendra K. Sharma \n<br><b>⦿ Food Science and Nutrition</b> - Sunetra Roday \n<br><b>⦿ Food Hygiene</b> - Kavita Ed Marwaha \n<br><b>⦿ Food and Hygiene</b> - William Tibbles \n<br><b>⦿ Elements of Hygiene and sanitation</b> - Theodore Hough \n<br><b>⦿ The Essentials of Food Safety and Sanitation</b> - David McSwane, Nancy R. Rue \n<br><b>⦿ Handbook of Hygiene and Public Health</b> - Bedi Y.P.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 2\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Can I create sites for commerical\n                                        projects?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Yes, Mobirise is free for both non-profit and commercial sites.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>What is Code Editor?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    This extension allows editing the code of block in the app. Also, it's possible to\n                                    add code to the head and body parts of pages.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 4\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>What is Mobirise Kit?\n                                    </b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Mobirise Kit is a service that provides the access to all current and new\n                                    themes/extensions developed by Mobirise. New themes/extensions are released every\n                                    month and will be available in your account during your plan period, without any\n                                    additional charge.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 5\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Can I create sites for commerical\n                                        projects?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Yes, Mobirise is free for both non-profit and commercial sites.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content16-4k",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise5",
-          "_cid": "soUwmJKO6d",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1301,6 +1759,145 @@
       },
       "components": [
         {
+          "_name": "preloader11",
+          "_styles": {
+            "#loading-center-preloader": {
+              "width": "100%",
+              "height": "100vh",
+              "position": "relative",
+              "background-color": "@preBgcolor"
+            },
+            "#loading-center-absolute": {
+              "position": "absolute",
+              "left": "50%",
+              "top": "40%"
+            },
+            ".spinner": {
+              "position": "relative",
+              "margin": "0px 0px 0px -60px",
+              "width": "250px",
+              "height": "250px",
+              "text-align": "center",
+              "font-size": "10px"
+            },
+            ".loader": {
+              "border": "0px",
+              "border-radius": "50%",
+              "width": "120px",
+              "height": "120px"
+            },
+            "@-webkit-keyframes rock": {
+              "0%": {
+                "-webkit-transform": "rotate(-20deg)"
+              },
+              "25%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "50%": {
+                "-webkit-transform": "rotate(20deg)"
+              },
+              "75%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "100%": {
+                "-webkit-transform": "rotate(-20deg)"
+              }
+            },
+            "@keyframes rock": {
+              "0%": {
+                "-webkit-transform": "rotate(-20deg)"
+              },
+              "25%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "50%": {
+                "-webkit-transform": "rotate(20deg)"
+              },
+              "75%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "100%": {
+                "-webkit-transform": "rotate(-20deg)"
+              }
+            },
+            "@-webkit-keyframes spin": {
+              "0%": {
+                "-webkit-transform": "rotate(0deg)"
+              },
+              "100%": {
+                "-webkit-transform": "rotate(360deg)"
+              }
+            },
+            "@keyframes spin": {
+              "0%": {
+                "transform": "rotate(0deg)"
+              },
+              "100%": {
+                "transform": "rotate(360deg)"
+              }
+            },
+            "@keyframes pulse": {
+              "0%": {
+                "transform": "scale(0.5)"
+              },
+              "50%": {
+                "transform": "scale(1)"
+              },
+              "100%": {
+                "transform": "scale(0.5)"
+              }
+            },
+            "@keyframes clip": {
+              "0%": {
+                "-webkit-clip-path": "circle(10%)",
+                "clip-path": "circle(10%)"
+              },
+              "100%": {
+                "-webkit-clip-path": "circle(100%)",
+                "clip-path": "circle(100%)"
+              }
+            },
+            ".animate-logo": {
+              "& when (@showLoader = 'showRocking')": {
+                "-webkit-animation": "rock (@animationSpeed * 0.5s) linear infinite",
+                "animation": "rock (@animationSpeed * 0.5s) linear infinite"
+              },
+              "& when (@showLoader = 'showclipping')": {
+                "animation": "clip (@animationSpeed * 0.5s) ease-in-out infinite alternate"
+              },
+              "& when (@showLoader = 'showPulse')": {
+                "-webkit-animation": "pulse (@animationSpeed * 0.5s) infinite",
+                "-moz-animation": "pulse (@animationSpeed * 0.5s) infinite",
+                "-o-animation": "pulse (@animationSpeed * 0.5s) infinite",
+                "animation": "pulse (@animationSpeed * 0.5s) infinite"
+              },
+              "& when (@showLoader = 'showRotating')": {
+                "-webkit-animation": "spin (@animationSpeed * 0.5s) linear infinite",
+                "animation": "spin (@animationSpeed * 0.5s) linear infinite"
+              }
+            },
+            ".dentaura-logo-preloader": {
+              "width": "100%",
+              "border-radius": "(@borderRadius * 1%)"
+            },
+            "H3": {
+              "margin-top": "(@marginTexttop * 0.5rem)",
+              "text-align": "center",
+              "color": "#e43f3f",
+              "font-size": "1rem"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section\" group=\"Dentaura Preloader\" plugins=\"Dentaurapreloader\" once=\"Dentaura Preloader\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"color\" title=\"Background Color\" name=\"preBgcolor\" value=\"#fafafa\">\n        <select title=\"Animation type\" name=\"showLoader\">\n            <option value=\"showPulse\" selected=\"\">Pulse Effect</option>\n\t        <option value=\"showRocking\">Rocking Effect</option>\n\t        <option value=\"showRotating\">Rotating Effect</option>\n\t        <option value=\"showclipping\">Clipping Effect</option>\n        </select>\n        <input type=\"range\" inline=\"\" title=\"Animation speed\" name=\"animationSpeed\" min=\"1\" max=\"5\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Image border round\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"1\" value=\"50\">\n        <input type=\"checkbox\" title=\"Remove Text\" name=\"showText\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top margin of text\" name=\"marginTexttop\" min=\"0\" max=\"5\" step=\"1\" value=\"2\" condition=\"showText\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <!-- Dentaura Preloader -->\n        <div id=\"loading-preloader\">\n            <div id=\"loading-center-preloader\">\n                <div id=\"loading-center-absolute\">\n                    <div class=\"spinner\">\n\t\t\t\t\t\t<div class=\"loader\"><img src=\"@PROJECT_PATH@/assets/images/icon_new_png-240x240.png\" class=\"dentaura-logo-preloader animate-logo\" alt=\"\"><br><h3 mbr-theme-style=\"display-5\" mbr-if=\"showText\"><b>Loading...</b></h3></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    <!--End of Dentaura Preloader -->\n\t\n</section>",
+          "_anchor": "preloader11-gf",
+          "_isUserblock": true,
+          "_sourceTheme": "dentauram4",
+          "_cid": "sUF4J2ESlE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": "Dentaura Preloader",
+          "_params": {}
+        },
+        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
@@ -1319,7 +1916,7 @@
             },
             ".card-wrapper": {
               "min-height": "90px",
-              "min-width": "20px",
+              "min-width": "10px",
               "transition": "all 0.3s",
               "border-radius": "20px",
               "padding": "1rem",
